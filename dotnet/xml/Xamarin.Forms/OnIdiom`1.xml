@@ -1,0 +1,139 @@
+﻿<Type Name="OnIdiom&lt;T&gt;" FullName="Xamarin.Forms.OnIdiom&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public class OnIdiom&lt;T&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OnIdiom`1&lt;T&gt; extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.OnIdiom`1" />
+  <TypeSignature Language="VB.NET" Value="Public Class OnIdiom(Of T)" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T" />
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <typeparam name="T">To be added.</typeparam>
+    <summary>Provides idiom-specific implementation of <paramref name="T" /> for the current target idiom.</summary>
+    <remarks />
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OnIdiom ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.OnIdiom`1.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Desktop">
+      <MemberSignature Language="C#" Value="public T Desktop { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !T Desktop" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.OnIdiom`1.Desktop" />
+      <MemberSignature Language="VB.NET" Value="Public Property Desktop As T" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the value applied on desktop systems.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator T (Xamarin.Forms.OnIdiom&lt;T&gt; onIdiom);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname !T op_Implicit(class Xamarin.Forms.OnIdiom`1&lt;!T&gt; onIdiom) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.OnIdiom`1.op_Implicit(Xamarin.Forms.OnIdiom{`0})~`0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (onIdiom As OnIdiom(Of T)) As T" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="onIdiom" Type="Xamarin.Forms.OnIdiom&lt;T&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="onIdiom">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Phone">
+      <MemberSignature Language="C#" Value="public T Phone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !T Phone" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.OnIdiom`1.Phone" />
+      <MemberSignature Language="VB.NET" Value="Public Property Phone As T" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the value applied on Phone-like devices.</summary>
+        <value>A T.</value>
+        <remarks />
+      </Docs>
+    </Member>
+    <Member MemberName="Tablet">
+      <MemberSignature Language="C#" Value="public T Tablet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !T Tablet" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.OnIdiom`1.Tablet" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tablet As T" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the value applied on Tablet-like devices.</summary>
+        <value>A T.</value>
+        <remarks />
+      </Docs>
+    </Member>
+    <Member MemberName="TV">
+      <MemberSignature Language="C#" Value="public T TV { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !T TV" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.OnIdiom`1.TV" />
+      <MemberSignature Language="VB.NET" Value="Public Property TV As T" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the value applied on TV-like devices.</summary>
+        <value>A T.</value>
+        <remarks />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

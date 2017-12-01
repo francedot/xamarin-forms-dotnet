@@ -1,0 +1,137 @@
+﻿<Type Name="HtmlWebViewSource" FullName="Xamarin.Forms.HtmlWebViewSource">
+  <TypeSignature Language="C#" Value="public class HtmlWebViewSource : Xamarin.Forms.WebViewSource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HtmlWebViewSource extends Xamarin.Forms.WebViewSource" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.HtmlWebViewSource" />
+  <TypeSignature Language="VB.NET" Value="Public Class HtmlWebViewSource&#xA;Inherits WebViewSource" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Xamarin.Forms.WebViewSource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>A WebViewSource bound to an HTML-formatted string.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HtmlWebViewSource ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.HtmlWebViewSource.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseUrl">
+      <MemberSignature Language="C#" Value="public string BaseUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BaseUrl" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.HtmlWebViewSource.BaseUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property BaseUrl As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The base URL for the source HTML document.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseUrlProperty">
+      <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty BaseUrlProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty BaseUrlProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.HtmlWebViewSource.BaseUrlProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BaseUrlProperty As BindableProperty " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Backing store for the <see cref="P:Xamarin.Forms.BaseUrl" /> property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Html">
+      <MemberSignature Language="C#" Value="public string Html { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Html" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.HtmlWebViewSource.Html" />
+      <MemberSignature Language="VB.NET" Value="Public Property Html As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The HTML content.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HtmlProperty">
+      <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty HtmlProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HtmlProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.HtmlWebViewSource.HtmlProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HtmlProperty As BindableProperty " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Backing store for the <see cref="P:Xamarin.Forms.Html" /> property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public override void Load (Xamarin.Forms.IWebViewDelegate renderer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Load(class Xamarin.Forms.IWebViewDelegate renderer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.HtmlWebViewSource.Load(Xamarin.Forms.IWebViewDelegate)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Load (renderer As IWebViewDelegate)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="renderer" Type="Xamarin.Forms.IWebViewDelegate" />
+      </Parameters>
+      <Docs>
+        <param name="renderer">The renderer into which to load html content.</param>
+        <summary>Loads the specified <paramref name="renderer" /> with the current base URL and HTML.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

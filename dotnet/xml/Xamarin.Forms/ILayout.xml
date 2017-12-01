@@ -1,0 +1,35 @@
+﻿<Type Name="ILayout" FullName="Xamarin.Forms.ILayout">
+  <TypeSignature Language="C#" Value="public interface ILayout" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILayout" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ILayout" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ILayout" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Interface indicating layout behavior and exposing the <see cref="E:Xamarin.Forms.ILayout.LayoutChanged" /> event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="LayoutChanged">
+      <MemberSignature Language="C#" Value="event EventHandler LayoutChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler LayoutChanged" />
+      <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ILayout.LayoutChanged" />
+      <MemberSignature Language="VB.NET" Value="Event LayoutChanged As EventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Event that is raised when the layout changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

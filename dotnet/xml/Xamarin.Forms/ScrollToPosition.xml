@@ -1,0 +1,91 @@
+﻿<Type Name="ScrollToPosition" FullName="Xamarin.Forms.ScrollToPosition">
+  <TypeSignature Language="C#" Value="public enum ScrollToPosition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ScrollToPosition extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ScrollToPosition" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ScrollToPosition" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumerates values that describe a scroll request.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Center">
+      <MemberSignature Language="C#" Value="Center" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.ScrollToPosition Center = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ScrollToPosition.Center" />
+      <MemberSignature Language="VB.NET" Value="Center" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.ScrollToPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Scroll to the center of a list.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="End" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.ScrollToPosition End = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ScrollToPosition.End" />
+      <MemberSignature Language="VB.NET" Value="End" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.ScrollToPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Scroll to the end of a list.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MakeVisible">
+      <MemberSignature Language="C#" Value="MakeVisible" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.ScrollToPosition MakeVisible = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ScrollToPosition.MakeVisible" />
+      <MemberSignature Language="VB.NET" Value="MakeVisible" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.ScrollToPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Scroll to make a specified list item visible.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="Start" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.ScrollToPosition Start = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ScrollToPosition.Start" />
+      <MemberSignature Language="VB.NET" Value="Start" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.ScrollToPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Scroll to the start of a list.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

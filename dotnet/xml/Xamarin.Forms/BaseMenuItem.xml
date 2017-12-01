@@ -1,0 +1,36 @@
+﻿<Type Name="BaseMenuItem" FullName="Xamarin.Forms.BaseMenuItem">
+  <TypeSignature Language="C#" Value="public abstract class BaseMenuItem : Xamarin.Forms.Element" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit BaseMenuItem extends Xamarin.Forms.Element" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.BaseMenuItem" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class BaseMenuItem&#xA;Inherits Element" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Xamarin.Forms.Element</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Base class for menu items.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected BaseMenuItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.BaseMenuItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

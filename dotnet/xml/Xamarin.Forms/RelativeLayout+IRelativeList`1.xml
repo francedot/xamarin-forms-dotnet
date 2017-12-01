@@ -1,0 +1,119 @@
+﻿<Type Name="RelativeLayout+IRelativeList&lt;T&gt;" FullName="Xamarin.Forms.RelativeLayout+IRelativeList&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public interface RelativeLayout.IRelativeList&lt;T&gt; : System.Collections.Generic.ICollection&lt;T&gt;, System.Collections.Generic.IEnumerable&lt;T&gt;, System.Collections.Generic.IList&lt;T&gt; where T : View" />
+  <TypeSignature Language="ILAsm" Value=".class nested public interface auto ansi abstract RelativeLayout/IRelativeList`1&lt;(class Xamarin.Forms.View) T&gt; implements class System.Collections.Generic.ICollection`1&lt;!T&gt;, class System.Collections.Generic.IEnumerable`1&lt;!T&gt;, class System.Collections.Generic.IList`1&lt;!T&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.RelativeLayout.IRelativeList`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface RelativeLayout.IRelativeList(Of T)&#xA;Implements ICollection(Of T), IEnumerable(Of T), IList(Of T)" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T">
+      <Constraints>
+        <BaseTypeName>Xamarin.Forms.View</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IList&lt;T&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="T">To be added.</typeparam>
+    <summary>An <see cref="T:System.Collections.Generic.IList`1" /> of <see cref="T:Xamarin.Forms.View" />s used by a <see cref="T:Xamarin.Forms.RelativeLayout" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (T view, System.Linq.Expressions.Expression&lt;Func&lt;Xamarin.Forms.Rectangle&gt;&gt; bounds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(!T view, class System.Linq.Expressions.Expression`1&lt;class System.Func`1&lt;valuetype Xamarin.Forms.Rectangle&gt;&gt; bounds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.IRelativeList`1.Add(`0,System.Linq.Expressions.Expression{System.Func{Xamarin.Forms.Rectangle}})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (view As T, bounds As Expression(Of Func(Of Rectangle)))" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="T" />
+        <Parameter Name="bounds" Type="System.Linq.Expressions.Expression&lt;System.Func&lt;Xamarin.Forms.Rectangle&gt;&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="view">To be added.</param>
+        <param name="bounds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (T view, System.Linq.Expressions.Expression&lt;Func&lt;double&gt;&gt; x = null, System.Linq.Expressions.Expression&lt;Func&lt;double&gt;&gt; y = null, System.Linq.Expressions.Expression&lt;Func&lt;double&gt;&gt; width = null, System.Linq.Expressions.Expression&lt;Func&lt;double&gt;&gt; height = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(!T view, class System.Linq.Expressions.Expression`1&lt;class System.Func`1&lt;float64&gt;&gt; x, class System.Linq.Expressions.Expression`1&lt;class System.Func`1&lt;float64&gt;&gt; y, class System.Linq.Expressions.Expression`1&lt;class System.Func`1&lt;float64&gt;&gt; width, class System.Linq.Expressions.Expression`1&lt;class System.Func`1&lt;float64&gt;&gt; height) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.IRelativeList`1.Add(`0,System.Linq.Expressions.Expression{System.Func{System.Double}},System.Linq.Expressions.Expression{System.Func{System.Double}},System.Linq.Expressions.Expression{System.Func{System.Double}},System.Linq.Expressions.Expression{System.Func{System.Double}})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (view As T, Optional x As Expression(Of Func(Of Double)) = null, Optional y As Expression(Of Func(Of Double)) = null, Optional width As Expression(Of Func(Of Double)) = null, Optional height As Expression(Of Func(Of Double)) = null)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="T" />
+        <Parameter Name="x" Type="System.Linq.Expressions.Expression&lt;System.Func&lt;System.Double&gt;&gt;" />
+        <Parameter Name="y" Type="System.Linq.Expressions.Expression&lt;System.Func&lt;System.Double&gt;&gt;" />
+        <Parameter Name="width" Type="System.Linq.Expressions.Expression&lt;System.Func&lt;System.Double&gt;&gt;" />
+        <Parameter Name="height" Type="System.Linq.Expressions.Expression&lt;System.Func&lt;System.Double&gt;&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="view">To be added.</param>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (T view, Xamarin.Forms.Constraint xConstraint = null, Xamarin.Forms.Constraint yConstraint = null, Xamarin.Forms.Constraint widthConstraint = null, Xamarin.Forms.Constraint heightConstraint = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(!T view, class Xamarin.Forms.Constraint xConstraint, class Xamarin.Forms.Constraint yConstraint, class Xamarin.Forms.Constraint widthConstraint, class Xamarin.Forms.Constraint heightConstraint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.IRelativeList`1.Add(`0,Xamarin.Forms.Constraint,Xamarin.Forms.Constraint,Xamarin.Forms.Constraint,Xamarin.Forms.Constraint)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (view As T, Optional xConstraint As Constraint = null, Optional yConstraint As Constraint = null, Optional widthConstraint As Constraint = null, Optional heightConstraint As Constraint = null)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="T" />
+        <Parameter Name="xConstraint" Type="Xamarin.Forms.Constraint" />
+        <Parameter Name="yConstraint" Type="Xamarin.Forms.Constraint" />
+        <Parameter Name="widthConstraint" Type="Xamarin.Forms.Constraint" />
+        <Parameter Name="heightConstraint" Type="Xamarin.Forms.Constraint" />
+      </Parameters>
+      <Docs>
+        <param name="view">To be added.</param>
+        <param name="xConstraint">To be added.</param>
+        <param name="yConstraint">To be added.</param>
+        <param name="widthConstraint">To be added.</param>
+        <param name="heightConstraint">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

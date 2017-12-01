@@ -1,0 +1,101 @@
+﻿<Type Name="PreserveAttribute" FullName="Xamarin.Forms.Internals.PreserveAttribute">
+  <TypeSignature Language="C#" Value="public class PreserveAttribute : Attribute" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PreserveAttribute extends System.Attribute" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.PreserveAttribute" />
+  <TypeSignature Language="VB.NET" Value="Public Class PreserveAttribute&#xA;Inherits Attribute" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Attribute</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.AttributeUsage(System.AttributeTargets.All)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>For internal use by platform renderers.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PreserveAttribute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.PreserveAttribute.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PreserveAttribute (bool allMembers, bool conditional);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool allMembers, bool conditional) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.PreserveAttribute.#ctor(System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (allMembers As Boolean, conditional As Boolean)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="allMembers" Type="System.Boolean" />
+        <Parameter Name="conditional" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="allMembers">To be added.</param>
+        <param name="conditional">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllMembers">
+      <MemberSignature Language="C#" Value="public bool AllMembers;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool AllMembers" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.PreserveAttribute.AllMembers" />
+      <MemberSignature Language="VB.NET" Value="Public AllMembers As Boolean " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conditional">
+      <MemberSignature Language="C#" Value="public bool Conditional;" />
+      <MemberSignature Language="ILAsm" Value=".field public bool Conditional" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.PreserveAttribute.Conditional" />
+      <MemberSignature Language="VB.NET" Value="Public Conditional As Boolean " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

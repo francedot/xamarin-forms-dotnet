@@ -1,0 +1,79 @@
+﻿<Type Name="ClickedEventArgs" FullName="Xamarin.Forms.ClickedEventArgs">
+  <TypeSignature Language="C#" Value="public class ClickedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClickedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ClickedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class ClickedEventArgs&#xA;Inherits EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClickedEventArgs (Xamarin.Forms.ButtonsMask buttons, object commandParameter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Xamarin.Forms.ButtonsMask buttons, object commandParameter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ClickedEventArgs.#ctor(Xamarin.Forms.ButtonsMask,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (buttons As ButtonsMask, commandParameter As Object)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="buttons" Type="Xamarin.Forms.ButtonsMask" />
+        <Parameter Name="commandParameter" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="buttons">To be added.</param>
+        <param name="commandParameter">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Buttons">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.ButtonsMask Buttons { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.ButtonsMask Buttons" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ClickedEventArgs.Buttons" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Buttons As ButtonsMask" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.ButtonsMask</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parameter">
+      <MemberSignature Language="C#" Value="public object Parameter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parameter" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ClickedEventArgs.Parameter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parameter As Object" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

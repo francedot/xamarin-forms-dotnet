@@ -1,0 +1,20 @@
+﻿<Type Name="IGestureRecognizer" FullName="Xamarin.Forms.IGestureRecognizer">
+  <TypeSignature Language="C#" Value="public interface IGestureRecognizer : System.ComponentModel.INotifyPropertyChanged" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGestureRecognizer implements class System.ComponentModel.INotifyPropertyChanged" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IGestureRecognizer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IGestureRecognizer&#xA;Implements INotifyPropertyChanged" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.ComponentModel.INotifyPropertyChanged</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>The base interface all gesture recognizers must implement.</summary>
+    <remarks>This interface is currently empty, this will likely change.</remarks>
+  </Docs>
+  <Members />
+</Type>

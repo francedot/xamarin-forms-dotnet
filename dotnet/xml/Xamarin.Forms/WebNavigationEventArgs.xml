@@ -1,0 +1,100 @@
+﻿<Type Name="WebNavigationEventArgs" FullName="Xamarin.Forms.WebNavigationEventArgs">
+  <TypeSignature Language="C#" Value="public class WebNavigationEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WebNavigationEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.WebNavigationEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class WebNavigationEventArgs&#xA;Inherits EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>TClass that contains arguments for the event that is when web navigation begins.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected WebNavigationEventArgs (Xamarin.Forms.WebNavigationEvent navigationEvent, Xamarin.Forms.WebViewSource source, string url);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(valuetype Xamarin.Forms.WebNavigationEvent navigationEvent, class Xamarin.Forms.WebViewSource source, string url) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.WebNavigationEventArgs.#ctor(Xamarin.Forms.WebNavigationEvent,Xamarin.Forms.WebViewSource,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (navigationEvent As WebNavigationEvent, source As WebViewSource, url As String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="navigationEvent" Type="Xamarin.Forms.WebNavigationEvent" />
+        <Parameter Name="source" Type="Xamarin.Forms.WebViewSource" />
+        <Parameter Name="url" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="navigationEvent">To be added.</param>
+        <param name="source">To be added.</param>
+        <param name="url">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NavigationEvent">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.WebNavigationEvent NavigationEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.WebNavigationEvent NavigationEvent" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.WebNavigationEventArgs.NavigationEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NavigationEvent As WebNavigationEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.WebNavigationEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the navigation event that was raised.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Source">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.WebViewSource Source { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.WebViewSource Source" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.WebNavigationEventArgs.Source" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Source As WebViewSource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.WebViewSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the element that performed the navigation.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Url">
+      <MemberSignature Language="C#" Value="public string Url { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Url" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.WebNavigationEventArgs.Url" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Url As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The destination of the navigation.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

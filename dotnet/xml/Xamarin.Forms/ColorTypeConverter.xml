@@ -1,0 +1,75 @@
+﻿<Type Name="ColorTypeConverter" FullName="Xamarin.Forms.ColorTypeConverter">
+  <TypeSignature Language="C#" Value="public class ColorTypeConverter : Xamarin.Forms.TypeConverter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ColorTypeConverter extends Xamarin.Forms.TypeConverter" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ColorTypeConverter" />
+  <TypeSignature Language="VB.NET" Value="Public Class ColorTypeConverter&#xA;Inherits TypeConverter" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Xamarin.Forms.TypeConverter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>A <see cref="T:Xamarin.Forms.TypeConverter" /> that converts from strings to a <see cref="T:Xamarin.Forms.Color" />.</summary>
+    <remarks>
+      <para>The following example shows some variations of <see cref="T:Xamarin.Forms.ColorTypeConverter" />:</para>
+      <example>
+        <code lang="C#"><![CDATA[
+var converter = new ColorTypeConverter ();
+Assert.True (converter.CanConvertFrom (typeof(string)));
+Assert.AreEqual (Color.Blue, converter.ConvertFrom ("Color.Blue"));
+Assert.AreEqual (Color.Blue, converter.ConvertFrom ("Blue"));
+Assert.AreEqual (Color.Blue, converter.ConvertFrom ("#0000ff"));
+Assert.AreEqual (Color.Default, converter.ConvertFrom ("Color.Default"));
+Assert.AreEqual (Color.Accent, converter.ConvertFrom ("Accent"));
+var hotpink = Color.FromHex ("#FF69B4");
+Color.Accent = hotpink;
+Assert.AreEqual (Color.Accent, converter.ConvertFrom ("Accent"));          
+          ]]></code>
+      </example>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ColorTypeConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ColorTypeConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFromInvariantString">
+      <MemberSignature Language="C#" Value="public override object ConvertFromInvariantString (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ConvertFromInvariantString(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ColorTypeConverter.ConvertFromInvariantString(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFromInvariantString (value As String) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">The value to convert.</param>
+        <summary>Creates a color from a valid color name.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

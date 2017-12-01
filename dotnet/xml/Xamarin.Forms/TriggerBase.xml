@@ -1,0 +1,96 @@
+﻿<Type Name="TriggerBase" FullName="Xamarin.Forms.TriggerBase">
+  <TypeSignature Language="C#" Value="public abstract class TriggerBase : Xamarin.Forms.BindableObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TriggerBase extends Xamarin.Forms.BindableObject" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.TriggerBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class TriggerBase&#xA;Inherits BindableObject" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Xamarin.Forms.BindableObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Base class for classes that contain a condition and a list of actions to perform when the condition is met.</summary>
+    <remarks />
+  </Docs>
+  <Members>
+    <Member MemberName="EnterActions">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Xamarin.Forms.TriggerAction&gt; EnterActions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.TriggerAction&gt; EnterActions" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TriggerBase.EnterActions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnterActions As IList(Of TriggerAction)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Xamarin.Forms.TriggerAction&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the list of <see cref="T:Xamarin.Forms.TirggerAction" /> objects that will be invoked when the trigger condition is met. Ignored for the <see cref="T:Xamarin.Forms.EventTrigger" /> class.</summary>
+        <value />
+        <remarks />
+      </Docs>
+    </Member>
+    <Member MemberName="ExitActions">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Xamarin.Forms.TriggerAction&gt; ExitActions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.TriggerAction&gt; ExitActions" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TriggerBase.ExitActions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitActions As IList(Of TriggerAction)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Xamarin.Forms.TriggerAction&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the list of <see cref="T:Xamarin.Forms.TirggerAction" /> objects that will be invoked after the trigger condition is no longer met. Ignored for the <see cref="T:Xamarin.Forms.EventTrigger" /> class.</summary>
+        <value />
+        <remarks />
+      </Docs>
+    </Member>
+    <Member MemberName="IsSealed">
+      <MemberSignature Language="C#" Value="public bool IsSealed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSealed" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TriggerBase.IsSealed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSealed As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether or not the trigger is sealed.</summary>
+        <value>To be added.</value>
+        <remarks>A trigger becomes sealed when its <see cref="M:Xamarin.Forms.IAttachedObject.AttachTo" /> method is called. Once it is sealed, its <see cref="P:Xamarin.Forms.TriggerBase.EnterActions" /> and <see cref="P:Xamarin.Forms.TriggerBase.ExitActions" /> lists become readonly.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetType">
+      <MemberSignature Language="C#" Value="public Type TargetType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type TargetType" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TriggerBase.TargetType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TargetType As Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The type of object to which this <see cref="T:Xamarin.Forms.TriggerBase" /> object can be attached.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

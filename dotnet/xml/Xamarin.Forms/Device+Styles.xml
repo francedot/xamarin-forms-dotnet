@@ -1,0 +1,236 @@
+﻿<Type Name="Device+Styles" FullName="Xamarin.Forms.Device+Styles">
+  <TypeSignature Language="C#" Value="public static class Device.Styles" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract sealed beforefieldinit Device/Styles extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Device.Styles" />
+  <TypeSignature Language="VB.NET" Value="Public Class Device.Styles" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BodyStyle">
+      <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.Style BodyStyle;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.Style BodyStyle" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.BodyStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BodyStyle As Style " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BodyStyleKey">
+      <MemberSignature Language="C#" Value="public static readonly string BodyStyleKey;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string BodyStyleKey" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.BodyStyleKey" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BodyStyleKey As String " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CaptionStyle">
+      <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.Style CaptionStyle;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.Style CaptionStyle" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.CaptionStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CaptionStyle As Style " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CaptionStyleKey">
+      <MemberSignature Language="C#" Value="public static readonly string CaptionStyleKey;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string CaptionStyleKey" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.CaptionStyleKey" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CaptionStyleKey As String " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListItemDetailTextStyle">
+      <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.Style ListItemDetailTextStyle;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.Style ListItemDetailTextStyle" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.ListItemDetailTextStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ListItemDetailTextStyle As Style " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListItemDetailTextStyleKey">
+      <MemberSignature Language="C#" Value="public static readonly string ListItemDetailTextStyleKey;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string ListItemDetailTextStyleKey" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.ListItemDetailTextStyleKey" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ListItemDetailTextStyleKey As String " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListItemTextStyle">
+      <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.Style ListItemTextStyle;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.Style ListItemTextStyle" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.ListItemTextStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ListItemTextStyle As Style " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListItemTextStyleKey">
+      <MemberSignature Language="C#" Value="public static readonly string ListItemTextStyleKey;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string ListItemTextStyleKey" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.ListItemTextStyleKey" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ListItemTextStyleKey As String " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubtitleStyle">
+      <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.Style SubtitleStyle;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.Style SubtitleStyle" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.SubtitleStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SubtitleStyle As Style " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubtitleStyleKey">
+      <MemberSignature Language="C#" Value="public static readonly string SubtitleStyleKey;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string SubtitleStyleKey" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.SubtitleStyleKey" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SubtitleStyleKey As String " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TitleStyle">
+      <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.Style TitleStyle;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.Style TitleStyle" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.TitleStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleStyle As Style " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TitleStyleKey">
+      <MemberSignature Language="C#" Value="public static readonly string TitleStyleKey;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string TitleStyleKey" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.TitleStyleKey" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleStyleKey As String " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

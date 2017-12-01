@@ -1,0 +1,84 @@
+﻿<Type Name="Behavior" FullName="Xamarin.Forms.Behavior">
+  <TypeSignature Language="C#" Value="public abstract class Behavior : Xamarin.Forms.BindableObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Behavior extends Xamarin.Forms.BindableObject" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Behavior" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Behavior&#xA;Inherits BindableObject" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Xamarin.Forms.BindableObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Base class for generalized user-defined behaviors that can respond to arbitrary conditions and events.</summary>
+    <remarks>Application developers should specialize the <see cref="T:Xamarin.Forms.Behavior`1" /> generic class, instead of directly using <see cref="T:Xamarin.Forms.Behavior" />.</remarks>
+    <related type="article" href="https://developer.xamarin.com/guides/xamarin-forms/application-fundamentals/behaviors/creating/">Xamarin.Forms Behaviors</related>
+  </Docs>
+  <Members>
+    <Member MemberName="AssociatedType">
+      <MemberSignature Language="C#" Value="protected Type AssociatedType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type AssociatedType" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Behavior.AssociatedType" />
+      <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property AssociatedType As Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the type of the objects with which this <see cref="T:Xamarin.Forms.Behavior" /> can be associated.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnAttachedTo">
+      <MemberSignature Language="C#" Value="protected virtual void OnAttachedTo (Xamarin.Forms.BindableObject bindable);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnAttachedTo(class Xamarin.Forms.BindableObject bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Behavior.OnAttachedTo(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnAttachedTo (bindable As BindableObject)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Xamarin.Forms.BindableObject" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">The bindable object to which the behavior was attached.</param>
+        <summary>Application developers override this method to implement the behaviors that will be associated with <paramref name="bindable" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnDetachingFrom">
+      <MemberSignature Language="C#" Value="protected virtual void OnDetachingFrom (Xamarin.Forms.BindableObject bindable);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnDetachingFrom(class Xamarin.Forms.BindableObject bindable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Behavior.OnDetachingFrom(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnDetachingFrom (bindable As BindableObject)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bindable" Type="Xamarin.Forms.BindableObject" />
+      </Parameters>
+      <Docs>
+        <param name="bindable">The bindable object from which the behavior was detached.</param>
+        <summary>Application developers override this method to remove the behaviors from <paramref name="bindable" /> that were implemented in a previous call to the <see cref="M:Xamarin.Forms.Behavior.OnAttachedTo" /> method.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

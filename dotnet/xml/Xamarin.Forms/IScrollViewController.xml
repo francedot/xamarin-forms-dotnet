@@ -1,0 +1,107 @@
+﻿<Type Name="IScrollViewController" FullName="Xamarin.Forms.IScrollViewController">
+  <TypeSignature Language="C#" Value="public interface IScrollViewController : Xamarin.Forms.ILayoutController" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IScrollViewController implements class Xamarin.Forms.ILayoutController" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IScrollViewController" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IScrollViewController&#xA;Implements ILayoutController" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Xamarin.Forms.ILayoutController</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>For internal use by platform renderers.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetScrollPositionForElement">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.Point GetScrollPositionForElement (Xamarin.Forms.VisualElement item, Xamarin.Forms.ScrollToPosition position);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Xamarin.Forms.Point GetScrollPositionForElement(class Xamarin.Forms.VisualElement item, valuetype Xamarin.Forms.ScrollToPosition position) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IScrollViewController.GetScrollPositionForElement(Xamarin.Forms.VisualElement,Xamarin.Forms.ScrollToPosition)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetScrollPositionForElement (item As VisualElement, position As ScrollToPosition) As Point" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Point</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="item" Type="Xamarin.Forms.VisualElement" />
+        <Parameter Name="position" Type="Xamarin.Forms.ScrollToPosition" />
+      </Parameters>
+      <Docs>
+        <param name="item">For internal use by the Xamarin.Forms platform.</param>
+        <param name="position">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrollToRequested">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;Xamarin.Forms.ScrollToRequestedEventArgs&gt; ScrollToRequested;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ScrollToRequestedEventArgs&gt; ScrollToRequested" />
+      <MemberSignature Language="DocId" Value="E:Xamarin.Forms.IScrollViewController.ScrollToRequested" />
+      <MemberSignature Language="VB.NET" Value="Event ScrollToRequested As EventHandler(Of ScrollToRequestedEventArgs) " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Xamarin.Forms.ScrollToRequestedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendScrollFinished">
+      <MemberSignature Language="C#" Value="public void SendScrollFinished ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendScrollFinished() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IScrollViewController.SendScrollFinished" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendScrollFinished ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetScrolledPosition">
+      <MemberSignature Language="C#" Value="public void SetScrolledPosition (double x, double y);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetScrolledPosition(float64 x, float64 y) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IScrollViewController.SetScrolledPosition(System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetScrolledPosition (x As Double, y As Double)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Double" />
+        <Parameter Name="y" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="x">For internal use by the Xamarin.Forms platform.</param>
+        <param name="y">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

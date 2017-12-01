@@ -1,0 +1,16 @@
+﻿<Type Name="IRegisterable" FullName="Xamarin.Forms.IRegisterable">
+  <TypeSignature Language="C#" Value="public interface IRegisterable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRegisterable" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IRegisterable" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRegisterable" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Internally-used flagging interface indicating types that can be registered with <see cref="T:Xamarin.Forms.Registrar" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>
