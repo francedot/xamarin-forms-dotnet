@@ -21,17 +21,18 @@
     "resource": [
       {
         "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.svg",
-          "**/*.gif",
-          "**/*.bmp"
+          "*.png",
+          "*.jpg",
+          "*.svg",
+          "*.gif",
+          "*.bmp"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**"
         ],
         "dest": "api"
+        "src" : "_images"
       }
     ],
     "overwrite": {
