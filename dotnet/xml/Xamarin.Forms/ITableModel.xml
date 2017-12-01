@@ -1,0 +1,246 @@
+﻿<Type Name="ITableModel" FullName="Xamarin.Forms.ITableModel">
+  <TypeSignature Language="C#" Value="public interface ITableModel" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITableModel" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ITableModel" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ITableModel" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>This interface is for internal use by platform renderers.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetCell">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.Cell GetCell (int section, int row);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.Cell GetCell(int32 section, int32 row) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ITableModel.GetCell(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCell (section As Integer, row As Integer) As Cell" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Cell</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="System.Int32" />
+        <Parameter Name="row" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="section">For internal use by the Xamarin.Forms platform.</param>
+        <param name="row">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHeaderCell">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.Cell GetHeaderCell (int section);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.Cell GetHeaderCell(int32 section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ITableModel.GetHeaderCell(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetHeaderCell (section As Integer) As Cell" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Cell</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="section">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetItem">
+      <MemberSignature Language="C#" Value="public object GetItem (int section, int row);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetItem(int32 section, int32 row) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ITableModel.GetItem(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetItem (section As Integer, row As Integer) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="System.Int32" />
+        <Parameter Name="row" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="section">For internal use by the Xamarin.Forms platform.</param>
+        <param name="row">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRowCount">
+      <MemberSignature Language="C#" Value="public int GetRowCount (int section);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetRowCount(int32 section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ITableModel.GetRowCount(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRowCount (section As Integer) As Integer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="section">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSectionCount">
+      <MemberSignature Language="C#" Value="public int GetSectionCount ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetSectionCount() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ITableModel.GetSectionCount" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSectionCount () As Integer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSectionIndexTitles">
+      <MemberSignature Language="C#" Value="public string[] GetSectionIndexTitles ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string[] GetSectionIndexTitles() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ITableModel.GetSectionIndexTitles" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSectionIndexTitles () As String()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSectionTitle">
+      <MemberSignature Language="C#" Value="public string GetSectionTitle (int section);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetSectionTitle(int32 section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ITableModel.GetSectionTitle(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSectionTitle (section As Integer) As String" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="section">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RowLongPressed">
+      <MemberSignature Language="C#" Value="public void RowLongPressed (int section, int row);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RowLongPressed(int32 section, int32 row) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ITableModel.RowLongPressed(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RowLongPressed (section As Integer, row As Integer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="System.Int32" />
+        <Parameter Name="row" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="section">For internal use by the Xamarin.Forms platform.</param>
+        <param name="row">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RowSelected">
+      <MemberSignature Language="C#" Value="public void RowSelected (object item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RowSelected(object item) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ITableModel.RowSelected(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RowSelected (item As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="item">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RowSelected">
+      <MemberSignature Language="C#" Value="public void RowSelected (int section, int row);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RowSelected(int32 section, int32 row) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ITableModel.RowSelected(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RowSelected (section As Integer, row As Integer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="section" Type="System.Int32" />
+        <Parameter Name="row" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="section">For internal use by the Xamarin.Forms platform.</param>
+        <param name="row">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

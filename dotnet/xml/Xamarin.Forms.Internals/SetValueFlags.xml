@@ -1,0 +1,117 @@
+﻿<Type Name="SetValueFlags" FullName="Xamarin.Forms.Internals.SetValueFlags">
+  <TypeSignature Language="C#" Value="public enum SetValueFlags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SetValueFlags extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.SetValueFlags" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SetValueFlags" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>For internal use by the Xamarin.Forms platform.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClearDynamicResource">
+      <MemberSignature Language="C#" Value="ClearDynamicResource" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.SetValueFlags ClearDynamicResource = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.SetValueFlags.ClearDynamicResource" />
+      <MemberSignature Language="VB.NET" Value="ClearDynamicResource" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Internals.SetValueFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>For internal use by the Xamarin.Forms platform.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearOneWayBindings">
+      <MemberSignature Language="C#" Value="ClearOneWayBindings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.SetValueFlags ClearOneWayBindings = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.SetValueFlags.ClearOneWayBindings" />
+      <MemberSignature Language="VB.NET" Value="ClearOneWayBindings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Internals.SetValueFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>For internal use by the Xamarin.Forms platform.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearTwoWayBindings">
+      <MemberSignature Language="C#" Value="ClearTwoWayBindings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.SetValueFlags ClearTwoWayBindings = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.SetValueFlags.ClearTwoWayBindings" />
+      <MemberSignature Language="VB.NET" Value="ClearTwoWayBindings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Internals.SetValueFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>For internal use by the Xamarin.Forms platform.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.SetValueFlags None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.SetValueFlags.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Internals.SetValueFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>For internal use by the Xamarin.Forms platform.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RaiseOnEqual">
+      <MemberSignature Language="C#" Value="RaiseOnEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.SetValueFlags RaiseOnEqual = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.SetValueFlags.RaiseOnEqual" />
+      <MemberSignature Language="VB.NET" Value="RaiseOnEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Internals.SetValueFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>For internal use by the Xamarin.Forms platform.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

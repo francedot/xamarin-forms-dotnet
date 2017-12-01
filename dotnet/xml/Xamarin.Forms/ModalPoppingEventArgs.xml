@@ -1,0 +1,58 @@
+﻿<Type Name="ModalPoppingEventArgs" FullName="Xamarin.Forms.ModalPoppingEventArgs">
+  <TypeSignature Language="C#" Value="public class ModalPoppingEventArgs : Xamarin.Forms.ModalEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ModalPoppingEventArgs extends Xamarin.Forms.ModalEventArgs" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ModalPoppingEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class ModalPoppingEventArgs&#xA;Inherits ModalEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Xamarin.Forms.ModalEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Arguments for the event that is raised when a modal window is popping from the navigation stack.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ModalPoppingEventArgs (Xamarin.Forms.Page modal);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Xamarin.Forms.Page modal) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ModalPoppingEventArgs.#ctor(Xamarin.Forms.Page)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (modal As Page)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="modal" Type="Xamarin.Forms.Page" />
+      </Parameters>
+      <Docs>
+        <param name="modal">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cancel">
+      <MemberSignature Language="C#" Value="public bool Cancel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Cancel" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ModalPoppingEventArgs.Cancel" />
+      <MemberSignature Language="VB.NET" Value="Public Property Cancel As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value that tells whether the modal navigation was canceled.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

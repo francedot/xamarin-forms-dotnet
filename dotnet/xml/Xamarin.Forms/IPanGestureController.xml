@@ -1,0 +1,117 @@
+﻿<Type Name="IPanGestureController" FullName="Xamarin.Forms.IPanGestureController">
+  <TypeSignature Language="C#" Value="public interface IPanGestureController" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPanGestureController" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IPanGestureController" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPanGestureController" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>For internal use by platform renderers.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SendPan">
+      <MemberSignature Language="C#" Value="public void SendPan (Xamarin.Forms.Element sender, double totalX, double totalY, int gestureId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPan(class Xamarin.Forms.Element sender, float64 totalX, float64 totalY, int32 gestureId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IPanGestureController.SendPan(Xamarin.Forms.Element,System.Double,System.Double,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendPan (sender As Element, totalX As Double, totalY As Double, gestureId As Integer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="Xamarin.Forms.Element" />
+        <Parameter Name="totalX" Type="System.Double" />
+        <Parameter Name="totalY" Type="System.Double" />
+        <Parameter Name="gestureId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="sender">For internal use by the Xamarin.Forms platform.</param>
+        <param name="totalX">For internal use by the Xamarin.Forms platform.</param>
+        <param name="totalY">For internal use by the Xamarin.Forms platform.</param>
+        <param name="gestureId">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendPanCanceled">
+      <MemberSignature Language="C#" Value="public void SendPanCanceled (Xamarin.Forms.Element sender, int gestureId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPanCanceled(class Xamarin.Forms.Element sender, int32 gestureId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IPanGestureController.SendPanCanceled(Xamarin.Forms.Element,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendPanCanceled (sender As Element, gestureId As Integer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="Xamarin.Forms.Element" />
+        <Parameter Name="gestureId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="sender">For internal use by the Xamarin.Forms platform.</param>
+        <param name="gestureId">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendPanCompleted">
+      <MemberSignature Language="C#" Value="public void SendPanCompleted (Xamarin.Forms.Element sender, int gestureId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPanCompleted(class Xamarin.Forms.Element sender, int32 gestureId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IPanGestureController.SendPanCompleted(Xamarin.Forms.Element,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendPanCompleted (sender As Element, gestureId As Integer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="Xamarin.Forms.Element" />
+        <Parameter Name="gestureId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="sender">For internal use by the Xamarin.Forms platform.</param>
+        <param name="gestureId">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendPanStarted">
+      <MemberSignature Language="C#" Value="public void SendPanStarted (Xamarin.Forms.Element sender, int gestureId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPanStarted(class Xamarin.Forms.Element sender, int32 gestureId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IPanGestureController.SendPanStarted(Xamarin.Forms.Element,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendPanStarted (sender As Element, gestureId As Integer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="Xamarin.Forms.Element" />
+        <Parameter Name="gestureId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="sender">For internal use by the Xamarin.Forms platform.</param>
+        <param name="gestureId">For internal use by the Xamarin.Forms platform.</param>
+        <summary>For internal use by platform renderers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

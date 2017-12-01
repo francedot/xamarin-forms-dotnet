@@ -1,0 +1,267 @@
+﻿<Type Name="Style" FullName="Xamarin.Forms.Style">
+  <TypeSignature Language="C#" Value="public sealed class Style" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Style extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Style" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Style" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Xamarin.Forms.ContentProperty("Setters")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Class that contains triggers, setters, and behaviors that completely or partially define the appearance and behavior of a class of visual elements.</summary>
+    <remarks>
+      <para>XAML for Xamarin.Forms supports the following properties for the <see cref="T:Xamarin.Forms.Style" /> class:</para>
+      <list type="table">
+        <listheader>
+          <term>Property</term>
+          <description>Value</description>
+        </listheader>
+        <item>
+          <term>BasedOn</term>
+          <description>
+            <para>A <c>StaticResource</c> markup extension that names the style on which this style is based.</para>
+          </description>
+        </item>
+        <item>
+          <term>BaseResourceKey</term>
+          <description>
+            <para>A resource dictionary key that names a dynamic base style.</para>
+          </description>
+        </item>
+        <item>
+          <term>Behaviors</term>
+          <description>
+            <para>Markup for the behaviors that are associated with the style.</para>
+          </description>
+        </item>
+        <item>
+          <term>Setters</term>
+          <description>
+            <para>A list of setters containing <c>Property</c> and <c>Value</c> elements or attributes.</para>
+          </description>
+        </item>
+        <item>
+          <term>TargetType</term>
+          <description>
+            <para>The name of the type that the style is intended for.</para>
+          </description>
+        </item>
+        <item>
+          <term>Triggers</term>
+          <description>
+            <para>A list of triggers.</para>
+          </description>
+        </item>
+      </list>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Style (Type targetType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type targetType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Style.#ctor(System.Type)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (targetType As Type)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="targetType" Type="System.Type">
+          <Attributes>
+            <Attribute>
+              <AttributeName>Xamarin.Forms.TypeConverter(typeof(Xamarin.Forms.TypeTypeConverter))</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="targetType">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyToDerivedTypes">
+      <MemberSignature Language="C#" Value="public bool ApplyToDerivedTypes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ApplyToDerivedTypes" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.ApplyToDerivedTypes" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplyToDerivedTypes As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a Boolean value that controls whether the style should be applied to controls that are derived from the base type.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BasedOn">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.Style BasedOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Style BasedOn" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.BasedOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property BasedOn As Style" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Style</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:Xamarin.Forms.Style" /> on which this <see cref="T:Xamarin.Forms.Style" /> is based.</summary>
+        <value>To be added.</value>
+        <remarks>The <see cref="T:Xamarin.Forms.Style" /> supports a mechanism in XAML that is similar to inheritance in C#.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseResourceKey">
+      <MemberSignature Language="C#" Value="public string BaseResourceKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BaseResourceKey" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.BaseResourceKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property BaseResourceKey As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the key that identifies the <see cref="T:Xamarin.Forms.Style" /> on which this <see cref="T:Xamarin.Forms.Style" /> is based.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Behaviors">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Xamarin.Forms.Behavior&gt; Behaviors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Behavior&gt; Behaviors" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.Behaviors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Behaviors As IList(Of Behavior)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Xamarin.Forms.Behavior&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the list of <see cref="T:Xamarin.Forms.Behavior" /> objects that belong to this <see cref="T:Xamarin.Forms.Style" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanCascade">
+      <MemberSignature Language="C#" Value="public bool CanCascade { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanCascade" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.CanCascade" />
+      <MemberSignature Language="VB.NET" Value="Public Property CanCascade As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a Boolean value that controls whether the style should cascade to controls that are children (in the visual hierarchy) of the parent type.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public string Class { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Class" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.Class" />
+      <MemberSignature Language="VB.NET" Value="Public Property Class As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the class for the style.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Setters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Xamarin.Forms.Setter&gt; Setters { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Setter&gt; Setters" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.Setters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Setters As IList(Of Setter)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Xamarin.Forms.Setter&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the list of <see cref="T:Xamarin.Forms.Setter" /> objects that belong to this <see cref="T:Xamarin.Forms.Style" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetType">
+      <MemberSignature Language="C#" Value="public Type TargetType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type TargetType" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.TargetType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TargetType As Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the type of object that this style can describe. See Remarks.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <p>Developers should be aware that implicit styles are only applied to the specific type that is described by <see cref="P:Xamarin.Forms.Style.TargetType" />, and not to types that inherit from it.</p>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Triggers">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Xamarin.Forms.TriggerBase&gt; Triggers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.TriggerBase&gt; Triggers" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.Triggers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Triggers As IList(Of TriggerBase)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Xamarin.Forms.TriggerBase&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the list of <see cref="T:Xamarin.Forms.Trigger" /> objects that belong to this <see cref="T:Xamarin.Forms.Style" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

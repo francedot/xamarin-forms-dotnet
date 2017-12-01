@@ -1,0 +1,20 @@
+﻿<Type Name="IViewController" FullName="Xamarin.Forms.IViewController">
+  <TypeSignature Language="C#" Value="public interface IViewController : Xamarin.Forms.IVisualElementController" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IViewController implements class Xamarin.Forms.IElementController, class Xamarin.Forms.IVisualElementController" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IViewController" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IViewController&#xA;Implements IVisualElementController" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Xamarin.Forms.IVisualElementController</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>This interface is for internal use by platform renderers.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

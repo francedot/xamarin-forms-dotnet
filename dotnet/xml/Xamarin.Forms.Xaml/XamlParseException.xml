@@ -1,0 +1,62 @@
+﻿<Type Name="XamlParseException" FullName="Xamarin.Forms.Xaml.XamlParseException">
+  <TypeSignature Language="C#" Value="public class XamlParseException : Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XamlParseException extends System.Exception" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.XamlParseException" />
+  <TypeSignature Language="VB.NET" Value="Public Class XamlParseException&#xA;Inherits Exception" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Exception</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Exception that is raised when the XAML parser encounters a XAML error.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public XamlParseException (string message, System.Xml.IXmlLineInfo xmlInfo, Exception innerException = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Xml.IXmlLineInfo xmlInfo, class System.Exception innerException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.XamlParseException.#ctor(System.String,System.Xml.IXmlLineInfo,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, xmlInfo As IXmlLineInfo, Optional innerException As Exception = null)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="xmlInfo" Type="System.Xml.IXmlLineInfo" />
+        <Parameter Name="innerException" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <param name="xmlInfo">To be added.</param>
+        <param name="innerException">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XmlInfo">
+      <MemberSignature Language="C#" Value="public System.Xml.IXmlLineInfo XmlInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.IXmlLineInfo XmlInfo" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.XamlParseException.XmlInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property XmlInfo As IXmlLineInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Xml.IXmlLineInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Information about the condition that caused the exception to be thrown.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

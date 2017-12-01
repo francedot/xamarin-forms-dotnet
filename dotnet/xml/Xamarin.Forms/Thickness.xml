@@ -1,0 +1,352 @@
+﻿<Type Name="Thickness" FullName="Xamarin.Forms.Thickness">
+  <TypeSignature Language="C#" Value="public struct Thickness" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Thickness extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Thickness" />
+  <TypeSignature Language="VB.NET" Value="Public Structure Thickness" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerDisplay("Left={Left}, Top={Top}, Right={Right}, Bottom={Bottom}, HorizontalThickness={HorizontalThickness}, VerticalThickness={VerticalThickness}")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>Xamarin.Forms.TypeConverter(typeof(Xamarin.Forms.ThicknessTypeConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Struct defining thickness around the edges of a <see cref="T:Xamarin.Forms.Rectangle" /> using doubles.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Thickness (double uniformSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 uniformSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.#ctor(System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (uniformSize As Double)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uniformSize" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="uniformSize">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Thickness (double horizontalSize, double verticalSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 horizontalSize, float64 verticalSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.#ctor(System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (horizontalSize As Double, verticalSize As Double)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="horizontalSize" Type="System.Double" />
+        <Parameter Name="verticalSize" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="horizontalSize">To be added.</param>
+        <param name="verticalSize">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Thickness (double left, double top, double right, double bottom);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 left, float64 top, float64 right, float64 bottom) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.#ctor(System.Double,System.Double,System.Double,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (left As Double, top As Double, right As Double, bottom As Double)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="left" Type="System.Double" />
+        <Parameter Name="top" Type="System.Double" />
+        <Parameter Name="right" Type="System.Double" />
+        <Parameter Name="bottom" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="top">To be added.</param>
+        <param name="right">To be added.</param>
+        <param name="bottom">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bottom">
+      <MemberSignature Language="C#" Value="public double Bottom { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Bottom" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Thickness.Bottom" />
+      <MemberSignature Language="VB.NET" Value="Public Property Bottom As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The thickness of the bottom of a rectangle.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">A <see cref="T:Xamarin.Forms.Thickness" /> to be compared.</param>
+        <summary>Whether the <paramref name="obj" /> is a <see cref="T:Xamarin.Forms.Thickness" /> with equivalent values.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> is a <see cref="T:Xamarin.Forms.Thickness" /> and has equivalent values..</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>A has value for this <see cref="T:Xamarin.Forms.Thickness" />.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalThickness">
+      <MemberSignature Language="C#" Value="public double HorizontalThickness { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 HorizontalThickness" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Thickness.HorizontalThickness" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HorizontalThickness As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The sum of <see cref="P:Xamarin.Forms.Thickness.Left" /> and <see cref="P:Xamarin.Forms.Thickness.Right" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public double Left { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Left" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Thickness.Left" />
+      <MemberSignature Language="VB.NET" Value="Public Property Left As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The thickness of the left side of a rectangle.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Xamarin.Forms.Thickness left, Xamarin.Forms.Thickness right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Xamarin.Forms.Thickness left, valuetype Xamarin.Forms.Thickness right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.op_Equality(Xamarin.Forms.Thickness,Xamarin.Forms.Thickness)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As Thickness, right As Thickness) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Xamarin.Forms.Thickness" />
+        <Parameter Name="right" Type="Xamarin.Forms.Thickness" />
+      </Parameters>
+      <Docs>
+        <param name="left">A <see cref="T:Xamarin.Forms.Thickness" /> to be compared.</param>
+        <param name="right">A <see cref="T:Xamarin.Forms.Thickness" /> to be compared.</param>
+        <summary>Whether two <see cref="T:Xamarin.Forms.Thickness" />es have identical values.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="left" /> and <paramref name="right" /> have identical values for <see cref="P:Xamarin.Forms.Thickness.Left" />,<see cref="P:Xamarin.Forms.Thickness.Right" />, <see cref="P:Xamarin.Forms.Thickness.Top" />, and <see cref="P:Xamarin.Forms.Thickness.Bottom" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Xamarin.Forms.Thickness (double uniformSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Xamarin.Forms.Thickness op_Implicit(float64 uniformSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.op_Implicit(System.Double)~Xamarin.Forms.Thickness" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uniformSize As Double) As Thickness" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Thickness</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uniformSize" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="uniformSize">The value for the uniform Thickness.</param>
+        <summary>Implicit cast operator from <see cref="T:System.Double" />.</summary>
+        <returns>A Thickness with an uniform size.</returns>
+        <remarks>
+          <para>Application developers should bear in mind that <see cref="P:Xamarin.Forms.Thickness.HorizontalThickness" /> and <see cref="P:Xamarin.Forms.Thickness.VerticalThickness" /> are the sums of their components, so a <see cref="T:Xamarin.Forms.Thickness" /> created from a <paramref name="uniformSize" /> of, for instance, 1.0, will have <see cref="P:Xamarin.Forms.Thickness.HorizontalThickness" /> of 2.0.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Xamarin.Forms.Thickness (Xamarin.Forms.Size size);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Xamarin.Forms.Thickness op_Implicit(valuetype Xamarin.Forms.Size size) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.op_Implicit(Xamarin.Forms.Size)~Xamarin.Forms.Thickness" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Thickness</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="size" Type="Xamarin.Forms.Size" />
+      </Parameters>
+      <Docs>
+        <param name="size">A <see cref="T:Xamarin.Forms.Size" /> to convert to a <see cref="T:Xamarin.Forms.Thickness" /></param>
+        <summary>Converts a <see cref="T:Xamarin.Forms.Size" /> into a <see cref="T:Xamarin.Forms.Thickness" />.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>The <see cref="T:Xamarin.Forms.Thickness" />'s <see cref="P:Xamarin.Forms.Thickness.Left" /> and <see cref="P:Xamarin.Forms.Thickness.Right" /> are both set equal to the <paramref name="size" />'s <see cref="P:Xamarin.Forms.Size.Width" /> and the  <see cref="T:Xamarin.Forms.Thickness" />'s <see cref="P:Xamarin.Forms.Thickness.Top" /> and <see cref="P:Xamarin.Forms.Thickness.Bottom" /> are both set equal to the <paramref name="size" />'s <see cref="P:Xamarin.Forms.Size.Height" />.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Xamarin.Forms.Thickness left, Xamarin.Forms.Thickness right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Xamarin.Forms.Thickness left, valuetype Xamarin.Forms.Thickness right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.op_Inequality(Xamarin.Forms.Thickness,Xamarin.Forms.Thickness)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As Thickness, right As Thickness) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Xamarin.Forms.Thickness" />
+        <Parameter Name="right" Type="Xamarin.Forms.Thickness" />
+      </Parameters>
+      <Docs>
+        <param name="left">A <see cref="T:Xamarin.Forms.Thickness" /> to be compared.</param>
+        <param name="right">A <see cref="T:Xamarin.Forms.Thickness" /> to be compared.</param>
+        <summary>Whether the values of two <see cref="T:Xamarin.Forms.Thickness" />'s have at least one difference.</summary>
+        <returns>
+          <see langword="true" /> if any of the <see cref="P:Xamarin.Forms.Thickness.Left" />,<see cref="P:Xamarin.Forms.Thickness.Right" />, <see cref="P:Xamarin.Forms.Thickness.Top" />, and <see cref="P:Xamarin.Forms.Thickness.Bottom" /> values differ between <paramref name="left" /> and <paramref name="right" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Right">
+      <MemberSignature Language="C#" Value="public double Right { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Right" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Thickness.Right" />
+      <MemberSignature Language="VB.NET" Value="Public Property Right As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The thickness of the right side of a rectangle.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public double Top { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Top" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Thickness.Top" />
+      <MemberSignature Language="VB.NET" Value="Public Property Top As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The thickness of the top of a rectangle.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalThickness">
+      <MemberSignature Language="C#" Value="public double VerticalThickness { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 VerticalThickness" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Thickness.VerticalThickness" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VerticalThickness As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The sum of <see cref="P:Xamarin.Forms.Thickness.Top" /> and <see cref="P:Xamarin.Forms.Thickness.Bottom" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

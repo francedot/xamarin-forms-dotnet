@@ -1,0 +1,154 @@
+﻿<Type Name="ToolbarTracker" FullName="Xamarin.Forms.Internals.ToolbarTracker">
+  <TypeSignature Language="C#" Value="public class ToolbarTracker" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ToolbarTracker extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.ToolbarTracker" />
+  <TypeSignature Language="VB.NET" Value="Public Class ToolbarTracker" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>For internal use by platform renderers.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ToolbarTracker ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ToolbarTracker.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdditionalTargets">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Xamarin.Forms.Page&gt; AdditionalTargets { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Xamarin.Forms.Page&gt; AdditionalTargets" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.ToolbarTracker.AdditionalTargets" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalTargets As IEnumerable(Of Page)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Xamarin.Forms.Page&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CollectionChanged">
+      <MemberSignature Language="C#" Value="public event EventHandler CollectionChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler CollectionChanged" />
+      <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Internals.ToolbarTracker.CollectionChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Event CollectionChanged As EventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HaveMasterDetail">
+      <MemberSignature Language="C#" Value="public bool HaveMasterDetail { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HaveMasterDetail" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.ToolbarTracker.HaveMasterDetail" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HaveMasterDetail As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SeparateMasterDetail">
+      <MemberSignature Language="C#" Value="public bool SeparateMasterDetail { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SeparateMasterDetail" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.ToolbarTracker.SeparateMasterDetail" />
+      <MemberSignature Language="VB.NET" Value="Public Property SeparateMasterDetail As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Target">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.Page Target { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Page Target" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.ToolbarTracker.Target" />
+      <MemberSignature Language="VB.NET" Value="Public Property Target As Page" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Page</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToolbarItems">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Xamarin.Forms.ToolbarItem&gt; ToolbarItems { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Xamarin.Forms.ToolbarItem&gt; ToolbarItems" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.ToolbarTracker.ToolbarItems" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ToolbarItems As IEnumerable(Of ToolbarItem)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Xamarin.Forms.ToolbarItem&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

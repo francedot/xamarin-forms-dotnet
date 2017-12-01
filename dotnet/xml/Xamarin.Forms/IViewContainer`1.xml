@@ -1,0 +1,44 @@
+﻿<Type Name="IViewContainer&lt;T&gt;" FullName="Xamarin.Forms.IViewContainer&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public interface IViewContainer&lt;T&gt; where T : VisualElement" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IViewContainer`1&lt;(class Xamarin.Forms.VisualElement) T&gt;" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IViewContainer`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IViewContainer(Of T)" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T">
+      <Constraints>
+        <BaseTypeName>Xamarin.Forms.VisualElement</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="T">To be added.</typeparam>
+    <summary>The type of element that can be added to the container.</summary>
+    <remarks />
+  </Docs>
+  <Members>
+    <Member MemberName="Children">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;T&gt; Children { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;!T&gt; Children" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IViewContainer`1.Children" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Children As IList(Of T)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The children collection of a visual element.</summary>
+        <value>The collection containing the visual elements children.</value>
+        <remarks />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

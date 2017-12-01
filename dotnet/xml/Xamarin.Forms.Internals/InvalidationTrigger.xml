@@ -1,0 +1,153 @@
+﻿<Type Name="InvalidationTrigger" FullName="Xamarin.Forms.Internals.InvalidationTrigger">
+  <TypeSignature Language="C#" Value="public enum InvalidationTrigger" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed InvalidationTrigger extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.InvalidationTrigger" />
+  <TypeSignature Language="VB.NET" Value="Public Enum InvalidationTrigger" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>For internal use by platform renderers.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HorizontalOptionsChanged">
+      <MemberSignature Language="C#" Value="HorizontalOptionsChanged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.InvalidationTrigger HorizontalOptionsChanged = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.InvalidationTrigger.HorizontalOptionsChanged" />
+      <MemberSignature Language="VB.NET" Value="HorizontalOptionsChanged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Internals.InvalidationTrigger</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MarginChanged">
+      <MemberSignature Language="C#" Value="MarginChanged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.InvalidationTrigger MarginChanged = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.InvalidationTrigger.MarginChanged" />
+      <MemberSignature Language="VB.NET" Value="MarginChanged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Internals.InvalidationTrigger</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MeasureChanged">
+      <MemberSignature Language="C#" Value="MeasureChanged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.InvalidationTrigger MeasureChanged = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.InvalidationTrigger.MeasureChanged" />
+      <MemberSignature Language="VB.NET" Value="MeasureChanged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Internals.InvalidationTrigger</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RendererReady">
+      <MemberSignature Language="C#" Value="RendererReady" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.InvalidationTrigger RendererReady = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.InvalidationTrigger.RendererReady" />
+      <MemberSignature Language="VB.NET" Value="RendererReady" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Internals.InvalidationTrigger</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SizeRequestChanged">
+      <MemberSignature Language="C#" Value="SizeRequestChanged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.InvalidationTrigger SizeRequestChanged = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.InvalidationTrigger.SizeRequestChanged" />
+      <MemberSignature Language="VB.NET" Value="SizeRequestChanged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Internals.InvalidationTrigger</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Undefined">
+      <MemberSignature Language="C#" Value="Undefined" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.InvalidationTrigger Undefined = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.InvalidationTrigger.Undefined" />
+      <MemberSignature Language="VB.NET" Value="Undefined" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Internals.InvalidationTrigger</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalOptionsChanged">
+      <MemberSignature Language="C#" Value="VerticalOptionsChanged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.InvalidationTrigger VerticalOptionsChanged = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.InvalidationTrigger.VerticalOptionsChanged" />
+      <MemberSignature Language="VB.NET" Value="VerticalOptionsChanged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Internals.InvalidationTrigger</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>For internal use by platform renderers.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

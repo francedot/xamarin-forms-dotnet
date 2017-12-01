@@ -1,0 +1,60 @@
+﻿<Type Name="ViewCell" FullName="Xamarin.Forms.ViewCell">
+  <TypeSignature Language="C#" Value="public class ViewCell : Xamarin.Forms.Cell" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ViewCell extends Xamarin.Forms.Cell" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ViewCell" />
+  <TypeSignature Language="VB.NET" Value="Public Class ViewCell&#xA;Inherits Cell" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Xamarin.Forms.Cell</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Xamarin.Forms.ContentProperty("View")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>A <see cref="T:Xamarin.Forms.Cell" /> containing a developer-defined <see cref="T:Xamarin.Forms.View" />.</summary>
+    <remarks />
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ViewCell ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewCell.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.View View { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.View View" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ViewCell.View" />
+      <MemberSignature Language="VB.NET" Value="Public Property View As View" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.View</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the View representing the content of the ViewCell.</summary>
+        <value />
+        <remarks />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

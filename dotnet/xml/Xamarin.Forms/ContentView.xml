@@ -1,0 +1,128 @@
+﻿<Type Name="ContentView" FullName="Xamarin.Forms.ContentView">
+  <TypeSignature Language="C#" Value="public class ContentView : Xamarin.Forms.TemplatedView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContentView extends Xamarin.Forms.TemplatedView" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ContentView" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContentView&#xA;Inherits TemplatedView" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Xamarin.Forms.TemplatedView</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Xamarin.Forms.ContentProperty("Content")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>An element that contains a single child element.</summary>
+    <remarks>
+      <para>XAML for Xamarin.Forms supports the following property for the <see cref="T:Xamarin.Forms.ContentView" /> class:</para>
+      <list type="table">
+        <listheader>
+          <term>Property</term>
+          <description>Value</description>
+        </listheader>
+        <item>
+          <term>Content</term>
+          <description>
+            <para>The <see cref="T:Xamarin.Forms.View" /> object that represents the visual content of the <see cref="T:Xamarin.Forms.ContentView" />.</para>
+          </description>
+        </item>
+      </list>
+      <para>
+          The following example shows how to construct a new ContentView with a Label inside.
+          </para>
+      <example>
+        <code lang="C#"><![CDATA[
+MainPage = new ContentPage () {
+    // Accomodate iPhone status bar.
+    Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5),
+        Content = new ContentView {
+            Content = new Label { Text = "I'm Content!" },
+    }
+};
+          ]]></code>
+      </example>
+      <para>
+        <img href="ContentView.TripleScreenShot.png" />
+      </para>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContentView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ContentView.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Content">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.View Content { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.View Content" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ContentView.Content" />
+      <MemberSignature Language="VB.NET" Value="Public Property Content As View" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.View</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the content of the ContentView.</summary>
+        <value>A <see cref="T:Xamarin.Forms.View" /> that contains the content.</value>
+        <remarks />
+      </Docs>
+    </Member>
+    <Member MemberName="ContentProperty">
+      <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty ContentProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ContentProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ContentView.ContentProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContentProperty As BindableProperty " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Backing store for the <see cref="P:Xamarin.Forms.ContentView.Content" /> property..</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnBindingContextChanged">
+      <MemberSignature Language="C#" Value="protected override void OnBindingContextChanged ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ContentView.OnBindingContextChanged" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Method that is called when the binding context changes.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

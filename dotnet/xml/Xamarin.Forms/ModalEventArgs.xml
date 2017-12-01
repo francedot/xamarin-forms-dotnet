@@ -1,0 +1,58 @@
+﻿<Type Name="ModalEventArgs" FullName="Xamarin.Forms.ModalEventArgs">
+  <TypeSignature Language="C#" Value="public abstract class ModalEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ModalEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ModalEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ModalEventArgs&#xA;Inherits EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Base class for <see cref="T:Xamarin.Forms.ModalPushedEventArgs" />, <see cref="T:Xamarin.Forms.ModalPushingEventArgs" />, <see cref="T:Xamarin.Forms.ModalPoppedEventArgs" />, and <see cref="T:Xamarin.Forms.ModalPoppingEventArgs" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected ModalEventArgs (Xamarin.Forms.Page modal);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class Xamarin.Forms.Page modal) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ModalEventArgs.#ctor(Xamarin.Forms.Page)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (modal As Page)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="modal" Type="Xamarin.Forms.Page" />
+      </Parameters>
+      <Docs>
+        <param name="modal">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Modal">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.Page Modal { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Page Modal" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ModalEventArgs.Modal" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Modal As Page" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Page</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the page whose navigation triggered the event.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

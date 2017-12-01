@@ -1,0 +1,59 @@
+﻿<Type Name="FontTypeConverter" FullName="Xamarin.Forms.FontTypeConverter">
+  <TypeSignature Language="C#" Value="public sealed class FontTypeConverter : Xamarin.Forms.TypeConverter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FontTypeConverter extends Xamarin.Forms.TypeConverter" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.FontTypeConverter" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FontTypeConverter&#xA;Inherits TypeConverter" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Xamarin.Forms.TypeConverter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>A <see cref="T:Xamarin.Forms.TypeConverter" /> that converts from strings to <see cref="T:Xamarin.Forms.Core.Font" />.</summary>
+    <remarks>String should be formatted as "[name],[attributes],[size]" there may be multiple attributes, e.g. "Georgia, Bold, Italic, 42"</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FontTypeConverter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.FontTypeConverter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFromInvariantString">
+      <MemberSignature Language="C#" Value="public override object ConvertFromInvariantString (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ConvertFromInvariantString(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.FontTypeConverter.ConvertFromInvariantString(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFromInvariantString (value As String) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">The value to convert.</param>
+        <summary>Converts <paramref name="value" /> into a <see cref="T:Xamarin.Forms.Core.Font" />.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

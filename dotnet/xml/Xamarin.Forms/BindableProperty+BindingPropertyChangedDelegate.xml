@@ -1,0 +1,28 @@
+﻿<Type Name="BindableProperty+BindingPropertyChangedDelegate" FullName="Xamarin.Forms.BindableProperty+BindingPropertyChangedDelegate">
+  <TypeSignature Language="C#" Value="public delegate void BindableProperty.BindingPropertyChangedDelegate(BindableObject bindable, object oldValue, object newValue);" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed BindableProperty/BindingPropertyChangedDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.BindableProperty.BindingPropertyChangedDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub BindableProperty.BindingPropertyChangedDelegate(bindable As BindableObject, oldValue As Object, newValue As Object)" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="bindable" Type="Xamarin.Forms.BindableObject" />
+    <Parameter Name="oldValue" Type="System.Object" />
+    <Parameter Name="newValue" Type="System.Object" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="bindable">To be added.</param>
+    <param name="oldValue">To be added.</param>
+    <param name="newValue">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

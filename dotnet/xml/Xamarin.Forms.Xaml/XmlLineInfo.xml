@@ -1,0 +1,119 @@
+﻿<Type Name="XmlLineInfo" FullName="Xamarin.Forms.Xaml.XmlLineInfo">
+  <TypeSignature Language="C#" Value="public class XmlLineInfo : System.Xml.IXmlLineInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XmlLineInfo extends System.Object implements class System.Xml.IXmlLineInfo" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.XmlLineInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class XmlLineInfo&#xA;Implements IXmlLineInfo" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Xml.IXmlLineInfo</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>For internal use by the XAML infrastructure.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public XmlLineInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.XmlLineInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public XmlLineInfo (int linenumber, int lineposition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 linenumber, int32 lineposition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.XmlLineInfo.#ctor(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (linenumber As Integer, lineposition As Integer)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="linenumber" Type="System.Int32" />
+        <Parameter Name="lineposition" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="linenumber">To be added.</param>
+        <param name="lineposition">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasLineInfo">
+      <MemberSignature Language="C#" Value="public bool HasLineInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool HasLineInfo() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.XmlLineInfo.HasLineInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Function HasLineInfo () As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>For internal use by the XAML infrastructure.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineNumber">
+      <MemberSignature Language="C#" Value="public int LineNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LineNumber" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.XmlLineInfo.LineNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LineNumber As Integer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>For internal use by the XAML infrastructure.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinePosition">
+      <MemberSignature Language="C#" Value="public int LinePosition { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LinePosition" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.XmlLineInfo.LinePosition" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LinePosition As Integer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>For internal use by the XAML infrastructure.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

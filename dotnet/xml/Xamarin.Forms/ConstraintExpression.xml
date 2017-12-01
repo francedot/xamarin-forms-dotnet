@@ -1,0 +1,220 @@
+﻿<Type Name="ConstraintExpression" FullName="Xamarin.Forms.ConstraintExpression">
+  <TypeSignature Language="C#" Value="public class ConstraintExpression : Xamarin.Forms.Xaml.IMarkupExtension&lt;Xamarin.Forms.Constraint&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConstraintExpression extends System.Object implements class Xamarin.Forms.Xaml.IMarkupExtension, class Xamarin.Forms.Xaml.IMarkupExtension`1&lt;class Xamarin.Forms.Constraint&gt;" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ConstraintExpression" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConstraintExpression&#xA;Implements IMarkupExtension(Of Constraint)" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Xamarin.Forms.Xaml.IMarkupExtension&lt;Xamarin.Forms.Constraint&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Defines a constraint relationship.</summary>
+    <remarks>
+      <para>XAML for Xamarin.Forms supports the following properties for the <see cref="T:Xamarin.Forms.ConstraintExpression" /> class:</para>
+      <list type="table">
+        <listheader>
+          <term>Property</term>
+          <description>Value</description>
+        </listheader>
+        <item>
+          <term>Constant</term>
+          <description>
+            <para>An optionally signed integer literal.</para>
+          </description>
+        </item>
+        <item>
+          <term>ElementName</term>
+          <description>
+            <para>The name of a source element against which to calculate the constraint.</para>
+          </description>
+        </item>
+        <item>
+          <term>Factor</term>
+          <description>
+            <para>A decimal literal in the range (0,1].</para>
+          </description>
+        </item>
+        <item>
+          <term>Property</term>
+          <description>
+            <para>The name of the property on the source element to use in the constraint calculation.</para>
+          </description>
+        </item>
+        <item>
+          <term>Type</term>
+          <description>
+            <para>
+              <c>Constant</c>, <c>RelativeToParent</c>, or <c>RelativeToView</c>.</para>
+          </description>
+        </item>
+      </list>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConstraintExpression ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ConstraintExpression.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Constant">
+      <MemberSignature Language="C#" Value="public double Constant { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Constant" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ConstraintExpression.Constant" />
+      <MemberSignature Language="VB.NET" Value="Public Property Constant As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the constant constraint value..</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ElementName">
+      <MemberSignature Language="C#" Value="public string ElementName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ElementName" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ConstraintExpression.ElementName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ElementName As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the name of a source element against which to calculate the constraint.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Factor">
+      <MemberSignature Language="C#" Value="public double Factor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Factor" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ConstraintExpression.Factor" />
+      <MemberSignature Language="VB.NET" Value="Public Property Factor As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the factor by which to scale a constrained dimension, relative to the source element.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Property">
+      <MemberSignature Language="C#" Value="public string Property { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Property" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ConstraintExpression.Property" />
+      <MemberSignature Language="VB.NET" Value="Public Property Property As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets name of the property on the source element to use in the constraint calculation.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvideValue">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.Constraint ProvideValue (IServiceProvider serviceProvider);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.Constraint ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ConstraintExpression.ProvideValue(System.IServiceProvider)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ProvideValue (serviceProvider As IServiceProvider) As Constraint" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.Constraint</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceProvider" Type="System.IServiceProvider" />
+      </Parameters>
+      <Docs>
+        <param name="serviceProvider">The service provider.</param>
+        <summary>Returns a <see cref="T:Xamarin.Forms.Constraint" /> for this <see cref="T:Xamarin.Forms.ConstraintExpression" />.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.ConstraintType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.ConstraintType Type" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ConstraintExpression.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As ConstraintType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.ConstraintType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the constraint type.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Xamarin.Forms.Xaml.IMarkupExtension.ProvideValue">
+      <MemberSignature Language="C#" Value="object IMarkupExtension.ProvideValue (IServiceProvider serviceProvider);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object Xamarin.Forms.Xaml.IMarkupExtension.ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ConstraintExpression.Xamarin#Forms#Xaml#IMarkupExtension#ProvideValue(System.IServiceProvider)" />
+      <MemberSignature Language="VB.NET" Value="Function ProvideValue (serviceProvider As IServiceProvider) As Object Implements IMarkupExtension.ProvideValue" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceProvider" Type="System.IServiceProvider" />
+      </Parameters>
+      <Docs>
+        <param name="serviceProvider">For internal use only.</param>
+        <summary>For internal use only.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

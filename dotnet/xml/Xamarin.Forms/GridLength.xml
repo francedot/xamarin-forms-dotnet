@@ -1,0 +1,290 @@
+﻿<Type Name="GridLength" FullName="Xamarin.Forms.GridLength">
+  <TypeSignature Language="C#" Value="public struct GridLength" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit GridLength extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.GridLength" />
+  <TypeSignature Language="VB.NET" Value="Public Structure GridLength" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerDisplay("{Value}.{GridUnitType}")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>Xamarin.Forms.TypeConverter(typeof(Xamarin.Forms.GridLengthTypeConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Used to define the size (width/height) of Grid ColumnDefinition and RowDefinition.</summary>
+    <remarks>
+      <para>GridLength of type GridUnitType.Absolute represents exact size. The ones of type GridUnitType.Auto adapts for fitting the size of the elements in the gird column/row. GridLenght of type GridUnitType.Star are used to split the available size in proportional buckets.</para>
+      <para>This valuetype is readonly.</para>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GridLength (double value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.GridLength.#ctor(System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As Double)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GridLength (double value, Xamarin.Forms.GridUnitType type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 value, valuetype Xamarin.Forms.GridUnitType type) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.GridLength.#ctor(System.Double,Xamarin.Forms.GridUnitType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As Double, type As GridUnitType)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.Double" />
+        <Parameter Name="type" Type="Xamarin.Forms.GridUnitType" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="type">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Auto">
+      <MemberSignature Language="C#" Value="public static Xamarin.Forms.GridLength Auto { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Xamarin.Forms.GridLength Auto" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.GridLength.Auto" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Auto As GridLength" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.GridLength</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A ready to reuse GridLength of GridUnitType.Auto.</summary>
+        <value />
+        <remarks>Value has no meaning for GridLength ot type GridUnitType.Auto.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.GridLength.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">A GridLength to compare to.</param>
+        <summary>Test the equality of this GridLength and another one.</summary>
+        <returns>true is the GridLength are equal. False otherwise.</returns>
+        <remarks />
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.GridLength.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns a value that is used for efficient storage of this object in collections.</summary>
+        <returns>To be added.</returns>
+        <remarks>overriden.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GridUnitType">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.GridUnitType GridUnitType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.GridUnitType GridUnitType" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.GridLength.GridUnitType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GridUnitType As GridUnitType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.GridUnitType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the GridUnitType of the GridLength</summary>
+        <value>The GridUnitType of the GridLength</value>
+        <remarks />
+      </Docs>
+    </Member>
+    <Member MemberName="IsAbsolute">
+      <MemberSignature Language="C#" Value="public bool IsAbsolute { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAbsolute" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.GridLength.IsAbsolute" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAbsolute As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets wether or not the GridUnitType of the GridLength is GridUnitType.Absolute.</summary>
+        <value>true if the GridUnitType of the GridLength is GridUnitType.Absolute</value>
+        <remarks />
+      </Docs>
+    </Member>
+    <Member MemberName="IsAuto">
+      <MemberSignature Language="C#" Value="public bool IsAuto { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAuto" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.GridLength.IsAuto" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAuto As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets wether or not the GridUnitType of the GridLength is GridUnitType.Auto.</summary>
+        <value>true if the GridUnitType of the GridLength is GridUnitType.Auto</value>
+        <remarks />
+      </Docs>
+    </Member>
+    <Member MemberName="IsStar">
+      <MemberSignature Language="C#" Value="public bool IsStar { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsStar" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.GridLength.IsStar" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsStar As Boolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether the GridUnitType of the GridLength is GridUnitType.Star.</summary>
+        <value>true if the GridUnitType of the GridLength is GridUnitType.Star</value>
+        <remarks />
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Xamarin.Forms.GridLength (double absoluteValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Xamarin.Forms.GridLength op_Implicit(float64 absoluteValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.GridLength.op_Implicit(System.Double)~Xamarin.Forms.GridLength" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (absoluteValue As Double) As GridLength" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.GridLength</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="absoluteValue" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="absoluteValue">The absolute size</param>
+        <summary>Casting operator to convert a double into a GridLength of type GridUnitType.Absolute</summary>
+        <returns>A GridLength of type GridUnitType.Absolute and of size absolutesize</returns>
+        <remarks />
+      </Docs>
+    </Member>
+    <Member MemberName="Star">
+      <MemberSignature Language="C#" Value="public static Xamarin.Forms.GridLength Star { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Xamarin.Forms.GridLength Star" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.GridLength.Star" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Star As GridLength" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.GridLength</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A ready to reuse GridLength of GridUnitType.Star with a Value of 1.</summary>
+        <value />
+        <remarks>If a Value other than 1 is needed with GridUnitType.Star, then use the constructor GridLength (value, GridUnitType.Star).</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.GridLength.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the value and the grid unit type, separated by a ".".</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public double Value { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Value" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.GridLength.Value" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As Double" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the Value of the GridLength.</summary>
+        <value>The value in GridUnitType of the GridLength.</value>
+        <remarks />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

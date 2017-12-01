@@ -1,0 +1,25 @@
+﻿<Type Name="BindableProperty+CreateDefaultValueDelegate" FullName="Xamarin.Forms.BindableProperty+CreateDefaultValueDelegate">
+  <TypeSignature Language="C#" Value="public delegate object BindableProperty.CreateDefaultValueDelegate(BindableObject bindable);" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed BindableProperty/CreateDefaultValueDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.BindableProperty.CreateDefaultValueDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Function BindableProperty.CreateDefaultValueDelegate(bindable As BindableObject) As Object " />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="bindable" Type="Xamarin.Forms.BindableObject" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Object</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="bindable">To be added.</param>
+    <summary>To be added.</summary>
+    <returns>To be added.</returns>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

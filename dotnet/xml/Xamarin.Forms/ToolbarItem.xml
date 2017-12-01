@@ -1,0 +1,151 @@
+﻿<Type Name="ToolbarItem" FullName="Xamarin.Forms.ToolbarItem">
+  <TypeSignature Language="C#" Value="public class ToolbarItem : Xamarin.Forms.MenuItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ToolbarItem extends Xamarin.Forms.MenuItem" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ToolbarItem" />
+  <TypeSignature Language="VB.NET" Value="Public Class ToolbarItem&#xA;Inherits MenuItem" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Xamarin.Forms.MenuItem</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>An item in a toolbar or displayed on a <see cref="T:Xamarin.Forms.Page" />.</summary>
+    <remarks>
+      <para>Any changes made to the properties of the toolbar item after it has been added will be ignored.</para>
+      <block type="note">Windows Phone ApplicationBarButtons and MenuItems always display an associated text. Therefore, when developing for Windows Phone, application devs should provide a value for the <see cref="P:Xamarin.Forms.ToolbarItem.Text" /> property. Otherwise, the file name of the icon image will be dixplayed as the text of the <see cref="T:Xamarin.Forms.ToolbarItem" />. (For example, the user might see "menu.png" in the user interface.)</block>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ToolbarItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ToolbarItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ToolbarItem (string name, string icon, Action activated, Xamarin.Forms.ToolbarItemOrder order = Xamarin.Forms.ToolbarItemOrder.Default, int priority = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string icon, class System.Action activated, valuetype Xamarin.Forms.ToolbarItemOrder order, int32 priority) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ToolbarItem.#ctor(System.String,System.String,System.Action,Xamarin.Forms.ToolbarItemOrder,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, icon As String, activated As Action, Optional order As ToolbarItemOrder = Xamarin.Forms.ToolbarItemOrder.Default, Optional priority As Integer = 0)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="icon" Type="System.String" />
+        <Parameter Name="activated" Type="System.Action" />
+        <Parameter Name="order" Type="Xamarin.Forms.ToolbarItemOrder" />
+        <Parameter Name="priority" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="icon">To be added.</param>
+        <param name="activated">To be added.</param>
+        <param name="order">To be added.</param>
+        <param name="priority">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Activated">
+      <MemberSignature Language="C#" Value="public event EventHandler Activated;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Activated" />
+      <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ToolbarItem.Activated" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event Activated As EventHandler " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Activated is obsolete as of version 1.3.0. Please use Clicked instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Raised when the <see cref="T:Xamarin.Forms.ToolbarItem" /> is touched or clicked.</summary>
+        <remarks />
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ToolbarItem.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Name is obsolete as of version 1.3.0. Please use Text instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the name of the <see cref="T:Xamarin.Forms.ToolbarItem" />.</summary>
+        <value>The name of the toolbar item..</value>
+        <remarks />
+      </Docs>
+    </Member>
+    <Member MemberName="Order">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.ToolbarItemOrder Order { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.ToolbarItemOrder Order" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ToolbarItem.Order" />
+      <MemberSignature Language="VB.NET" Value="Public Property Order As ToolbarItemOrder" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.ToolbarItemOrder</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value that indicates on which of on the primary, secondary, or default toolbar surfaces to display this <see cref="T:Xamarin.Forms.ToolbarItem" /> element.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public int Priority { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Priority" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ToolbarItem.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public Property Priority As Integer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the priority of this <see cref="T:Xamarin.Forms.ToolbarItem" /> element.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

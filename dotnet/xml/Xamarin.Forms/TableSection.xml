@@ -1,0 +1,58 @@
+﻿<Type Name="TableSection" FullName="Xamarin.Forms.TableSection">
+  <TypeSignature Language="C#" Value="public sealed class TableSection : Xamarin.Forms.TableSectionBase&lt;Xamarin.Forms.Cell&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TableSection extends Xamarin.Forms.TableSectionBase`1&lt;class Xamarin.Forms.Cell&gt;" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.TableSection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TableSection&#xA;Inherits TableSectionBase(Of Cell)" />
+  <AssemblyInfo>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Xamarin.Forms.TableSectionBase&lt;Xamarin.Forms.Cell&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Xamarin.Forms.Cell</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>A logical and visible section of a <see cref="T:Xamarin.Forms.TableView" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TableSection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TableSection.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TableSection (string title);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string title) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TableSection.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (title As String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="title" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="title">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
