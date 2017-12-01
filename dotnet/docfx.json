@@ -31,8 +31,8 @@
           "**/obj/**",
           "**/includes/**"
         ],
-        "dest": "api"
-        "src" : "_images"
+        "dest": "api",
+        "src":"_images"
       }
     ],
     "overwrite": {
