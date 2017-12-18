@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Entry extends Xamarin.Forms.InputView implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.Entry&gt;, class Xamarin.Forms.IEntryController, class Xamarin.Forms.Internals.IFontElement" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Entry" />
   <TypeSignature Language="VB.NET" Value="Public Class Entry&#xA;Inherits InputView&#xA;Implements IElementConfiguration(Of Entry), IEntryController, IFontElement" />
+  <TypeSignature Language="F#" Value="type Entry = class&#xA;    inherit InputView&#xA;    interface IFontElement&#xA;    interface ITextElement&#xA;    interface IEntryController&#xA;    interface IElementConfiguration&lt;Entry&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -108,6 +109,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Completed" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Entry.Completed" />
       <MemberSignature Language="VB.NET" Value="Public Event Completed As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.Completed : EventHandler " Usage="member this.Completed : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -126,6 +128,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.FontAttributes FontAttributes" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Entry.FontAttributes" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAttributes As FontAttributes" />
+      <MemberSignature Language="F#" Value="member this.FontAttributes : Xamarin.Forms.FontAttributes with get, set" Usage="Xamarin.Forms.Entry.FontAttributes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -145,6 +148,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FontAttributesProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Entry.FontAttributesProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAttributesProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FontAttributesProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Entry.FontAttributesProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -163,6 +167,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance string FontFamily" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Entry.FontFamily" />
       <MemberSignature Language="VB.NET" Value="Public Property FontFamily As String" />
+      <MemberSignature Language="F#" Value="member this.FontFamily : string with get, set" Usage="Xamarin.Forms.Entry.FontFamily" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -182,6 +187,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FontFamilyProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Entry.FontFamilyProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontFamilyProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FontFamilyProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Entry.FontFamilyProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -200,6 +206,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance float64 FontSize" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Entry.FontSize" />
       <MemberSignature Language="VB.NET" Value="Public Property FontSize As Double" />
+      <MemberSignature Language="F#" Value="member this.FontSize : double with get, set" Usage="Xamarin.Forms.Entry.FontSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -224,6 +231,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FontSizeProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Entry.FontSizeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontSizeProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FontSizeProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Entry.FontSizeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -242,6 +250,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.TextAlignment HorizontalTextAlignment" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Entry.HorizontalTextAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalTextAlignment As TextAlignment" />
+      <MemberSignature Language="F#" Value="member this.HorizontalTextAlignment : Xamarin.Forms.TextAlignment with get, set" Usage="Xamarin.Forms.Entry.HorizontalTextAlignment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -261,6 +270,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HorizontalTextAlignmentProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Entry.HorizontalTextAlignmentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HorizontalTextAlignmentProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HorizontalTextAlignmentProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Entry.HorizontalTextAlignmentProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -279,6 +289,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPassword" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Entry.IsPassword" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPassword As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsPassword : bool with get, set" Usage="Xamarin.Forms.Entry.IsPassword" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -299,6 +310,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsPasswordProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Entry.IsPasswordProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsPasswordProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsPasswordProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Entry.IsPasswordProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -317,7 +329,11 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.Entry&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Entry.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Entry)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Entry (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Entry (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="entry.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -345,6 +361,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance string Placeholder" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Entry.Placeholder" />
       <MemberSignature Language="VB.NET" Value="Public Property Placeholder As String" />
+      <MemberSignature Language="F#" Value="member this.Placeholder : string with get, set" Usage="Xamarin.Forms.Entry.Placeholder" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -364,6 +381,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color PlaceholderColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Entry.PlaceholderColor" />
       <MemberSignature Language="VB.NET" Value="Public Property PlaceholderColor As Color" />
+      <MemberSignature Language="F#" Value="member this.PlaceholderColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.Entry.PlaceholderColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -383,6 +401,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty PlaceholderColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Entry.PlaceholderColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PlaceholderColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PlaceholderColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Entry.PlaceholderColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -401,6 +420,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty PlaceholderProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Entry.PlaceholderProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PlaceholderProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PlaceholderProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Entry.PlaceholderProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -419,7 +439,11 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendCompleted() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Entry.SendCompleted" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendCompleted ()" />
+      <MemberSignature Language="F#" Value="abstract member SendCompleted : unit -&gt; unit&#xA;override this.SendCompleted : unit -&gt; unit" Usage="entry.SendCompleted " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IEntryController.SendCompleted</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -443,6 +467,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance string Text" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Entry.Text" />
       <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Xamarin.Forms.Entry.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -462,6 +487,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.TextChangedEventArgs&gt; TextChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Entry.TextChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event TextChanged As EventHandler(Of TextChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.TextChanged : EventHandler&lt;Xamarin.Forms.TextChangedEventArgs&gt; " Usage="member this.TextChanged : System.EventHandler&lt;Xamarin.Forms.TextChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -480,6 +506,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color TextColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Entry.TextColor" />
       <MemberSignature Language="VB.NET" Value="Public Property TextColor As Color" />
+      <MemberSignature Language="F#" Value="member this.TextColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.Entry.TextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -499,6 +526,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Entry.TextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TextColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Entry.TextColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -517,6 +545,7 @@ View CreateLoginForm ()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TextProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Entry.TextProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TextProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Entry.TextProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -536,6 +565,9 @@ View CreateLoginForm ()
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Entry.Xamarin#Forms#Internals#IFontElement#FontSizeDefaultValueCreator" />
       <MemberSignature Language="VB.NET" Value="Function FontSizeDefaultValueCreator () As Double Implements IFontElement.FontSizeDefaultValueCreator" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.IFontElement.FontSizeDefaultValueCreator</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -556,6 +588,9 @@ View CreateLoginForm ()
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Entry.Xamarin#Forms#Internals#IFontElement#OnFontAttributesChanged(Xamarin.Forms.FontAttributes,Xamarin.Forms.FontAttributes)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAttributesChanged (oldValue As FontAttributes, newValue As FontAttributes) Implements IFontElement.OnFontAttributesChanged" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.IFontElement.OnFontAttributesChanged(Xamarin.Forms.FontAttributes,Xamarin.Forms.FontAttributes)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -580,6 +615,9 @@ View CreateLoginForm ()
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Entry.Xamarin#Forms#Internals#IFontElement#OnFontChanged(Xamarin.Forms.Font,Xamarin.Forms.Font)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontChanged (oldValue As Font, newValue As Font) Implements IFontElement.OnFontChanged" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.IFontElement.OnFontChanged(Xamarin.Forms.Font,Xamarin.Forms.Font)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -604,6 +642,9 @@ View CreateLoginForm ()
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Entry.Xamarin#Forms#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontFamilyChanged (oldValue As String, newValue As String) Implements IFontElement.OnFontFamilyChanged" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.IFontElement.OnFontFamilyChanged(System.String,System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -628,6 +669,9 @@ View CreateLoginForm ()
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Entry.Xamarin#Forms#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontSizeChanged (oldValue As Double, newValue As Double) Implements IFontElement.OnFontSizeChanged" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.IFontElement.OnFontSizeChanged(System.Double,System.Double)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

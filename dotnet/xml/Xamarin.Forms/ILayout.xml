@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILayout" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ILayout" />
   <TypeSignature Language="VB.NET" Value="Public Interface ILayout" />
+  <TypeSignature Language="F#" Value="type ILayout = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,6 +19,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler LayoutChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ILayout.LayoutChanged" />
       <MemberSignature Language="VB.NET" Value="Event LayoutChanged As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.LayoutChanged : EventHandler " Usage="member this.LayoutChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

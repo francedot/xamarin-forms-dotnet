@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TypeExtension extends System.Object implements class Xamarin.Forms.Xaml.IMarkupExtension, class Xamarin.Forms.Xaml.IMarkupExtension`1&lt;class System.Type&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.TypeExtension" />
   <TypeSignature Language="VB.NET" Value="Public Class TypeExtension&#xA;Implements IMarkupExtension(Of Type)" />
+  <TypeSignature Language="F#" Value="type TypeExtension = class&#xA;    interface IMarkupExtension&lt;Type&gt;&#xA;    interface IMarkupExtension" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -49,7 +50,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Type ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.TypeExtension.ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ProvideValue (serviceProvider As IServiceProvider) As Type" />
+      <MemberSignature Language="F#" Value="abstract member ProvideValue : IServiceProvider -&gt; Type&#xA;override this.ProvideValue : IServiceProvider -&gt; Type" Usage="typeExtension.ProvideValue serviceProvider" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Xaml.IMarkupExtension`1.ProvideValue(System.IServiceProvider)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -72,6 +77,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string TypeName" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.TypeExtension.TypeName" />
       <MemberSignature Language="VB.NET" Value="Public Property TypeName As String" />
+      <MemberSignature Language="F#" Value="member this.TypeName : string with get, set" Usage="Xamarin.Forms.Xaml.TypeExtension.TypeName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
@@ -92,6 +98,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.TypeExtension.Xamarin#Forms#Xaml#IMarkupExtension#ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Function ProvideValue (serviceProvider As IServiceProvider) As Object Implements IMarkupExtension.ProvideValue" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Xaml.IMarkupExtension.ProvideValue(System.IServiceProvider)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

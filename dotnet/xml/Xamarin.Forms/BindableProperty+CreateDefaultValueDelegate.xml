@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed BindableProperty/CreateDefaultValueDelegate extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.BindableProperty.CreateDefaultValueDelegate" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Function BindableProperty.CreateDefaultValueDelegate(bindable As BindableObject) As Object " />
+  <TypeSignature Language="F#" Value="type BindableProperty.CreateDefaultValueDelegate = delegate of BindableObject -&gt; obj" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>

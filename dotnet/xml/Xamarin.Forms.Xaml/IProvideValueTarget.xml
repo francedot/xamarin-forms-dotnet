@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IProvideValueTarget" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.IProvideValueTarget" />
   <TypeSignature Language="VB.NET" Value="Public Interface IProvideValueTarget" />
+  <TypeSignature Language="F#" Value="type IProvideValueTarget = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,6 +19,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object TargetObject" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.IProvideValueTarget.TargetObject" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TargetObject As Object" />
+      <MemberSignature Language="F#" Value="member this.TargetObject : obj" Usage="Xamarin.Forms.Xaml.IProvideValueTarget.TargetObject" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -37,6 +39,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object TargetProperty" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.IProvideValueTarget.TargetProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TargetProperty As Object" />
+      <MemberSignature Language="F#" Value="member this.TargetProperty : obj" Usage="Xamarin.Forms.Xaml.IProvideValueTarget.TargetProperty" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

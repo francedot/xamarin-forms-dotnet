@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Binding extends Xamarin.Forms.BindingBase" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Binding" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Binding&#xA;Inherits BindingBase" />
+  <TypeSignature Language="F#" Value="type Binding = class&#xA;    inherit BindingBase" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -37,6 +38,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path, valuetype Xamarin.Forms.BindingMode mode, class Xamarin.Forms.IValueConverter converter, object converterParameter, string stringFormat, object source) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Binding.#ctor(System.String,Xamarin.Forms.BindingMode,Xamarin.Forms.IValueConverter,System.Object,System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (path As String, Optional mode As BindingMode = Xamarin.Forms.BindingMode.Default, Optional converter As IValueConverter = null, Optional converterParameter As Object = null, Optional stringFormat As String = null, Optional source As Object = null)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Binding : string * Xamarin.Forms.BindingMode * Xamarin.Forms.IValueConverter * obj * string * obj -&gt; Xamarin.Forms.Binding" Usage="new Xamarin.Forms.Binding (path, mode, converter, converterParameter, stringFormat, source)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -66,6 +68,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.IValueConverter Converter" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Binding.Converter" />
       <MemberSignature Language="VB.NET" Value="Public Property Converter As IValueConverter" />
+      <MemberSignature Language="F#" Value="member this.Converter : Xamarin.Forms.IValueConverter with get, set" Usage="Xamarin.Forms.Binding.Converter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -85,6 +88,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object ConverterParameter" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Binding.ConverterParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property ConverterParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.ConverterParameter : obj with get, set" Usage="Xamarin.Forms.Binding.ConverterParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -104,6 +108,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Binding Create&lt;TSource&gt;(class System.Linq.Expressions.Expression`1&lt;class System.Func`2&lt;!!TSource, object&gt;&gt; propertyGetter, valuetype Xamarin.Forms.BindingMode mode, class Xamarin.Forms.IValueConverter converter, object converterParameter, string stringFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Binding.Create``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},Xamarin.Forms.BindingMode,Xamarin.Forms.IValueConverter,System.Object,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Create(Of TSource) (propertyGetter As Expression(Of Func(Of TSource, Object)), Optional mode As BindingMode = Xamarin.Forms.BindingMode.Default, Optional converter As IValueConverter = null, Optional converterParameter As Object = null, Optional stringFormat As String = null) As Binding" />
+      <MemberSignature Language="F#" Value="static member Create : System.Linq.Expressions.Expression&lt;Func&lt;'Source, obj&gt;&gt; * Xamarin.Forms.BindingMode * Xamarin.Forms.IValueConverter * obj * string -&gt; Xamarin.Forms.Binding" Usage="Xamarin.Forms.Binding.Create (propertyGetter, mode, converter, converterParameter, stringFormat)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -161,6 +166,7 @@ Debug.WriteLine (label.Text); //prints "John Doe".
       <MemberSignature Language="ILAsm" Value=".property instance string Path" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Binding.Path" />
       <MemberSignature Language="VB.NET" Value="Public Property Path As String" />
+      <MemberSignature Language="F#" Value="member this.Path : string with get, set" Usage="Xamarin.Forms.Binding.Path" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -180,6 +186,7 @@ Debug.WriteLine (label.Text); //prints "John Doe".
       <MemberSignature Language="ILAsm" Value=".property instance object Source" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Binding.Source" />
       <MemberSignature Language="VB.NET" Value="Public Property Source As Object" />
+      <MemberSignature Language="F#" Value="member this.Source : obj with get, set" Usage="Xamarin.Forms.Binding.Source" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -199,6 +206,7 @@ Debug.WriteLine (label.Text); //prints "John Doe".
       <MemberSignature Language="ILAsm" Value=".property instance string UpdateSourceEventName" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Binding.UpdateSourceEventName" />
       <MemberSignature Language="VB.NET" Value="Public Property UpdateSourceEventName As String" />
+      <MemberSignature Language="F#" Value="member this.UpdateSourceEventName : string with get, set" Usage="Xamarin.Forms.Binding.UpdateSourceEventName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

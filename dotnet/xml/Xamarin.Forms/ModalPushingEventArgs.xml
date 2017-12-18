@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ModalPushingEventArgs extends Xamarin.Forms.ModalEventArgs" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ModalPushingEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ModalPushingEventArgs&#xA;Inherits ModalEventArgs" />
+  <TypeSignature Language="F#" Value="type ModalPushingEventArgs = class&#xA;    inherit ModalEventArgs" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Xamarin.Forms.Page modal) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ModalPushingEventArgs.#ctor(Xamarin.Forms.Page)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (modal As Page)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.ModalPushingEventArgs : Xamarin.Forms.Page -&gt; Xamarin.Forms.ModalPushingEventArgs" Usage="new Xamarin.Forms.ModalPushingEventArgs modal" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

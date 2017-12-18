@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RowDefinitionCollection extends Xamarin.Forms.DefinitionCollection`1&lt;class Xamarin.Forms.RowDefinition&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.RowDefinitionCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RowDefinitionCollection&#xA;Inherits DefinitionCollection(Of RowDefinition)" />
+  <TypeSignature Language="F#" Value="type RowDefinitionCollection = class&#xA;    inherit DefinitionCollection&lt;RowDefinition&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>

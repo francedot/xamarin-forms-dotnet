@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AbsoluteLayout extends Xamarin.Forms.Layout`1&lt;class Xamarin.Forms.View&gt; implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.AbsoluteLayout&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.AbsoluteLayout" />
   <TypeSignature Language="VB.NET" Value="Public Class AbsoluteLayout&#xA;Inherits Layout(Of View)&#xA;Implements IElementConfiguration(Of AbsoluteLayout)" />
+  <TypeSignature Language="F#" Value="type AbsoluteLayout = class&#xA;    inherit Layout&lt;View&gt;&#xA;    interface IElementConfiguration&lt;AbsoluteLayout&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -191,6 +192,7 @@
       <MemberSignature Language="ILAsm" Value=".property float64 AutoSize" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.AbsoluteLayout.AutoSize" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AutoSize As Double" />
+      <MemberSignature Language="F#" Value="member this.AutoSize : double" Usage="Xamarin.Forms.AbsoluteLayout.AutoSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -212,6 +214,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.AbsoluteLayout/IAbsoluteList`1&lt;class Xamarin.Forms.View&gt; Children" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.AbsoluteLayout.Children" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Children As AbsoluteLayout.IAbsoluteList(Of View)" />
+      <MemberSignature Language="F#" Value="member this.Children : Xamarin.Forms.AbsoluteLayout.IAbsoluteList&lt;Xamarin.Forms.View&gt;" Usage="Xamarin.Forms.AbsoluteLayout.Children" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -233,6 +236,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Rectangle GetLayoutBounds(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AbsoluteLayout.GetLayoutBounds(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetLayoutBounds (bindable As BindableObject) As Rectangle" />
+      <MemberSignature Language="F#" Value="static member GetLayoutBounds : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Rectangle" Usage="Xamarin.Forms.AbsoluteLayout.GetLayoutBounds bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -263,6 +267,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.AbsoluteLayoutFlags GetLayoutFlags(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AbsoluteLayout.GetLayoutFlags(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetLayoutFlags (bindable As BindableObject) As AbsoluteLayoutFlags" />
+      <MemberSignature Language="F#" Value="static member GetLayoutFlags : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.AbsoluteLayoutFlags" Usage="Xamarin.Forms.AbsoluteLayout.GetLayoutFlags bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -331,6 +336,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty LayoutBoundsProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AbsoluteLayout.LayoutBoundsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LayoutBoundsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable LayoutBoundsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.AbsoluteLayout.LayoutBoundsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -350,6 +356,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void LayoutChildren(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AbsoluteLayout.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub LayoutChildren (x As Double, y As Double, width As Double, height As Double)" />
+      <MemberSignature Language="F#" Value="override this.LayoutChildren : double * double * double * double -&gt; unit" Usage="absoluteLayout.LayoutChildren (x, y, width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -380,6 +387,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty LayoutFlagsProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AbsoluteLayout.LayoutFlagsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LayoutFlagsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable LayoutFlagsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.AbsoluteLayout.LayoutFlagsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -399,7 +407,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.AbsoluteLayout&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AbsoluteLayout.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, AbsoluteLayout)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.AbsoluteLayout (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.AbsoluteLayout (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="absoluteLayout.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -427,6 +439,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildAdded(class Xamarin.Forms.Element child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AbsoluteLayout.OnChildAdded(Xamarin.Forms.Element)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnChildAdded (child As Element)" />
+      <MemberSignature Language="F#" Value="override this.OnChildAdded : Xamarin.Forms.Element -&gt; unit" Usage="absoluteLayout.OnChildAdded child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -451,6 +464,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildRemoved(class Xamarin.Forms.Element child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AbsoluteLayout.OnChildRemoved(Xamarin.Forms.Element)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnChildRemoved (child As Element)" />
+      <MemberSignature Language="F#" Value="override this.OnChildRemoved : Xamarin.Forms.Element -&gt; unit" Usage="absoluteLayout.OnChildRemoved child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -475,6 +489,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Xamarin.Forms.SizeRequest OnSizeRequest(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AbsoluteLayout.OnSizeRequest(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnSizeRequest (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
+      <MemberSignature Language="F#" Value="override this.OnSizeRequest : double * double -&gt; Xamarin.Forms.SizeRequest" Usage="absoluteLayout.OnSizeRequest (widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -507,6 +522,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetLayoutBounds(class Xamarin.Forms.BindableObject bindable, valuetype Xamarin.Forms.Rectangle bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AbsoluteLayout.SetLayoutBounds(Xamarin.Forms.BindableObject,Xamarin.Forms.Rectangle)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetLayoutBounds (bindable As BindableObject, bounds As Rectangle)" />
+      <MemberSignature Language="F#" Value="static member SetLayoutBounds : Xamarin.Forms.BindableObject * Xamarin.Forms.Rectangle -&gt; unit" Usage="Xamarin.Forms.AbsoluteLayout.SetLayoutBounds (bindable, bounds)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -533,6 +549,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetLayoutFlags(class Xamarin.Forms.BindableObject bindable, valuetype Xamarin.Forms.AbsoluteLayoutFlags flags) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AbsoluteLayout.SetLayoutFlags(Xamarin.Forms.BindableObject,Xamarin.Forms.AbsoluteLayoutFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetLayoutFlags (bindable As BindableObject, flags As AbsoluteLayoutFlags)" />
+      <MemberSignature Language="F#" Value="static member SetLayoutFlags : Xamarin.Forms.BindableObject * Xamarin.Forms.AbsoluteLayoutFlags -&gt; unit" Usage="Xamarin.Forms.AbsoluteLayout.SetLayoutFlags (bindable, flags)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FormattedString extends System.Object implements class System.ComponentModel.INotifyPropertyChanged" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.FormattedString" />
   <TypeSignature Language="VB.NET" Value="Public Class FormattedString&#xA;Implements INotifyPropertyChanged" />
+  <TypeSignature Language="F#" Value="type FormattedString = class&#xA;    interface INotifyPropertyChanged" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -46,6 +47,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Explicit(class Xamarin.Forms.FormattedString formatted) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.FormattedString.op_Explicit(Xamarin.Forms.FormattedString)~System.String" />
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (formatted As FormattedString) As String" />
+      <MemberSignature Language="F#" Value="static member op_Explicit : Xamarin.Forms.FormattedString -&gt; string" Usage="Xamarin.Forms.FormattedString.op_Explicit formatted" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -69,6 +71,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Xamarin.Forms.FormattedString op_Implicit(string text) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.FormattedString.op_Implicit(System.String)~Xamarin.Forms.FormattedString" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (text As String) As FormattedString" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Xamarin.Forms.FormattedString" Usage="Xamarin.Forms.FormattedString.op_Implicit text" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -92,7 +95,11 @@
       <MemberSignature Language="ILAsm" Value=".event class System.ComponentModel.PropertyChangedEventHandler PropertyChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.FormattedString.PropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event PropertyChanged As PropertyChangedEventHandler " />
+      <MemberSignature Language="F#" Value="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " Usage="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -110,6 +117,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Span&gt; Spans" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.FormattedString.Spans" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Spans As IList(Of Span)" />
+      <MemberSignature Language="F#" Value="member this.Spans : System.Collections.Generic.IList&lt;Xamarin.Forms.Span&gt;" Usage="Xamarin.Forms.FormattedString.Spans" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -129,6 +137,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.FormattedString.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="formattedString.ToString " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

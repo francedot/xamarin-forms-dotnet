@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRegisterable" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IRegisterable" />
   <TypeSignature Language="VB.NET" Value="Public Interface IRegisterable" />
+  <TypeSignature Language="F#" Value="type IRegisterable = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConstraintExpression extends System.Object implements class Xamarin.Forms.Xaml.IMarkupExtension, class Xamarin.Forms.Xaml.IMarkupExtension`1&lt;class Xamarin.Forms.Constraint&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ConstraintExpression" />
   <TypeSignature Language="VB.NET" Value="Public Class ConstraintExpression&#xA;Implements IMarkupExtension(Of Constraint)" />
+  <TypeSignature Language="F#" Value="type ConstraintExpression = class&#xA;    interface IMarkupExtension&lt;Constraint&gt;&#xA;    interface IMarkupExtension" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -80,6 +81,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Constant" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ConstraintExpression.Constant" />
       <MemberSignature Language="VB.NET" Value="Public Property Constant As Double" />
+      <MemberSignature Language="F#" Value="member this.Constant : double with get, set" Usage="Xamarin.Forms.ConstraintExpression.Constant" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -99,6 +101,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string ElementName" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ConstraintExpression.ElementName" />
       <MemberSignature Language="VB.NET" Value="Public Property ElementName As String" />
+      <MemberSignature Language="F#" Value="member this.ElementName : string with get, set" Usage="Xamarin.Forms.ConstraintExpression.ElementName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -118,6 +121,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Factor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ConstraintExpression.Factor" />
       <MemberSignature Language="VB.NET" Value="Public Property Factor As Double" />
+      <MemberSignature Language="F#" Value="member this.Factor : double with get, set" Usage="Xamarin.Forms.ConstraintExpression.Factor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -137,6 +141,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Property" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ConstraintExpression.Property" />
       <MemberSignature Language="VB.NET" Value="Public Property Property As String" />
+      <MemberSignature Language="F#" Value="member this.Property : string with get, set" Usage="Xamarin.Forms.ConstraintExpression.Property" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -156,7 +161,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.Constraint ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ConstraintExpression.ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ProvideValue (serviceProvider As IServiceProvider) As Constraint" />
+      <MemberSignature Language="F#" Value="abstract member ProvideValue : IServiceProvider -&gt; Xamarin.Forms.Constraint&#xA;override this.ProvideValue : IServiceProvider -&gt; Xamarin.Forms.Constraint" Usage="constraintExpression.ProvideValue serviceProvider" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Xaml.IMarkupExtension`1.ProvideValue(System.IServiceProvider)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -179,6 +188,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.ConstraintType Type" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ConstraintExpression.Type" />
       <MemberSignature Language="VB.NET" Value="Public Property Type As ConstraintType" />
+      <MemberSignature Language="F#" Value="member this.Type : Xamarin.Forms.ConstraintType with get, set" Usage="Xamarin.Forms.ConstraintExpression.Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -199,6 +209,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ConstraintExpression.Xamarin#Forms#Xaml#IMarkupExtension#ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Function ProvideValue (serviceProvider As IServiceProvider) As Object Implements IMarkupExtension.ProvideValue" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Xaml.IMarkupExtension.ProvideValue(System.IServiceProvider)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

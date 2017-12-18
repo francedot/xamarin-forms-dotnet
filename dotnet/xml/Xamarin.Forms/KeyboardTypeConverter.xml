@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit KeyboardTypeConverter extends Xamarin.Forms.TypeConverter" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.KeyboardTypeConverter" />
   <TypeSignature Language="VB.NET" Value="Public Class KeyboardTypeConverter&#xA;Inherits TypeConverter" />
+  <TypeSignature Language="F#" Value="type KeyboardTypeConverter = class&#xA;    inherit TypeConverter" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -59,6 +60,7 @@ Assert.AreSame (kvp.Value, converter.ConvertFrom (kvp.Key));
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ConvertFromInvariantString(string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.KeyboardTypeConverter.ConvertFromInvariantString(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFromInvariantString (value As String) As Object" />
+      <MemberSignature Language="F#" Value="override this.ConvertFromInvariantString : string -&gt; obj" Usage="keyboardTypeConverter.ConvertFromInvariantString value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

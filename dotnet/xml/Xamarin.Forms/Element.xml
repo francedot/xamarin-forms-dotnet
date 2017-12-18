@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Element extends Xamarin.Forms.BindableObject implements class Xamarin.Forms.IElementController, class Xamarin.Forms.Internals.INameScope" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Element" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Element&#xA;Inherits BindableObject&#xA;Implements IElementController, INameScope" />
+  <TypeSignature Language="F#" Value="type Element = class&#xA;    inherit BindableObject&#xA;    interface IElement&#xA;    interface INameScope&#xA;    interface IElementController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -87,6 +88,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string AutomationId" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Element.AutomationId" />
       <MemberSignature Language="VB.NET" Value="Public Property AutomationId As String" />
+      <MemberSignature Language="F#" Value="member this.AutomationId : string with get, set" Usage="Xamarin.Forms.Element.AutomationId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -106,6 +108,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ElementEventArgs&gt; ChildAdded" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Element.ChildAdded" />
       <MemberSignature Language="VB.NET" Value="Public Event ChildAdded As EventHandler(Of ElementEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.ChildAdded : EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " Usage="member this.ChildAdded : System.EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -124,6 +127,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ElementEventArgs&gt; ChildRemoved" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Element.ChildRemoved" />
       <MemberSignature Language="VB.NET" Value="Public Event ChildRemoved As EventHandler(Of ElementEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.ChildRemoved : EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " Usage="member this.ChildRemoved : System.EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -142,6 +146,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string ClassId" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Element.ClassId" />
       <MemberSignature Language="VB.NET" Value="Public Property ClassId As String" />
+      <MemberSignature Language="F#" Value="member this.ClassId : string with get, set" Usage="Xamarin.Forms.Element.ClassId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -161,6 +166,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ClassIdProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Element.ClassIdProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ClassIdProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ClassIdProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Element.ClassIdProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -179,6 +185,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ElementEventArgs&gt; DescendantAdded" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Element.DescendantAdded" />
       <MemberSignature Language="VB.NET" Value="Public Event DescendantAdded As EventHandler(Of ElementEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.DescendantAdded : EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " Usage="member this.DescendantAdded : System.EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -197,6 +204,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ElementEventArgs&gt; DescendantRemoved" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Element.DescendantRemoved" />
       <MemberSignature Language="VB.NET" Value="Public Event DescendantRemoved As EventHandler(Of ElementEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.DescendantRemoved : EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " Usage="member this.DescendantRemoved : System.EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -215,7 +223,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;class Xamarin.Forms.Element&gt; Descendants() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.Descendants" />
       <MemberSignature Language="VB.NET" Value="Public Iterator Overridable NotOverridable Function Descendants () As IEnumerable(Of Element)" />
+      <MemberSignature Language="F#" Value="abstract member Descendants : unit -&gt; seq&lt;Xamarin.Forms.Element&gt;&#xA;override this.Descendants : unit -&gt; seq&lt;Xamarin.Forms.Element&gt;" Usage="element.Descendants " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementController.Descendants</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -243,7 +255,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.IEffectControlProvider EffectControlProvider" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Element.EffectControlProvider" />
       <MemberSignature Language="VB.NET" Value="Public Property EffectControlProvider As IEffectControlProvider" />
+      <MemberSignature Language="F#" Value="member this.EffectControlProvider : Xamarin.Forms.IEffectControlProvider with get, set" Usage="Xamarin.Forms.Element.EffectControlProvider" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IElementController.EffectControlProvider</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -267,7 +283,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool EffectIsAttached(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.EffectIsAttached(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function EffectIsAttached (name As String) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member EffectIsAttached : string -&gt; bool&#xA;override this.EffectIsAttached : string -&gt; bool" Usage="element.EffectIsAttached name" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementController.EffectIsAttached(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -295,6 +315,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Effect&gt; Effects" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Element.Effects" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Effects As IList(Of Effect)" />
+      <MemberSignature Language="F#" Value="member this.Effects : System.Collections.Generic.IList&lt;Xamarin.Forms.Effect&gt;" Usage="Xamarin.Forms.Element.Effects" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -314,6 +335,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Menu GetMenu(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.GetMenu(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetMenu (bindable As BindableObject) As Menu" />
+      <MemberSignature Language="F#" Value="static member GetMenu : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Menu" Usage="Xamarin.Forms.Element.GetMenu bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -337,6 +359,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid Id" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Element.Id" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Guid" />
+      <MemberSignature Language="F#" Value="member this.Id : Guid" Usage="Xamarin.Forms.Element.Id" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -356,7 +379,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Xamarin.Forms.Element&gt; LogicalChildren" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Element.LogicalChildren" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LogicalChildren As ReadOnlyCollection(Of Element)" />
+      <MemberSignature Language="F#" Value="member this.LogicalChildren : System.Collections.ObjectModel.ReadOnlyCollection&lt;Xamarin.Forms.Element&gt;" Usage="Xamarin.Forms.Element.LogicalChildren" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IElementController.LogicalChildren</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -380,6 +407,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty MenuProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Element.MenuProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MenuProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MenuProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Element.MenuProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -398,6 +426,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
+      <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="element.OnBindingContextChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -417,6 +446,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnChildAdded(class Xamarin.Forms.Element child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.OnChildAdded(Xamarin.Forms.Element)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnChildAdded (child As Element)" />
+      <MemberSignature Language="F#" Value="abstract member OnChildAdded : Xamarin.Forms.Element -&gt; unit&#xA;override this.OnChildAdded : Xamarin.Forms.Element -&gt; unit" Usage="element.OnChildAdded child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -439,6 +469,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnChildRemoved(class Xamarin.Forms.Element child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.OnChildRemoved(Xamarin.Forms.Element)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnChildRemoved (child As Element)" />
+      <MemberSignature Language="F#" Value="abstract member OnChildRemoved : Xamarin.Forms.Element -&gt; unit&#xA;override this.OnChildRemoved : Xamarin.Forms.Element -&gt; unit" Usage="element.OnChildRemoved child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -461,6 +492,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnParentSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.OnParentSet" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnParentSet ()" />
+      <MemberSignature Language="F#" Value="abstract member OnParentSet : unit -&gt; unit&#xA;override this.OnParentSet : unit -&gt; unit" Usage="element.OnParentSet " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -480,6 +512,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPropertyChanged(string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.OnPropertyChanged(System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPropertyChanged (Optional propertyName As String = null)" />
+      <MemberSignature Language="F#" Value="override this.OnPropertyChanged : string -&gt; unit" Usage="element.OnPropertyChanged propertyName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -508,7 +541,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Element Parent" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Element.Parent" />
       <MemberSignature Language="VB.NET" Value="Public Property Parent As Element" />
+      <MemberSignature Language="F#" Value="member this.Parent : Xamarin.Forms.Element with get, set" Usage="Xamarin.Forms.Element.Parent" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IElement.Parent</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -527,6 +564,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.VisualElement ParentView" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Element.ParentView" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentView As VisualElement" />
+      <MemberSignature Language="F#" Value="member this.ParentView : Xamarin.Forms.VisualElement" Usage="Xamarin.Forms.Element.ParentView" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -551,7 +589,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Internals.IPlatform Platform" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Element.Platform" />
       <MemberSignature Language="VB.NET" Value="Public Property Platform As IPlatform" />
+      <MemberSignature Language="F#" Value="member this.Platform : Xamarin.Forms.Internals.IPlatform with get, set" Usage="Xamarin.Forms.Element.Platform" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IElementController.Platform</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -575,7 +617,11 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler PlatformSet" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Element.PlatformSet" />
       <MemberSignature Language="VB.NET" Value="Public Event PlatformSet As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.PlatformSet : EventHandler " Usage="member this.PlatformSet : System.EventHandler " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.IElementController.PlatformSet</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -598,6 +644,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Element RealParent" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Element.RealParent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RealParent As Element" />
+      <MemberSignature Language="F#" Value="member this.RealParent : Xamarin.Forms.Element" Usage="Xamarin.Forms.Element.RealParent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -622,6 +669,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveDynamicResource(class Xamarin.Forms.BindableProperty property) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.RemoveDynamicResource(Xamarin.Forms.BindableProperty)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RemoveDynamicResource (property As BindableProperty)" />
+      <MemberSignature Language="F#" Value="override this.RemoveDynamicResource : Xamarin.Forms.BindableProperty -&gt; unit" Usage="element.RemoveDynamicResource property" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -644,6 +692,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetDynamicResource(class Xamarin.Forms.BindableProperty property, string key) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.SetDynamicResource(Xamarin.Forms.BindableProperty,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetDynamicResource (property As BindableProperty, key As String)" />
+      <MemberSignature Language="F#" Value="override this.SetDynamicResource : Xamarin.Forms.BindableProperty * string -&gt; unit" Usage="element.SetDynamicResource (property, key)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -667,6 +716,7 @@
       <MemberSignature Language="C#" Value="public static void SetMenu (Xamarin.Forms.BindableObject bindable, Xamarin.Forms.Menu menu);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetMenu(class Xamarin.Forms.BindableObject bindable, class Xamarin.Forms.Menu menu) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.SetMenu(Xamarin.Forms.BindableObject,Xamarin.Forms.Menu)" />
+      <MemberSignature Language="F#" Value="static member SetMenu : Xamarin.Forms.BindableObject * Xamarin.Forms.Menu -&gt; unit" Usage="Xamarin.Forms.Element.SetMenu (bindable, menu)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -691,7 +741,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetValueFromRenderer(class Xamarin.Forms.BindableProperty property, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.SetValueFromRenderer(Xamarin.Forms.BindableProperty,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetValueFromRenderer (property As BindableProperty, value As Object)" />
+      <MemberSignature Language="F#" Value="member this.SetValueFromRenderer : Xamarin.Forms.BindableProperty * obj -&gt; unit" Usage="element.SetValueFromRenderer (property, value)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementController.SetValueFromRenderer(Xamarin.Forms.BindableProperty,System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -720,7 +774,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetValueFromRenderer(class Xamarin.Forms.BindablePropertyKey property, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.SetValueFromRenderer(Xamarin.Forms.BindablePropertyKey,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetValueFromRenderer (property As BindablePropertyKey, value As Object)" />
+      <MemberSignature Language="F#" Value="abstract member SetValueFromRenderer : Xamarin.Forms.BindablePropertyKey * obj -&gt; unit&#xA;override this.SetValueFromRenderer : Xamarin.Forms.BindablePropertyKey * obj -&gt; unit" Usage="element.SetValueFromRenderer (property, value)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementController.SetValueFromRenderer(Xamarin.Forms.BindablePropertyKey,System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -749,6 +807,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string StyleId" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Element.StyleId" />
       <MemberSignature Language="VB.NET" Value="Public Property StyleId As String" />
+      <MemberSignature Language="F#" Value="member this.StyleId : string with get, set" Usage="Xamarin.Forms.Element.StyleId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -769,6 +828,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.Xamarin#Forms#IElementController#SetValueFromRenderer(Xamarin.Forms.BindableProperty,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Sub SetValueFromRenderer (property As BindableProperty, value As Object) Implements IElementController.SetValueFromRenderer" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementController.SetValueFromRenderer(Xamarin.Forms.BindableProperty,System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -793,6 +855,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.Xamarin#Forms#Internals#INameScope#FindByName(System.String)" />
       <MemberSignature Language="VB.NET" Value="Function FindByName (name As String) As Object Implements INameScope.FindByName" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.INameScope.FindByName(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -816,6 +881,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.Xamarin#Forms#Internals#INameScope#RegisterName(System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Sub RegisterName (name As String, scopedElement As Object) Implements INameScope.RegisterName" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.INameScope.RegisterName(System.String,System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -840,6 +908,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.Xamarin#Forms#Internals#INameScope#RegisterName(System.String,System.Object,System.Xml.IXmlLineInfo)" />
       <MemberSignature Language="VB.NET" Value="Sub RegisterName (name As String, scopedElement As Object, xmlLineInfo As IXmlLineInfo) Implements INameScope.RegisterName" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.INameScope.RegisterName(System.String,System.Object,System.Xml.IXmlLineInfo)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -871,6 +942,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.Xamarin#Forms#Internals#INameScope#UnregisterName(System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub UnregisterName (name As String) Implements INameScope.UnregisterName" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.INameScope.UnregisterName(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

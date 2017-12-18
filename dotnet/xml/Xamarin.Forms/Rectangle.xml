@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Rectangle extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Rectangle" />
   <TypeSignature Language="VB.NET" Value="Public Structure Rectangle" />
+  <TypeSignature Language="F#" Value="type Rectangle = struct" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -32,6 +33,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Xamarin.Forms.Point loc, valuetype Xamarin.Forms.Size sz) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.#ctor(Xamarin.Forms.Point,Xamarin.Forms.Size)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (loc As Point, sz As Size)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Rectangle : Xamarin.Forms.Point * Xamarin.Forms.Size -&gt; Xamarin.Forms.Rectangle" Usage="new Xamarin.Forms.Rectangle (loc, sz)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -53,6 +55,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.#ctor(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (x As Double, y As Double, width As Double, height As Double)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Rectangle : double * double * double * double -&gt; Xamarin.Forms.Rectangle" Usage="new Xamarin.Forms.Rectangle (x, y, width, height)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -78,6 +81,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Bottom" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Rectangle.Bottom" />
       <MemberSignature Language="VB.NET" Value="Public Property Bottom As Double" />
+      <MemberSignature Language="F#" Value="member this.Bottom : double with get, set" Usage="Xamarin.Forms.Rectangle.Bottom" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -99,6 +103,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Point Center" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Rectangle.Center" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Center As Point" />
+      <MemberSignature Language="F#" Value="member this.Center : Xamarin.Forms.Point" Usage="Xamarin.Forms.Rectangle.Center" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -118,6 +123,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(valuetype Xamarin.Forms.Point pt) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Contains(Xamarin.Forms.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Function Contains (pt As Point) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Contains : Xamarin.Forms.Point -&gt; bool" Usage="rectangle.Contains pt" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -142,6 +148,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(valuetype Xamarin.Forms.Rectangle rect) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Contains(Xamarin.Forms.Rectangle)" />
       <MemberSignature Language="VB.NET" Value="Public Function Contains (rect As Rectangle) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Contains : Xamarin.Forms.Rectangle -&gt; bool" Usage="rectangle.Contains rect" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -166,6 +173,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(float64 x, float64 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Contains(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function Contains (x As Double, y As Double) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Contains : double * double -&gt; bool" Usage="rectangle.Contains (x, y)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -192,6 +200,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="rectangle.Equals obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -216,6 +225,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Equals(valuetype Xamarin.Forms.Rectangle other) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Equals(Xamarin.Forms.Rectangle)" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As Rectangle) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Xamarin.Forms.Rectangle -&gt; bool" Usage="rectangle.Equals other" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -240,6 +250,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Rectangle FromLTRB(float64 left, float64 top, float64 right, float64 bottom) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.FromLTRB(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromLTRB (left As Double, top As Double, right As Double, bottom As Double) As Rectangle" />
+      <MemberSignature Language="F#" Value="static member FromLTRB : double * double * double * double -&gt; Xamarin.Forms.Rectangle" Usage="Xamarin.Forms.Rectangle.FromLTRB (left, top, right, bottom)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -269,6 +280,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="rectangle.GetHashCode " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -289,6 +301,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Height" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Rectangle.Height" />
       <MemberSignature Language="VB.NET" Value="Public Property Height As Double" />
+      <MemberSignature Language="F#" Value="member this.Height : double with get, set" Usage="Xamarin.Forms.Rectangle.Height" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -309,6 +322,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Rectangle Inflate(valuetype Xamarin.Forms.Size sz) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Inflate(Xamarin.Forms.Size)" />
       <MemberSignature Language="VB.NET" Value="Public Function Inflate (sz As Size) As Rectangle" />
+      <MemberSignature Language="F#" Value="member this.Inflate : Xamarin.Forms.Size -&gt; Xamarin.Forms.Rectangle" Usage="rectangle.Inflate sz" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -341,6 +355,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Rectangle Inflate(float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Inflate(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function Inflate (width As Double, height As Double) As Rectangle" />
+      <MemberSignature Language="F#" Value="member this.Inflate : double * double -&gt; Xamarin.Forms.Rectangle" Usage="rectangle.Inflate (width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -375,6 +390,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Rectangle Intersect(valuetype Xamarin.Forms.Rectangle r) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Intersect(Xamarin.Forms.Rectangle)" />
       <MemberSignature Language="VB.NET" Value="Public Function Intersect (r As Rectangle) As Rectangle" />
+      <MemberSignature Language="F#" Value="member this.Intersect : Xamarin.Forms.Rectangle -&gt; Xamarin.Forms.Rectangle" Usage="rectangle.Intersect r" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -398,6 +414,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Rectangle Intersect(valuetype Xamarin.Forms.Rectangle r1, valuetype Xamarin.Forms.Rectangle r2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Intersect(Xamarin.Forms.Rectangle,Xamarin.Forms.Rectangle)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Intersect (r1 As Rectangle, r2 As Rectangle) As Rectangle" />
+      <MemberSignature Language="F#" Value="static member Intersect : Xamarin.Forms.Rectangle * Xamarin.Forms.Rectangle -&gt; Xamarin.Forms.Rectangle" Usage="Xamarin.Forms.Rectangle.Intersect (r1, r2)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -423,6 +440,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IntersectsWith(valuetype Xamarin.Forms.Rectangle r) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.IntersectsWith(Xamarin.Forms.Rectangle)" />
       <MemberSignature Language="VB.NET" Value="Public Function IntersectsWith (r As Rectangle) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IntersectsWith : Xamarin.Forms.Rectangle -&gt; bool" Usage="rectangle.IntersectsWith r" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -447,6 +465,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEmpty" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Rectangle.IsEmpty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsEmpty As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsEmpty : bool" Usage="Xamarin.Forms.Rectangle.IsEmpty" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -467,6 +486,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".property instance float64 Left" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Rectangle.Left" />
       <MemberSignature Language="VB.NET" Value="Public Property Left As Double" />
+      <MemberSignature Language="F#" Value="member this.Left : double with get, set" Usage="Xamarin.Forms.Rectangle.Left" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -486,6 +506,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Point Location" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Rectangle.Location" />
       <MemberSignature Language="VB.NET" Value="Public Property Location As Point" />
+      <MemberSignature Language="F#" Value="member this.Location : Xamarin.Forms.Point with get, set" Usage="Xamarin.Forms.Rectangle.Location" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -505,6 +526,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Rectangle Offset(valuetype Xamarin.Forms.Point dr) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Offset(Xamarin.Forms.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Function Offset (dr As Point) As Rectangle" />
+      <MemberSignature Language="F#" Value="member this.Offset : Xamarin.Forms.Point -&gt; Xamarin.Forms.Rectangle" Usage="rectangle.Offset dr" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -528,6 +550,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Rectangle Offset(float64 dx, float64 dy) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Offset(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function Offset (dx As Double, dy As Double) As Rectangle" />
+      <MemberSignature Language="F#" Value="member this.Offset : double * double -&gt; Xamarin.Forms.Rectangle" Usage="rectangle.Offset (dx, dy)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -553,6 +576,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Xamarin.Forms.Rectangle r1, valuetype Xamarin.Forms.Rectangle r2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.op_Equality(Xamarin.Forms.Rectangle,Xamarin.Forms.Rectangle)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (r1 As Rectangle, r2 As Rectangle) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Xamarin.Forms.Rectangle * Xamarin.Forms.Rectangle -&gt; bool" Usage="r1 = r2" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -579,6 +603,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Xamarin.Forms.Rectangle r1, valuetype Xamarin.Forms.Rectangle r2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.op_Inequality(Xamarin.Forms.Rectangle,Xamarin.Forms.Rectangle)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (r1 As Rectangle, r2 As Rectangle) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Xamarin.Forms.Rectangle * Xamarin.Forms.Rectangle -&gt; bool" Usage="Xamarin.Forms.Rectangle.op_Inequality (r1, r2)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -605,6 +630,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".property instance float64 Right" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Rectangle.Right" />
       <MemberSignature Language="VB.NET" Value="Public Property Right As Double" />
+      <MemberSignature Language="F#" Value="member this.Right : double with get, set" Usage="Xamarin.Forms.Rectangle.Right" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -624,6 +650,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Rectangle Round() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Round" />
       <MemberSignature Language="VB.NET" Value="Public Function Round () As Rectangle" />
+      <MemberSignature Language="F#" Value="member this.Round : unit -&gt; Xamarin.Forms.Rectangle" Usage="rectangle.Round " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -646,6 +673,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Size Size" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Rectangle.Size" />
       <MemberSignature Language="VB.NET" Value="Public Property Size As Size" />
+      <MemberSignature Language="F#" Value="member this.Size : Xamarin.Forms.Size with get, set" Usage="Xamarin.Forms.Rectangle.Size" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -665,6 +693,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".property instance float64 Top" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Rectangle.Top" />
       <MemberSignature Language="VB.NET" Value="Public Property Top As Double" />
+      <MemberSignature Language="F#" Value="member this.Top : double with get, set" Usage="Xamarin.Forms.Rectangle.Top" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -684,6 +713,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="rectangle.ToString " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -704,6 +734,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Rectangle Union(valuetype Xamarin.Forms.Rectangle r) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Union(Xamarin.Forms.Rectangle)" />
       <MemberSignature Language="VB.NET" Value="Public Function Union (r As Rectangle) As Rectangle" />
+      <MemberSignature Language="F#" Value="member this.Union : Xamarin.Forms.Rectangle -&gt; Xamarin.Forms.Rectangle" Usage="rectangle.Union r" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -727,6 +758,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Rectangle Union(valuetype Xamarin.Forms.Rectangle r1, valuetype Xamarin.Forms.Rectangle r2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Rectangle.Union(Xamarin.Forms.Rectangle,Xamarin.Forms.Rectangle)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Union (r1 As Rectangle, r2 As Rectangle) As Rectangle" />
+      <MemberSignature Language="F#" Value="static member Union : Xamarin.Forms.Rectangle * Xamarin.Forms.Rectangle -&gt; Xamarin.Forms.Rectangle" Usage="Xamarin.Forms.Rectangle.Union (r1, r2)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -752,6 +784,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".property instance float64 Width" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Rectangle.Width" />
       <MemberSignature Language="VB.NET" Value="Public Property Width As Double" />
+      <MemberSignature Language="F#" Value="member this.Width : double with get, set" Usage="Xamarin.Forms.Rectangle.Width" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -771,6 +804,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".property instance float64 X" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Rectangle.X" />
       <MemberSignature Language="VB.NET" Value="Public Property X As Double" />
+      <MemberSignature Language="F#" Value="member this.X : double with get, set" Usage="Xamarin.Forms.Rectangle.X" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -790,6 +824,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".property instance float64 Y" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Rectangle.Y" />
       <MemberSignature Language="VB.NET" Value="Public Property Y As Double" />
+      <MemberSignature Language="F#" Value="member this.Y : double with get, set" Usage="Xamarin.Forms.Rectangle.Y" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -809,6 +844,7 @@ Assert.AreEqual (larger, new Rectangle (9, 9, 7, 7));
       <MemberSignature Language="ILAsm" Value=".field public static valuetype Xamarin.Forms.Rectangle Zero" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Rectangle.Zero" />
       <MemberSignature Language="VB.NET" Value="Public Shared Zero As Rectangle " />
+      <MemberSignature Language="F#" Value=" staticval mutable Zero : Xamarin.Forms.Rectangle" Usage="Xamarin.Forms.Rectangle.Zero" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

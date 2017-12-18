@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IOpenGlViewController implements class Xamarin.Forms.IElementController, class Xamarin.Forms.IViewController, class Xamarin.Forms.IVisualElementController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IOpenGlViewController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IOpenGlViewController&#xA;Implements IViewController" />
+  <TypeSignature Language="F#" Value="type IOpenGlViewController = interface&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler DisplayRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.IOpenGlViewController.DisplayRequested" />
       <MemberSignature Language="VB.NET" Value="Event DisplayRequested As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.DisplayRequested : EventHandler " Usage="member this.DisplayRequested : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

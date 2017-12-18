@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DataTemplateExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.DataTemplateExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module DataTemplateExtensions" />
+  <TypeSignature Language="F#" Value="type DataTemplateExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object CreateContent(class Xamarin.Forms.DataTemplate self, object item, class Xamarin.Forms.BindableObject container) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.DataTemplateExtensions.CreateContent(Xamarin.Forms.DataTemplate,System.Object,Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateContent (self As DataTemplate, item As Object, container As BindableObject) As Object" />
+      <MemberSignature Language="F#" Value="static member CreateContent : Xamarin.Forms.DataTemplate * obj * Xamarin.Forms.BindableObject -&gt; obj" Usage="Xamarin.Forms.Internals.DataTemplateExtensions.CreateContent (self, item, container)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -53,6 +55,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.DataTemplate SelectDataTemplate(class Xamarin.Forms.DataTemplate self, object item, class Xamarin.Forms.BindableObject container) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.DataTemplateExtensions.SelectDataTemplate(Xamarin.Forms.DataTemplate,System.Object,Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SelectDataTemplate (self As DataTemplate, item As Object, container As BindableObject) As DataTemplate" />
+      <MemberSignature Language="F#" Value="static member SelectDataTemplate : Xamarin.Forms.DataTemplate * obj * Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.DataTemplate" Usage="Xamarin.Forms.Internals.DataTemplateExtensions.SelectDataTemplate (self, item, container)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

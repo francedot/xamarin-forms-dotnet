@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMasterDetailPageController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IMasterDetailPageController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMasterDetailPageController" />
+  <TypeSignature Language="F#" Value="type IMasterDetailPageController = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,6 +19,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.BackButtonPressedEventArgs&gt; BackButtonPressed" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.IMasterDetailPageController.BackButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Event BackButtonPressed As EventHandler(Of BackButtonPressedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.BackButtonPressed : EventHandler&lt;Xamarin.Forms.BackButtonPressedEventArgs&gt; " Usage="member this.BackButtonPressed : System.EventHandler&lt;Xamarin.Forms.BackButtonPressedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -36,6 +38,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool CanChangeIsPresented" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IMasterDetailPageController.CanChangeIsPresented" />
       <MemberSignature Language="VB.NET" Value="Public Property CanChangeIsPresented As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CanChangeIsPresented : bool with get, set" Usage="Xamarin.Forms.IMasterDetailPageController.CanChangeIsPresented" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -55,6 +58,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Rectangle DetailBounds" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IMasterDetailPageController.DetailBounds" />
       <MemberSignature Language="VB.NET" Value="Public Property DetailBounds As Rectangle" />
+      <MemberSignature Language="F#" Value="member this.DetailBounds : Xamarin.Forms.Rectangle with get, set" Usage="Xamarin.Forms.IMasterDetailPageController.DetailBounds" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -74,6 +78,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Rectangle MasterBounds" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IMasterDetailPageController.MasterBounds" />
       <MemberSignature Language="VB.NET" Value="Public Property MasterBounds As Rectangle" />
+      <MemberSignature Language="F#" Value="member this.MasterBounds : Xamarin.Forms.Rectangle with get, set" Usage="Xamarin.Forms.IMasterDetailPageController.MasterBounds" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -93,6 +98,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool ShouldShowSplitMode" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IMasterDetailPageController.ShouldShowSplitMode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShouldShowSplitMode As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldShowSplitMode : bool" Usage="Xamarin.Forms.IMasterDetailPageController.ShouldShowSplitMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -112,6 +118,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UpdateMasterBehavior() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IMasterDetailPageController.UpdateMasterBehavior" />
       <MemberSignature Language="VB.NET" Value="Public Sub UpdateMasterBehavior ()" />
+      <MemberSignature Language="F#" Value="abstract member UpdateMasterBehavior : unit -&gt; unit" Usage="iMasterDetailPageController.UpdateMasterBehavior " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

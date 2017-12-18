@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TextCell extends Xamarin.Forms.Cell" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.TextCell" />
   <TypeSignature Language="VB.NET" Value="Public Class TextCell&#xA;Inherits Cell" />
+  <TypeSignature Language="F#" Value="type TextCell = class&#xA;    inherit Cell" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -82,6 +83,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand Command" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TextCell.Command" />
       <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
+      <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="Xamarin.Forms.TextCell.Command" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -101,6 +103,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance object CommandParameter" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TextCell.CommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property CommandParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="Xamarin.Forms.TextCell.CommandParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -120,6 +123,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.TextCell.CommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandParameterProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.TextCell.CommandParameterProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -138,6 +142,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CommandProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.TextCell.CommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.TextCell.CommandProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -156,6 +161,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance string Detail" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TextCell.Detail" />
       <MemberSignature Language="VB.NET" Value="Public Property Detail As String" />
+      <MemberSignature Language="F#" Value="member this.Detail : string with get, set" Usage="Xamarin.Forms.TextCell.Detail" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -175,6 +181,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color DetailColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TextCell.DetailColor" />
       <MemberSignature Language="VB.NET" Value="Public Property DetailColor As Color" />
+      <MemberSignature Language="F#" Value="member this.DetailColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.TextCell.DetailColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -194,6 +201,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty DetailColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.TextCell.DetailColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DetailColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DetailColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.TextCell.DetailColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -212,6 +220,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty DetailProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.TextCell.DetailProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DetailProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DetailProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.TextCell.DetailProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -230,6 +239,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig virtual instance void OnTapped() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TextCell.OnTapped" />
       <MemberSignature Language="VB.NET" Value="Protected Friend Overrides Sub OnTapped ()" />
+      <MemberSignature Language="F#" Value="override this.OnTapped : unit -&gt; unit" Usage="textCell.OnTapped " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -249,6 +259,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance string Text" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TextCell.Text" />
       <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Xamarin.Forms.TextCell.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -268,6 +279,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color TextColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TextCell.TextColor" />
       <MemberSignature Language="VB.NET" Value="Public Property TextColor As Color" />
+      <MemberSignature Language="F#" Value="member this.TextColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.TextCell.TextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -287,6 +299,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.TextCell.TextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TextColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.TextCell.TextColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -305,6 +318,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TextProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.TextCell.TextProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TextProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.TextCell.TextProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

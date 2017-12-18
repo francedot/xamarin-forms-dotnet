@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPlatform" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.IPlatform" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPlatform" />
+  <TypeSignature Language="F#" Value="type IPlatform = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Xamarin.Forms.SizeRequest GetNativeSize(class Xamarin.Forms.VisualElement view, float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.IPlatform.GetNativeSize(Xamarin.Forms.VisualElement,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetNativeSize (view As VisualElement, widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
+      <MemberSignature Language="F#" Value="abstract member GetNativeSize : Xamarin.Forms.VisualElement * double * double -&gt; Xamarin.Forms.SizeRequest" Usage="iPlatform.GetNativeSize (view, widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

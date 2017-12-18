@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract INativeValueConverterService" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.Internals.INativeValueConverterService" />
   <TypeSignature Language="VB.NET" Value="Public Interface INativeValueConverterService" />
+  <TypeSignature Language="F#" Value="type INativeValueConverterService = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,6 +19,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool ConvertTo(object value, class System.Type toType, [out] object&amp; nativeValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.Internals.INativeValueConverterService.ConvertTo(System.Object,System.Type,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Function ConvertTo (value As Object, toType As Type, ByRef nativeValue As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member ConvertTo : obj * Type *  -&gt; bool" Usage="iNativeValueConverterService.ConvertTo (value, toType, nativeValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

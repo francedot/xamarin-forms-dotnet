@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AppLinkEntry extends Xamarin.Forms.Element implements class Xamarin.Forms.IAppLinkEntry" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.AppLinkEntry" />
   <TypeSignature Language="VB.NET" Value="Public Class AppLinkEntry&#xA;Inherits Element&#xA;Implements IAppLinkEntry" />
+  <TypeSignature Language="F#" Value="type AppLinkEntry = class&#xA;    inherit Element&#xA;    interface IAppLinkEntry" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -44,7 +45,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri AppLinkUri" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.AppLinkEntry.AppLinkUri" />
       <MemberSignature Language="VB.NET" Value="Public Property AppLinkUri As Uri" />
+      <MemberSignature Language="F#" Value="member this.AppLinkUri : Uri with get, set" Usage="Xamarin.Forms.AppLinkEntry.AppLinkUri" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IAppLinkEntry.AppLinkUri</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -64,6 +69,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty AppLinkUriProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AppLinkEntry.AppLinkUriProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AppLinkUriProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable AppLinkUriProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.AppLinkEntry.AppLinkUriProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -82,7 +88,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Description" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.AppLinkEntry.Description" />
       <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
+      <MemberSignature Language="F#" Value="member this.Description : string with get, set" Usage="Xamarin.Forms.AppLinkEntry.Description" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IAppLinkEntry.Description</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -102,6 +112,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty DescriptionProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AppLinkEntry.DescriptionProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DescriptionProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable DescriptionProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.AppLinkEntry.DescriptionProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -119,6 +130,7 @@
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.AppLinkEntry FromUri (Uri uri);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.AppLinkEntry FromUri(class System.Uri uri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AppLinkEntry.FromUri(System.Uri)" />
+      <MemberSignature Language="F#" Value="static member FromUri : Uri -&gt; Xamarin.Forms.AppLinkEntry" Usage="Xamarin.Forms.AppLinkEntry.FromUri uri" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -142,7 +154,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsLinkActive" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.AppLinkEntry.IsLinkActive" />
       <MemberSignature Language="VB.NET" Value="Public Property IsLinkActive As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsLinkActive : bool with get, set" Usage="Xamarin.Forms.AppLinkEntry.IsLinkActive" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IAppLinkEntry.IsLinkActive</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -162,6 +178,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsLinkActiveProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AppLinkEntry.IsLinkActiveProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsLinkActiveProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsLinkActiveProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.AppLinkEntry.IsLinkActiveProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -181,7 +198,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; KeyValues" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.AppLinkEntry.KeyValues" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyValues As IDictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.KeyValues : System.Collections.Generic.IDictionary&lt;string, string&gt;" Usage="Xamarin.Forms.AppLinkEntry.KeyValues" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IAppLinkEntry.KeyValues</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -201,7 +222,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ImageSource Thumbnail" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.AppLinkEntry.Thumbnail" />
       <MemberSignature Language="VB.NET" Value="Public Property Thumbnail As ImageSource" />
+      <MemberSignature Language="F#" Value="member this.Thumbnail : Xamarin.Forms.ImageSource with get, set" Usage="Xamarin.Forms.AppLinkEntry.Thumbnail" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IAppLinkEntry.Thumbnail</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -221,6 +246,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ThumbnailProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AppLinkEntry.ThumbnailProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ThumbnailProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ThumbnailProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.AppLinkEntry.ThumbnailProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -239,7 +265,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.AppLinkEntry.Title" />
       <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
+      <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Xamarin.Forms.AppLinkEntry.Title" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IAppLinkEntry.Title</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -259,6 +289,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TitleProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AppLinkEntry.TitleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TitleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.AppLinkEntry.TitleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -277,6 +308,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AppLinkEntry.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="appLinkEntry.ToString " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

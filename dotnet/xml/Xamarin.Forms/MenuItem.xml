@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MenuItem extends Xamarin.Forms.BaseMenuItem implements class Xamarin.Forms.IMenuItemController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.MenuItem" />
   <TypeSignature Language="VB.NET" Value="Public Class MenuItem&#xA;Inherits BaseMenuItem&#xA;Implements IMenuItemController" />
+  <TypeSignature Language="F#" Value="type MenuItem = class&#xA;    inherit BaseMenuItem&#xA;    interface IMenuItemController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -79,6 +80,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty AcceleratorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MenuItem.AcceleratorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AcceleratorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable AcceleratorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.MenuItem.AcceleratorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -97,7 +99,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Activate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MenuItem.Activate" />
       <MemberSignature Language="VB.NET" Value="Public Sub Activate ()" />
+      <MemberSignature Language="F#" Value="abstract member Activate : unit -&gt; unit&#xA;override this.Activate : unit -&gt; unit" Usage="menuItem.Activate " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IMenuItemController.Activate</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -121,6 +127,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Clicked" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.MenuItem.Clicked" />
       <MemberSignature Language="VB.NET" Value="Public Event Clicked As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.Clicked : EventHandler " Usage="member this.Clicked : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -139,6 +146,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand Command" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MenuItem.Command" />
       <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
+      <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="Xamarin.Forms.MenuItem.Command" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -158,6 +166,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object CommandParameter" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MenuItem.CommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property CommandParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="Xamarin.Forms.MenuItem.CommandParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -177,6 +186,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MenuItem.CommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandParameterProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.MenuItem.CommandParameterProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -195,6 +205,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CommandProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MenuItem.CommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.MenuItem.CommandProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -213,6 +224,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Accelerator GetAccelerator(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MenuItem.GetAccelerator(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetAccelerator (bindable As BindableObject) As Accelerator" />
+      <MemberSignature Language="F#" Value="static member GetAccelerator : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Accelerator" Usage="Xamarin.Forms.MenuItem.GetAccelerator bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -236,6 +248,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.FileImageSource Icon" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MenuItem.Icon" />
       <MemberSignature Language="VB.NET" Value="Public Property Icon As FileImageSource" />
+      <MemberSignature Language="F#" Value="member this.Icon : Xamarin.Forms.FileImageSource with get, set" Usage="Xamarin.Forms.MenuItem.Icon" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -255,6 +268,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IconProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MenuItem.IconProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IconProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IconProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.MenuItem.IconProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -273,6 +287,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsDestructive" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MenuItem.IsDestructive" />
       <MemberSignature Language="VB.NET" Value="Public Property IsDestructive As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsDestructive : bool with get, set" Usage="Xamarin.Forms.MenuItem.IsDestructive" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -292,6 +307,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsDestructiveProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MenuItem.IsDestructiveProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsDestructiveProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsDestructiveProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.MenuItem.IsDestructiveProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -310,7 +326,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEnabled" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MenuItem.IsEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsEnabled : bool with get, set" Usage="Xamarin.Forms.MenuItem.IsEnabled" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IMenuItemController.IsEnabled</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -334,6 +354,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MenuItem.IsEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsEnabledProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsEnabledProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.MenuItem.IsEnabledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -357,7 +378,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance string IsEnabledPropertyName" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MenuItem.IsEnabledPropertyName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsEnabledPropertyName As String" />
+      <MemberSignature Language="F#" Value="member this.IsEnabledPropertyName : string" Usage="Xamarin.Forms.MenuItem.IsEnabledPropertyName" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IMenuItemController.IsEnabledPropertyName</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -381,6 +406,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnClicked() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MenuItem.OnClicked" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnClicked ()" />
+      <MemberSignature Language="F#" Value="abstract member OnClicked : unit -&gt; unit&#xA;override this.OnClicked : unit -&gt; unit" Usage="menuItem.OnClicked " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -400,6 +426,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetAccelerator(class Xamarin.Forms.BindableObject bindable, class Xamarin.Forms.Accelerator value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MenuItem.SetAccelerator(Xamarin.Forms.BindableObject,Xamarin.Forms.Accelerator)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetAccelerator (bindable As BindableObject, value As Accelerator)" />
+      <MemberSignature Language="F#" Value="static member SetAccelerator : Xamarin.Forms.BindableObject * Xamarin.Forms.Accelerator -&gt; unit" Usage="Xamarin.Forms.MenuItem.SetAccelerator (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -424,6 +451,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Text" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MenuItem.Text" />
       <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Xamarin.Forms.MenuItem.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -443,6 +471,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TextProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MenuItem.TextProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TextProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.MenuItem.TextProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

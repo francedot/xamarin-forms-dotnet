@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract INativeBindingService" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.Internals.INativeBindingService" />
   <TypeSignature Language="VB.NET" Value="Public Interface INativeBindingService" />
+  <TypeSignature Language="F#" Value="type INativeBindingService = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,6 +19,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TrySetBinding(object target, string propertyName, class Xamarin.Forms.BindingBase binding) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.Internals.INativeBindingService.TrySetBinding(System.Object,System.String,Xamarin.Forms.BindingBase)" />
       <MemberSignature Language="VB.NET" Value="Public Function TrySetBinding (target As Object, propertyName As String, binding As BindingBase) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member TrySetBinding : obj * string * Xamarin.Forms.BindingBase -&gt; bool" Usage="iNativeBindingService.TrySetBinding (target, propertyName, binding)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -45,6 +47,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TrySetBinding(object target, class Xamarin.Forms.BindableProperty property, class Xamarin.Forms.BindingBase binding) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.Internals.INativeBindingService.TrySetBinding(System.Object,Xamarin.Forms.BindableProperty,Xamarin.Forms.BindingBase)" />
       <MemberSignature Language="VB.NET" Value="Public Function TrySetBinding (target As Object, property As BindableProperty, binding As BindingBase) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member TrySetBinding : obj * Xamarin.Forms.BindableProperty * Xamarin.Forms.BindingBase -&gt; bool" Usage="iNativeBindingService.TrySetBinding (target, property, binding)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -72,6 +75,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TrySetValue(object target, class Xamarin.Forms.BindableProperty property, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.Internals.INativeBindingService.TrySetValue(System.Object,Xamarin.Forms.BindableProperty,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function TrySetValue (target As Object, property As BindableProperty, value As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member TrySetValue : obj * Xamarin.Forms.BindableProperty * obj -&gt; bool" Usage="iNativeBindingService.TrySetValue (target, property, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

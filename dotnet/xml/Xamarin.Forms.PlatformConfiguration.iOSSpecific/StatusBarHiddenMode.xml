@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StatusBarHiddenMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum StatusBarHiddenMode" />
+  <TypeSignature Language="F#" Value="type StatusBarHiddenMode = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -20,6 +21,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode Default = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode.Default" />
       <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 0" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode.Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -38,6 +40,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode False = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode.False" />
       <MemberSignature Language="VB.NET" Value="False" />
+      <MemberSignature Language="F#" Value="False = 2" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode.False" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -56,6 +59,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode True = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode.True" />
       <MemberSignature Language="VB.NET" Value="True" />
+      <MemberSignature Language="F#" Value="True = 1" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode.True" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

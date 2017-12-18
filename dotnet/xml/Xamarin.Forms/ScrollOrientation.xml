@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ScrollOrientation extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ScrollOrientation" />
   <TypeSignature Language="VB.NET" Value="Public Enum ScrollOrientation" />
+  <TypeSignature Language="F#" Value="type ScrollOrientation = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -20,6 +21,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.ScrollOrientation Both = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ScrollOrientation.Both" />
       <MemberSignature Language="VB.NET" Value="Both" />
+      <MemberSignature Language="F#" Value="Both = 2" Usage="Xamarin.Forms.ScrollOrientation.Both" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -38,6 +40,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.ScrollOrientation Horizontal = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ScrollOrientation.Horizontal" />
       <MemberSignature Language="VB.NET" Value="Horizontal" />
+      <MemberSignature Language="F#" Value="Horizontal = 1" Usage="Xamarin.Forms.ScrollOrientation.Horizontal" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -56,6 +59,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.ScrollOrientation Vertical = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ScrollOrientation.Vertical" />
       <MemberSignature Language="VB.NET" Value="Vertical" />
+      <MemberSignature Language="F#" Value="Vertical = 0" Usage="Xamarin.Forms.ScrollOrientation.Vertical" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

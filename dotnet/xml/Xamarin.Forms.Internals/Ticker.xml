@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Ticker extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.Ticker" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Ticker" />
+  <TypeSignature Language="F#" Value="type Ticker = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -42,6 +43,7 @@
       <MemberSignature Language="ILAsm" Value=".property class Xamarin.Forms.Internals.Ticker Default" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.Ticker.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As Ticker" />
+      <MemberSignature Language="F#" Value="member this.Default : Xamarin.Forms.Internals.Ticker" Usage="Xamarin.Forms.Internals.Ticker.Default" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -61,6 +63,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void DisableTimer() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Ticker.DisableTimer" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub DisableTimer ()" />
+      <MemberSignature Language="F#" Value="abstract member DisableTimer : unit -&gt; unit" Usage="ticker.DisableTimer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -80,6 +83,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void EnableTimer() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Ticker.EnableTimer" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub EnableTimer ()" />
+      <MemberSignature Language="F#" Value="abstract member EnableTimer : unit -&gt; unit" Usage="ticker.EnableTimer " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -99,6 +103,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Insert(class System.Func`2&lt;int64, bool&gt; timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Ticker.Insert(System.Func{System.Int64,System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Insert (timeout As Func(Of Long, Boolean)) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member Insert : Func&lt;int64, bool&gt; -&gt; int&#xA;override this.Insert : Func&lt;int64, bool&gt; -&gt; int" Usage="ticker.Insert timeout" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -122,6 +127,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove(int32 handle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Ticker.Remove(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub Remove (handle As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member Remove : int -&gt; unit&#xA;override this.Remove : int -&gt; unit" Usage="ticker.Remove handle" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -144,6 +150,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void SendSignals(int32 timestep) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Ticker.SendSignals(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub SendSignals (Optional timestep As Integer = -1)" />
+      <MemberSignature Language="F#" Value="member this.SendSignals : int -&gt; unit" Usage="ticker.SendSignals timestep" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -165,6 +172,7 @@
       <MemberSignature Language="C#" Value="public static void SetDefault (Xamarin.Forms.Internals.Ticker ticker);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetDefault(class Xamarin.Forms.Internals.Ticker ticker) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Ticker.SetDefault(Xamarin.Forms.Internals.Ticker)" />
+      <MemberSignature Language="F#" Value="static member SetDefault : Xamarin.Forms.Internals.Ticker -&gt; unit" Usage="Xamarin.Forms.Internals.Ticker.SetDefault ticker" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

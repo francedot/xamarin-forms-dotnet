@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Device extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Device" />
   <TypeSignature Language="VB.NET" Value="Public Class Device" />
+  <TypeSignature Language="F#" Value="type Device = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string Android" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Android" />
       <MemberSignature Language="VB.NET" Value="Public Const Android As String " />
+      <MemberSignature Language="F#" Value="val mutable Android : string" Usage="Xamarin.Forms.Device.Android" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -38,6 +40,7 @@
       <MemberSignature Language="C#" Value="public static void BeginInvokeOnMainThread (Action action);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginInvokeOnMainThread(class System.Action action) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Device.BeginInvokeOnMainThread(System.Action)" />
+      <MemberSignature Language="F#" Value="static member BeginInvokeOnMainThread : Action -&gt; unit" Usage="Xamarin.Forms.Device.BeginInvokeOnMainThread action" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -70,6 +73,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".property class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; Flags" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Device.Flags" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Flags As IReadOnlyList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Flags : System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="Xamarin.Forms.Device.Flags" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -94,6 +98,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.Assembly[] GetAssemblies() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Device.GetAssemblies" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetAssemblies () As Assembly()" />
+      <MemberSignature Language="F#" Value="static member GetAssemblies : unit -&gt; System.Reflection.Assembly[]" Usage="Xamarin.Forms.Device.GetAssemblies " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -119,6 +124,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 GetNamedSize(valuetype Xamarin.Forms.NamedSize size, class System.Type targetElementType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Device.GetNamedSize(Xamarin.Forms.NamedSize,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetNamedSize (size As NamedSize, targetElementType As Type) As Double" />
+      <MemberSignature Language="F#" Value="static member GetNamedSize : Xamarin.Forms.NamedSize * Type -&gt; double" Usage="Xamarin.Forms.Device.GetNamedSize (size, targetElementType)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -144,6 +150,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 GetNamedSize(valuetype Xamarin.Forms.NamedSize size, class Xamarin.Forms.Element targetElement) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Device.GetNamedSize(Xamarin.Forms.NamedSize,Xamarin.Forms.Element)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetNamedSize (size As NamedSize, targetElement As Element) As Double" />
+      <MemberSignature Language="F#" Value="static member GetNamedSize : Xamarin.Forms.NamedSize * Xamarin.Forms.Element -&gt; double" Usage="Xamarin.Forms.Device.GetNamedSize (size, targetElement)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -169,6 +176,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 GetNamedSize(valuetype Xamarin.Forms.NamedSize size, class System.Type targetElementType, bool useOldSizes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Device.GetNamedSize(Xamarin.Forms.NamedSize,System.Type,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetNamedSize (size As NamedSize, targetElementType As Type, useOldSizes As Boolean) As Double" />
+      <MemberSignature Language="F#" Value="static member GetNamedSize : Xamarin.Forms.NamedSize * Type * bool -&gt; double" Usage="Xamarin.Forms.Device.GetNamedSize (size, targetElementType, useOldSizes)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -201,6 +209,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".property valuetype Xamarin.Forms.TargetIdiom Idiom" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Device.Idiom" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Idiom As TargetIdiom" />
+      <MemberSignature Language="F#" Value="member this.Idiom : Xamarin.Forms.TargetIdiom" Usage="Xamarin.Forms.Device.Idiom" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -220,6 +229,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".field public static class Xamarin.Forms.Internals.DeviceInfo info" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.info" />
       <MemberSignature Language="VB.NET" Value="Public Shared info As DeviceInfo " />
+      <MemberSignature Language="F#" Value=" staticval mutable info : Xamarin.Forms.Internals.DeviceInfo" Usage="Xamarin.Forms.Device.info" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -243,6 +253,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".property class Xamarin.Forms.Internals.DeviceInfo Info" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Device.Info" />
       <MemberSignature Language="VB.NET" Value="Public Shared Property Info As DeviceInfo" />
+      <MemberSignature Language="F#" Value="member this.Info : Xamarin.Forms.Internals.DeviceInfo with get, set" Usage="Xamarin.Forms.Device.Info" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -267,6 +278,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".field public static literal string iOS" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.iOS" />
       <MemberSignature Language="VB.NET" Value="Public Const iOS As String " />
+      <MemberSignature Language="F#" Value="val mutable iOS : string" Usage="Xamarin.Forms.Device.iOS" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -285,6 +297,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".property bool IsInvokeRequired" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Device.IsInvokeRequired" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsInvokeRequired As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsInvokeRequired : bool" Usage="Xamarin.Forms.Device.IsInvokeRequired" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -309,6 +322,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".field public static literal string macOS" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.macOS" />
       <MemberSignature Language="VB.NET" Value="Public Const macOS As String " />
+      <MemberSignature Language="F#" Value="val mutable macOS : string" Usage="Xamarin.Forms.Device.macOS" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -327,6 +341,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void OnPlatform(class System.Action iOS, class System.Action Android, class System.Action WinPhone, class System.Action Default) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Device.OnPlatform(System.Action,System.Action,System.Action,System.Action)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub OnPlatform (Optional iOS As Action = null, Optional Android As Action = null, Optional WinPhone As Action = null, Optional Default As Action = null)" />
+      <MemberSignature Language="F#" Value="static member OnPlatform : Action * Action * Action * Action -&gt; unit" Usage="Xamarin.Forms.Device.OnPlatform (iOS, Android, WinPhone, Default)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -368,6 +383,7 @@ Device.OnPlatform (iOS: () => label.Font = Font.OfSize ("HelveticaNeue-UltraLigh
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T OnPlatform&lt;T&gt;(!!T iOS, !!T Android, !!T WinPhone) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Device.OnPlatform``1(``0,``0,``0)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OnPlatform(Of T) (iOS As T, Android As T, WinPhone As T) As T" />
+      <MemberSignature Language="F#" Value="static member OnPlatform : 'T * 'T * 'T -&gt; 'T" Usage="Xamarin.Forms.Device.OnPlatform (iOS, Android, WinPhone)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -411,6 +427,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="C#" Value="public static void OpenUri (Uri uri);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void OpenUri(class System.Uri uri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Device.OpenUri(System.Uri)" />
+      <MemberSignature Language="F#" Value="static member OpenUri : Uri -&gt; unit" Usage="Xamarin.Forms.Device.OpenUri uri" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -433,6 +450,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="ILAsm" Value=".property valuetype Xamarin.Forms.TargetPlatform OS" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Device.OS" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OS As TargetPlatform" />
+      <MemberSignature Language="F#" Value="member this.OS : Xamarin.Forms.TargetPlatform" Usage="Xamarin.Forms.Device.OS" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -457,6 +475,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="ILAsm" Value=".property class Xamarin.Forms.Internals.IPlatformServices PlatformServices" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Device.PlatformServices" />
       <MemberSignature Language="VB.NET" Value="Public Shared Property PlatformServices As IPlatformServices" />
+      <MemberSignature Language="F#" Value="member this.PlatformServices : Xamarin.Forms.Internals.IPlatformServices with get, set" Usage="Xamarin.Forms.Device.PlatformServices" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -481,6 +500,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="ILAsm" Value=".property string RuntimePlatform" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Device.RuntimePlatform" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RuntimePlatform As String" />
+      <MemberSignature Language="F#" Value="member this.RuntimePlatform : string" Usage="Xamarin.Forms.Device.RuntimePlatform" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -500,6 +520,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetFlags(class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; flags) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Device.SetFlags(System.Collections.Generic.IReadOnlyList{System.String})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetFlags (flags As IReadOnlyList(Of String))" />
+      <MemberSignature Language="F#" Value="static member SetFlags : System.Collections.Generic.IReadOnlyList&lt;string&gt; -&gt; unit" Usage="Xamarin.Forms.Device.SetFlags flags" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -527,6 +548,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIdiom(valuetype Xamarin.Forms.TargetIdiom value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Device.SetIdiom(Xamarin.Forms.TargetIdiom)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetIdiom (value As TargetIdiom)" />
+      <MemberSignature Language="F#" Value="static member SetIdiom : Xamarin.Forms.TargetIdiom -&gt; unit" Usage="Xamarin.Forms.Device.SetIdiom value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -554,6 +576,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetTargetIdiom(valuetype Xamarin.Forms.TargetIdiom value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Device.SetTargetIdiom(Xamarin.Forms.TargetIdiom)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetTargetIdiom (value As TargetIdiom)" />
+      <MemberSignature Language="F#" Value="static member SetTargetIdiom : Xamarin.Forms.TargetIdiom -&gt; unit" Usage="Xamarin.Forms.Device.SetTargetIdiom value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -581,6 +604,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void StartTimer(valuetype System.TimeSpan interval, class System.Func`1&lt;bool&gt; callback) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Device.StartTimer(System.TimeSpan,System.Func{System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub StartTimer (interval As TimeSpan, callback As Func(Of Boolean))" />
+      <MemberSignature Language="F#" Value="static member StartTimer : TimeSpan * Func&lt;bool&gt; -&gt; unit" Usage="Xamarin.Forms.Device.StartTimer (interval, callback)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -605,6 +629,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="ILAsm" Value=".field public static literal string UWP" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.UWP" />
       <MemberSignature Language="VB.NET" Value="Public Const UWP As String " />
+      <MemberSignature Language="F#" Value="val mutable UWP : string" Usage="Xamarin.Forms.Device.UWP" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -623,6 +648,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="ILAsm" Value=".field public static literal string WinPhone" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.WinPhone" />
       <MemberSignature Language="VB.NET" Value="Public Const WinPhone As String " />
+      <MemberSignature Language="F#" Value="val mutable WinPhone : string" Usage="Xamarin.Forms.Device.WinPhone" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -641,6 +667,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="ILAsm" Value=".field public static literal string WinRT" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.WinRT" />
       <MemberSignature Language="VB.NET" Value="Public Const WinRT As String " />
+      <MemberSignature Language="F#" Value="val mutable WinRT : string" Usage="Xamarin.Forms.Device.WinRT" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

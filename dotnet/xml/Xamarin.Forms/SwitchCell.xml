@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SwitchCell extends Xamarin.Forms.Cell" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.SwitchCell" />
   <TypeSignature Language="VB.NET" Value="Public Class SwitchCell&#xA;Inherits Cell" />
+  <TypeSignature Language="F#" Value="type SwitchCell = class&#xA;    inherit Cell" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -116,6 +117,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool On" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SwitchCell.On" />
       <MemberSignature Language="VB.NET" Value="Public Property On As Boolean" />
+      <MemberSignature Language="F#" Value="member this.On : bool with get, set" Usage="Xamarin.Forms.SwitchCell.On" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -135,6 +137,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ToggledEventArgs&gt; OnChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.SwitchCell.OnChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event OnChanged As EventHandler(Of ToggledEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.OnChanged : EventHandler&lt;Xamarin.Forms.ToggledEventArgs&gt; " Usage="member this.OnChanged : System.EventHandler&lt;Xamarin.Forms.ToggledEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -153,6 +156,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty OnProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SwitchCell.OnProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OnProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable OnProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SwitchCell.OnProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -171,6 +175,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance string Text" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SwitchCell.Text" />
       <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Xamarin.Forms.SwitchCell.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -190,6 +195,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TextProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SwitchCell.TextProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TextProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SwitchCell.TextProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

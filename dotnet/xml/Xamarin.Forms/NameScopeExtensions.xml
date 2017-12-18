@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit NameScopeExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.NameScopeExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module NameScopeExtensions" />
+  <TypeSignature Language="F#" Value="type NameScopeExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -20,6 +21,7 @@
       <MemberSignature Language="C#" Value="public static T FindByName&lt;T&gt; (this Xamarin.Forms.Element element, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T FindByName&lt;T&gt;(class Xamarin.Forms.Element element, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NameScopeExtensions.FindByName``1(Xamarin.Forms.Element,System.String)" />
+      <MemberSignature Language="F#" Value="static member FindByName : Xamarin.Forms.Element * string -&gt; 'T" Usage="Xamarin.Forms.NameScopeExtensions.FindByName (element, name)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ProgressBar extends Xamarin.Forms.View implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.ProgressBar&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ProgressBar" />
   <TypeSignature Language="VB.NET" Value="Public Class ProgressBar&#xA;Inherits View&#xA;Implements IElementConfiguration(Of ProgressBar)" />
+  <TypeSignature Language="F#" Value="type ProgressBar = class&#xA;    inherit View&#xA;    interface IElementConfiguration&lt;ProgressBar&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -78,7 +79,11 @@ Debug.WriteLine ("Animation completed");
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.ProgressBar&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ProgressBar.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, ProgressBar)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.ProgressBar (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.ProgressBar (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="progressBar.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -106,6 +111,7 @@ Debug.WriteLine ("Animation completed");
       <MemberSignature Language="ILAsm" Value=".property instance float64 Progress" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ProgressBar.Progress" />
       <MemberSignature Language="VB.NET" Value="Public Property Progress As Double" />
+      <MemberSignature Language="F#" Value="member this.Progress : double with get, set" Usage="Xamarin.Forms.ProgressBar.Progress" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -125,6 +131,7 @@ Debug.WriteLine ("Animation completed");
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ProgressProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ProgressBar.ProgressProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ProgressProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ProgressProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ProgressBar.ProgressProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -142,6 +149,7 @@ Debug.WriteLine ("Animation completed");
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; ProgressTo (double value, uint length, Xamarin.Forms.Easing easing);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;bool&gt; ProgressTo(float64 value, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ProgressBar.ProgressTo(System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+      <MemberSignature Language="F#" Value="member this.ProgressTo : double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="progressBar.ProgressTo (value, length, easing)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

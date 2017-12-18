@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MultiTrigger extends Xamarin.Forms.TriggerBase" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.MultiTrigger" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MultiTrigger&#xA;Inherits TriggerBase" />
+  <TypeSignature Language="F#" Value="type MultiTrigger = class&#xA;    inherit TriggerBase" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -66,6 +67,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type targetType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiTrigger.#ctor(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (targetType As Type)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.MultiTrigger : Type -&gt; Xamarin.Forms.MultiTrigger" Usage="new Xamarin.Forms.MultiTrigger targetType" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -91,6 +93,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Condition&gt; Conditions" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MultiTrigger.Conditions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conditions As IList(Of Condition)" />
+      <MemberSignature Language="F#" Value="member this.Conditions : System.Collections.Generic.IList&lt;Xamarin.Forms.Condition&gt;" Usage="Xamarin.Forms.MultiTrigger.Conditions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -110,6 +113,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Setter&gt; Setters" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MultiTrigger.Setters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Setters As IList(Of Setter)" />
+      <MemberSignature Language="F#" Value="member this.Setters : System.Collections.Generic.IList&lt;Xamarin.Forms.Setter&gt;" Usage="Xamarin.Forms.MultiTrigger.Setters" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

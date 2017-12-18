@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Stepper extends Xamarin.Forms.View implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.Stepper&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Stepper" />
   <TypeSignature Language="VB.NET" Value="Public Class Stepper&#xA;Inherits View&#xA;Implements IElementConfiguration(Of Stepper)" />
+  <TypeSignature Language="F#" Value="type Stepper = class&#xA;    inherit View&#xA;    interface IElementConfiguration&lt;Stepper&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -147,6 +148,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 min, float64 max, float64 val, float64 increment) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Stepper.#ctor(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (min As Double, max As Double, val As Double, increment As Double)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Stepper : double * double * double * double -&gt; Xamarin.Forms.Stepper" Usage="new Xamarin.Forms.Stepper (min, max, val, increment)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -172,6 +174,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Increment" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Stepper.Increment" />
       <MemberSignature Language="VB.NET" Value="Public Property Increment As Double" />
+      <MemberSignature Language="F#" Value="member this.Increment : double with get, set" Usage="Xamarin.Forms.Stepper.Increment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -191,6 +194,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IncrementProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Stepper.IncrementProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IncrementProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IncrementProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Stepper.IncrementProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -209,6 +213,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Maximum" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Stepper.Maximum" />
       <MemberSignature Language="VB.NET" Value="Public Property Maximum As Double" />
+      <MemberSignature Language="F#" Value="member this.Maximum : double with get, set" Usage="Xamarin.Forms.Stepper.Maximum" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -228,6 +233,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty MaximumProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Stepper.MaximumProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaximumProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MaximumProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Stepper.MaximumProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -246,6 +252,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Minimum" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Stepper.Minimum" />
       <MemberSignature Language="VB.NET" Value="Public Property Minimum As Double" />
+      <MemberSignature Language="F#" Value="member this.Minimum : double with get, set" Usage="Xamarin.Forms.Stepper.Minimum" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -265,6 +272,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty MinimumProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Stepper.MinimumProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinimumProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MinimumProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Stepper.MinimumProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -283,7 +291,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.Stepper&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Stepper.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Stepper)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Stepper (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Stepper (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="stepper.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -311,6 +323,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Value" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Stepper.Value" />
       <MemberSignature Language="VB.NET" Value="Public Property Value As Double" />
+      <MemberSignature Language="F#" Value="member this.Value : double with get, set" Usage="Xamarin.Forms.Stepper.Value" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -330,6 +343,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ValueChangedEventArgs&gt; ValueChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Stepper.ValueChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event ValueChanged As EventHandler(Of ValueChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.ValueChanged : EventHandler&lt;Xamarin.Forms.ValueChangedEventArgs&gt; " Usage="member this.ValueChanged : System.EventHandler&lt;Xamarin.Forms.ValueChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -348,6 +362,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ValueProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Stepper.ValueProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ValueProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ValueProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Stepper.ValueProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GestureState extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.GestureState" />
   <TypeSignature Language="VB.NET" Value="Public Enum GestureState" />
+  <TypeSignature Language="F#" Value="type GestureState = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -20,6 +21,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.GestureState Began = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.GestureState.Began" />
       <MemberSignature Language="VB.NET" Value="Began" />
+      <MemberSignature Language="F#" Value="Began = 0" Usage="Xamarin.Forms.GestureState.Began" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -38,6 +40,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.GestureState Cancelled = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.GestureState.Cancelled" />
       <MemberSignature Language="VB.NET" Value="Cancelled" />
+      <MemberSignature Language="F#" Value="Cancelled = 4" Usage="Xamarin.Forms.GestureState.Cancelled" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -56,6 +59,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.GestureState Ended = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.GestureState.Ended" />
       <MemberSignature Language="VB.NET" Value="Ended" />
+      <MemberSignature Language="F#" Value="Ended = 2" Usage="Xamarin.Forms.GestureState.Ended" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -74,6 +78,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.GestureState Failed = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.GestureState.Failed" />
       <MemberSignature Language="VB.NET" Value="Failed" />
+      <MemberSignature Language="F#" Value="Failed = 3" Usage="Xamarin.Forms.GestureState.Failed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -92,6 +97,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.GestureState Possible = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.GestureState.Possible" />
       <MemberSignature Language="VB.NET" Value="Possible" />
+      <MemberSignature Language="F#" Value="Possible = 5" Usage="Xamarin.Forms.GestureState.Possible" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -110,6 +116,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.GestureState Update = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.GestureState.Update" />
       <MemberSignature Language="VB.NET" Value="Update" />
+      <MemberSignature Language="F#" Value="Update = 1" Usage="Xamarin.Forms.GestureState.Update" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

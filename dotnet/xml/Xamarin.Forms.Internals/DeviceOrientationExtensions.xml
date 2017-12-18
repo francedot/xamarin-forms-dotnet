@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DeviceOrientationExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.DeviceOrientationExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module DeviceOrientationExtensions" />
+  <TypeSignature Language="F#" Value="type DeviceOrientationExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsLandscape(valuetype Xamarin.Forms.Internals.DeviceOrientation orientation) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.DeviceOrientationExtensions.IsLandscape(Xamarin.Forms.Internals.DeviceOrientation)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsLandscape (orientation As DeviceOrientation) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsLandscape : Xamarin.Forms.Internals.DeviceOrientation -&gt; bool" Usage="Xamarin.Forms.Internals.DeviceOrientationExtensions.IsLandscape orientation" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -49,6 +51,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsPortrait(valuetype Xamarin.Forms.Internals.DeviceOrientation orientation) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.DeviceOrientationExtensions.IsPortrait(Xamarin.Forms.Internals.DeviceOrientation)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsPortrait (orientation As DeviceOrientation) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsPortrait : Xamarin.Forms.Internals.DeviceOrientation -&gt; bool" Usage="Xamarin.Forms.Internals.DeviceOrientationExtensions.IsPortrait orientation" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

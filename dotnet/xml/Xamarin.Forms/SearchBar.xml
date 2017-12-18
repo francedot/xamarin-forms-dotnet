@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SearchBar extends Xamarin.Forms.View implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.SearchBar&gt;, class Xamarin.Forms.Internals.IFontElement, class Xamarin.Forms.ISearchBarController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.SearchBar" />
   <TypeSignature Language="VB.NET" Value="Public Class SearchBar&#xA;Inherits View&#xA;Implements IElementConfiguration(Of SearchBar), IFontElement, ISearchBarController" />
+  <TypeSignature Language="F#" Value="type SearchBar = class&#xA;    inherit View&#xA;    interface IFontElement&#xA;    interface ITextElement&#xA;    interface ISearchBarController&#xA;    interface IElementConfiguration&lt;SearchBar&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -138,6 +139,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color CancelButtonColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SearchBar.CancelButtonColor" />
       <MemberSignature Language="VB.NET" Value="Public Property CancelButtonColor As Color" />
+      <MemberSignature Language="F#" Value="member this.CancelButtonColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.SearchBar.CancelButtonColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -157,6 +159,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CancelButtonColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SearchBar.CancelButtonColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CancelButtonColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CancelButtonColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchBar.CancelButtonColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -175,6 +178,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.FontAttributes FontAttributes" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SearchBar.FontAttributes" />
       <MemberSignature Language="VB.NET" Value="Public Property FontAttributes As FontAttributes" />
+      <MemberSignature Language="F#" Value="member this.FontAttributes : Xamarin.Forms.FontAttributes with get, set" Usage="Xamarin.Forms.SearchBar.FontAttributes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -194,6 +198,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FontAttributesProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SearchBar.FontAttributesProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontAttributesProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FontAttributesProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchBar.FontAttributesProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -212,6 +217,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance string FontFamily" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SearchBar.FontFamily" />
       <MemberSignature Language="VB.NET" Value="Public Property FontFamily As String" />
+      <MemberSignature Language="F#" Value="member this.FontFamily : string with get, set" Usage="Xamarin.Forms.SearchBar.FontFamily" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -231,6 +237,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FontFamilyProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SearchBar.FontFamilyProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontFamilyProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FontFamilyProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchBar.FontFamilyProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -249,6 +256,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance float64 FontSize" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SearchBar.FontSize" />
       <MemberSignature Language="VB.NET" Value="Public Property FontSize As Double" />
+      <MemberSignature Language="F#" Value="member this.FontSize : double with get, set" Usage="Xamarin.Forms.SearchBar.FontSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -273,6 +281,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FontSizeProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SearchBar.FontSizeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FontSizeProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FontSizeProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchBar.FontSizeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -291,6 +300,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.TextAlignment HorizontalTextAlignment" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SearchBar.HorizontalTextAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalTextAlignment As TextAlignment" />
+      <MemberSignature Language="F#" Value="member this.HorizontalTextAlignment : Xamarin.Forms.TextAlignment with get, set" Usage="Xamarin.Forms.SearchBar.HorizontalTextAlignment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -310,6 +320,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HorizontalTextAlignmentProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SearchBar.HorizontalTextAlignmentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HorizontalTextAlignmentProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HorizontalTextAlignmentProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchBar.HorizontalTextAlignmentProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -328,7 +339,11 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.SearchBar&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SearchBar.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, SearchBar)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.SearchBar (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.SearchBar (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="searchBar.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -356,7 +371,11 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnSearchButtonPressed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SearchBar.OnSearchButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Public Sub OnSearchButtonPressed ()" />
+      <MemberSignature Language="F#" Value="abstract member OnSearchButtonPressed : unit -&gt; unit&#xA;override this.OnSearchButtonPressed : unit -&gt; unit" Usage="searchBar.OnSearchButtonPressed " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.ISearchBarController.OnSearchButtonPressed</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -380,6 +399,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance string Placeholder" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SearchBar.Placeholder" />
       <MemberSignature Language="VB.NET" Value="Public Property Placeholder As String" />
+      <MemberSignature Language="F#" Value="member this.Placeholder : string with get, set" Usage="Xamarin.Forms.SearchBar.Placeholder" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -399,6 +419,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color PlaceholderColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SearchBar.PlaceholderColor" />
       <MemberSignature Language="VB.NET" Value="Public Property PlaceholderColor As Color" />
+      <MemberSignature Language="F#" Value="member this.PlaceholderColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.SearchBar.PlaceholderColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -418,6 +439,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty PlaceholderColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SearchBar.PlaceholderColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PlaceholderColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PlaceholderColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchBar.PlaceholderColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -436,6 +458,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty PlaceholderProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SearchBar.PlaceholderProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PlaceholderProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PlaceholderProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchBar.PlaceholderProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -454,6 +477,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler SearchButtonPressed" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.SearchBar.SearchButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Public Event SearchButtonPressed As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.SearchButtonPressed : EventHandler " Usage="member this.SearchButtonPressed : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -472,6 +496,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand SearchCommand" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SearchBar.SearchCommand" />
       <MemberSignature Language="VB.NET" Value="Public Property SearchCommand As ICommand" />
+      <MemberSignature Language="F#" Value="member this.SearchCommand : System.Windows.Input.ICommand with get, set" Usage="Xamarin.Forms.SearchBar.SearchCommand" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -491,6 +516,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance object SearchCommandParameter" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SearchBar.SearchCommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property SearchCommandParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.SearchCommandParameter : obj with get, set" Usage="Xamarin.Forms.SearchBar.SearchCommandParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -510,6 +536,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SearchCommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SearchBar.SearchCommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchCommandParameterProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable SearchCommandParameterProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchBar.SearchCommandParameterProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -528,6 +555,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SearchCommandProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SearchBar.SearchCommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchCommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable SearchCommandProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchBar.SearchCommandProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -546,6 +574,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance string Text" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SearchBar.Text" />
       <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Xamarin.Forms.SearchBar.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -565,6 +594,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.TextChangedEventArgs&gt; TextChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.SearchBar.TextChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event TextChanged As EventHandler(Of TextChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.TextChanged : EventHandler&lt;Xamarin.Forms.TextChangedEventArgs&gt; " Usage="member this.TextChanged : System.EventHandler&lt;Xamarin.Forms.TextChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -583,6 +613,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color TextColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SearchBar.TextColor" />
       <MemberSignature Language="VB.NET" Value="Public Property TextColor As Color" />
+      <MemberSignature Language="F#" Value="member this.TextColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.SearchBar.TextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -602,6 +633,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SearchBar.TextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TextColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchBar.TextColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -620,6 +652,7 @@ public class App : Application
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TextProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SearchBar.TextProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TextProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchBar.TextProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -639,6 +672,9 @@ public class App : Application
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SearchBar.Xamarin#Forms#Internals#IFontElement#FontSizeDefaultValueCreator" />
       <MemberSignature Language="VB.NET" Value="Function FontSizeDefaultValueCreator () As Double Implements IFontElement.FontSizeDefaultValueCreator" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.IFontElement.FontSizeDefaultValueCreator</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -659,6 +695,9 @@ public class App : Application
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SearchBar.Xamarin#Forms#Internals#IFontElement#OnFontAttributesChanged(Xamarin.Forms.FontAttributes,Xamarin.Forms.FontAttributes)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontAttributesChanged (oldValue As FontAttributes, newValue As FontAttributes) Implements IFontElement.OnFontAttributesChanged" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.IFontElement.OnFontAttributesChanged(Xamarin.Forms.FontAttributes,Xamarin.Forms.FontAttributes)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -683,6 +722,9 @@ public class App : Application
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SearchBar.Xamarin#Forms#Internals#IFontElement#OnFontChanged(Xamarin.Forms.Font,Xamarin.Forms.Font)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontChanged (oldValue As Font, newValue As Font) Implements IFontElement.OnFontChanged" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.IFontElement.OnFontChanged(Xamarin.Forms.Font,Xamarin.Forms.Font)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -707,6 +749,9 @@ public class App : Application
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SearchBar.Xamarin#Forms#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontFamilyChanged (oldValue As String, newValue As String) Implements IFontElement.OnFontFamilyChanged" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.IFontElement.OnFontFamilyChanged(System.String,System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -731,6 +776,9 @@ public class App : Application
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SearchBar.Xamarin#Forms#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Sub OnFontSizeChanged (oldValue As Double, newValue As Double) Implements IFontElement.OnFontSizeChanged" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.IFontElement.OnFontSizeChanged(System.Double,System.Double)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

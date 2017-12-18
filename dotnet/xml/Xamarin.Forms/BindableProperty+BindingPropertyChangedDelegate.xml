@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed BindableProperty/BindingPropertyChangedDelegate extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.BindableProperty.BindingPropertyChangedDelegate" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub BindableProperty.BindingPropertyChangedDelegate(bindable As BindableObject, oldValue As Object, newValue As Object)" />
+  <TypeSignature Language="F#" Value="type BindableProperty.BindingPropertyChangedDelegate = delegate of BindableObject * obj * obj -&gt; unit" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>

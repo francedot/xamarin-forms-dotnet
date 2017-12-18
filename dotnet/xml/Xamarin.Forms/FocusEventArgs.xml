@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FocusEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.FocusEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class FocusEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type FocusEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -20,6 +21,7 @@
       <MemberSignature Language="C#" Value="public FocusEventArgs (Xamarin.Forms.VisualElement visualElement, bool isFocused);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Xamarin.Forms.VisualElement visualElement, bool isFocused) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.FocusEventArgs.#ctor(Xamarin.Forms.VisualElement,System.Boolean)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.FocusEventArgs : Xamarin.Forms.VisualElement * bool -&gt; Xamarin.Forms.FocusEventArgs" Usage="new Xamarin.Forms.FocusEventArgs (visualElement, isFocused)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -41,6 +43,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsFocused" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.FocusEventArgs.IsFocused" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFocused As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsFocused : bool" Usage="Xamarin.Forms.FocusEventArgs.IsFocused" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -61,6 +64,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.VisualElement VisualElement" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.FocusEventArgs.VisualElement" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VisualElement As VisualElement" />
+      <MemberSignature Language="F#" Value="member this.VisualElement : Xamarin.Forms.VisualElement" Usage="Xamarin.Forms.FocusEventArgs.VisualElement" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

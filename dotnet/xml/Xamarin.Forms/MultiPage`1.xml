@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit MultiPage`1&lt;(class Xamarin.Forms.Page) T&gt; extends Xamarin.Forms.Page implements class Xamarin.Forms.IItemsView`1&lt;!T&gt;, class Xamarin.Forms.IMultiPageController`1&lt;!T&gt;, class Xamarin.Forms.IPageContainer`1&lt;!T&gt;, class Xamarin.Forms.IViewContainer`1&lt;!T&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.MultiPage`1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class MultiPage(Of T)&#xA;Inherits Page&#xA;Implements IItemsView(Of T), IMultiPageController(Of T), IPageContainer(Of T), IViewContainer(Of T)" />
+  <TypeSignature Language="F#" Value="type MultiPage&lt;'T (requires 'T :&gt; Page)&gt; = class&#xA;    inherit Page&#xA;    interface IViewContainer&lt;'T (requires 'T :&gt; Page)&gt;&#xA;    interface IPageContainer&lt;'T (requires 'T :&gt; Page)&gt;&#xA;    interface IItemsView&lt;'T (requires 'T :&gt; Page)&gt;&#xA;    interface IMultiPageController&lt;'T (requires 'T :&gt; Page)&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -84,7 +85,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;!T&gt; Children" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MultiPage`1.Children" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Children As IList(Of T)" />
+      <MemberSignature Language="F#" Value="member this.Children : System.Collections.Generic.IList&lt;'T (requires 'T :&gt; Xamarin.Forms.Page)&gt;" Usage="Xamarin.Forms.MultiPage&lt;'T (requires 'T :&gt; Xamarin.Forms.Page)&gt;.Children" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IViewContainer`1.Children</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -124,7 +129,11 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance !T CreateDefault(object item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.CreateDefault(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function CreateDefault (item As Object) As T" />
+      <MemberSignature Language="F#" Value="abstract member CreateDefault : obj -&gt; 'T" Usage="multiPage.CreateDefault item" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IItemsView`1.CreateDefault(System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -147,6 +156,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".property instance !T CurrentPage" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MultiPage`1.CurrentPage" />
       <MemberSignature Language="VB.NET" Value="Public Property CurrentPage As T" />
+      <MemberSignature Language="F#" Value="member this.CurrentPage : 'T with get, set" Usage="Xamarin.Forms.MultiPage&lt;'T (requires 'T :&gt; Xamarin.Forms.Page)&gt;.CurrentPage" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -166,6 +176,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler CurrentPageChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.MultiPage`1.CurrentPageChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event CurrentPageChanged As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.CurrentPageChanged : EventHandler " Usage="member this.CurrentPageChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -184,6 +195,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetIndex(!T page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.GetIndex(`0)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetIndex (page As T) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetIndex : 'T -&gt; int" Usage="Xamarin.Forms.MultiPage&lt;'T (requires 'T :&gt; Xamarin.Forms.Page)&gt;.GetIndex page" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -212,7 +224,11 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !T GetPageByIndex(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.GetPageByIndex(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPageByIndex (index As Integer) As T" />
+      <MemberSignature Language="F#" Value="abstract member GetPageByIndex : int -&gt; 'T&#xA;override this.GetPageByIndex : int -&gt; 'T" Usage="multiPage.GetPageByIndex index" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IMultiPageController`1.GetPageByIndex(System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -240,6 +256,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.IEnumerable ItemsSource" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MultiPage`1.ItemsSource" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemsSource As IEnumerable" />
+      <MemberSignature Language="F#" Value="member this.ItemsSource : System.Collections.IEnumerable with get, set" Usage="Xamarin.Forms.MultiPage&lt;'T (requires 'T :&gt; Xamarin.Forms.Page)&gt;.ItemsSource" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -259,6 +276,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ItemsSourceProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MultiPage`1.ItemsSourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemsSourceProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemsSourceProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.MultiPage&lt;'T (requires 'T :&gt; Xamarin.Forms.Page)&gt;.ItemsSourceProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -277,6 +295,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.DataTemplate ItemTemplate" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MultiPage`1.ItemTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemTemplate As DataTemplate" />
+      <MemberSignature Language="F#" Value="member this.ItemTemplate : Xamarin.Forms.DataTemplate with get, set" Usage="Xamarin.Forms.MultiPage&lt;'T (requires 'T :&gt; Xamarin.Forms.Page)&gt;.ItemTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -296,6 +315,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ItemTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MultiPage`1.ItemTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemTemplateProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemTemplateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.MultiPage&lt;'T (requires 'T :&gt; Xamarin.Forms.Page)&gt;.ItemTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -314,6 +334,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool OnBackButtonPressed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.OnBackButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnBackButtonPressed () As Boolean" />
+      <MemberSignature Language="F#" Value="override this.OnBackButtonPressed : unit -&gt; bool" Usage="multiPage.OnBackButtonPressed " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -334,6 +355,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildAdded(class Xamarin.Forms.Element child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.OnChildAdded(Xamarin.Forms.Element)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnChildAdded (child As Element)" />
+      <MemberSignature Language="F#" Value="override this.OnChildAdded : Xamarin.Forms.Element -&gt; unit" Usage="multiPage.OnChildAdded child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -356,6 +378,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnCurrentPageChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.OnCurrentPageChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnCurrentPageChanged ()" />
+      <MemberSignature Language="F#" Value="abstract member OnCurrentPageChanged : unit -&gt; unit&#xA;override this.OnCurrentPageChanged : unit -&gt; unit" Usage="multiPage.OnCurrentPageChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -375,6 +398,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnPagesChanged(class System.Collections.Specialized.NotifyCollectionChangedEventArgs e) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.OnPagesChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnPagesChanged (e As NotifyCollectionChangedEventArgs)" />
+      <MemberSignature Language="F#" Value="abstract member OnPagesChanged : System.Collections.Specialized.NotifyCollectionChangedEventArgs -&gt; unit&#xA;override this.OnPagesChanged : System.Collections.Specialized.NotifyCollectionChangedEventArgs -&gt; unit" Usage="multiPage.OnPagesChanged e" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -397,6 +421,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPropertyChanged(string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.OnPropertyChanged(System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPropertyChanged (Optional propertyName As String = null)" />
+      <MemberSignature Language="F#" Value="override this.OnPropertyChanged : string -&gt; unit" Usage="multiPage.OnPropertyChanged propertyName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -425,6 +450,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".event class System.Collections.Specialized.NotifyCollectionChangedEventHandler PagesChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.MultiPage`1.PagesChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event PagesChanged As NotifyCollectionChangedEventHandler " />
+      <MemberSignature Language="F#" Value="member this.PagesChanged : System.Collections.Specialized.NotifyCollectionChangedEventHandler " Usage="member this.PagesChanged : System.Collections.Specialized.NotifyCollectionChangedEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -443,6 +469,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".property instance object SelectedItem" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MultiPage`1.SelectedItem" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectedItem As Object" />
+      <MemberSignature Language="F#" Value="member this.SelectedItem : obj with get, set" Usage="Xamarin.Forms.MultiPage&lt;'T (requires 'T :&gt; Xamarin.Forms.Page)&gt;.SelectedItem" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -462,6 +489,7 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SelectedItemProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MultiPage`1.SelectedItemProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectedItemProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable SelectedItemProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.MultiPage&lt;'T (requires 'T :&gt; Xamarin.Forms.Page)&gt;.SelectedItemProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -479,6 +507,7 @@ Children = {
       <MemberSignature Language="C#" Value="public static void SetIndex (Xamarin.Forms.Page page, int index);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIndex(class Xamarin.Forms.Page page, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.SetIndex(Xamarin.Forms.Page,System.Int32)" />
+      <MemberSignature Language="F#" Value="static member SetIndex : Xamarin.Forms.Page * int -&gt; unit" Usage="Xamarin.Forms.MultiPage&lt;'T (requires 'T :&gt; Xamarin.Forms.Page)&gt;.SetIndex (page, index)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -508,7 +537,11 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void SetupContent(!T content, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.SetupContent(`0,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub SetupContent (content As T, index As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member SetupContent : 'T * int -&gt; unit&#xA;override this.SetupContent : 'T * int -&gt; unit" Usage="multiPage.SetupContent (content, index)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IItemsView`1.SetupContent(`0,System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -532,7 +565,11 @@ Children = {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void UnhookContent(!T content) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.UnhookContent(`0)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub UnhookContent (content As T)" />
+      <MemberSignature Language="F#" Value="abstract member UnhookContent : 'T -&gt; unit&#xA;override this.UnhookContent : 'T -&gt; unit" Usage="multiPage.UnhookContent content" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IItemsView`1.UnhookContent(`0)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -555,6 +592,9 @@ Children = {
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.Xamarin#Forms#IItemsView&lt;T&gt;#CreateDefault(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Function CreateDefault (item As Object) As T Implements IItemsView(Of T).CreateDefault" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IItemsView`1.CreateDefault(System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -578,6 +618,9 @@ Children = {
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.Xamarin#Forms#IItemsView&lt;T&gt;#SetupContent(`0,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Sub SetupContent (content As T, index As Integer) Implements IItemsView(Of T).SetupContent" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IItemsView`1.SetupContent(`0,System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -602,6 +645,9 @@ Children = {
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MultiPage`1.Xamarin#Forms#IItemsView&lt;T&gt;#UnhookContent(`0)" />
       <MemberSignature Language="VB.NET" Value="Sub UnhookContent (content As T) Implements IItemsView(Of T).UnhookContent" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IItemsView`1.UnhookContent(`0)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

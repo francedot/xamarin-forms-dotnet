@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FileAccess extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.FileAccess" />
   <TypeSignature Language="VB.NET" Value="Public Enum FileAccess" />
+  <TypeSignature Language="F#" Value="type FileAccess = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -25,6 +26,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.FileAccess Read = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.FileAccess.Read" />
       <MemberSignature Language="VB.NET" Value="Read" />
+      <MemberSignature Language="F#" Value="Read = 1" Usage="Xamarin.Forms.Internals.FileAccess.Read" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.FileAccess ReadWrite = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.FileAccess.ReadWrite" />
       <MemberSignature Language="VB.NET" Value="ReadWrite" />
+      <MemberSignature Language="F#" Value="ReadWrite = 3" Usage="Xamarin.Forms.Internals.FileAccess.ReadWrite" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -61,6 +64,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.FileAccess Write = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.FileAccess.Write" />
       <MemberSignature Language="VB.NET" Value="Write" />
+      <MemberSignature Language="F#" Value="Write = 2" Usage="Xamarin.Forms.Internals.FileAccess.Write" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

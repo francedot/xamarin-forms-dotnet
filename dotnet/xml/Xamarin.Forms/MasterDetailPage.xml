@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MasterDetailPage extends Xamarin.Forms.Page implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.MasterDetailPage&gt;, class Xamarin.Forms.IMasterDetailPageController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.MasterDetailPage" />
   <TypeSignature Language="VB.NET" Value="Public Class MasterDetailPage&#xA;Inherits Page&#xA;Implements IElementConfiguration(Of MasterDetailPage), IMasterDetailPageController" />
+  <TypeSignature Language="F#" Value="type MasterDetailPage = class&#xA;    inherit Page&#xA;    interface IMasterDetailPageController&#xA;    interface IElementConfiguration&lt;MasterDetailPage&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -148,7 +149,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.BackButtonPressedEventArgs&gt; BackButtonPressed" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.MasterDetailPage.BackButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Public Event BackButtonPressed As EventHandler(Of BackButtonPressedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.BackButtonPressed : EventHandler&lt;Xamarin.Forms.BackButtonPressedEventArgs&gt; " Usage="member this.BackButtonPressed : System.EventHandler&lt;Xamarin.Forms.BackButtonPressedEventArgs&gt; " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.IMasterDetailPageController.BackButtonPressed</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -171,7 +176,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool CanChangeIsPresented" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MasterDetailPage.CanChangeIsPresented" />
       <MemberSignature Language="VB.NET" Value="Public Property CanChangeIsPresented As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CanChangeIsPresented : bool with get, set" Usage="Xamarin.Forms.MasterDetailPage.CanChangeIsPresented" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IMasterDetailPageController.CanChangeIsPresented</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -195,6 +204,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Page Detail" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MasterDetailPage.Detail" />
       <MemberSignature Language="VB.NET" Value="Public Property Detail As Page" />
+      <MemberSignature Language="F#" Value="member this.Detail : Xamarin.Forms.Page with get, set" Usage="Xamarin.Forms.MasterDetailPage.Detail" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -214,7 +224,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Rectangle DetailBounds" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MasterDetailPage.DetailBounds" />
       <MemberSignature Language="VB.NET" Value="Public Property DetailBounds As Rectangle" />
+      <MemberSignature Language="F#" Value="member this.DetailBounds : Xamarin.Forms.Rectangle with get, set" Usage="Xamarin.Forms.MasterDetailPage.DetailBounds" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IMasterDetailPageController.DetailBounds</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -238,6 +252,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool IsGestureEnabled" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MasterDetailPage.IsGestureEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsGestureEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsGestureEnabled : bool with get, set" Usage="Xamarin.Forms.MasterDetailPage.IsGestureEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -258,6 +273,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsGestureEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MasterDetailPage.IsGestureEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsGestureEnabledProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsGestureEnabledProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.MasterDetailPage.IsGestureEnabledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -276,6 +292,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPresented" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MasterDetailPage.IsPresented" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPresented As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsPresented : bool with get, set" Usage="Xamarin.Forms.MasterDetailPage.IsPresented" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -295,6 +312,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler IsPresentedChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.MasterDetailPage.IsPresentedChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event IsPresentedChanged As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.IsPresentedChanged : EventHandler " Usage="member this.IsPresentedChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -313,6 +331,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsPresentedProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MasterDetailPage.IsPresentedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsPresentedProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsPresentedProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.MasterDetailPage.IsPresentedProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -331,6 +350,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void LayoutChildren(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MasterDetailPage.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub LayoutChildren (x As Double, y As Double, width As Double, height As Double)" />
+      <MemberSignature Language="F#" Value="override this.LayoutChildren : double * double * double * double -&gt; unit" Usage="masterDetailPage.LayoutChildren (x, y, width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -359,6 +379,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Page Master" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MasterDetailPage.Master" />
       <MemberSignature Language="VB.NET" Value="Public Property Master As Page" />
+      <MemberSignature Language="F#" Value="member this.Master : Xamarin.Forms.Page with get, set" Usage="Xamarin.Forms.MasterDetailPage.Master" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -378,6 +399,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.MasterBehavior MasterBehavior" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MasterDetailPage.MasterBehavior" />
       <MemberSignature Language="VB.NET" Value="Public Property MasterBehavior As MasterBehavior" />
+      <MemberSignature Language="F#" Value="member this.MasterBehavior : Xamarin.Forms.MasterBehavior with get, set" Usage="Xamarin.Forms.MasterDetailPage.MasterBehavior" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -397,6 +419,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty MasterBehaviorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MasterDetailPage.MasterBehaviorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MasterBehaviorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MasterBehaviorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.MasterDetailPage.MasterBehaviorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -415,7 +438,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Rectangle MasterBounds" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MasterDetailPage.MasterBounds" />
       <MemberSignature Language="VB.NET" Value="Public Property MasterBounds As Rectangle" />
+      <MemberSignature Language="F#" Value="member this.MasterBounds : Xamarin.Forms.Rectangle with get, set" Usage="Xamarin.Forms.MasterDetailPage.MasterBounds" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IMasterDetailPageController.MasterBounds</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -439,7 +466,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.MasterDetailPage&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MasterDetailPage.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, MasterDetailPage)" />
+      <MemberSignature Language="F#" Value="override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.MasterDetailPage (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="masterDetailPage.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -467,6 +498,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAppearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MasterDetailPage.OnAppearing" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAppearing ()" />
+      <MemberSignature Language="F#" Value="override this.OnAppearing : unit -&gt; unit" Usage="masterDetailPage.OnAppearing " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -486,6 +518,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool OnBackButtonPressed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MasterDetailPage.OnBackButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnBackButtonPressed () As Boolean" />
+      <MemberSignature Language="F#" Value="override this.OnBackButtonPressed : unit -&gt; bool" Usage="masterDetailPage.OnBackButtonPressed " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -506,6 +539,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnParentSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MasterDetailPage.OnParentSet" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnParentSet ()" />
+      <MemberSignature Language="F#" Value="override this.OnParentSet : unit -&gt; unit" Usage="masterDetailPage.OnParentSet " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -525,7 +559,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool ShouldShowSplitMode" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.MasterDetailPage.ShouldShowSplitMode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShouldShowSplitMode As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ShouldShowSplitMode : bool" Usage="Xamarin.Forms.MasterDetailPage.ShouldShowSplitMode" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IMasterDetailPageController.ShouldShowSplitMode</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -549,6 +587,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool ShouldShowToolbarButton() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MasterDetailPage.ShouldShowToolbarButton" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ShouldShowToolbarButton () As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member ShouldShowToolbarButton : unit -&gt; bool&#xA;override this.ShouldShowToolbarButton : unit -&gt; bool" Usage="masterDetailPage.ShouldShowToolbarButton " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -569,7 +608,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UpdateMasterBehavior() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MasterDetailPage.UpdateMasterBehavior" />
       <MemberSignature Language="VB.NET" Value="Public Sub UpdateMasterBehavior ()" />
+      <MemberSignature Language="F#" Value="abstract member UpdateMasterBehavior : unit -&gt; unit&#xA;override this.UpdateMasterBehavior : unit -&gt; unit" Usage="masterDetailPage.UpdateMasterBehavior " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IMasterDetailPageController.UpdateMasterBehavior</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

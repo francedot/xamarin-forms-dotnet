@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed BindableProperty/CoerceValueDelegate`1&lt;TPropertyType&gt; extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.BindableProperty.CoerceValueDelegate`1" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Function BindableProperty.CoerceValueDelegate(Of TPropertyType)(bindable As BindableObject, value As TPropertyType) As TPropertyType " />
+  <TypeSignature Language="F#" Value="type BindableProperty.CoerceValueDelegate&lt;'PropertyType&gt; = delegate of BindableObject * 'PropertyType -&gt; 'PropertyType" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>

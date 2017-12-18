@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IIsolatedStorageFile" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.IIsolatedStorageFile" />
   <TypeSignature Language="VB.NET" Value="Public Interface IIsolatedStorageFile" />
+  <TypeSignature Language="F#" Value="type IIsolatedStorageFile = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task CreateDirectoryAsync(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.IIsolatedStorageFile.CreateDirectoryAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateDirectoryAsync (path As String) As Task" />
+      <MemberSignature Language="F#" Value="abstract member CreateDirectoryAsync : string -&gt; System.Threading.Tasks.Task" Usage="iIsolatedStorageFile.CreateDirectoryAsync path" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; GetDirectoryExistsAsync(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.IIsolatedStorageFile.GetDirectoryExistsAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetDirectoryExistsAsync (path As String) As Task(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member GetDirectoryExistsAsync : string -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="iIsolatedStorageFile.GetDirectoryExistsAsync path" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -69,6 +72,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; GetFileExistsAsync(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.IIsolatedStorageFile.GetFileExistsAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetFileExistsAsync (path As String) As Task(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member GetFileExistsAsync : string -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="iIsolatedStorageFile.GetFileExistsAsync path" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -92,6 +96,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;valuetype System.DateTimeOffset&gt; GetLastWriteTimeAsync(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.IIsolatedStorageFile.GetLastWriteTimeAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetLastWriteTimeAsync (path As String) As Task(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="abstract member GetLastWriteTimeAsync : string -&gt; System.Threading.Tasks.Task&lt;DateTimeOffset&gt;" Usage="iIsolatedStorageFile.GetLastWriteTimeAsync path" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -115,6 +120,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt; OpenFileAsync(string path, valuetype Xamarin.Forms.Internals.FileMode mode, valuetype Xamarin.Forms.Internals.FileAccess access) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.IIsolatedStorageFile.OpenFileAsync(System.String,Xamarin.Forms.Internals.FileMode,Xamarin.Forms.Internals.FileAccess)" />
       <MemberSignature Language="VB.NET" Value="Public Function OpenFileAsync (path As String, mode As FileMode, access As FileAccess) As Task(Of Stream)" />
+      <MemberSignature Language="F#" Value="abstract member OpenFileAsync : string * Xamarin.Forms.Internals.FileMode * Xamarin.Forms.Internals.FileAccess -&gt; System.Threading.Tasks.Task&lt;System.IO.Stream&gt;" Usage="iIsolatedStorageFile.OpenFileAsync (path, mode, access)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -142,6 +148,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt; OpenFileAsync(string path, valuetype Xamarin.Forms.Internals.FileMode mode, valuetype Xamarin.Forms.Internals.FileAccess access, valuetype Xamarin.Forms.Internals.FileShare share) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.IIsolatedStorageFile.OpenFileAsync(System.String,Xamarin.Forms.Internals.FileMode,Xamarin.Forms.Internals.FileAccess,Xamarin.Forms.Internals.FileShare)" />
       <MemberSignature Language="VB.NET" Value="Public Function OpenFileAsync (path As String, mode As FileMode, access As FileAccess, share As FileShare) As Task(Of Stream)" />
+      <MemberSignature Language="F#" Value="abstract member OpenFileAsync : string * Xamarin.Forms.Internals.FileMode * Xamarin.Forms.Internals.FileAccess * Xamarin.Forms.Internals.FileShare -&gt; System.Threading.Tasks.Task&lt;System.IO.Stream&gt;" Usage="iIsolatedStorageFile.OpenFileAsync (path, mode, access, share)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

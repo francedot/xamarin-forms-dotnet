@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Behavior`1&lt;(class Xamarin.Forms.BindableObject) T&gt; extends Xamarin.Forms.Behavior" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Behavior`1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Behavior(Of T)&#xA;Inherits Behavior" />
+  <TypeSignature Language="F#" Value="type Behavior&lt;'T (requires 'T :&gt; BindableObject)&gt; = class&#xA;    inherit Behavior" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -46,6 +47,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnAttachedTo(!T bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Behavior`1.OnAttachedTo(`0)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnAttachedTo (bindable As T)" />
+      <MemberSignature Language="F#" Value="override this.OnAttachedTo : 'T -&gt; unit" Usage="behavior.OnAttachedTo bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -68,6 +70,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAttachedTo(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Behavior`1.OnAttachedTo(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAttachedTo (bindable As BindableObject)" />
+      <MemberSignature Language="F#" Value="override this.OnAttachedTo : Xamarin.Forms.BindableObject -&gt; unit" Usage="behavior.OnAttachedTo bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -90,6 +93,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnDetachingFrom(!T bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Behavior`1.OnDetachingFrom(`0)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnDetachingFrom (bindable As T)" />
+      <MemberSignature Language="F#" Value="override this.OnDetachingFrom : 'T -&gt; unit" Usage="behavior.OnDetachingFrom bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -112,6 +116,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnDetachingFrom(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Behavior`1.OnDetachingFrom(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnDetachingFrom (bindable As BindableObject)" />
+      <MemberSignature Language="F#" Value="override this.OnDetachingFrom : Xamarin.Forms.BindableObject -&gt; unit" Usage="behavior.OnDetachingFrom bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

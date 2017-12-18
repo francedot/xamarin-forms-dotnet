@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ImageCell extends Xamarin.Forms.TextCell" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ImageCell" />
   <TypeSignature Language="VB.NET" Value="Public Class ImageCell&#xA;Inherits TextCell" />
+  <TypeSignature Language="F#" Value="type ImageCell = class&#xA;    inherit TextCell" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -98,6 +99,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ImageSource ImageSource" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ImageCell.ImageSource" />
       <MemberSignature Language="VB.NET" Value="Public Property ImageSource As ImageSource" />
+      <MemberSignature Language="F#" Value="member this.ImageSource : Xamarin.Forms.ImageSource with get, set" Usage="Xamarin.Forms.ImageCell.ImageSource" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -122,6 +124,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ImageSourceProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ImageCell.ImageSourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImageSourceProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ImageSourceProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ImageCell.ImageSourceProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -140,6 +143,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ImageCell.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
+      <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="imageCell.OnBindingContextChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

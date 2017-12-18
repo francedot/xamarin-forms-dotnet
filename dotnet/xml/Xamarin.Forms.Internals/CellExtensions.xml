@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CellExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.CellExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module CellExtensions" />
+  <TypeSignature Language="F#" Value="type CellExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.ITemplatedItemsList`1&lt;!!TItem&gt; GetGroup&lt;(class Xamarin.Forms.BindableObject, class Xamarin.Forms.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Xamarin.Forms.BindableObject) TItem&gt;(!!TItem cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.CellExtensions.GetGroup``2(``1)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetGroup(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem) As ITemplatedItemsList(Of TItem)" />
+      <MemberSignature Language="F#" Value="static member GetGroup : 'Item -&gt; Xamarin.Forms.ITemplatedItemsList&lt;'Item (requires 'Item :&gt; Xamarin.Forms.BindableObject)&gt; (requires 'View :&gt; Xamarin.Forms.BindableObject and 'View :&gt; Xamarin.Forms.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Xamarin.Forms.BindableObject)" Usage="Xamarin.Forms.Internals.CellExtensions.GetGroup cell" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -64,6 +66,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItem GetGroupHeaderContent&lt;(class Xamarin.Forms.BindableObject, class Xamarin.Forms.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Xamarin.Forms.BindableObject) TItem&gt;(!!TItem cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.CellExtensions.GetGroupHeaderContent``2(``1)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetGroupHeaderContent(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem) As TItem" />
+      <MemberSignature Language="F#" Value="static member GetGroupHeaderContent : 'Item -&gt; 'Item (requires 'View :&gt; Xamarin.Forms.BindableObject and 'View :&gt; Xamarin.Forms.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Xamarin.Forms.BindableObject)" Usage="Xamarin.Forms.Internals.CellExtensions.GetGroupHeaderContent cell" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -102,6 +105,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetIndex&lt;(class Xamarin.Forms.BindableObject, class Xamarin.Forms.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Xamarin.Forms.BindableObject) TItem&gt;(!!TItem cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.CellExtensions.GetIndex``2(``1)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetIndex(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetIndex : 'Item -&gt; int (requires 'View :&gt; Xamarin.Forms.BindableObject and 'View :&gt; Xamarin.Forms.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Xamarin.Forms.BindableObject)" Usage="Xamarin.Forms.Internals.CellExtensions.GetIndex cell" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -140,6 +144,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsGroupHeader&lt;(class Xamarin.Forms.BindableObject, class Xamarin.Forms.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Xamarin.Forms.BindableObject) TItem&gt;(!!TItem cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.CellExtensions.GetIsGroupHeader``2(``1)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetIsGroupHeader(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem) As Boolean" />
+      <MemberSignature Language="F#" Value="static member GetIsGroupHeader : 'Item -&gt; bool (requires 'View :&gt; Xamarin.Forms.BindableObject and 'View :&gt; Xamarin.Forms.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Xamarin.Forms.BindableObject)" Usage="Xamarin.Forms.Internals.CellExtensions.GetIsGroupHeader cell" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -177,6 +182,7 @@
       <MemberSignature Language="C#" Value="public static Tuple&lt;int,int&gt; GetPath (this Xamarin.Forms.Cell cell);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Tuple`2&lt;int32, int32&gt; GetPath(class Xamarin.Forms.Cell cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.CellExtensions.GetPath(Xamarin.Forms.Cell)" />
+      <MemberSignature Language="F#" Value="static member GetPath : Xamarin.Forms.Cell -&gt; int * int" Usage="Xamarin.Forms.Internals.CellExtensions.GetPath cell" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -200,6 +206,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsGroupHeader&lt;(class Xamarin.Forms.BindableObject, class Xamarin.Forms.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Xamarin.Forms.BindableObject) TItem&gt;(!!TItem cell, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.CellExtensions.SetIsGroupHeader``2(``1,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetIsGroupHeader(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem, value As Boolean)" />
+      <MemberSignature Language="F#" Value="static member SetIsGroupHeader : 'Item * bool -&gt; unit (requires 'View :&gt; Xamarin.Forms.BindableObject and 'View :&gt; Xamarin.Forms.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Xamarin.Forms.BindableObject)" Usage="Xamarin.Forms.Internals.CellExtensions.SetIsGroupHeader (cell, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

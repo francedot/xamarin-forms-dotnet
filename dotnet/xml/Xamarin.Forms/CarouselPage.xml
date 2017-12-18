@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CarouselPage extends Xamarin.Forms.MultiPage`1&lt;class Xamarin.Forms.ContentPage&gt; implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.CarouselPage&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.CarouselPage" />
   <TypeSignature Language="VB.NET" Value="Public Class CarouselPage&#xA;Inherits MultiPage(Of ContentPage)&#xA;Implements IElementConfiguration(Of CarouselPage)" />
+  <TypeSignature Language="F#" Value="type CarouselPage = class&#xA;    inherit MultiPage&lt;ContentPage&gt;&#xA;    interface IElementConfiguration&lt;CarouselPage&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -105,6 +106,7 @@ MainPage = new CarouselPage {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Xamarin.Forms.ContentPage CreateDefault(object item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.CarouselPage.CreateDefault(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateDefault (item As Object) As ContentPage" />
+      <MemberSignature Language="F#" Value="override this.CreateDefault : obj -&gt; Xamarin.Forms.ContentPage" Usage="carouselPage.CreateDefault item" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -128,7 +130,11 @@ MainPage = new CarouselPage {
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.CarouselPage&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.CarouselPage.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, CarouselPage)" />
+      <MemberSignature Language="F#" Value="override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.CarouselPage (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="carouselPage.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

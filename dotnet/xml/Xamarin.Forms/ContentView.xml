@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContentView extends Xamarin.Forms.TemplatedView" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ContentView" />
   <TypeSignature Language="VB.NET" Value="Public Class ContentView&#xA;Inherits TemplatedView" />
+  <TypeSignature Language="F#" Value="type ContentView = class&#xA;    inherit TemplatedView" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -73,6 +74,7 @@ MainPage = new ContentPage () {
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.View Content" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ContentView.Content" />
       <MemberSignature Language="VB.NET" Value="Public Property Content As View" />
+      <MemberSignature Language="F#" Value="member this.Content : Xamarin.Forms.View with get, set" Usage="Xamarin.Forms.ContentView.Content" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -92,6 +94,7 @@ MainPage = new ContentPage () {
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ContentProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ContentView.ContentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContentProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ContentProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ContentView.ContentProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -110,6 +113,7 @@ MainPage = new ContentPage () {
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ContentView.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
+      <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="contentView.OnBindingContextChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

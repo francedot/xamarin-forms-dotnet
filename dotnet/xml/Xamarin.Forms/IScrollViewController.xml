@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IScrollViewController implements class Xamarin.Forms.ILayoutController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IScrollViewController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IScrollViewController&#xA;Implements ILayoutController" />
+  <TypeSignature Language="F#" Value="type IScrollViewController = interface&#xA;    interface ILayoutController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Xamarin.Forms.Point GetScrollPositionForElement(class Xamarin.Forms.VisualElement item, valuetype Xamarin.Forms.ScrollToPosition position) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IScrollViewController.GetScrollPositionForElement(Xamarin.Forms.VisualElement,Xamarin.Forms.ScrollToPosition)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetScrollPositionForElement (item As VisualElement, position As ScrollToPosition) As Point" />
+      <MemberSignature Language="F#" Value="abstract member GetScrollPositionForElement : Xamarin.Forms.VisualElement * Xamarin.Forms.ScrollToPosition -&gt; Xamarin.Forms.Point" Usage="iScrollViewController.GetScrollPositionForElement (item, position)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -47,6 +49,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ScrollToRequestedEventArgs&gt; ScrollToRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.IScrollViewController.ScrollToRequested" />
       <MemberSignature Language="VB.NET" Value="Event ScrollToRequested As EventHandler(Of ScrollToRequestedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.ScrollToRequested : EventHandler&lt;Xamarin.Forms.ScrollToRequestedEventArgs&gt; " Usage="member this.ScrollToRequested : System.EventHandler&lt;Xamarin.Forms.ScrollToRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -65,6 +68,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendScrollFinished() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IScrollViewController.SendScrollFinished" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendScrollFinished ()" />
+      <MemberSignature Language="F#" Value="abstract member SendScrollFinished : unit -&gt; unit" Usage="iScrollViewController.SendScrollFinished " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -84,6 +88,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetScrolledPosition(float64 x, float64 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IScrollViewController.SetScrolledPosition(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetScrolledPosition (x As Double, y As Double)" />
+      <MemberSignature Language="F#" Value="abstract member SetScrolledPosition : double * double -&gt; unit" Usage="iScrollViewController.SetScrolledPosition (x, y)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

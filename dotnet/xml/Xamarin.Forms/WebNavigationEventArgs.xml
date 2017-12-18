@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WebNavigationEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.WebNavigationEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class WebNavigationEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type WebNavigationEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(valuetype Xamarin.Forms.WebNavigationEvent navigationEvent, class Xamarin.Forms.WebViewSource source, string url) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.WebNavigationEventArgs.#ctor(Xamarin.Forms.WebNavigationEvent,Xamarin.Forms.WebViewSource,System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (navigationEvent As WebNavigationEvent, source As WebViewSource, url As String)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.WebNavigationEventArgs : Xamarin.Forms.WebNavigationEvent * Xamarin.Forms.WebViewSource * string -&gt; Xamarin.Forms.WebNavigationEventArgs" Usage="new Xamarin.Forms.WebNavigationEventArgs (navigationEvent, source, url)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -44,6 +46,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.WebNavigationEvent NavigationEvent" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.WebNavigationEventArgs.NavigationEvent" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NavigationEvent As WebNavigationEvent" />
+      <MemberSignature Language="F#" Value="member this.NavigationEvent : Xamarin.Forms.WebNavigationEvent" Usage="Xamarin.Forms.WebNavigationEventArgs.NavigationEvent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -63,6 +66,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.WebViewSource Source" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.WebNavigationEventArgs.Source" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Source As WebViewSource" />
+      <MemberSignature Language="F#" Value="member this.Source : Xamarin.Forms.WebViewSource" Usage="Xamarin.Forms.WebNavigationEventArgs.Source" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -82,6 +86,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Url" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.WebNavigationEventArgs.Url" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Url As String" />
+      <MemberSignature Language="F#" Value="member this.Url : string" Usage="Xamarin.Forms.WebNavigationEventArgs.Url" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

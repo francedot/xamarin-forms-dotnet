@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StatusBarTextColorMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum StatusBarTextColorMode" />
+  <TypeSignature Language="F#" Value="type StatusBarTextColorMode = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -20,6 +21,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode DoNotAdjust = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode.DoNotAdjust" />
       <MemberSignature Language="VB.NET" Value="DoNotAdjust" />
+      <MemberSignature Language="F#" Value="DoNotAdjust = 1" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode.DoNotAdjust" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -38,6 +40,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode MatchNavigationBarTextLuminosity = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode.MatchNavigationBarTextLuminosity" />
       <MemberSignature Language="VB.NET" Value="MatchNavigationBarTextLuminosity" />
+      <MemberSignature Language="F#" Value="MatchNavigationBarTextLuminosity = 0" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode.MatchNavigationBarTextLuminosity" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IVisualElementController implements class Xamarin.Forms.IElementController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IVisualElementController" />
   <TypeSignature Language="VB.NET" Value="Public Interface IVisualElementController&#xA;Implements IElementController" />
+  <TypeSignature Language="F#" Value="type IVisualElementController = interface&#xA;    interface IElementController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.EventArg`1&lt;class Xamarin.Forms.VisualElement&gt;&gt; BatchCommitted" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.IVisualElementController.BatchCommitted" />
       <MemberSignature Language="VB.NET" Value="Event BatchCommitted As EventHandler(Of EventArg(Of VisualElement)) " />
+      <MemberSignature Language="F#" Value="member this.BatchCommitted : EventHandler&lt;Xamarin.Forms.Internals.EventArg&lt;Xamarin.Forms.VisualElement&gt;&gt; " Usage="member this.BatchCommitted : System.EventHandler&lt;Xamarin.Forms.Internals.EventArg&lt;Xamarin.Forms.VisualElement&gt;&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -40,6 +42,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Batched" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IVisualElementController.Batched" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Batched As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Batched : bool" Usage="Xamarin.Forms.IVisualElementController.Batched" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -59,6 +62,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool DisableLayout" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IVisualElementController.DisableLayout" />
       <MemberSignature Language="VB.NET" Value="Public Property DisableLayout As Boolean" />
+      <MemberSignature Language="F#" Value="member this.DisableLayout : bool with get, set" Usage="Xamarin.Forms.IVisualElementController.DisableLayout" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -78,6 +82,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.VisualElement/FocusRequestArgs&gt; FocusChangeRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.IVisualElementController.FocusChangeRequested" />
       <MemberSignature Language="VB.NET" Value="Event FocusChangeRequested As EventHandler(Of VisualElement.FocusRequestArgs) " />
+      <MemberSignature Language="F#" Value="member this.FocusChangeRequested : EventHandler&lt;Xamarin.Forms.VisualElement.FocusRequestArgs&gt; " Usage="member this.FocusChangeRequested : System.EventHandler&lt;Xamarin.Forms.VisualElement.FocusRequestArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -96,6 +101,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InvalidateMeasure(valuetype Xamarin.Forms.Internals.InvalidationTrigger trigger) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IVisualElementController.InvalidateMeasure(Xamarin.Forms.Internals.InvalidationTrigger)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InvalidateMeasure (trigger As InvalidationTrigger)" />
+      <MemberSignature Language="F#" Value="abstract member InvalidateMeasure : Xamarin.Forms.Internals.InvalidationTrigger -&gt; unit" Usage="iVisualElementController.InvalidateMeasure trigger" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -118,6 +124,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsInNativeLayout" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IVisualElementController.IsInNativeLayout" />
       <MemberSignature Language="VB.NET" Value="Public Property IsInNativeLayout As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsInNativeLayout : bool with get, set" Usage="Xamarin.Forms.IVisualElementController.IsInNativeLayout" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -137,6 +144,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsNativeStateConsistent" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IVisualElementController.IsNativeStateConsistent" />
       <MemberSignature Language="VB.NET" Value="Public Property IsNativeStateConsistent As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsNativeStateConsistent : bool with get, set" Usage="Xamarin.Forms.IVisualElementController.IsNativeStateConsistent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -156,6 +164,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPlatformEnabled" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IVisualElementController.IsPlatformEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPlatformEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsPlatformEnabled : bool with get, set" Usage="Xamarin.Forms.IVisualElementController.IsPlatformEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -175,6 +184,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NativeSizeChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IVisualElementController.NativeSizeChanged" />
       <MemberSignature Language="VB.NET" Value="Public Sub NativeSizeChanged ()" />
+      <MemberSignature Language="F#" Value="abstract member NativeSizeChanged : unit -&gt; unit" Usage="iVisualElementController.NativeSizeChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -194,6 +204,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Internals.NavigationProxy NavigationProxy" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IVisualElementController.NavigationProxy" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NavigationProxy As NavigationProxy" />
+      <MemberSignature Language="F#" Value="member this.NavigationProxy : Xamarin.Forms.Internals.NavigationProxy" Usage="Xamarin.Forms.IVisualElementController.NavigationProxy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

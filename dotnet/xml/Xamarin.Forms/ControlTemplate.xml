@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ControlTemplate extends Xamarin.Forms.ElementTemplate" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ControlTemplate" />
   <TypeSignature Language="VB.NET" Value="Public Class ControlTemplate&#xA;Inherits ElementTemplate" />
+  <TypeSignature Language="F#" Value="type ControlTemplate = class&#xA;    inherit ElementTemplate" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -36,6 +37,7 @@
       <MemberSignature Language="C#" Value="public ControlTemplate (Type type);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ControlTemplate.#ctor(System.Type)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.ControlTemplate : Type -&gt; Xamarin.Forms.ControlTemplate" Usage="new Xamarin.Forms.ControlTemplate type" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

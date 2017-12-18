@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HtmlWebViewSource extends Xamarin.Forms.WebViewSource" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.HtmlWebViewSource" />
   <TypeSignature Language="VB.NET" Value="Public Class HtmlWebViewSource&#xA;Inherits WebViewSource" />
+  <TypeSignature Language="F#" Value="type HtmlWebViewSource = class&#xA;    inherit WebViewSource" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -37,6 +38,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string BaseUrl" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.HtmlWebViewSource.BaseUrl" />
       <MemberSignature Language="VB.NET" Value="Public Property BaseUrl As String" />
+      <MemberSignature Language="F#" Value="member this.BaseUrl : string with get, set" Usage="Xamarin.Forms.HtmlWebViewSource.BaseUrl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -56,6 +58,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty BaseUrlProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.HtmlWebViewSource.BaseUrlProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BaseUrlProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BaseUrlProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.HtmlWebViewSource.BaseUrlProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -74,6 +77,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Html" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.HtmlWebViewSource.Html" />
       <MemberSignature Language="VB.NET" Value="Public Property Html As String" />
+      <MemberSignature Language="F#" Value="member this.Html : string with get, set" Usage="Xamarin.Forms.HtmlWebViewSource.Html" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -93,6 +97,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HtmlProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.HtmlWebViewSource.HtmlProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HtmlProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HtmlProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.HtmlWebViewSource.HtmlProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -111,6 +116,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Load(class Xamarin.Forms.IWebViewDelegate renderer) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.HtmlWebViewSource.Load(Xamarin.Forms.IWebViewDelegate)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Load (renderer As IWebViewDelegate)" />
+      <MemberSignature Language="F#" Value="override this.Load : Xamarin.Forms.IWebViewDelegate -&gt; unit" Usage="htmlWebViewSource.Load renderer" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

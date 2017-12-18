@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Grid extends Xamarin.Forms.Layout`1&lt;class Xamarin.Forms.View&gt; implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.Grid&gt;, class Xamarin.Forms.IGridController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Grid" />
   <TypeSignature Language="VB.NET" Value="Public Class Grid&#xA;Inherits Layout(Of View)&#xA;Implements IElementConfiguration(Of Grid), IGridController" />
+  <TypeSignature Language="F#" Value="type Grid = class&#xA;    inherit Layout&lt;View&gt;&#xA;    interface IGridController&#xA;    interface IElementConfiguration&lt;Grid&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -220,6 +221,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Grid/IGridList`1&lt;class Xamarin.Forms.View&gt; Children" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Grid.Children" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Children As Grid.IGridList(Of View)" />
+      <MemberSignature Language="F#" Value="member this.Children : Xamarin.Forms.Grid.IGridList&lt;Xamarin.Forms.View&gt;" Usage="Xamarin.Forms.Grid.Children" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -241,6 +243,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ColumnDefinitionCollection ColumnDefinitions" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Grid.ColumnDefinitions" />
       <MemberSignature Language="VB.NET" Value="Public Property ColumnDefinitions As ColumnDefinitionCollection" />
+      <MemberSignature Language="F#" Value="member this.ColumnDefinitions : Xamarin.Forms.ColumnDefinitionCollection with get, set" Usage="Xamarin.Forms.Grid.ColumnDefinitions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -263,6 +266,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ColumnDefinitionsProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Grid.ColumnDefinitionsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ColumnDefinitionsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ColumnDefinitionsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Grid.ColumnDefinitionsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -281,6 +285,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ColumnProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Grid.ColumnProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ColumnProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ColumnProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Grid.ColumnProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -301,6 +306,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance float64 ColumnSpacing" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Grid.ColumnSpacing" />
       <MemberSignature Language="VB.NET" Value="Public Property ColumnSpacing As Double" />
+      <MemberSignature Language="F#" Value="member this.ColumnSpacing : double with get, set" Usage="Xamarin.Forms.Grid.ColumnSpacing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -322,6 +328,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ColumnSpacingProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Grid.ColumnSpacingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ColumnSpacingProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ColumnSpacingProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Grid.ColumnSpacingProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -340,6 +347,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ColumnSpanProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Grid.ColumnSpanProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ColumnSpanProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ColumnSpanProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Grid.ColumnSpanProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -360,6 +368,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetColumn(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.GetColumn(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetColumn (bindable As BindableObject) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetColumn : Xamarin.Forms.BindableObject -&gt; int" Usage="Xamarin.Forms.Grid.GetColumn bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -398,6 +407,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetColumnSpan(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.GetColumnSpan(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetColumnSpan (bindable As BindableObject) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetColumnSpan : Xamarin.Forms.BindableObject -&gt; int" Usage="Xamarin.Forms.Grid.GetColumnSpan bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -436,6 +446,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetRow(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.GetRow(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetRow (bindable As BindableObject) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetRow : Xamarin.Forms.BindableObject -&gt; int" Usage="Xamarin.Forms.Grid.GetRow bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -474,6 +485,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetRowSpan(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.GetRowSpan(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetRowSpan (bindable As BindableObject) As Integer" />
+      <MemberSignature Language="F#" Value="static member GetRowSpan : Xamarin.Forms.BindableObject -&gt; int" Usage="Xamarin.Forms.Grid.GetRowSpan bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -510,7 +522,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InvalidateMeasureInernalNonVirtual(valuetype Xamarin.Forms.Internals.InvalidationTrigger trigger) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.InvalidateMeasureInernalNonVirtual(Xamarin.Forms.Internals.InvalidationTrigger)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InvalidateMeasureInernalNonVirtual (trigger As InvalidationTrigger)" />
+      <MemberSignature Language="F#" Value="abstract member InvalidateMeasureInernalNonVirtual : Xamarin.Forms.Internals.InvalidationTrigger -&gt; unit&#xA;override this.InvalidateMeasureInernalNonVirtual : Xamarin.Forms.Internals.InvalidationTrigger -&gt; unit" Usage="grid.InvalidateMeasureInernalNonVirtual trigger" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IGridController.InvalidateMeasureInernalNonVirtual(Xamarin.Forms.Internals.InvalidationTrigger)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -537,6 +553,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void LayoutChildren(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub LayoutChildren (x As Double, y As Double, width As Double, height As Double)" />
+      <MemberSignature Language="F#" Value="override this.LayoutChildren : double * double * double * double -&gt; unit" Usage="grid.LayoutChildren (x, y, width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -567,7 +584,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.Grid&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Grid)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Grid (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Grid (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="grid.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -594,6 +615,7 @@ namespace FormsGallery
       <MemberSignature Language="C#" Value="protected override void OnAdded (Xamarin.Forms.View view);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAdded(class Xamarin.Forms.View view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.OnAdded(Xamarin.Forms.View)" />
+      <MemberSignature Language="F#" Value="override this.OnAdded : Xamarin.Forms.View -&gt; unit" Usage="grid.OnAdded view" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -616,6 +638,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
+      <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="grid.OnBindingContextChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -634,6 +657,7 @@ namespace FormsGallery
       <MemberSignature Language="C#" Value="protected override void OnRemoved (Xamarin.Forms.View view);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnRemoved(class Xamarin.Forms.View view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.OnRemoved(Xamarin.Forms.View)" />
+      <MemberSignature Language="F#" Value="override this.OnRemoved : Xamarin.Forms.View -&gt; unit" Usage="grid.OnRemoved view" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -656,6 +680,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Xamarin.Forms.SizeRequest OnSizeRequest(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.OnSizeRequest(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnSizeRequest (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
+      <MemberSignature Language="F#" Value="override this.OnSizeRequest : double * double -&gt; Xamarin.Forms.SizeRequest" Usage="grid.OnSizeRequest (widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -688,6 +713,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.RowDefinitionCollection RowDefinitions" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Grid.RowDefinitions" />
       <MemberSignature Language="VB.NET" Value="Public Property RowDefinitions As RowDefinitionCollection" />
+      <MemberSignature Language="F#" Value="member this.RowDefinitions : Xamarin.Forms.RowDefinitionCollection with get, set" Usage="Xamarin.Forms.Grid.RowDefinitions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -709,6 +735,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty RowDefinitionsProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Grid.RowDefinitionsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RowDefinitionsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable RowDefinitionsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Grid.RowDefinitionsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -727,6 +754,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty RowProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Grid.RowProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RowProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable RowProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Grid.RowProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -747,6 +775,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance float64 RowSpacing" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Grid.RowSpacing" />
       <MemberSignature Language="VB.NET" Value="Public Property RowSpacing As Double" />
+      <MemberSignature Language="F#" Value="member this.RowSpacing : double with get, set" Usage="Xamarin.Forms.Grid.RowSpacing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -768,6 +797,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty RowSpacingProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Grid.RowSpacingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RowSpacingProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable RowSpacingProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Grid.RowSpacingProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -786,6 +816,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty RowSpanProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Grid.RowSpanProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RowSpanProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable RowSpanProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Grid.RowSpanProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -806,6 +837,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetColumn(class Xamarin.Forms.BindableObject bindable, int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.SetColumn(Xamarin.Forms.BindableObject,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetColumn (bindable As BindableObject, value As Integer)" />
+      <MemberSignature Language="F#" Value="static member SetColumn : Xamarin.Forms.BindableObject * int -&gt; unit" Usage="Xamarin.Forms.Grid.SetColumn (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -844,6 +876,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetColumnSpan(class Xamarin.Forms.BindableObject bindable, int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.SetColumnSpan(Xamarin.Forms.BindableObject,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetColumnSpan (bindable As BindableObject, value As Integer)" />
+      <MemberSignature Language="F#" Value="static member SetColumnSpan : Xamarin.Forms.BindableObject * int -&gt; unit" Usage="Xamarin.Forms.Grid.SetColumnSpan (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -882,6 +915,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetRow(class Xamarin.Forms.BindableObject bindable, int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.SetRow(Xamarin.Forms.BindableObject,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetRow (bindable As BindableObject, value As Integer)" />
+      <MemberSignature Language="F#" Value="static member SetRow : Xamarin.Forms.BindableObject * int -&gt; unit" Usage="Xamarin.Forms.Grid.SetRow (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -920,6 +954,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetRowSpan(class Xamarin.Forms.BindableObject bindable, int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Grid.SetRowSpan(Xamarin.Forms.BindableObject,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetRowSpan (bindable As BindableObject, value As Integer)" />
+      <MemberSignature Language="F#" Value="static member SetRowSpan : Xamarin.Forms.BindableObject * int -&gt; unit" Usage="Xamarin.Forms.Grid.SetRowSpan (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

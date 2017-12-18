@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AutomationProperties extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.AutomationProperties" />
   <TypeSignature Language="VB.NET" Value="Public Class AutomationProperties" />
+  <TypeSignature Language="F#" Value="type AutomationProperties = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -37,6 +38,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetHelpText(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AutomationProperties.GetHelpText(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetHelpText (bindable As BindableObject) As String" />
+      <MemberSignature Language="F#" Value="static member GetHelpText : Xamarin.Forms.BindableObject -&gt; string" Usage="Xamarin.Forms.AutomationProperties.GetHelpText bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -60,6 +62,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Nullable`1&lt;bool&gt; GetIsInAccessibleTree(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AutomationProperties.GetIsInAccessibleTree(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetIsInAccessibleTree (bindable As BindableObject) As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="static member GetIsInAccessibleTree : Xamarin.Forms.BindableObject -&gt; Nullable&lt;bool&gt;" Usage="Xamarin.Forms.AutomationProperties.GetIsInAccessibleTree bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -83,6 +86,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.VisualElement GetLabeledBy(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AutomationProperties.GetLabeledBy(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetLabeledBy (bindable As BindableObject) As VisualElement" />
+      <MemberSignature Language="F#" Value="static member GetLabeledBy : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.VisualElement" Usage="Xamarin.Forms.AutomationProperties.GetLabeledBy bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -106,6 +110,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetName(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AutomationProperties.GetName(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetName (bindable As BindableObject) As String" />
+      <MemberSignature Language="F#" Value="static member GetName : Xamarin.Forms.BindableObject -&gt; string" Usage="Xamarin.Forms.AutomationProperties.GetName bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -129,6 +134,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HelpTextProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AutomationProperties.HelpTextProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HelpTextProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HelpTextProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.AutomationProperties.HelpTextProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -147,6 +153,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsInAccessibleTreeProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AutomationProperties.IsInAccessibleTreeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsInAccessibleTreeProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsInAccessibleTreeProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.AutomationProperties.IsInAccessibleTreeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -165,6 +172,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty LabeledByProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AutomationProperties.LabeledByProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LabeledByProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable LabeledByProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.AutomationProperties.LabeledByProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -183,6 +191,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty NameProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AutomationProperties.NameProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NameProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable NameProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.AutomationProperties.NameProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -201,6 +210,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetHelpText(class Xamarin.Forms.BindableObject bindable, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AutomationProperties.SetHelpText(Xamarin.Forms.BindableObject,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetHelpText (bindable As BindableObject, value As String)" />
+      <MemberSignature Language="F#" Value="static member SetHelpText : Xamarin.Forms.BindableObject * string -&gt; unit" Usage="Xamarin.Forms.AutomationProperties.SetHelpText (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -225,6 +235,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsInAccessibleTree(class Xamarin.Forms.BindableObject bindable, valuetype System.Nullable`1&lt;bool&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AutomationProperties.SetIsInAccessibleTree(Xamarin.Forms.BindableObject,System.Nullable{System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetIsInAccessibleTree (bindable As BindableObject, value As Nullable(Of Boolean))" />
+      <MemberSignature Language="F#" Value="static member SetIsInAccessibleTree : Xamarin.Forms.BindableObject * Nullable&lt;bool&gt; -&gt; unit" Usage="Xamarin.Forms.AutomationProperties.SetIsInAccessibleTree (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -249,6 +260,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetLabeledBy(class Xamarin.Forms.BindableObject bindable, class Xamarin.Forms.VisualElement value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AutomationProperties.SetLabeledBy(Xamarin.Forms.BindableObject,Xamarin.Forms.VisualElement)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetLabeledBy (bindable As BindableObject, value As VisualElement)" />
+      <MemberSignature Language="F#" Value="static member SetLabeledBy : Xamarin.Forms.BindableObject * Xamarin.Forms.VisualElement -&gt; unit" Usage="Xamarin.Forms.AutomationProperties.SetLabeledBy (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -273,6 +285,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetName(class Xamarin.Forms.BindableObject bindable, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AutomationProperties.SetName(Xamarin.Forms.BindableObject,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetName (bindable As BindableObject, value As String)" />
+      <MemberSignature Language="F#" Value="static member SetName : Xamarin.Forms.BindableObject * string -&gt; unit" Usage="Xamarin.Forms.AutomationProperties.SetName (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

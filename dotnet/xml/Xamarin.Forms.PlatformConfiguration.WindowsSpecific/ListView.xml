@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ListView extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView" />
   <TypeSignature Language="VB.NET" Value="Public Module ListView" />
+  <TypeSignature Language="F#" Value="type ListView = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode GetSelectionMode(class Xamarin.Forms.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.GetSelectionMode(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetSelectionMode (element As BindableObject) As ListViewSelectionMode" />
+      <MemberSignature Language="F#" Value="static member GetSelectionMode : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.GetSelectionMode element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -44,6 +46,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode GetSelectionMode(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.ListView&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.GetSelectionMode(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.ListView})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSelectionMode (config As IPlatformElementConfiguration(Of Windows, ListView)) As ListViewSelectionMode" />
+      <MemberSignature Language="F#" Value="static member GetSelectionMode : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.ListView&gt; -&gt; Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.GetSelectionMode config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -67,6 +70,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SelectionModeProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.SelectionModeProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly SelectionModeProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable SelectionModeProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.SelectionModeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -85,6 +89,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetSelectionMode(class Xamarin.Forms.BindableObject element, valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.SetSelectionMode(Xamarin.Forms.BindableObject,Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetSelectionMode (element As BindableObject, value As ListViewSelectionMode)" />
+      <MemberSignature Language="F#" Value="static member SetSelectionMode : Xamarin.Forms.BindableObject * Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode -&gt; unit" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.SetSelectionMode (element, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -109,6 +114,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.ListView&gt; SetSelectionMode(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.ListView&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.SetSelectionMode(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.ListView},Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetSelectionMode (config As IPlatformElementConfiguration(Of Windows, ListView), value As ListViewSelectionMode) As IPlatformElementConfiguration(Of Windows, ListView)" />
+      <MemberSignature Language="F#" Value="static member SetSelectionMode : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.ListView&gt; * Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.ListView&gt;" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.SetSelectionMode (config, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

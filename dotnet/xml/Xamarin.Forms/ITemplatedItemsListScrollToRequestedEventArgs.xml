@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITemplatedItemsListScrollToRequestedEventArgs" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ITemplatedItemsListScrollToRequestedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Interface ITemplatedItemsListScrollToRequestedEventArgs" />
+  <TypeSignature Language="F#" Value="type ITemplatedItemsListScrollToRequestedEventArgs = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,6 +19,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Group" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ITemplatedItemsListScrollToRequestedEventArgs.Group" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Group As Object" />
+      <MemberSignature Language="F#" Value="member this.Group : obj" Usage="Xamarin.Forms.ITemplatedItemsListScrollToRequestedEventArgs.Group" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -37,6 +39,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Item" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ITemplatedItemsListScrollToRequestedEventArgs.Item" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Item As Object" />
+      <MemberSignature Language="F#" Value="member this.Item : obj" Usage="Xamarin.Forms.ITemplatedItemsListScrollToRequestedEventArgs.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

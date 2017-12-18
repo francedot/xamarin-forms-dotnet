@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Picker extends Xamarin.Forms.View implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.Picker&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Picker" />
   <TypeSignature Language="VB.NET" Value="Public Class Picker&#xA;Inherits View&#xA;Implements IElementConfiguration(Of Picker)" />
+  <TypeSignature Language="F#" Value="type Picker = class&#xA;    inherit View&#xA;    interface ITextElement&#xA;    interface IElementConfiguration&lt;Picker&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -160,6 +161,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.BindingBase ItemDisplayBinding" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Picker.ItemDisplayBinding" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemDisplayBinding As BindingBase" />
+      <MemberSignature Language="F#" Value="member this.ItemDisplayBinding : Xamarin.Forms.BindingBase with get, set" Usage="Xamarin.Forms.Picker.ItemDisplayBinding" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -179,6 +181,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Items" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Picker.Items" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Items As IList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Items : System.Collections.Generic.IList&lt;string&gt;" Usage="Xamarin.Forms.Picker.Items" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -198,6 +201,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.IList ItemsSource" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Picker.ItemsSource" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemsSource As IList" />
+      <MemberSignature Language="F#" Value="member this.ItemsSource : System.Collections.IList with get, set" Usage="Xamarin.Forms.Picker.ItemsSource" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -217,6 +221,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ItemsSourceProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Picker.ItemsSourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemsSourceProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemsSourceProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Picker.ItemsSourceProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -235,7 +240,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.Picker&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Picker.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Picker)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Picker (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Picker (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="picker.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -263,6 +272,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance int32 SelectedIndex" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Picker.SelectedIndex" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectedIndex As Integer" />
+      <MemberSignature Language="F#" Value="member this.SelectedIndex : int with get, set" Usage="Xamarin.Forms.Picker.SelectedIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -282,6 +292,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler SelectedIndexChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Picker.SelectedIndexChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event SelectedIndexChanged As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.SelectedIndexChanged : EventHandler " Usage="member this.SelectedIndexChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -300,6 +311,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SelectedIndexProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Picker.SelectedIndexProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectedIndexProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable SelectedIndexProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Picker.SelectedIndexProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -318,6 +330,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance object SelectedItem" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Picker.SelectedItem" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectedItem As Object" />
+      <MemberSignature Language="F#" Value="member this.SelectedItem : obj with get, set" Usage="Xamarin.Forms.Picker.SelectedItem" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -337,6 +350,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SelectedItemProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Picker.SelectedItemProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectedItemProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable SelectedItemProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Picker.SelectedItemProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -355,6 +369,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color TextColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Picker.TextColor" />
       <MemberSignature Language="VB.NET" Value="Public Property TextColor As Color" />
+      <MemberSignature Language="F#" Value="member this.TextColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.Picker.TextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -374,6 +389,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Picker.TextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TextColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Picker.TextColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -392,6 +408,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Picker.Title" />
       <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
+      <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Xamarin.Forms.Picker.Title" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -411,6 +428,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TitleProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Picker.TitleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TitleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Picker.TitleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

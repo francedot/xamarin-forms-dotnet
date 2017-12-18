@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Vec2 extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Vec2" />
   <TypeSignature Language="VB.NET" Value="Public Structure Vec2" />
+  <TypeSignature Language="F#" Value="type Vec2 = struct" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 x, float64 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Vec2.#ctor(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (x As Double, y As Double)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Vec2 : double * double -&gt; Xamarin.Forms.Vec2" Usage="new Xamarin.Forms.Vec2 (x, y)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -42,6 +44,7 @@
       <MemberSignature Language="ILAsm" Value=".field public float64 X" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Vec2.X" />
       <MemberSignature Language="VB.NET" Value="Public X As Double " />
+      <MemberSignature Language="F#" Value="val mutable X : double" Usage="Xamarin.Forms.Vec2.X" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -60,6 +63,7 @@
       <MemberSignature Language="ILAsm" Value=".field public float64 Y" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Vec2.Y" />
       <MemberSignature Language="VB.NET" Value="Public Y As Double " />
+      <MemberSignature Language="F#" Value="val mutable Y : double" Usage="Xamarin.Forms.Vec2.Y" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

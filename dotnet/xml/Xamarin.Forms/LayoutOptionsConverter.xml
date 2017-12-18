@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit LayoutOptionsConverter extends Xamarin.Forms.TypeConverter" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.LayoutOptionsConverter" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class LayoutOptionsConverter&#xA;Inherits TypeConverter" />
+  <TypeSignature Language="F#" Value="type LayoutOptionsConverter = class&#xA;    inherit TypeConverter" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -37,6 +38,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ConvertFromInvariantString(string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.LayoutOptionsConverter.ConvertFromInvariantString(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFromInvariantString (value As String) As Object" />
+      <MemberSignature Language="F#" Value="override this.ConvertFromInvariantString : string -&gt; obj" Usage="layoutOptionsConverter.ConvertFromInvariantString value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

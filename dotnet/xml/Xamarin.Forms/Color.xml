@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Color extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Color" />
   <TypeSignature Language="VB.NET" Value="Public Structure Color" />
+  <TypeSignature Language="F#" Value="type Color = struct" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -48,6 +49,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.#ctor(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (value As Double)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Color : double -&gt; Xamarin.Forms.Color" Usage="new Xamarin.Forms.Color value" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -67,6 +69,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 r, float64 g, float64 b) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.#ctor(System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (r As Double, g As Double, b As Double)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Color : double * double * double -&gt; Xamarin.Forms.Color" Usage="new Xamarin.Forms.Color (r, g, b)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -90,6 +93,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 r, float64 g, float64 b, float64 a) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.#ctor(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (r As Double, g As Double, b As Double, a As Double)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Color : double * double * double * double -&gt; Xamarin.Forms.Color" Usage="new Xamarin.Forms.Color (r, g, b, a)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -115,6 +119,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 A" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Color.A" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property A As Double" />
+      <MemberSignature Language="F#" Value="member this.A : double" Usage="Xamarin.Forms.Color.A" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -134,6 +139,7 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Xamarin.Forms.Color Accent" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Color.Accent" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Accent As Color" />
+      <MemberSignature Language="F#" Value="member this.Accent : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Accent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -153,6 +159,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Color AddLuminosity(float64 delta) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.AddLuminosity(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddLuminosity (delta As Double) As Color" />
+      <MemberSignature Language="F#" Value="member this.AddLuminosity : double -&gt; Xamarin.Forms.Color" Usage="color.AddLuminosity delta" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -176,6 +183,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color AliceBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.AliceBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AliceBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable AliceBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.AliceBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -194,6 +202,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color AntiqueWhite" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.AntiqueWhite" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AntiqueWhite As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable AntiqueWhite : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.AntiqueWhite" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -212,6 +221,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Aqua" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Aqua" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Aqua As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Aqua : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Aqua" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -230,6 +240,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Aquamarine" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Aquamarine" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Aquamarine As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Aquamarine : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Aquamarine" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -248,6 +259,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Azure" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Azure" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Azure As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Azure : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Azure" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -266,6 +278,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 B" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Color.B" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property B As Double" />
+      <MemberSignature Language="F#" Value="member this.B : double" Usage="Xamarin.Forms.Color.B" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -285,6 +298,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Beige" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Beige" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Beige As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Beige : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Beige" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -303,6 +317,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Bisque" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Bisque" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Bisque As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Bisque : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Bisque" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -321,6 +336,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Black" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Black" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Black As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Black : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Black" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -339,6 +355,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color BlanchedAlmond" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.BlanchedAlmond" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BlanchedAlmond As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable BlanchedAlmond : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.BlanchedAlmond" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -357,6 +374,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Blue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Blue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Blue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Blue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Blue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -375,6 +393,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color BlueViolet" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.BlueViolet" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BlueViolet As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable BlueViolet : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.BlueViolet" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -393,6 +412,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Brown" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Brown" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Brown As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Brown : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Brown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -411,6 +431,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color BurlyWood" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.BurlyWood" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BurlyWood As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable BurlyWood : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.BurlyWood" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -429,6 +450,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color CadetBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.CadetBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CadetBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable CadetBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.CadetBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -447,6 +469,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Chartreuse" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Chartreuse" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Chartreuse As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Chartreuse : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Chartreuse" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -465,6 +488,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Chocolate" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Chocolate" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Chocolate As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Chocolate : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Chocolate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -483,6 +507,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Coral" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Coral" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Coral As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Coral : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Coral" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -501,6 +526,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color CornflowerBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.CornflowerBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CornflowerBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable CornflowerBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.CornflowerBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -519,6 +545,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Cornsilk" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Cornsilk" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Cornsilk As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Cornsilk : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Cornsilk" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -537,6 +564,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Crimson" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Crimson" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Crimson As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Crimson : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Crimson" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -555,6 +583,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Cyan" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Cyan" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Cyan As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Cyan : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Cyan" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -573,6 +602,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -591,6 +621,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkCyan" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkCyan" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkCyan As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkCyan : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkCyan" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -609,6 +640,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkGoldenrod" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkGoldenrod" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkGoldenrod As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkGoldenrod : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkGoldenrod" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -627,6 +659,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkGray" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkGray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkGray As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkGray : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkGray" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -645,6 +678,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -663,6 +697,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkKhaki" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkKhaki" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkKhaki As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkKhaki : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkKhaki" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -681,6 +716,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkMagenta" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkMagenta" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkMagenta As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkMagenta : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkMagenta" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -699,6 +735,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkOliveGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkOliveGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkOliveGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkOliveGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkOliveGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -717,6 +754,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkOrange" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkOrange" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkOrange As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkOrange : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkOrange" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -735,6 +773,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkOrchid" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkOrchid" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkOrchid As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkOrchid : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkOrchid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -753,6 +792,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkRed" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkRed" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkRed As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkRed : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkRed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -771,6 +811,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkSalmon" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkSalmon" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkSalmon As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkSalmon : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkSalmon" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -789,6 +830,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkSeaGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkSeaGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkSeaGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkSeaGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkSeaGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -807,6 +849,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkSlateBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkSlateBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkSlateBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkSlateBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkSlateBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -825,6 +868,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkSlateGray" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkSlateGray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkSlateGray As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkSlateGray : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkSlateGray" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -843,6 +887,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkTurquoise" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkTurquoise" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkTurquoise As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkTurquoise : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkTurquoise" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -861,6 +906,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DarkViolet" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DarkViolet" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DarkViolet As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DarkViolet : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DarkViolet" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -879,6 +925,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DeepPink" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DeepPink" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DeepPink As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DeepPink : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DeepPink" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -897,6 +944,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DeepSkyBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DeepSkyBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DeepSkyBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DeepSkyBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DeepSkyBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -915,6 +963,7 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Xamarin.Forms.Color Default" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Color.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As Color" />
+      <MemberSignature Language="F#" Value="member this.Default : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Default" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -934,6 +983,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DimGray" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DimGray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DimGray As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DimGray : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DimGray" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -952,6 +1002,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color DodgerBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.DodgerBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DodgerBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable DodgerBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.DodgerBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -970,6 +1021,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="color.Equals obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -994,6 +1046,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Firebrick" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Firebrick" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Firebrick As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Firebrick : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Firebrick" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1012,6 +1065,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color FloralWhite" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.FloralWhite" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FloralWhite As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable FloralWhite : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.FloralWhite" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1030,6 +1084,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color ForestGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.ForestGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ForestGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable ForestGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.ForestGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1048,6 +1103,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color FromHex(string hex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.FromHex(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromHex (hex As String) As Color" />
+      <MemberSignature Language="F#" Value="static member FromHex : string -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.FromHex hex" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1074,6 +1130,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color FromHsla(float64 h, float64 s, float64 l, float64 a) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.FromHsla(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromHsla (h As Double, s As Double, l As Double, Optional a As Double = 1) As Color" />
+      <MemberSignature Language="F#" Value="static member FromHsla : double * double * double * double -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.FromHsla (h, s, l, a)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1103,6 +1160,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color FromRgb(float64 r, float64 g, float64 b) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.FromRgb(System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromRgb (r As Double, g As Double, b As Double) As Color" />
+      <MemberSignature Language="F#" Value="static member FromRgb : double * double * double -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.FromRgb (r, g, b)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1130,6 +1188,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color FromRgb(int32 r, int32 g, int32 b) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.FromRgb(System.Int32,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromRgb (r As Integer, g As Integer, b As Integer) As Color" />
+      <MemberSignature Language="F#" Value="static member FromRgb : int * int * int -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.FromRgb (r, g, b)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1157,6 +1216,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color FromRgba(float64 r, float64 g, float64 b, float64 a) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.FromRgba(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromRgba (r As Double, g As Double, b As Double, a As Double) As Color" />
+      <MemberSignature Language="F#" Value="static member FromRgba : double * double * double * double -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.FromRgba (r, g, b, a)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1186,6 +1246,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color FromRgba(int32 r, int32 g, int32 b, int32 a) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.FromRgba(System.Int32,System.Int32,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromRgba (r As Integer, g As Integer, b As Integer, a As Integer) As Color" />
+      <MemberSignature Language="F#" Value="static member FromRgba : int * int * int * int -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.FromRgba (r, g, b, a)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1215,6 +1276,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color FromUint(unsigned int32 argb) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.FromUint(System.UInt32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromUint (argb As UInteger) As Color" />
+      <MemberSignature Language="F#" Value="static member FromUint : uint32 -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.FromUint argb" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1240,6 +1302,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Fuchsia" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Fuchsia" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Fuchsia As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Fuchsia : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Fuchsia" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1258,6 +1321,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Fuschia" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Fuschia" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Fuschia As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Fuschia : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Fuschia" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1281,6 +1345,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 G" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Color.G" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property G As Double" />
+      <MemberSignature Language="F#" Value="member this.G : double" Usage="Xamarin.Forms.Color.G" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1300,6 +1365,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Gainsboro" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Gainsboro" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Gainsboro As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Gainsboro : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Gainsboro" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1318,6 +1384,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="color.GetHashCode " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1338,6 +1405,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color GhostWhite" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.GhostWhite" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GhostWhite As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable GhostWhite : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.GhostWhite" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1356,6 +1424,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Gold" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Gold" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Gold As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Gold : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Gold" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1374,6 +1443,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Goldenrod" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Goldenrod" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Goldenrod As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Goldenrod : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Goldenrod" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1392,6 +1462,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Gray" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Gray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Gray As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Gray : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Gray" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1410,6 +1481,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Green" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Green" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Green As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Green : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Green" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1428,6 +1500,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color GreenYellow" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.GreenYellow" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GreenYellow As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable GreenYellow : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.GreenYellow" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1446,6 +1519,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Honeydew" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Honeydew" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Honeydew As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Honeydew : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Honeydew" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1464,6 +1538,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color HotPink" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.HotPink" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HotPink As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable HotPink : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.HotPink" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1482,6 +1557,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Hue" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Color.Hue" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Hue As Double" />
+      <MemberSignature Language="F#" Value="member this.Hue : double" Usage="Xamarin.Forms.Color.Hue" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1501,6 +1577,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color IndianRed" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.IndianRed" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IndianRed As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable IndianRed : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.IndianRed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1519,6 +1596,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Indigo" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Indigo" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Indigo As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Indigo : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Indigo" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1537,6 +1615,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsDefault" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Color.IsDefault" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDefault As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsDefault : bool" Usage="Xamarin.Forms.Color.IsDefault" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1561,6 +1640,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Ivory" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Ivory" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Ivory As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Ivory : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Ivory" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1579,6 +1659,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Khaki" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Khaki" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Khaki As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Khaki : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Khaki" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1597,6 +1678,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Lavender" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Lavender" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Lavender As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Lavender : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Lavender" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1615,6 +1697,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LavenderBlush" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LavenderBlush" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LavenderBlush As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LavenderBlush : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LavenderBlush" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1633,6 +1716,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LawnGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LawnGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LawnGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LawnGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LawnGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1651,6 +1735,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LemonChiffon" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LemonChiffon" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LemonChiffon As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LemonChiffon : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LemonChiffon" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1669,6 +1754,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LightBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LightBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LightBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LightBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LightBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1687,6 +1773,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LightCoral" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LightCoral" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LightCoral As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LightCoral : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LightCoral" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1705,6 +1792,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LightCyan" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LightCyan" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LightCyan As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LightCyan : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LightCyan" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1723,6 +1811,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LightGoldenrodYellow" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LightGoldenrodYellow" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LightGoldenrodYellow As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LightGoldenrodYellow : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LightGoldenrodYellow" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1741,6 +1830,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LightGray" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LightGray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LightGray As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LightGray : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LightGray" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1759,6 +1849,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LightGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LightGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LightGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LightGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LightGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1777,6 +1868,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LightPink" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LightPink" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LightPink As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LightPink : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LightPink" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1795,6 +1887,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LightSalmon" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LightSalmon" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LightSalmon As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LightSalmon : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LightSalmon" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1813,6 +1906,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LightSeaGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LightSeaGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LightSeaGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LightSeaGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LightSeaGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1831,6 +1925,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LightSkyBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LightSkyBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LightSkyBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LightSkyBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LightSkyBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1849,6 +1944,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LightSlateGray" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LightSlateGray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LightSlateGray As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LightSlateGray : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LightSlateGray" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1867,6 +1963,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LightSteelBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LightSteelBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LightSteelBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LightSteelBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LightSteelBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1885,6 +1982,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LightYellow" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LightYellow" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LightYellow As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LightYellow : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LightYellow" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1903,6 +2001,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Lime" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Lime" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Lime As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Lime : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Lime" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1921,6 +2020,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color LimeGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.LimeGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LimeGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable LimeGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.LimeGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1939,6 +2039,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Linen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Linen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Linen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Linen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Linen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1957,6 +2058,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Luminosity" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Color.Luminosity" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Luminosity As Double" />
+      <MemberSignature Language="F#" Value="member this.Luminosity : double" Usage="Xamarin.Forms.Color.Luminosity" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1976,6 +2078,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Magenta" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Magenta" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Magenta As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Magenta : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Magenta" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1994,6 +2097,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Maroon" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Maroon" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Maroon As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Maroon : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Maroon" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2012,6 +2116,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color MediumAquamarine" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.MediumAquamarine" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MediumAquamarine As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable MediumAquamarine : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.MediumAquamarine" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2030,6 +2135,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color MediumBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.MediumBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MediumBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable MediumBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.MediumBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2048,6 +2154,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color MediumOrchid" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.MediumOrchid" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MediumOrchid As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable MediumOrchid : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.MediumOrchid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2066,6 +2173,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color MediumPurple" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.MediumPurple" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MediumPurple As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable MediumPurple : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.MediumPurple" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2084,6 +2192,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color MediumSeaGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.MediumSeaGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MediumSeaGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable MediumSeaGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.MediumSeaGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2102,6 +2211,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color MediumSlateBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.MediumSlateBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MediumSlateBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable MediumSlateBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.MediumSlateBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2120,6 +2230,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color MediumSpringGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.MediumSpringGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MediumSpringGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable MediumSpringGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.MediumSpringGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2138,6 +2249,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color MediumTurquoise" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.MediumTurquoise" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MediumTurquoise As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable MediumTurquoise : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.MediumTurquoise" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2156,6 +2268,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color MediumVioletRed" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.MediumVioletRed" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MediumVioletRed As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable MediumVioletRed : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.MediumVioletRed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2174,6 +2287,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color MidnightBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.MidnightBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MidnightBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable MidnightBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.MidnightBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2192,6 +2306,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color MintCream" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.MintCream" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MintCream As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable MintCream : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.MintCream" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2210,6 +2325,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color MistyRose" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.MistyRose" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MistyRose As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable MistyRose : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.MistyRose" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2228,6 +2344,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Moccasin" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Moccasin" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Moccasin As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Moccasin : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Moccasin" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2246,6 +2363,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Color MultiplyAlpha(float64 alpha) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.MultiplyAlpha(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function MultiplyAlpha (alpha As Double) As Color" />
+      <MemberSignature Language="F#" Value="member this.MultiplyAlpha : double -&gt; Xamarin.Forms.Color" Usage="color.MultiplyAlpha alpha" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2269,6 +2387,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color NavajoWhite" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.NavajoWhite" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NavajoWhite As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable NavajoWhite : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.NavajoWhite" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2287,6 +2406,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Navy" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Navy" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Navy As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Navy : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Navy" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2305,6 +2425,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color OldLace" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.OldLace" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OldLace As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable OldLace : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.OldLace" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2323,6 +2444,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Olive" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Olive" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Olive As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Olive : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Olive" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2341,6 +2463,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color OliveDrab" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.OliveDrab" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OliveDrab As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable OliveDrab : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.OliveDrab" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2359,6 +2482,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Xamarin.Forms.Color color1, valuetype Xamarin.Forms.Color color2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.op_Equality(Xamarin.Forms.Color,Xamarin.Forms.Color)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (color1 As Color, color2 As Color) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Xamarin.Forms.Color * Xamarin.Forms.Color -&gt; bool" Usage="color1 = color2" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2384,6 +2508,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Xamarin.Forms.Color color1, valuetype Xamarin.Forms.Color color2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.op_Inequality(Xamarin.Forms.Color,Xamarin.Forms.Color)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (color1 As Color, color2 As Color) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Xamarin.Forms.Color * Xamarin.Forms.Color -&gt; bool" Usage="Xamarin.Forms.Color.op_Inequality (color1, color2)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2409,6 +2534,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Orange" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Orange" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Orange As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Orange : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Orange" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2427,6 +2553,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color OrangeRed" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.OrangeRed" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OrangeRed As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable OrangeRed : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.OrangeRed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2445,6 +2572,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Orchid" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Orchid" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Orchid As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Orchid : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Orchid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2463,6 +2591,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color PaleGoldenrod" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.PaleGoldenrod" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PaleGoldenrod As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable PaleGoldenrod : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.PaleGoldenrod" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2481,6 +2610,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color PaleGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.PaleGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PaleGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable PaleGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.PaleGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2499,6 +2629,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color PaleTurquoise" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.PaleTurquoise" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PaleTurquoise As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable PaleTurquoise : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.PaleTurquoise" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2517,6 +2648,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color PaleVioletRed" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.PaleVioletRed" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PaleVioletRed As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable PaleVioletRed : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.PaleVioletRed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2535,6 +2667,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color PapayaWhip" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.PapayaWhip" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PapayaWhip As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable PapayaWhip : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.PapayaWhip" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2553,6 +2686,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color PeachPuff" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.PeachPuff" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PeachPuff As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable PeachPuff : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.PeachPuff" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2571,6 +2705,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Peru" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Peru" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Peru As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Peru : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Peru" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2589,6 +2724,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Pink" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Pink" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Pink As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Pink : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Pink" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2607,6 +2743,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Plum" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Plum" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Plum As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Plum : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Plum" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2625,6 +2762,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color PowderBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.PowderBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PowderBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable PowderBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.PowderBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2643,6 +2781,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Purple" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Purple" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Purple As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Purple : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Purple" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2661,6 +2800,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 R" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Color.R" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property R As Double" />
+      <MemberSignature Language="F#" Value="member this.R : double" Usage="Xamarin.Forms.Color.R" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2680,6 +2820,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Red" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Red" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Red As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Red : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Red" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2698,6 +2839,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color RosyBrown" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.RosyBrown" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RosyBrown As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable RosyBrown : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.RosyBrown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2716,6 +2858,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color RoyalBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.RoyalBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RoyalBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable RoyalBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.RoyalBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2734,6 +2877,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color SaddleBrown" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.SaddleBrown" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SaddleBrown As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable SaddleBrown : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.SaddleBrown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2752,6 +2896,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Salmon" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Salmon" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Salmon As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Salmon : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Salmon" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2770,6 +2915,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color SandyBrown" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.SandyBrown" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SandyBrown As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable SandyBrown : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.SandyBrown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2788,6 +2934,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Saturation" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Color.Saturation" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Saturation As Double" />
+      <MemberSignature Language="F#" Value="member this.Saturation : double" Usage="Xamarin.Forms.Color.Saturation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2807,6 +2954,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color SeaGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.SeaGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SeaGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable SeaGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.SeaGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2825,6 +2973,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color SeaShell" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.SeaShell" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SeaShell As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable SeaShell : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.SeaShell" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2843,6 +2992,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetAccent(valuetype Xamarin.Forms.Color value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.SetAccent(Xamarin.Forms.Color)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetAccent (value As Color)" />
+      <MemberSignature Language="F#" Value="static member SetAccent : Xamarin.Forms.Color -&gt; unit" Usage="Xamarin.Forms.Color.SetAccent value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2870,6 +3020,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Sienna" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Sienna" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Sienna As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Sienna : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Sienna" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2888,6 +3039,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Silver" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Silver" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Silver As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Silver : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Silver" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2906,6 +3058,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color SkyBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.SkyBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SkyBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable SkyBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.SkyBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2924,6 +3077,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color SlateBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.SlateBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SlateBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable SlateBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.SlateBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2942,6 +3096,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color SlateGray" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.SlateGray" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SlateGray As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable SlateGray : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.SlateGray" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2960,6 +3115,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Snow" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Snow" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Snow As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Snow : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Snow" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2978,6 +3134,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color SpringGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.SpringGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SpringGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable SpringGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.SpringGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -2996,6 +3153,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color SteelBlue" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.SteelBlue" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SteelBlue As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable SteelBlue : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.SteelBlue" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3014,6 +3172,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Tan" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Tan" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Tan As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Tan : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Tan" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3032,6 +3191,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Teal" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Teal" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Teal As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Teal : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Teal" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3050,6 +3210,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Thistle" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Thistle" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Thistle As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Thistle : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Thistle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3068,6 +3229,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Tomato" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Tomato" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Tomato As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Tomato : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Tomato" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3086,6 +3248,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="color.ToString " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3106,6 +3269,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Transparent" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Transparent" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Transparent As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Transparent : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Transparent" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3124,6 +3288,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Turquoise" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Turquoise" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Turquoise As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Turquoise : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Turquoise" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3142,6 +3307,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Violet" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Violet" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Violet As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Violet : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Violet" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3160,6 +3326,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Wheat" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Wheat" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Wheat As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Wheat : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Wheat" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3178,6 +3345,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color White" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.White" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly White As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable White : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.White" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3196,6 +3364,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color WhiteSmoke" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.WhiteSmoke" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly WhiteSmoke As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable WhiteSmoke : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.WhiteSmoke" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3214,6 +3383,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Color WithHue(float64 hue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.WithHue(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithHue (hue As Double) As Color" />
+      <MemberSignature Language="F#" Value="member this.WithHue : double -&gt; Xamarin.Forms.Color" Usage="color.WithHue hue" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3237,6 +3407,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Color WithLuminosity(float64 luminosity) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.WithLuminosity(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithLuminosity (luminosity As Double) As Color" />
+      <MemberSignature Language="F#" Value="member this.WithLuminosity : double -&gt; Xamarin.Forms.Color" Usage="color.WithLuminosity luminosity" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3260,6 +3431,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Color WithSaturation(float64 saturation) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Color.WithSaturation(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithSaturation (saturation As Double) As Color" />
+      <MemberSignature Language="F#" Value="member this.WithSaturation : double -&gt; Xamarin.Forms.Color" Usage="color.WithSaturation saturation" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3283,6 +3455,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color Yellow" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.Yellow" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Yellow As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable Yellow : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.Yellow" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -3301,6 +3474,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.Color YellowGreen" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Color.YellowGreen" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly YellowGreen As Color " />
+      <MemberSignature Language="F#" Value=" staticval mutable YellowGreen : Xamarin.Forms.Color" Usage="Xamarin.Forms.Color.YellowGreen" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

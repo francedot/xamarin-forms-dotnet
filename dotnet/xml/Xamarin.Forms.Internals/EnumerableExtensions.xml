@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit EnumerableExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.EnumerableExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module EnumerableExtensions" />
+  <TypeSignature Language="F#" Value="type EnumerableExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ForEach&lt;T&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; enumeration, class System.Action`1&lt;!!T&gt; action) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub ForEach(Of T) (enumeration As IEnumerable(Of T), action As Action(Of T))" />
+      <MemberSignature Language="F#" Value="static member ForEach : seq&lt;'T&gt; * Action&lt;'T&gt; -&gt; unit" Usage="Xamarin.Forms.Internals.EnumerableExtensions.ForEach (enumeration, action)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -54,6 +56,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; GetGesturesFor&lt;(class Xamarin.Forms.GestureRecognizer) T&gt;(class System.Collections.Generic.IEnumerable`1&lt;class Xamarin.Forms.IGestureRecognizer&gt; gestures, class System.Func`2&lt;!!T, bool&gt; predicate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.EnumerableExtensions.GetGesturesFor``1(System.Collections.Generic.IEnumerable{Xamarin.Forms.IGestureRecognizer},System.Func{``0,System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Iterator Function GetGesturesFor(Of T As GestureRecognizer) (gestures As IEnumerable(Of IGestureRecognizer), Optional predicate As Func(Of T, Boolean) = null) As IEnumerable(Of T)" />
+      <MemberSignature Language="F#" Value="static member GetGesturesFor : seq&lt;Xamarin.Forms.IGestureRecognizer&gt; * Func&lt;'T, bool (requires 'T :&gt; Xamarin.Forms.GestureRecognizer)&gt; -&gt; seq&lt;'T (requires 'T :&gt; Xamarin.Forms.GestureRecognizer)&gt; (requires 'T :&gt; Xamarin.Forms.GestureRecognizer)" Usage="Xamarin.Forms.Internals.EnumerableExtensions.GetGesturesFor (gestures, predicate)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 IndexOf&lt;T&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; enumerable, class System.Func`2&lt;!!T, bool&gt; predicate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.EnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IndexOf(Of T) (enumerable As IEnumerable(Of T), predicate As Func(Of T, Boolean)) As Integer" />
+      <MemberSignature Language="F#" Value="static member IndexOf : seq&lt;'T&gt; * Func&lt;'T, bool&gt; -&gt; int" Usage="Xamarin.Forms.Internals.EnumerableExtensions.IndexOf (enumerable, predicate)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -121,6 +125,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 IndexOf&lt;T&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; enumerable, !!T item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.EnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IndexOf(Of T) (enumerable As IEnumerable(Of T), item As T) As Integer" />
+      <MemberSignature Language="F#" Value="static member IndexOf : seq&lt;'T&gt; * 'T -&gt; int" Usage="Xamarin.Forms.Internals.EnumerableExtensions.IndexOf (enumerable, item)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -150,6 +155,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; Prepend&lt;T&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; enumerable, !!T item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.EnumerableExtensions.Prepend``1(System.Collections.Generic.IEnumerable{``0},``0)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Iterator Function Prepend(Of T) (enumerable As IEnumerable(Of T), item As T) As IEnumerable(Of T)" />
+      <MemberSignature Language="F#" Value="static member Prepend : seq&lt;'T&gt; * 'T -&gt; seq&lt;'T&gt;" Usage="Xamarin.Forms.Internals.EnumerableExtensions.Prepend (enumerable, item)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

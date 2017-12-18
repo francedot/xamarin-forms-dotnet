@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit BindingExtension extends System.Object implements class Xamarin.Forms.Xaml.IMarkupExtension, class Xamarin.Forms.Xaml.IMarkupExtension`1&lt;class Xamarin.Forms.BindingBase&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.BindingExtension" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class BindingExtension&#xA;Implements IMarkupExtension(Of BindingBase)" />
+  <TypeSignature Language="F#" Value="type BindingExtension = class&#xA;    interface IMarkupExtension&lt;BindingBase&gt;&#xA;    interface IMarkupExtension" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -49,6 +50,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.IValueConverter Converter" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.BindingExtension.Converter" />
       <MemberSignature Language="VB.NET" Value="Public Property Converter As IValueConverter" />
+      <MemberSignature Language="F#" Value="member this.Converter : Xamarin.Forms.IValueConverter with get, set" Usage="Xamarin.Forms.Xaml.BindingExtension.Converter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
@@ -68,6 +70,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object ConverterParameter" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.BindingExtension.ConverterParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property ConverterParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.ConverterParameter : obj with get, set" Usage="Xamarin.Forms.Xaml.BindingExtension.ConverterParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
@@ -87,6 +90,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.BindingMode Mode" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.BindingExtension.Mode" />
       <MemberSignature Language="VB.NET" Value="Public Property Mode As BindingMode" />
+      <MemberSignature Language="F#" Value="member this.Mode : Xamarin.Forms.BindingMode with get, set" Usage="Xamarin.Forms.Xaml.BindingExtension.Mode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
@@ -106,6 +110,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Path" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.BindingExtension.Path" />
       <MemberSignature Language="VB.NET" Value="Public Property Path As String" />
+      <MemberSignature Language="F#" Value="member this.Path : string with get, set" Usage="Xamarin.Forms.Xaml.BindingExtension.Path" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
@@ -125,6 +130,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Source" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.BindingExtension.Source" />
       <MemberSignature Language="VB.NET" Value="Public Property Source As Object" />
+      <MemberSignature Language="F#" Value="member this.Source : obj with get, set" Usage="Xamarin.Forms.Xaml.BindingExtension.Source" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
@@ -144,6 +150,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string StringFormat" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.BindingExtension.StringFormat" />
       <MemberSignature Language="VB.NET" Value="Public Property StringFormat As String" />
+      <MemberSignature Language="F#" Value="member this.StringFormat : string with get, set" Usage="Xamarin.Forms.Xaml.BindingExtension.StringFormat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
@@ -163,6 +170,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Internals.TypedBindingBase TypedBinding" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.BindingExtension.TypedBinding" />
       <MemberSignature Language="VB.NET" Value="Public Property TypedBinding As TypedBindingBase" />
+      <MemberSignature Language="F#" Value="member this.TypedBinding : Xamarin.Forms.Internals.TypedBindingBase with get, set" Usage="Xamarin.Forms.Xaml.BindingExtension.TypedBinding" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
@@ -182,6 +190,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string UpdateSourceEventName" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.BindingExtension.UpdateSourceEventName" />
       <MemberSignature Language="VB.NET" Value="Public Property UpdateSourceEventName As String" />
+      <MemberSignature Language="F#" Value="member this.UpdateSourceEventName : string with get, set" Usage="Xamarin.Forms.Xaml.BindingExtension.UpdateSourceEventName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
@@ -202,6 +211,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.BindingExtension.Xamarin#Forms#Xaml#IMarkupExtension#ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Function ProvideValue (serviceProvider As IServiceProvider) As Object Implements IMarkupExtension.ProvideValue" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Xaml.IMarkupExtension.ProvideValue(System.IServiceProvider)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -225,6 +237,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.BindingExtension.Xamarin#Forms#Xaml#IMarkupExtension&lt;Xamarin#Forms#BindingBase&gt;#ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Function ProvideValue (serviceProvider As IServiceProvider) As BindingBase Implements IMarkupExtension(Of BindingBase).ProvideValue" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Xaml.IMarkupExtension`1.ProvideValue(System.IServiceProvider)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

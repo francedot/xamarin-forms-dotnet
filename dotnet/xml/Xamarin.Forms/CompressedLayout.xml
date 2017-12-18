@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CompressedLayout extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.CompressedLayout" />
   <TypeSignature Language="VB.NET" Value="Public Class CompressedLayout" />
+  <TypeSignature Language="F#" Value="type CompressedLayout = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Point GetHeadlessOffset(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.CompressedLayout.GetHeadlessOffset(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetHeadlessOffset (bindable As BindableObject) As Point" />
+      <MemberSignature Language="F#" Value="static member GetHeadlessOffset : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Point" Usage="Xamarin.Forms.CompressedLayout.GetHeadlessOffset bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -49,6 +51,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsHeadless(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.CompressedLayout.GetIsHeadless(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetIsHeadless (bindable As BindableObject) As Boolean" />
+      <MemberSignature Language="F#" Value="static member GetIsHeadless : Xamarin.Forms.BindableObject -&gt; bool" Usage="Xamarin.Forms.CompressedLayout.GetIsHeadless bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -72,6 +75,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HeadlessOffsetProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.CompressedLayout.HeadlessOffsetProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeadlessOffsetProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeadlessOffsetProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.CompressedLayout.HeadlessOffsetProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -95,6 +99,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsHeadlessProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.CompressedLayout.IsHeadlessProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsHeadlessProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsHeadlessProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.CompressedLayout.IsHeadlessProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -113,6 +118,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsHeadless(class Xamarin.Forms.BindableObject bindable, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.CompressedLayout.SetIsHeadless(Xamarin.Forms.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetIsHeadless (bindable As BindableObject, value As Boolean)" />
+      <MemberSignature Language="F#" Value="static member SetIsHeadless : Xamarin.Forms.BindableObject * bool -&gt; unit" Usage="Xamarin.Forms.CompressedLayout.SetIsHeadless (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

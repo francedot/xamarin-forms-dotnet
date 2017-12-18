@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AbsoluteLayoutFlags extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.AbsoluteLayoutFlags" />
   <TypeSignature Language="VB.NET" Value="Public Enum AbsoluteLayoutFlags" />
+  <TypeSignature Language="F#" Value="type AbsoluteLayoutFlags = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.AbsoluteLayoutFlags All = int32(-1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AbsoluteLayoutFlags.All" />
       <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="F#" Value="All = -1" Usage="Xamarin.Forms.AbsoluteLayoutFlags.All" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.AbsoluteLayoutFlags HeightProportional = int32(8)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AbsoluteLayoutFlags.HeightProportional" />
       <MemberSignature Language="VB.NET" Value="HeightProportional" />
+      <MemberSignature Language="F#" Value="HeightProportional = 8" Usage="Xamarin.Forms.AbsoluteLayoutFlags.HeightProportional" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -64,6 +67,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.AbsoluteLayoutFlags None = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AbsoluteLayoutFlags.None" />
       <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Xamarin.Forms.AbsoluteLayoutFlags.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -82,6 +86,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.AbsoluteLayoutFlags PositionProportional = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AbsoluteLayoutFlags.PositionProportional" />
       <MemberSignature Language="VB.NET" Value="PositionProportional" />
+      <MemberSignature Language="F#" Value="PositionProportional = 3" Usage="Xamarin.Forms.AbsoluteLayoutFlags.PositionProportional" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -100,6 +105,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.AbsoluteLayoutFlags SizeProportional = int32(12)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AbsoluteLayoutFlags.SizeProportional" />
       <MemberSignature Language="VB.NET" Value="SizeProportional" />
+      <MemberSignature Language="F#" Value="SizeProportional = 12" Usage="Xamarin.Forms.AbsoluteLayoutFlags.SizeProportional" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -118,6 +124,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.AbsoluteLayoutFlags WidthProportional = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AbsoluteLayoutFlags.WidthProportional" />
       <MemberSignature Language="VB.NET" Value="WidthProportional" />
+      <MemberSignature Language="F#" Value="WidthProportional = 4" Usage="Xamarin.Forms.AbsoluteLayoutFlags.WidthProportional" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -136,6 +143,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.AbsoluteLayoutFlags XProportional = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AbsoluteLayoutFlags.XProportional" />
       <MemberSignature Language="VB.NET" Value="XProportional" />
+      <MemberSignature Language="F#" Value="XProportional = 1" Usage="Xamarin.Forms.AbsoluteLayoutFlags.XProportional" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -154,6 +162,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.AbsoluteLayoutFlags YProportional = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.AbsoluteLayoutFlags.YProportional" />
       <MemberSignature Language="VB.NET" Value="YProportional" />
+      <MemberSignature Language="F#" Value="YProportional = 2" Usage="Xamarin.Forms.AbsoluteLayoutFlags.YProportional" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

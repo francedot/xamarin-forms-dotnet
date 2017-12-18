@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ColumnDefinitionCollection extends Xamarin.Forms.DefinitionCollection`1&lt;class Xamarin.Forms.ColumnDefinition&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ColumnDefinitionCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ColumnDefinitionCollection&#xA;Inherits DefinitionCollection(Of ColumnDefinition)" />
+  <TypeSignature Language="F#" Value="type ColumnDefinitionCollection = class&#xA;    inherit DefinitionCollection&lt;ColumnDefinition&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>

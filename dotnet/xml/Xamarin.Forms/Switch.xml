@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Switch extends Xamarin.Forms.View implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.Switch&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Switch" />
   <TypeSignature Language="VB.NET" Value="Public Class Switch&#xA;Inherits View&#xA;Implements IElementConfiguration(Of Switch)" />
+  <TypeSignature Language="F#" Value="type Switch = class&#xA;    inherit View&#xA;    interface IElementConfiguration&lt;Switch&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -127,6 +128,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool IsToggled" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Switch.IsToggled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsToggled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsToggled : bool with get, set" Usage="Xamarin.Forms.Switch.IsToggled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -146,6 +148,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsToggledProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Switch.IsToggledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsToggledProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsToggledProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Switch.IsToggledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -164,7 +167,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.Switch&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Switch.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Switch)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Switch (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Switch (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="switch.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -192,6 +199,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ToggledEventArgs&gt; Toggled" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Switch.Toggled" />
       <MemberSignature Language="VB.NET" Value="Public Event Toggled As EventHandler(Of ToggledEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.Toggled : EventHandler&lt;Xamarin.Forms.ToggledEventArgs&gt; " Usage="member this.Toggled : System.EventHandler&lt;Xamarin.Forms.ToggledEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

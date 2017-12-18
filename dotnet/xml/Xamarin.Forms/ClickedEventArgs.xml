@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClickedEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ClickedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ClickedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type ClickedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Xamarin.Forms.ButtonsMask buttons, object commandParameter) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ClickedEventArgs.#ctor(Xamarin.Forms.ButtonsMask,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (buttons As ButtonsMask, commandParameter As Object)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.ClickedEventArgs : Xamarin.Forms.ButtonsMask * obj -&gt; Xamarin.Forms.ClickedEventArgs" Usage="new Xamarin.Forms.ClickedEventArgs (buttons, commandParameter)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -42,6 +44,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.ButtonsMask Buttons" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ClickedEventArgs.Buttons" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Buttons As ButtonsMask" />
+      <MemberSignature Language="F#" Value="member this.Buttons : Xamarin.Forms.ButtonsMask" Usage="Xamarin.Forms.ClickedEventArgs.Buttons" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -61,6 +64,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Parameter" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ClickedEventArgs.Parameter" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parameter As Object" />
+      <MemberSignature Language="F#" Value="member this.Parameter : obj" Usage="Xamarin.Forms.ClickedEventArgs.Parameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

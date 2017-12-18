@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Layout`1&lt;(class Xamarin.Forms.View) T&gt; extends Xamarin.Forms.Layout implements class Xamarin.Forms.IViewContainer`1&lt;!T&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Layout`1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Layout(Of T)&#xA;Inherits Layout&#xA;Implements IViewContainer(Of T)" />
+  <TypeSignature Language="F#" Value="type Layout&lt;'T (requires 'T :&gt; View)&gt; = class&#xA;    inherit Layout&#xA;    interface IViewContainer&lt;'T (requires 'T :&gt; View)&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -76,7 +77,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;!T&gt; Children" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Layout`1.Children" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Children As IList(Of T)" />
+      <MemberSignature Language="F#" Value="member this.Children : System.Collections.Generic.IList&lt;'T (requires 'T :&gt; Xamarin.Forms.View)&gt;" Usage="Xamarin.Forms.Layout&lt;'T (requires 'T :&gt; Xamarin.Forms.View)&gt;.Children" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IViewContainer`1.Children</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -113,6 +118,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnAdded(!T view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout`1.OnAdded(`0)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnAdded (view As T)" />
+      <MemberSignature Language="F#" Value="abstract member OnAdded : 'T -&gt; unit&#xA;override this.OnAdded : 'T -&gt; unit" Usage="layout.OnAdded view" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -135,6 +141,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildAdded(class Xamarin.Forms.Element child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout`1.OnChildAdded(Xamarin.Forms.Element)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnChildAdded (child As Element)" />
+      <MemberSignature Language="F#" Value="override this.OnChildAdded : Xamarin.Forms.Element -&gt; unit" Usage="layout.OnChildAdded child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -157,6 +164,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildRemoved(class Xamarin.Forms.Element child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout`1.OnChildRemoved(Xamarin.Forms.Element)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnChildRemoved (child As Element)" />
+      <MemberSignature Language="F#" Value="override this.OnChildRemoved : Xamarin.Forms.Element -&gt; unit" Usage="layout.OnChildRemoved child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -179,6 +187,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnRemoved(!T view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout`1.OnRemoved(`0)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnRemoved (view As T)" />
+      <MemberSignature Language="F#" Value="abstract member OnRemoved : 'T -&gt; unit&#xA;override this.OnRemoved : 'T -&gt; unit" Usage="layout.OnRemoved view" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

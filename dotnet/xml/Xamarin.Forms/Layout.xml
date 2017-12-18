@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Layout extends Xamarin.Forms.View implements class Xamarin.Forms.ILayout, class Xamarin.Forms.ILayoutController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Layout" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Layout&#xA;Inherits View&#xA;Implements ILayout, ILayoutController" />
+  <TypeSignature Language="F#" Value="type Layout = class&#xA;    inherit View&#xA;    interface ILayout&#xA;    interface ILayoutController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -76,7 +77,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Xamarin.Forms.Element&gt; Children" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Layout.Children" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Children As IReadOnlyList(Of Element)" />
+      <MemberSignature Language="F#" Value="member this.Children : System.Collections.Generic.IReadOnlyList&lt;Xamarin.Forms.Element&gt;" Usage="Xamarin.Forms.Layout.Children" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.ILayoutController.Children</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -100,6 +105,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ForceLayout() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout.ForceLayout" />
       <MemberSignature Language="VB.NET" Value="Public Sub ForceLayout ()" />
+      <MemberSignature Language="F#" Value="member this.ForceLayout : unit -&gt; unit" Usage="layout.ForceLayout " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -121,6 +127,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype Xamarin.Forms.SizeRequest GetSizeRequest(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout.GetSizeRequest(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides NotOverridable Function GetSizeRequest (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
+      <MemberSignature Language="F#" Value="override this.GetSizeRequest : double * double -&gt; Xamarin.Forms.SizeRequest" Usage="layout.GetSizeRequest (widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -156,6 +163,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void InvalidateLayout() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout.InvalidateLayout" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub InvalidateLayout ()" />
+      <MemberSignature Language="F#" Value="abstract member InvalidateLayout : unit -&gt; unit&#xA;override this.InvalidateLayout : unit -&gt; unit" Usage="layout.InvalidateLayout " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -175,6 +183,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsClippedToBounds" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Layout.IsClippedToBounds" />
       <MemberSignature Language="VB.NET" Value="Public Property IsClippedToBounds As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsClippedToBounds : bool with get, set" Usage="Xamarin.Forms.Layout.IsClippedToBounds" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -195,6 +204,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsClippedToBoundsProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Layout.IsClippedToBoundsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsClippedToBoundsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsClippedToBoundsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Layout.IsClippedToBoundsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -213,7 +223,11 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler LayoutChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Layout.LayoutChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event LayoutChanged As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.LayoutChanged : EventHandler " Usage="member this.LayoutChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.ILayout.LayoutChanged</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -233,6 +247,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void LayoutChildIntoBoundingRegion(class Xamarin.Forms.VisualElement child, valuetype Xamarin.Forms.Rectangle region) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout.LayoutChildIntoBoundingRegion(Xamarin.Forms.VisualElement,Xamarin.Forms.Rectangle)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub LayoutChildIntoBoundingRegion (child As VisualElement, region As Rectangle)" />
+      <MemberSignature Language="F#" Value="static member LayoutChildIntoBoundingRegion : Xamarin.Forms.VisualElement * Xamarin.Forms.Rectangle -&gt; unit" Usage="Xamarin.Forms.Layout.LayoutChildIntoBoundingRegion (child, region)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -257,6 +272,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void LayoutChildren(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Sub LayoutChildren (x As Double, y As Double, width As Double, height As Double)" />
+      <MemberSignature Language="F#" Value="abstract member LayoutChildren : double * double * double * double -&gt; unit" Usage="layout.LayoutChildren (x, y, width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -284,6 +300,7 @@
       <MemberSignature Language="C#" Value="public void LowerChild (Xamarin.Forms.View view);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void LowerChild(class Xamarin.Forms.View view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout.LowerChild(Xamarin.Forms.View)" />
+      <MemberSignature Language="F#" Value="member this.LowerChild : Xamarin.Forms.View -&gt; unit" Usage="layout.LowerChild view" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -306,6 +323,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnChildMeasureInvalidated() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout.OnChildMeasureInvalidated" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnChildMeasureInvalidated ()" />
+      <MemberSignature Language="F#" Value="abstract member OnChildMeasureInvalidated : unit -&gt; unit&#xA;override this.OnChildMeasureInvalidated : unit -&gt; unit" Usage="layout.OnChildMeasureInvalidated " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -325,6 +343,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void OnChildMeasureInvalidated(object sender, class System.EventArgs e) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout.OnChildMeasureInvalidated(System.Object,System.EventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub OnChildMeasureInvalidated (sender As Object, e As EventArgs)" />
+      <MemberSignature Language="F#" Value="member this.OnChildMeasureInvalidated : obj * EventArgs -&gt; unit" Usage="layout.OnChildMeasureInvalidated (sender, e)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -349,6 +368,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnSizeAllocated(float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout.OnSizeAllocated(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnSizeAllocated (width As Double, height As Double)" />
+      <MemberSignature Language="F#" Value="override this.OnSizeAllocated : double * double -&gt; unit" Usage="layout.OnSizeAllocated (width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -373,6 +393,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Thickness Padding" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Layout.Padding" />
       <MemberSignature Language="VB.NET" Value="Public Property Padding As Thickness" />
+      <MemberSignature Language="F#" Value="member this.Padding : Xamarin.Forms.Thickness with get, set" Usage="Xamarin.Forms.Layout.Padding" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -410,6 +431,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty PaddingProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Layout.PaddingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PaddingProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PaddingProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Layout.PaddingProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -427,6 +449,7 @@
       <MemberSignature Language="C#" Value="public void RaiseChild (Xamarin.Forms.View view);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RaiseChild(class Xamarin.Forms.View view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout.RaiseChild(Xamarin.Forms.View)" />
+      <MemberSignature Language="F#" Value="member this.RaiseChild : Xamarin.Forms.View -&gt; unit" Usage="layout.RaiseChild view" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -449,6 +472,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool ShouldInvalidateOnChildAdded(class Xamarin.Forms.View child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout.ShouldInvalidateOnChildAdded(Xamarin.Forms.View)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function ShouldInvalidateOnChildAdded (child As View) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member ShouldInvalidateOnChildAdded : Xamarin.Forms.View -&gt; bool&#xA;override this.ShouldInvalidateOnChildAdded : Xamarin.Forms.View -&gt; bool" Usage="layout.ShouldInvalidateOnChildAdded child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -472,6 +496,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool ShouldInvalidateOnChildRemoved(class Xamarin.Forms.View child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout.ShouldInvalidateOnChildRemoved(Xamarin.Forms.View)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function ShouldInvalidateOnChildRemoved (child As View) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member ShouldInvalidateOnChildRemoved : Xamarin.Forms.View -&gt; bool&#xA;override this.ShouldInvalidateOnChildRemoved : Xamarin.Forms.View -&gt; bool" Usage="layout.ShouldInvalidateOnChildRemoved child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -495,6 +520,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void UpdateChildrenLayout() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Layout.UpdateChildrenLayout" />
       <MemberSignature Language="VB.NET" Value="Protected Sub UpdateChildrenLayout ()" />
+      <MemberSignature Language="F#" Value="member this.UpdateChildrenLayout : unit -&gt; unit" Usage="layout.UpdateChildrenLayout " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

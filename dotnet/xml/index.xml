@@ -706,6 +706,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool AbortAnimation(class Xamarin.Forms.IAnimatable self, string handle) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AnimationExtensions.AbortAnimation(Xamarin.Forms.IAnimatable,System.String)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AbortAnimation (self As IAnimatable, handle As String) As Boolean" />
+        <MemberSignature Language="F#" Value="static member AbortAnimation : Xamarin.Forms.IAnimatable * string -&gt; bool" Usage="Xamarin.Forms.AnimationExtensions.AbortAnimation (self, handle)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -730,6 +731,7 @@
         <MemberSignature Language="C#" Value="public static void Animate (this Xamarin.Forms.IAnimatable self, string name, Action&lt;double&gt; callback, double start, double end, uint rate = 16, uint length = 250, Xamarin.Forms.Easing easing = null, Action&lt;double,bool&gt; finished = null, Func&lt;bool&gt; repeat = null);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Animate(class Xamarin.Forms.IAnimatable self, string name, class System.Action`1&lt;float64&gt; callback, float64 start, float64 end, unsigned int32 rate, unsigned int32 length, class Xamarin.Forms.Easing easing, class System.Action`2&lt;float64, bool&gt; finished, class System.Func`1&lt;bool&gt; repeat) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AnimationExtensions.Animate(Xamarin.Forms.IAnimatable,System.String,System.Action{System.Double},System.Double,System.Double,System.UInt32,System.UInt32,Xamarin.Forms.Easing,System.Action{System.Double,System.Boolean},System.Func{System.Boolean})" />
+        <MemberSignature Language="F#" Value="static member Animate : Xamarin.Forms.IAnimatable * string * Action&lt;double&gt; * double * double * uint32 * uint32 * Xamarin.Forms.Easing * Action&lt;double, bool&gt; * Func&lt;bool&gt; -&gt; unit" Usage="Xamarin.Forms.AnimationExtensions.Animate (self, name, callback, start, end, rate, length, easing, finished, repeat)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -770,6 +772,7 @@
         <MemberSignature Language="C#" Value="public static void Animate (this Xamarin.Forms.IAnimatable self, string name, Action&lt;double&gt; callback, uint rate = 16, uint length = 250, Xamarin.Forms.Easing easing = null, Action&lt;double,bool&gt; finished = null, Func&lt;bool&gt; repeat = null);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Animate(class Xamarin.Forms.IAnimatable self, string name, class System.Action`1&lt;float64&gt; callback, unsigned int32 rate, unsigned int32 length, class Xamarin.Forms.Easing easing, class System.Action`2&lt;float64, bool&gt; finished, class System.Func`1&lt;bool&gt; repeat) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AnimationExtensions.Animate(Xamarin.Forms.IAnimatable,System.String,System.Action{System.Double},System.UInt32,System.UInt32,Xamarin.Forms.Easing,System.Action{System.Double,System.Boolean},System.Func{System.Boolean})" />
+        <MemberSignature Language="F#" Value="static member Animate : Xamarin.Forms.IAnimatable * string * Action&lt;double&gt; * uint32 * uint32 * Xamarin.Forms.Easing * Action&lt;double, bool&gt; * Func&lt;bool&gt; -&gt; unit" Usage="Xamarin.Forms.AnimationExtensions.Animate (self, name, callback, rate, length, easing, finished, repeat)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -806,6 +809,7 @@
         <MemberSignature Language="C#" Value="public static void Animate (this Xamarin.Forms.IAnimatable self, string name, Xamarin.Forms.Animation animation, uint rate = 16, uint length = 250, Xamarin.Forms.Easing easing = null, Action&lt;double,bool&gt; finished = null, Func&lt;bool&gt; repeat = null);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Animate(class Xamarin.Forms.IAnimatable self, string name, class Xamarin.Forms.Animation animation, unsigned int32 rate, unsigned int32 length, class Xamarin.Forms.Easing easing, class System.Action`2&lt;float64, bool&gt; finished, class System.Func`1&lt;bool&gt; repeat) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AnimationExtensions.Animate(Xamarin.Forms.IAnimatable,System.String,Xamarin.Forms.Animation,System.UInt32,System.UInt32,Xamarin.Forms.Easing,System.Action{System.Double,System.Boolean},System.Func{System.Boolean})" />
+        <MemberSignature Language="F#" Value="static member Animate : Xamarin.Forms.IAnimatable * string * Xamarin.Forms.Animation * uint32 * uint32 * Xamarin.Forms.Easing * Action&lt;double, bool&gt; * Func&lt;bool&gt; -&gt; unit" Usage="Xamarin.Forms.AnimationExtensions.Animate (self, name, animation, rate, length, easing, finished, repeat)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -842,6 +846,7 @@
         <MemberSignature Language="C#" Value="public static void Animate&lt;T&gt; (this Xamarin.Forms.IAnimatable self, string name, Func&lt;double,T&gt; transform, Action&lt;T&gt; callback, uint rate = 16, uint length = 250, Xamarin.Forms.Easing easing = null, Action&lt;T,bool&gt; finished = null, Func&lt;bool&gt; repeat = null);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Animate&lt;T&gt;(class Xamarin.Forms.IAnimatable self, string name, class System.Func`2&lt;float64, !!T&gt; transform, class System.Action`1&lt;!!T&gt; callback, unsigned int32 rate, unsigned int32 length, class Xamarin.Forms.Easing easing, class System.Action`2&lt;!!T, bool&gt; finished, class System.Func`1&lt;bool&gt; repeat) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AnimationExtensions.Animate``1(Xamarin.Forms.IAnimatable,System.String,System.Func{System.Double,``0},System.Action{``0},System.UInt32,System.UInt32,Xamarin.Forms.Easing,System.Action{``0,System.Boolean},System.Func{System.Boolean})" />
+        <MemberSignature Language="F#" Value="static member Animate : Xamarin.Forms.IAnimatable * string * Func&lt;double, 'T&gt; * Action&lt;'T&gt; * uint32 * uint32 * Xamarin.Forms.Easing * Action&lt;'T, bool&gt; * Func&lt;bool&gt; -&gt; unit" Usage="Xamarin.Forms.AnimationExtensions.Animate (self, name, transform, callback, rate, length, easing, finished, repeat)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -885,6 +890,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AnimateKinetic(class Xamarin.Forms.IAnimatable self, string name, class System.Func`3&lt;float64, float64, bool&gt; callback, float64 velocity, float64 drag, class System.Action finished) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AnimationExtensions.AnimateKinetic(Xamarin.Forms.IAnimatable,System.String,System.Func{System.Double,System.Double,System.Boolean},System.Double,System.Double,System.Action)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub AnimateKinetic (self As IAnimatable, name As String, callback As Func(Of Double, Double, Boolean), velocity As Double, drag As Double, Optional finished As Action = null)" />
+        <MemberSignature Language="F#" Value="static member AnimateKinetic : Xamarin.Forms.IAnimatable * string * Func&lt;double, double, bool&gt; * double * double * Action -&gt; unit" Usage="Xamarin.Forms.AnimationExtensions.AnimateKinetic (self, name, callback, velocity, drag, finished)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -918,6 +924,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool AnimationIsRunning(class Xamarin.Forms.IAnimatable self, string handle) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.AnimationExtensions.AnimationIsRunning(Xamarin.Forms.IAnimatable,System.String)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AnimationIsRunning (self As IAnimatable, handle As String) As Boolean" />
+        <MemberSignature Language="F#" Value="static member AnimationIsRunning : Xamarin.Forms.IAnimatable * string -&gt; bool" Usage="Xamarin.Forms.AnimationExtensions.AnimationIsRunning (self, handle)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -943,6 +950,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBinding(class Xamarin.Forms.BindableObject self, class Xamarin.Forms.BindableProperty targetProperty, string path, valuetype Xamarin.Forms.BindingMode mode, class Xamarin.Forms.IValueConverter converter, string stringFormat) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.BindableObjectExtensions.SetBinding(Xamarin.Forms.BindableObject,Xamarin.Forms.BindableProperty,System.String,Xamarin.Forms.BindingMode,Xamarin.Forms.IValueConverter,System.String)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetBinding (self As BindableObject, targetProperty As BindableProperty, path As String, Optional mode As BindingMode = Xamarin.Forms.BindingMode.Default, Optional converter As IValueConverter = null, Optional stringFormat As String = null)" />
+        <MemberSignature Language="F#" Value="static member SetBinding : Xamarin.Forms.BindableObject * Xamarin.Forms.BindableProperty * string * Xamarin.Forms.BindingMode * Xamarin.Forms.IValueConverter * string -&gt; unit" Usage="Xamarin.Forms.BindableObjectExtensions.SetBinding (self, targetProperty, path, mode, converter, stringFormat)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -976,6 +984,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBinding&lt;TSource&gt;(class Xamarin.Forms.BindableObject self, class Xamarin.Forms.BindableProperty targetProperty, class System.Linq.Expressions.Expression`1&lt;class System.Func`2&lt;!!TSource, object&gt;&gt; sourceProperty, valuetype Xamarin.Forms.BindingMode mode, class Xamarin.Forms.IValueConverter converter, string stringFormat) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.BindableObjectExtensions.SetBinding``1(Xamarin.Forms.BindableObject,Xamarin.Forms.BindableProperty,System.Linq.Expressions.Expression{System.Func{``0,System.Object}},Xamarin.Forms.BindingMode,Xamarin.Forms.IValueConverter,System.String)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetBinding(Of TSource) (self As BindableObject, targetProperty As BindableProperty, sourceProperty As Expression(Of Func(Of TSource, Object)), Optional mode As BindingMode = Xamarin.Forms.BindingMode.Default, Optional converter As IValueConverter = null, Optional stringFormat As String = null)" />
+        <MemberSignature Language="F#" Value="static member SetBinding : Xamarin.Forms.BindableObject * Xamarin.Forms.BindableProperty * System.Linq.Expressions.Expression&lt;Func&lt;'Source, obj&gt;&gt; * Xamarin.Forms.BindingMode * Xamarin.Forms.IValueConverter * string -&gt; unit" Usage="Xamarin.Forms.BindableObjectExtensions.SetBinding (self, targetProperty, sourceProperty, mode, converter, stringFormat)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -1013,6 +1022,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.ITemplatedItemsList`1&lt;!!TItem&gt; GetGroup&lt;(class Xamarin.Forms.BindableObject, class Xamarin.Forms.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Xamarin.Forms.BindableObject) TItem&gt;(!!TItem cell) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.CellExtensions.GetGroup``2(``1)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetGroup(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem) As ITemplatedItemsList(Of TItem)" />
+        <MemberSignature Language="F#" Value="static member GetGroup : 'Item -&gt; Xamarin.Forms.ITemplatedItemsList&lt;'Item (requires 'Item :&gt; Xamarin.Forms.BindableObject)&gt; (requires 'View :&gt; Xamarin.Forms.BindableObject and 'View :&gt; Xamarin.Forms.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Xamarin.Forms.BindableObject)" Usage="Xamarin.Forms.Internals.CellExtensions.GetGroup cell" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.ITemplatedItemsList&lt;TItem&gt;</ReturnType>
@@ -1051,6 +1061,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TItem GetGroupHeaderContent&lt;(class Xamarin.Forms.BindableObject, class Xamarin.Forms.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Xamarin.Forms.BindableObject) TItem&gt;(!!TItem cell) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.CellExtensions.GetGroupHeaderContent``2(``1)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetGroupHeaderContent(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem) As TItem" />
+        <MemberSignature Language="F#" Value="static member GetGroupHeaderContent : 'Item -&gt; 'Item (requires 'View :&gt; Xamarin.Forms.BindableObject and 'View :&gt; Xamarin.Forms.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Xamarin.Forms.BindableObject)" Usage="Xamarin.Forms.Internals.CellExtensions.GetGroupHeaderContent cell" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>TItem</ReturnType>
@@ -1089,6 +1100,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetIndex&lt;(class Xamarin.Forms.BindableObject, class Xamarin.Forms.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Xamarin.Forms.BindableObject) TItem&gt;(!!TItem cell) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.CellExtensions.GetIndex``2(``1)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetIndex(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem) As Integer" />
+        <MemberSignature Language="F#" Value="static member GetIndex : 'Item -&gt; int (requires 'View :&gt; Xamarin.Forms.BindableObject and 'View :&gt; Xamarin.Forms.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Xamarin.Forms.BindableObject)" Usage="Xamarin.Forms.Internals.CellExtensions.GetIndex cell" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Int32</ReturnType>
@@ -1127,6 +1139,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsGroupHeader&lt;(class Xamarin.Forms.BindableObject, class Xamarin.Forms.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Xamarin.Forms.BindableObject) TItem&gt;(!!TItem cell) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.CellExtensions.GetIsGroupHeader``2(``1)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetIsGroupHeader(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem) As Boolean" />
+        <MemberSignature Language="F#" Value="static member GetIsGroupHeader : 'Item -&gt; bool (requires 'View :&gt; Xamarin.Forms.BindableObject and 'View :&gt; Xamarin.Forms.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Xamarin.Forms.BindableObject)" Usage="Xamarin.Forms.Internals.CellExtensions.GetIsGroupHeader cell" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -1164,6 +1177,7 @@
         <MemberSignature Language="C#" Value="public static Tuple&lt;int,int&gt; GetPath (this Xamarin.Forms.Cell cell);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Tuple`2&lt;int32, int32&gt; GetPath(class Xamarin.Forms.Cell cell) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.CellExtensions.GetPath(Xamarin.Forms.Cell)" />
+        <MemberSignature Language="F#" Value="static member GetPath : Xamarin.Forms.Cell -&gt; int * int" Usage="Xamarin.Forms.Internals.CellExtensions.GetPath cell" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Tuple&lt;System.Int32,System.Int32&gt;</ReturnType>
@@ -1187,6 +1201,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetIsGroupHeader&lt;(class Xamarin.Forms.BindableObject, class Xamarin.Forms.ITemplatedItemsView`1&lt;!!TItem&gt;) TView, (class Xamarin.Forms.BindableObject) TItem&gt;(!!TItem cell, bool value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.CellExtensions.SetIsGroupHeader``2(``1,System.Boolean)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetIsGroupHeader(Of TView As {BindableObject, ITemplatedItemsView(Of TItem)}, TItem As {BindableObject, ITemplatedItemsView(Of TItem)}) (cell As TItem, value As Boolean)" />
+        <MemberSignature Language="F#" Value="static member SetIsGroupHeader : 'Item * bool -&gt; unit (requires 'View :&gt; Xamarin.Forms.BindableObject and 'View :&gt; Xamarin.Forms.ITemplatedItemsView&lt;'Item&gt; and 'Item :&gt; Xamarin.Forms.BindableObject)" Usage="Xamarin.Forms.Internals.CellExtensions.SetIsGroupHeader (cell, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -1227,6 +1242,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig object CreateContent(class Xamarin.Forms.DataTemplate self, object item, class Xamarin.Forms.BindableObject container) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.DataTemplateExtensions.CreateContent(Xamarin.Forms.DataTemplate,System.Object,Xamarin.Forms.BindableObject)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateContent (self As DataTemplate, item As Object, container As BindableObject) As Object" />
+        <MemberSignature Language="F#" Value="static member CreateContent : Xamarin.Forms.DataTemplate * obj * Xamarin.Forms.BindableObject -&gt; obj" Usage="Xamarin.Forms.Internals.DataTemplateExtensions.CreateContent (self, item, container)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Object</ReturnType>
@@ -1254,6 +1270,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.DataTemplate SelectDataTemplate(class Xamarin.Forms.DataTemplate self, object item, class Xamarin.Forms.BindableObject container) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.DataTemplateExtensions.SelectDataTemplate(Xamarin.Forms.DataTemplate,System.Object,Xamarin.Forms.BindableObject)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SelectDataTemplate (self As DataTemplate, item As Object, container As BindableObject) As DataTemplate" />
+        <MemberSignature Language="F#" Value="static member SelectDataTemplate : Xamarin.Forms.DataTemplate * obj * Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.DataTemplate" Usage="Xamarin.Forms.Internals.DataTemplateExtensions.SelectDataTemplate (self, item, container)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.DataTemplate</ReturnType>
@@ -1281,6 +1298,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsLandscape(valuetype Xamarin.Forms.Internals.DeviceOrientation orientation) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.DeviceOrientationExtensions.IsLandscape(Xamarin.Forms.Internals.DeviceOrientation)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsLandscape (orientation As DeviceOrientation) As Boolean" />
+        <MemberSignature Language="F#" Value="static member IsLandscape : Xamarin.Forms.Internals.DeviceOrientation -&gt; bool" Usage="Xamarin.Forms.Internals.DeviceOrientationExtensions.IsLandscape orientation" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -1304,6 +1322,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsPortrait(valuetype Xamarin.Forms.Internals.DeviceOrientation orientation) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.DeviceOrientationExtensions.IsPortrait(Xamarin.Forms.Internals.DeviceOrientation)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsPortrait (orientation As DeviceOrientation) As Boolean" />
+        <MemberSignature Language="F#" Value="static member IsPortrait : Xamarin.Forms.Internals.DeviceOrientation -&gt; bool" Usage="Xamarin.Forms.Internals.DeviceOrientationExtensions.IsPortrait orientation" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -1327,6 +1346,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ForEach&lt;T&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; enumeration, class System.Action`1&lt;!!T&gt; action) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.EnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub ForEach(Of T) (enumeration As IEnumerable(Of T), action As Action(Of T))" />
+        <MemberSignature Language="F#" Value="static member ForEach : seq&lt;'T&gt; * Action&lt;'T&gt; -&gt; unit" Usage="Xamarin.Forms.Internals.EnumerableExtensions.ForEach (enumeration, action)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -1356,6 +1376,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; GetGesturesFor&lt;(class Xamarin.Forms.GestureRecognizer) T&gt;(class System.Collections.Generic.IEnumerable`1&lt;class Xamarin.Forms.IGestureRecognizer&gt; gestures, class System.Func`2&lt;!!T, bool&gt; predicate) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.EnumerableExtensions.GetGesturesFor``1(System.Collections.Generic.IEnumerable{Xamarin.Forms.IGestureRecognizer},System.Func{``0,System.Boolean})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Iterator Function GetGesturesFor(Of T As GestureRecognizer) (gestures As IEnumerable(Of IGestureRecognizer), Optional predicate As Func(Of T, Boolean) = null) As IEnumerable(Of T)" />
+        <MemberSignature Language="F#" Value="static member GetGesturesFor : seq&lt;Xamarin.Forms.IGestureRecognizer&gt; * Func&lt;'T, bool (requires 'T :&gt; Xamarin.Forms.GestureRecognizer)&gt; -&gt; seq&lt;'T (requires 'T :&gt; Xamarin.Forms.GestureRecognizer)&gt; (requires 'T :&gt; Xamarin.Forms.GestureRecognizer)" Usage="Xamarin.Forms.Internals.EnumerableExtensions.GetGesturesFor (gestures, predicate)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Collections.Generic.IEnumerable&lt;T&gt;</ReturnType>
@@ -1389,6 +1410,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 IndexOf&lt;T&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; enumerable, !!T item) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.EnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IndexOf(Of T) (enumerable As IEnumerable(Of T), item As T) As Integer" />
+        <MemberSignature Language="F#" Value="static member IndexOf : seq&lt;'T&gt; * 'T -&gt; int" Usage="Xamarin.Forms.Internals.EnumerableExtensions.IndexOf (enumerable, item)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Int32</ReturnType>
@@ -1418,6 +1440,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 IndexOf&lt;T&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; enumerable, class System.Func`2&lt;!!T, bool&gt; predicate) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.EnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IndexOf(Of T) (enumerable As IEnumerable(Of T), predicate As Func(Of T, Boolean)) As Integer" />
+        <MemberSignature Language="F#" Value="static member IndexOf : seq&lt;'T&gt; * Func&lt;'T, bool&gt; -&gt; int" Usage="Xamarin.Forms.Internals.EnumerableExtensions.IndexOf (enumerable, predicate)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Int32</ReturnType>
@@ -1447,6 +1470,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; Prepend&lt;T&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; enumerable, !!T item) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.EnumerableExtensions.Prepend``1(System.Collections.Generic.IEnumerable{``0},``0)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Iterator Function Prepend(Of T) (enumerable As IEnumerable(Of T), item As T) As IEnumerable(Of T)" />
+        <MemberSignature Language="F#" Value="static member Prepend : seq&lt;'T&gt; * 'T -&gt; seq&lt;'T&gt;" Usage="Xamarin.Forms.Internals.EnumerableExtensions.Prepend (enumerable, item)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Collections.Generic.IEnumerable&lt;T&gt;</ReturnType>
@@ -1476,6 +1500,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Collections.Specialized.NotifyCollectionChangedAction Apply(class System.Collections.Specialized.NotifyCollectionChangedEventArgs self, class System.Action`3&lt;object, int32, bool&gt; insert, class System.Action`2&lt;object, int32&gt; removeAt, class System.Action reset) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsExtensions.Apply(System.Collections.Specialized.NotifyCollectionChangedEventArgs,System.Action{System.Object,System.Int32,System.Boolean},System.Action{System.Object,System.Int32},System.Action)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Apply (self As NotifyCollectionChangedEventArgs, insert As Action(Of Object, Integer, Boolean), removeAt As Action(Of Object, Integer), reset As Action) As NotifyCollectionChangedAction" />
+        <MemberSignature Language="F#" Value="static member Apply : System.Collections.Specialized.NotifyCollectionChangedEventArgs * Action&lt;obj, int, bool&gt; * Action&lt;obj, int&gt; * Action -&gt; System.Collections.Specialized.NotifyCollectionChangedAction" Usage="Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsExtensions.Apply (self, insert, removeAt, reset)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Collections.Specialized.NotifyCollectionChangedAction</ReturnType>
@@ -1505,6 +1530,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Apply&lt;TFrom&gt;(class System.Collections.Specialized.NotifyCollectionChangedEventArgs self, class System.Collections.Generic.IList`1&lt;!!TFrom&gt; from, class System.Collections.Generic.IList`1&lt;object&gt; to) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsExtensions.Apply``1(System.Collections.Specialized.NotifyCollectionChangedEventArgs,System.Collections.Generic.IList{``0},System.Collections.Generic.IList{System.Object})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Apply(Of TFrom) (self As NotifyCollectionChangedEventArgs, from As IList(Of TFrom), to As IList(Of Object))" />
+        <MemberSignature Language="F#" Value="static member Apply : System.Collections.Specialized.NotifyCollectionChangedEventArgs * System.Collections.Generic.IList&lt;'From&gt; * System.Collections.Generic.IList&lt;obj&gt; -&gt; unit" Usage="Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsExtensions.Apply (self, from, to)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -1536,6 +1562,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx WithCount(class System.Collections.Specialized.NotifyCollectionChangedEventArgs e, int32 count) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsExtensions.WithCount(System.Collections.Specialized.NotifyCollectionChangedEventArgs,System.Int32)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithCount (e As NotifyCollectionChangedEventArgs, count As Integer) As NotifyCollectionChangedEventArgsEx" />
+        <MemberSignature Language="F#" Value="static member WithCount : System.Collections.Specialized.NotifyCollectionChangedEventArgs * int -&gt; Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx" Usage="Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsExtensions.WithCount (e, count)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx</ReturnType>
@@ -1561,6 +1588,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 Clamp(float64 self, float64 min, float64 max) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NumericExtensions.Clamp(System.Double,System.Double,System.Double)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Clamp (self As Double, min As Double, max As Double) As Double" />
+        <MemberSignature Language="F#" Value="static member Clamp : double * double * double -&gt; double" Usage="Xamarin.Forms.Internals.NumericExtensions.Clamp (self, min, max)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Double</ReturnType>
@@ -1588,6 +1616,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 Clamp(int32 self, int32 min, int32 max) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NumericExtensions.Clamp(System.Int32,System.Int32,System.Int32)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Clamp (self As Integer, min As Integer, max As Integer) As Integer" />
+        <MemberSignature Language="F#" Value="static member Clamp : int * int * int -&gt; int" Usage="Xamarin.Forms.Internals.NumericExtensions.Clamp (self, min, max)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Int32</ReturnType>
@@ -1614,6 +1643,7 @@
         <MemberSignature Language="C#" Value="public static System.Reflection.FieldInfo GetField (this Type type, Func&lt;System.Reflection.FieldInfo,bool&gt; predicate);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.FieldInfo GetField(class System.Type type, class System.Func`2&lt;class System.Reflection.FieldInfo, bool&gt; predicate) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.GetField(System.Type,System.Func{System.Reflection.FieldInfo,System.Boolean})" />
+        <MemberSignature Language="F#" Value="static member GetField : Type * Func&lt;System.Reflection.FieldInfo, bool&gt; -&gt; System.Reflection.FieldInfo" Usage="Xamarin.Forms.Internals.ReflectionExtensions.GetField (type, predicate)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Reflection.FieldInfo</ReturnType>
@@ -1638,6 +1668,7 @@
         <MemberSignature Language="C#" Value="public static System.Reflection.FieldInfo GetField (this Type type, string name);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.FieldInfo GetField(class System.Type type, string name) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.GetField(System.Type,System.String)" />
+        <MemberSignature Language="F#" Value="static member GetField : Type * string -&gt; System.Reflection.FieldInfo" Usage="Xamarin.Forms.Internals.ReflectionExtensions.GetField (type, name)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Reflection.FieldInfo</ReturnType>
@@ -1662,6 +1693,7 @@
         <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;System.Reflection.FieldInfo&gt; GetFields (this Type type);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class System.Reflection.FieldInfo&gt; GetFields(class System.Type type) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.GetFields(System.Type)" />
+        <MemberSignature Language="F#" Value="static member GetFields : Type -&gt; seq&lt;System.Reflection.FieldInfo&gt;" Usage="Xamarin.Forms.Internals.ReflectionExtensions.GetFields type" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Reflection.FieldInfo&gt;</ReturnType>
@@ -1684,6 +1716,7 @@
         <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;System.Reflection.PropertyInfo&gt; GetProperties (this Type type);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class System.Reflection.PropertyInfo&gt; GetProperties(class System.Type type) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.GetProperties(System.Type)" />
+        <MemberSignature Language="F#" Value="static member GetProperties : Type -&gt; seq&lt;System.Reflection.PropertyInfo&gt;" Usage="Xamarin.Forms.Internals.ReflectionExtensions.GetProperties type" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Reflection.PropertyInfo&gt;</ReturnType>
@@ -1706,6 +1739,7 @@
         <MemberSignature Language="C#" Value="public static System.Reflection.PropertyInfo GetProperty (this Type type, string name);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.PropertyInfo GetProperty(class System.Type type, string name) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.GetProperty(System.Type,System.String)" />
+        <MemberSignature Language="F#" Value="static member GetProperty : Type * string -&gt; System.Reflection.PropertyInfo" Usage="Xamarin.Forms.Internals.ReflectionExtensions.GetProperty (type, name)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Reflection.PropertyInfo</ReturnType>
@@ -1731,6 +1765,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsAssignableFrom(class System.Type self, class System.Type c) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.IsAssignableFrom(System.Type,System.Type)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsAssignableFrom (self As Type, c As Type) As Boolean" />
+        <MemberSignature Language="F#" Value="static member IsAssignableFrom : Type * Type -&gt; bool" Usage="Xamarin.Forms.Internals.ReflectionExtensions.IsAssignableFrom (self, c)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -1756,6 +1791,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsInstanceOfType(class System.Type self, object o) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.IsInstanceOfType(System.Type,System.Object)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsInstanceOfType (self As Type, o As Object) As Boolean" />
+        <MemberSignature Language="F#" Value="static member IsInstanceOfType : Type * obj -&gt; bool" Usage="Xamarin.Forms.Internals.ReflectionExtensions.IsInstanceOfType (self, o)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -1780,6 +1816,7 @@
         <MemberSignature Language="C#" Value="public static T FindByName&lt;T&gt; (this Xamarin.Forms.Element element, string name);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T FindByName&lt;T&gt;(class Xamarin.Forms.Element element, string name) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NameScopeExtensions.FindByName``1(Xamarin.Forms.Element,System.String)" />
+        <MemberSignature Language="F#" Value="static member FindByName : Xamarin.Forms.Element * string -&gt; 'T" Usage="Xamarin.Forms.NameScopeExtensions.FindByName (element, name)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>T</ReturnType>
@@ -1809,6 +1846,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetSendAppearingEventOnResume(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat.Application.GetSendAppearingEventOnResume(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSendAppearingEventOnResume (config As IPlatformElementConfiguration(Of Android, Application)) As Boolean" />
+        <MemberSignature Language="F#" Value="static member GetSendAppearingEventOnResume : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat.Application.GetSendAppearingEventOnResume config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -1832,6 +1870,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetSendDisappearingEventOnPause(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat.Application.GetSendDisappearingEventOnPause(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSendDisappearingEventOnPause (config As IPlatformElementConfiguration(Of Android, Application)) As Boolean" />
+        <MemberSignature Language="F#" Value="static member GetSendDisappearingEventOnPause : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat.Application.GetSendDisappearingEventOnPause config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -1855,6 +1894,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetShouldPreserveKeyboardOnResume(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat.Application.GetShouldPreserveKeyboardOnResume(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetShouldPreserveKeyboardOnResume (config As IPlatformElementConfiguration(Of Android, Application)) As Boolean" />
+        <MemberSignature Language="F#" Value="static member GetShouldPreserveKeyboardOnResume : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat.Application.GetShouldPreserveKeyboardOnResume config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -1878,6 +1918,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; SendAppearingEventOnResume(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; config, bool value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat.Application.SendAppearingEventOnResume(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application},System.Boolean)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SendAppearingEventOnResume (config As IPlatformElementConfiguration(Of Android, Application), value As Boolean) As IPlatformElementConfiguration(Of Android, Application)" />
+        <MemberSignature Language="F#" Value="static member SendAppearingEventOnResume : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat.Application.SendAppearingEventOnResume (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application&gt;</ReturnType>
@@ -1903,6 +1944,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; SendDisappearingEventOnPause(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; config, bool value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat.Application.SendDisappearingEventOnPause(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application},System.Boolean)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SendDisappearingEventOnPause (config As IPlatformElementConfiguration(Of Android, Application), value As Boolean) As IPlatformElementConfiguration(Of Android, Application)" />
+        <MemberSignature Language="F#" Value="static member SendDisappearingEventOnPause : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat.Application.SendDisappearingEventOnPause (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application&gt;</ReturnType>
@@ -1928,6 +1970,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; ShouldPreserveKeyboardOnResume(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; config, bool value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat.Application.ShouldPreserveKeyboardOnResume(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application},System.Boolean)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShouldPreserveKeyboardOnResume (config As IPlatformElementConfiguration(Of Android, Application), value As Boolean) As IPlatformElementConfiguration(Of Android, Application)" />
+        <MemberSignature Language="F#" Value="static member ShouldPreserveKeyboardOnResume : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat.Application.ShouldPreserveKeyboardOnResume (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application&gt;</ReturnType>
@@ -1953,6 +1996,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust GetWindowSoftInputModeAdjust(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.GetWindowSoftInputModeAdjust(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetWindowSoftInputModeAdjust (config As IPlatformElementConfiguration(Of Android, Application)) As WindowSoftInputModeAdjust" />
+        <MemberSignature Language="F#" Value="static member GetWindowSoftInputModeAdjust : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt; -&gt; Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.GetWindowSoftInputModeAdjust config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust</ReturnType>
@@ -1976,6 +2020,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; UseWindowSoftInputModeAdjust(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.UseWindowSoftInputModeAdjust(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application},Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseWindowSoftInputModeAdjust (config As IPlatformElementConfiguration(Of Android, Application), value As WindowSoftInputModeAdjust) As IPlatformElementConfiguration(Of Android, Application)" />
+        <MemberSignature Language="F#" Value="static member UseWindowSoftInputModeAdjust : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt; * Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.UseWindowSoftInputModeAdjust (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application&gt;</ReturnType>
@@ -2001,6 +2046,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Nullable`1&lt;float32&gt; GetElevation(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.VisualElement&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.GetElevation(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.VisualElement})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElevation (config As IPlatformElementConfiguration(Of Android, VisualElement)) As Nullable(Of Single)" />
+        <MemberSignature Language="F#" Value="static member GetElevation : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.VisualElement&gt; -&gt; Nullable&lt;single&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.GetElevation config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Nullable&lt;System.Single&gt;</ReturnType>
@@ -2024,6 +2070,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.VisualElement&gt; SetElevation(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.VisualElement&gt; config, valuetype System.Nullable`1&lt;float32&gt; value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.SetElevation(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.VisualElement},System.Nullable{System.Single})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetElevation (config As IPlatformElementConfiguration(Of Android, VisualElement), value As Nullable(Of Single)) As IPlatformElementConfiguration(Of Android, VisualElement)" />
+        <MemberSignature Language="F#" Value="static member SetElevation : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.VisualElement&gt; * Nullable&lt;single&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.VisualElement&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.SetElevation (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.VisualElement&gt;</ReturnType>
@@ -2049,6 +2096,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsFastScrollEnabled(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ListView&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ListView.IsFastScrollEnabled(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ListView})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsFastScrollEnabled (config As IPlatformElementConfiguration(Of Android, ListView)) As Boolean" />
+        <MemberSignature Language="F#" Value="static member IsFastScrollEnabled : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ListView&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ListView.IsFastScrollEnabled config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -2072,6 +2120,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ListView&gt; SetIsFastScrollEnabled(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ListView&gt; config, bool value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ListView.SetIsFastScrollEnabled(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ListView},System.Boolean)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetIsFastScrollEnabled (config As IPlatformElementConfiguration(Of Android, ListView), value As Boolean) As IPlatformElementConfiguration(Of Android, ListView)" />
+        <MemberSignature Language="F#" Value="static member SetIsFastScrollEnabled : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ListView&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ListView&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ListView.SetIsFastScrollEnabled (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ListView&gt;</ReturnType>
@@ -2097,6 +2146,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.TabbedPage&gt; DisableSwipePaging(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.TabbedPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.TabbedPage.DisableSwipePaging(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.TabbedPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DisableSwipePaging (config As IPlatformElementConfiguration(Of Android, TabbedPage)) As IPlatformElementConfiguration(Of Android, TabbedPage)" />
+        <MemberSignature Language="F#" Value="static member DisableSwipePaging : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.TabbedPage&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.TabbedPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.TabbedPage.DisableSwipePaging config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.TabbedPage&gt;</ReturnType>
@@ -2120,6 +2170,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.TabbedPage&gt; EnableSwipePaging(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.TabbedPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.TabbedPage.EnableSwipePaging(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.TabbedPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EnableSwipePaging (config As IPlatformElementConfiguration(Of Android, TabbedPage)) As IPlatformElementConfiguration(Of Android, TabbedPage)" />
+        <MemberSignature Language="F#" Value="static member EnableSwipePaging : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.TabbedPage&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.TabbedPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.TabbedPage.EnableSwipePaging config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.TabbedPage&gt;</ReturnType>
@@ -2143,6 +2194,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsSwipePagingEnabled(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.TabbedPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.TabbedPage.IsSwipePagingEnabled(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.TabbedPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsSwipePagingEnabled (config As IPlatformElementConfiguration(Of Android, TabbedPage)) As Boolean" />
+        <MemberSignature Language="F#" Value="static member IsSwipePagingEnabled : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.TabbedPage&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.TabbedPage.IsSwipePagingEnabled config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -2166,6 +2218,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 OffscreenPageLimit(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.TabbedPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.TabbedPage.OffscreenPageLimit(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.TabbedPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function OffscreenPageLimit (config As IPlatformElementConfiguration(Of Android, TabbedPage)) As Integer" />
+        <MemberSignature Language="F#" Value="static member OffscreenPageLimit : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.TabbedPage&gt; -&gt; int" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.TabbedPage.OffscreenPageLimit config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Int32</ReturnType>
@@ -2189,6 +2242,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.TabbedPage&gt; SetIsSwipePagingEnabled(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.TabbedPage&gt; config, bool value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.TabbedPage.SetIsSwipePagingEnabled(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.TabbedPage},System.Boolean)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetIsSwipePagingEnabled (config As IPlatformElementConfiguration(Of Android, TabbedPage), value As Boolean) As IPlatformElementConfiguration(Of Android, TabbedPage)" />
+        <MemberSignature Language="F#" Value="static member SetIsSwipePagingEnabled : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.TabbedPage&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.TabbedPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.TabbedPage.SetIsSwipePagingEnabled (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.TabbedPage&gt;</ReturnType>
@@ -2214,6 +2268,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.TabbedPage&gt; SetOffscreenPageLimit(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.TabbedPage&gt; config, int32 value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.TabbedPage.SetOffscreenPageLimit(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.TabbedPage},System.Int32)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetOffscreenPageLimit (config As IPlatformElementConfiguration(Of Android, TabbedPage), value As Integer) As IPlatformElementConfiguration(Of Android, TabbedPage)" />
+        <MemberSignature Language="F#" Value="static member SetOffscreenPageLimit : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.TabbedPage&gt; * int -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.TabbedPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.TabbedPage.SetOffscreenPageLimit (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.TabbedPage&gt;</ReturnType>
@@ -2239,6 +2294,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool AdjustsFontSizeToFitWidth(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.AdjustsFontSizeToFitWidth(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Entry})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AdjustsFontSizeToFitWidth (config As IPlatformElementConfiguration(Of iOS, Entry)) As Boolean" />
+        <MemberSignature Language="F#" Value="static member AdjustsFontSizeToFitWidth : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.AdjustsFontSizeToFitWidth config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -2262,6 +2318,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; DisableAdjustsFontSizeToFitWidth(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.DisableAdjustsFontSizeToFitWidth(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Entry})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DisableAdjustsFontSizeToFitWidth (config As IPlatformElementConfiguration(Of iOS, Entry)) As IPlatformElementConfiguration(Of iOS, Entry)" />
+        <MemberSignature Language="F#" Value="static member DisableAdjustsFontSizeToFitWidth : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.DisableAdjustsFontSizeToFitWidth config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Entry&gt;</ReturnType>
@@ -2285,6 +2342,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; EnableAdjustsFontSizeToFitWidth(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.EnableAdjustsFontSizeToFitWidth(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Entry})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EnableAdjustsFontSizeToFitWidth (config As IPlatformElementConfiguration(Of iOS, Entry)) As IPlatformElementConfiguration(Of iOS, Entry)" />
+        <MemberSignature Language="F#" Value="static member EnableAdjustsFontSizeToFitWidth : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.EnableAdjustsFontSizeToFitWidth config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Entry&gt;</ReturnType>
@@ -2308,6 +2366,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; SetAdjustsFontSizeToFitWidth(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; config, bool value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.SetAdjustsFontSizeToFitWidth(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Entry},System.Boolean)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetAdjustsFontSizeToFitWidth (config As IPlatformElementConfiguration(Of iOS, Entry), value As Boolean) As IPlatformElementConfiguration(Of iOS, Entry)" />
+        <MemberSignature Language="F#" Value="static member SetAdjustsFontSizeToFitWidth : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.SetAdjustsFontSizeToFitWidth (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Entry&gt;</ReturnType>
@@ -2333,6 +2392,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.NavigationPage&gt; DisableTranslucentNavigationBar(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.NavigationPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.DisableTranslucentNavigationBar(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DisableTranslucentNavigationBar (config As IPlatformElementConfiguration(Of iOS, NavigationPage)) As IPlatformElementConfiguration(Of iOS, NavigationPage)" />
+        <MemberSignature Language="F#" Value="static member DisableTranslucentNavigationBar : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.NavigationPage&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.NavigationPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.DisableTranslucentNavigationBar config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage&gt;</ReturnType>
@@ -2356,6 +2416,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.NavigationPage&gt; EnableTranslucentNavigationBar(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.NavigationPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.EnableTranslucentNavigationBar(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EnableTranslucentNavigationBar (config As IPlatformElementConfiguration(Of iOS, NavigationPage)) As IPlatformElementConfiguration(Of iOS, NavigationPage)" />
+        <MemberSignature Language="F#" Value="static member EnableTranslucentNavigationBar : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.NavigationPage&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.NavigationPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.EnableTranslucentNavigationBar config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage&gt;</ReturnType>
@@ -2379,6 +2440,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode GetStatusBarTextColorMode(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.NavigationPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.GetStatusBarTextColorMode(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetStatusBarTextColorMode (config As IPlatformElementConfiguration(Of iOS, NavigationPage)) As StatusBarTextColorMode" />
+        <MemberSignature Language="F#" Value="static member GetStatusBarTextColorMode : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.NavigationPage&gt; -&gt; Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.GetStatusBarTextColorMode config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode</ReturnType>
@@ -2402,6 +2464,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsNavigationBarTranslucent(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.NavigationPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.IsNavigationBarTranslucent(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsNavigationBarTranslucent (config As IPlatformElementConfiguration(Of iOS, NavigationPage)) As Boolean" />
+        <MemberSignature Language="F#" Value="static member IsNavigationBarTranslucent : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.NavigationPage&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.IsNavigationBarTranslucent config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -2425,6 +2488,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool PrefersLargeTitles(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.NavigationPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.PrefersLargeTitles(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PrefersLargeTitles (config As IPlatformElementConfiguration(Of iOS, NavigationPage)) As Boolean" />
+        <MemberSignature Language="F#" Value="static member PrefersLargeTitles : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.NavigationPage&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.PrefersLargeTitles config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -2448,6 +2512,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.NavigationPage&gt; SetIsNavigationBarTranslucent(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.NavigationPage&gt; config, bool value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.SetIsNavigationBarTranslucent(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage},System.Boolean)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetIsNavigationBarTranslucent (config As IPlatformElementConfiguration(Of iOS, NavigationPage), value As Boolean) As IPlatformElementConfiguration(Of iOS, NavigationPage)" />
+        <MemberSignature Language="F#" Value="static member SetIsNavigationBarTranslucent : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.NavigationPage&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.NavigationPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.SetIsNavigationBarTranslucent (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage&gt;</ReturnType>
@@ -2473,6 +2538,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.NavigationPage&gt; SetPrefersLargeTitles(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.NavigationPage&gt; config, bool value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.SetPrefersLargeTitles(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage},System.Boolean)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetPrefersLargeTitles (config As IPlatformElementConfiguration(Of iOS, NavigationPage), value As Boolean) As IPlatformElementConfiguration(Of iOS, NavigationPage)" />
+        <MemberSignature Language="F#" Value="static member SetPrefersLargeTitles : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.NavigationPage&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.NavigationPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.SetPrefersLargeTitles (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage&gt;</ReturnType>
@@ -2498,6 +2564,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.NavigationPage&gt; SetStatusBarTextColorMode(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.NavigationPage&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.SetStatusBarTextColorMode(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage},Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetStatusBarTextColorMode (config As IPlatformElementConfiguration(Of iOS, NavigationPage), value As StatusBarTextColorMode) As IPlatformElementConfiguration(Of iOS, NavigationPage)" />
+        <MemberSignature Language="F#" Value="static member SetStatusBarTextColorMode : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.NavigationPage&gt; * Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.NavigationPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.SetStatusBarTextColorMode (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage&gt;</ReturnType>
@@ -2523,6 +2590,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode LargeTitleDisplay(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.LargeTitleDisplay(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LargeTitleDisplay (config As IPlatformElementConfiguration(Of iOS, Page)) As LargeTitleDisplayMode" />
+        <MemberSignature Language="F#" Value="static member LargeTitleDisplay : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt; -&gt; Xamarin.Forms.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.LargeTitleDisplay config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode</ReturnType>
@@ -2546,6 +2614,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation PreferredStatusBarUpdateAnimation(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.PreferredStatusBarUpdateAnimation(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PreferredStatusBarUpdateAnimation (config As IPlatformElementConfiguration(Of iOS, Page)) As UIStatusBarAnimation" />
+        <MemberSignature Language="F#" Value="static member PreferredStatusBarUpdateAnimation : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt; -&gt; Xamarin.Forms.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.PreferredStatusBarUpdateAnimation config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation</ReturnType>
@@ -2569,6 +2638,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode PrefersStatusBarHidden(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.PrefersStatusBarHidden(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PrefersStatusBarHidden (config As IPlatformElementConfiguration(Of iOS, Page)) As StatusBarHiddenMode" />
+        <MemberSignature Language="F#" Value="static member PrefersStatusBarHidden : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt; -&gt; Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.PrefersStatusBarHidden config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode</ReturnType>
@@ -2592,6 +2662,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Thickness SafeAreaInsets(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SafeAreaInsets(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SafeAreaInsets (config As IPlatformElementConfiguration(Of iOS, Page)) As Thickness" />
+        <MemberSignature Language="F#" Value="static member SafeAreaInsets : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt; -&gt; Xamarin.Forms.Thickness" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SafeAreaInsets config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.Thickness</ReturnType>
@@ -2615,6 +2686,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; SetLargeTitleDisplay(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetLargeTitleDisplay(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page},Xamarin.Forms.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetLargeTitleDisplay (config As IPlatformElementConfiguration(Of iOS, Page), value As LargeTitleDisplayMode) As IPlatformElementConfiguration(Of iOS, Page)" />
+        <MemberSignature Language="F#" Value="static member SetLargeTitleDisplay : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt; * Xamarin.Forms.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetLargeTitleDisplay (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page&gt;</ReturnType>
@@ -2640,6 +2712,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; SetPreferredStatusBarUpdateAnimation(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetPreferredStatusBarUpdateAnimation(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page},Xamarin.Forms.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetPreferredStatusBarUpdateAnimation (config As IPlatformElementConfiguration(Of iOS, Page), value As UIStatusBarAnimation) As IPlatformElementConfiguration(Of iOS, Page)" />
+        <MemberSignature Language="F#" Value="static member SetPreferredStatusBarUpdateAnimation : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt; * Xamarin.Forms.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetPreferredStatusBarUpdateAnimation (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page&gt;</ReturnType>
@@ -2665,6 +2738,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; SetPrefersStatusBarHidden(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetPrefersStatusBarHidden(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page},Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetPrefersStatusBarHidden (config As IPlatformElementConfiguration(Of iOS, Page), value As StatusBarHiddenMode) As IPlatformElementConfiguration(Of iOS, Page)" />
+        <MemberSignature Language="F#" Value="static member SetPrefersStatusBarHidden : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt; * Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarHiddenMode -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetPrefersStatusBarHidden (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page&gt;</ReturnType>
@@ -2690,6 +2764,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; SetSafeAreaInsets(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; config, valuetype Xamarin.Forms.Thickness value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetSafeAreaInsets(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page},Xamarin.Forms.Thickness)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetSafeAreaInsets (config As IPlatformElementConfiguration(Of iOS, Page), value As Thickness) As IPlatformElementConfiguration(Of iOS, Page)" />
+        <MemberSignature Language="F#" Value="static member SetSafeAreaInsets : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt; * Xamarin.Forms.Thickness -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetSafeAreaInsets (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page&gt;</ReturnType>
@@ -2715,6 +2790,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; SetUseSafeArea(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; config, bool value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page},System.Boolean)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetUseSafeArea (config As IPlatformElementConfiguration(Of iOS, Page), value As Boolean) As IPlatformElementConfiguration(Of iOS, Page)" />
+        <MemberSignature Language="F#" Value="static member SetUseSafeArea : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page&gt;</ReturnType>
@@ -2740,6 +2816,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool UsingSafeArea(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Page&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.UsingSafeArea(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UsingSafeArea (config As IPlatformElementConfiguration(Of iOS, Page)) As Boolean" />
+        <MemberSignature Language="F#" Value="static member UsingSafeArea : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Page&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.UsingSafeArea config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -2763,6 +2840,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Picker&gt; SetUpdateMode(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Picker&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.UpdateMode value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Picker.SetUpdateMode(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Picker},Xamarin.Forms.PlatformConfiguration.iOSSpecific.UpdateMode)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetUpdateMode (config As IPlatformElementConfiguration(Of iOS, Picker), value As UpdateMode) As IPlatformElementConfiguration(Of iOS, Picker)" />
+        <MemberSignature Language="F#" Value="static member SetUpdateMode : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Picker&gt; * Xamarin.Forms.PlatformConfiguration.iOSSpecific.UpdateMode -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Picker&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Picker.SetUpdateMode (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Picker&gt;</ReturnType>
@@ -2788,6 +2866,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.UpdateMode UpdateMode(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Picker&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Picker.UpdateMode(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Picker})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateMode (config As IPlatformElementConfiguration(Of iOS, Picker)) As UpdateMode" />
+        <MemberSignature Language="F#" Value="static member UpdateMode : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Picker&gt; -&gt; Xamarin.Forms.PlatformConfiguration.iOSSpecific.UpdateMode" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Picker.UpdateMode config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.PlatformConfiguration.iOSSpecific.UpdateMode</ReturnType>
@@ -2811,6 +2890,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.ScrollView&gt; SetShouldDelayContentTouches(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.ScrollView&gt; config, bool value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.ScrollView.SetShouldDelayContentTouches(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.ScrollView},System.Boolean)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetShouldDelayContentTouches (config As IPlatformElementConfiguration(Of iOS, ScrollView), value As Boolean) As IPlatformElementConfiguration(Of iOS, ScrollView)" />
+        <MemberSignature Language="F#" Value="static member SetShouldDelayContentTouches : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.ScrollView&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.ScrollView&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.ScrollView.SetShouldDelayContentTouches (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.ScrollView&gt;</ReturnType>
@@ -2836,6 +2916,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ShouldDelayContentTouches(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.ScrollView&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.ScrollView.ShouldDelayContentTouches(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.ScrollView})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShouldDelayContentTouches (config As IPlatformElementConfiguration(Of iOS, ScrollView)) As Boolean" />
+        <MemberSignature Language="F#" Value="static member ShouldDelayContentTouches : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.ScrollView&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.ScrollView.ShouldDelayContentTouches config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -2859,6 +2940,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.BlurEffectStyle GetBlurEffect(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.VisualElement&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.VisualElement.GetBlurEffect(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.VisualElement})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetBlurEffect (config As IPlatformElementConfiguration(Of iOS, VisualElement)) As BlurEffectStyle" />
+        <MemberSignature Language="F#" Value="static member GetBlurEffect : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.VisualElement&gt; -&gt; Xamarin.Forms.PlatformConfiguration.iOSSpecific.BlurEffectStyle" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.VisualElement.GetBlurEffect config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.PlatformConfiguration.iOSSpecific.BlurEffectStyle</ReturnType>
@@ -2882,6 +2964,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.VisualElement&gt; UseBlurEffect(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.VisualElement&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.iOSSpecific.BlurEffectStyle value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.VisualElement.UseBlurEffect(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.VisualElement},Xamarin.Forms.PlatformConfiguration.iOSSpecific.BlurEffectStyle)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseBlurEffect (config As IPlatformElementConfiguration(Of iOS, VisualElement), value As BlurEffectStyle) As IPlatformElementConfiguration(Of iOS, VisualElement)" />
+        <MemberSignature Language="F#" Value="static member UseBlurEffect : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.VisualElement&gt; * Xamarin.Forms.PlatformConfiguration.iOSSpecific.BlurEffectStyle -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.VisualElement&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.VisualElement.UseBlurEffect (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.VisualElement&gt;</ReturnType>
@@ -2907,6 +2990,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle GetNavigationTransitionPopStyle(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.NavigationPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPopStyle(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.NavigationPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNavigationTransitionPopStyle (config As IPlatformElementConfiguration(Of macOS, NavigationPage)) As NavigationTransitionStyle" />
+        <MemberSignature Language="F#" Value="static member GetNavigationTransitionPopStyle : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.NavigationPage&gt; -&gt; Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPopStyle config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle</ReturnType>
@@ -2930,6 +3014,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle GetNavigationTransitionPushStyle(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.NavigationPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPushStyle(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.NavigationPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNavigationTransitionPushStyle (config As IPlatformElementConfiguration(Of macOS, NavigationPage)) As NavigationTransitionStyle" />
+        <MemberSignature Language="F#" Value="static member GetNavigationTransitionPushStyle : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.NavigationPage&gt; -&gt; Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPushStyle config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle</ReturnType>
@@ -2953,6 +3038,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.NavigationPage&gt; SetNavigationTransitionStyle(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.NavigationPage&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle pushStyle, valuetype Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle popStyle) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionStyle(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.NavigationPage},Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle,Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetNavigationTransitionStyle (config As IPlatformElementConfiguration(Of macOS, NavigationPage), pushStyle As NavigationTransitionStyle, popStyle As NavigationTransitionStyle) As IPlatformElementConfiguration(Of macOS, NavigationPage)" />
+        <MemberSignature Language="F#" Value="static member SetNavigationTransitionStyle : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.NavigationPage&gt; * Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle * Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.NavigationPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionStyle (config, pushStyle, popStyle)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.NavigationPage&gt;</ReturnType>
@@ -2980,6 +3066,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.VisualElement[] GetTabOrder(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.Page&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.GetTabOrder(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.Page})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetTabOrder (config As IPlatformElementConfiguration(Of macOS, Page)) As VisualElement()" />
+        <MemberSignature Language="F#" Value="static member GetTabOrder : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.Page&gt; -&gt; Xamarin.Forms.VisualElement[]" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.GetTabOrder config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.VisualElement[]</ReturnType>
@@ -3003,6 +3090,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.Page&gt; SetTabOrder(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.Page&gt; config, class Xamarin.Forms.VisualElement[] value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.SetTabOrder(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.Page},Xamarin.Forms.VisualElement[])" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetTabOrder (config As IPlatformElementConfiguration(Of macOS, Page), ParamArray value As VisualElement()) As IPlatformElementConfiguration(Of macOS, Page)" />
+        <MemberSignature Language="F#" Value="static member SetTabOrder : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.Page&gt; * Xamarin.Forms.VisualElement[] -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.Page&gt;" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.SetTabOrder (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.Page&gt;</ReturnType>
@@ -3034,6 +3122,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.TabsStyle GetTabsStyle(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.GetTabsStyle(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetTabsStyle (config As IPlatformElementConfiguration(Of macOS, TabbedPage)) As TabsStyle" />
+        <MemberSignature Language="F#" Value="static member GetTabsStyle : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt; -&gt; Xamarin.Forms.TabsStyle" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.GetTabsStyle config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.TabsStyle</ReturnType>
@@ -3057,6 +3146,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; HideTabs(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.HideTabs(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function HideTabs (config As IPlatformElementConfiguration(Of macOS, TabbedPage)) As IPlatformElementConfiguration(Of macOS, TabbedPage)" />
+        <MemberSignature Language="F#" Value="static member HideTabs : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.HideTabs config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage&gt;</ReturnType>
@@ -3080,6 +3170,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; SetShowTabs(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; config, valuetype Xamarin.Forms.TabsStyle value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.SetShowTabs(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage},Xamarin.Forms.TabsStyle)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetShowTabs (config As IPlatformElementConfiguration(Of macOS, TabbedPage), value As TabsStyle) As IPlatformElementConfiguration(Of macOS, TabbedPage)" />
+        <MemberSignature Language="F#" Value="static member SetShowTabs : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt; * Xamarin.Forms.TabsStyle -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.SetShowTabs (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage&gt;</ReturnType>
@@ -3105,6 +3196,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; ShowTabs(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.ShowTabs(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShowTabs (config As IPlatformElementConfiguration(Of macOS, TabbedPage)) As IPlatformElementConfiguration(Of macOS, TabbedPage)" />
+        <MemberSignature Language="F#" Value="static member ShowTabs : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.ShowTabs config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage&gt;</ReturnType>
@@ -3128,6 +3220,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; ShowTabsOnNavigation(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.ShowTabsOnNavigation(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShowTabsOnNavigation (config As IPlatformElementConfiguration(Of macOS, TabbedPage)) As IPlatformElementConfiguration(Of macOS, TabbedPage)" />
+        <MemberSignature Language="F#" Value="static member ShowTabsOnNavigation : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.ShowTabsOnNavigation config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage&gt;</ReturnType>
@@ -3151,6 +3244,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode GetSelectionMode(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.ListView&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.GetSelectionMode(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.ListView})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSelectionMode (config As IPlatformElementConfiguration(Of Windows, ListView)) As ListViewSelectionMode" />
+        <MemberSignature Language="F#" Value="static member GetSelectionMode : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.ListView&gt; -&gt; Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.GetSelectionMode config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode</ReturnType>
@@ -3174,6 +3268,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.ListView&gt; SetSelectionMode(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.ListView&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.SetSelectionMode(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.ListView},Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetSelectionMode (config As IPlatformElementConfiguration(Of Windows, ListView), value As ListViewSelectionMode) As IPlatformElementConfiguration(Of Windows, ListView)" />
+        <MemberSignature Language="F#" Value="static member SetSelectionMode : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.ListView&gt; * Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.ListView&gt;" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.SetSelectionMode (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.ListView&gt;</ReturnType>
@@ -3199,6 +3294,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 CollapsedPaneWidth(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.CollapsedPaneWidth(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.MasterDetailPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CollapsedPaneWidth (config As IPlatformElementConfiguration(Of Windows, MasterDetailPage)) As Double" />
+        <MemberSignature Language="F#" Value="static member CollapsedPaneWidth : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt; -&gt; double" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.CollapsedPaneWidth config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Double</ReturnType>
@@ -3222,6 +3318,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; CollapsedPaneWidth(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; config, float64 value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.CollapsedPaneWidth(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.MasterDetailPage},System.Double)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CollapsedPaneWidth (config As IPlatformElementConfiguration(Of Windows, MasterDetailPage), value As Double) As IPlatformElementConfiguration(Of Windows, MasterDetailPage)" />
+        <MemberSignature Language="F#" Value="static member CollapsedPaneWidth : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt; * double -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.CollapsedPaneWidth (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.MasterDetailPage&gt;</ReturnType>
@@ -3247,6 +3344,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle GetCollapseStyle(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.GetCollapseStyle(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.MasterDetailPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCollapseStyle (config As IPlatformElementConfiguration(Of Windows, MasterDetailPage)) As CollapseStyle" />
+        <MemberSignature Language="F#" Value="static member GetCollapseStyle : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt; -&gt; Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.GetCollapseStyle config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle</ReturnType>
@@ -3270,6 +3368,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; SetCollapseStyle(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.SetCollapseStyle(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.MasterDetailPage},Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetCollapseStyle (config As IPlatformElementConfiguration(Of Windows, MasterDetailPage), value As CollapseStyle) As IPlatformElementConfiguration(Of Windows, MasterDetailPage)" />
+        <MemberSignature Language="F#" Value="static member SetCollapseStyle : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt; * Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.SetCollapseStyle (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.MasterDetailPage&gt;</ReturnType>
@@ -3295,6 +3394,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; UsePartialCollapse(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.UsePartialCollapse(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.MasterDetailPage})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UsePartialCollapse (config As IPlatformElementConfiguration(Of Windows, MasterDetailPage)) As IPlatformElementConfiguration(Of Windows, MasterDetailPage)" />
+        <MemberSignature Language="F#" Value="static member UsePartialCollapse : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.UsePartialCollapse config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.MasterDetailPage&gt;</ReturnType>
@@ -3318,6 +3418,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ToolbarPlacement GetToolbarPlacement(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.Page&gt; config) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.Page.GetToolbarPlacement(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.Page})" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetToolbarPlacement (config As IPlatformElementConfiguration(Of Windows, Page)) As ToolbarPlacement" />
+        <MemberSignature Language="F#" Value="static member GetToolbarPlacement : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.Page&gt; -&gt; Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ToolbarPlacement" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.Page.GetToolbarPlacement config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ToolbarPlacement</ReturnType>
@@ -3341,6 +3442,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.Page&gt; SetToolbarPlacement(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.Page&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ToolbarPlacement value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.Page.SetToolbarPlacement(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.Page},Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ToolbarPlacement)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetToolbarPlacement (config As IPlatformElementConfiguration(Of Windows, Page), value As ToolbarPlacement) As IPlatformElementConfiguration(Of Windows, Page)" />
+        <MemberSignature Language="F#" Value="static member SetToolbarPlacement : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.Page&gt; * Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ToolbarPlacement -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.Page&gt;" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.Page.SetToolbarPlacement (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.Page&gt;</ReturnType>
@@ -3366,6 +3468,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Add(class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Setter&gt; setters, class Xamarin.Forms.BindableProperty property, object value) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SettersExtensions.Add(System.Collections.Generic.IList{Xamarin.Forms.Setter},Xamarin.Forms.BindableProperty,System.Object)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Add (setters As IList(Of Setter), property As BindableProperty, value As Object)" />
+        <MemberSignature Language="F#" Value="static member Add : System.Collections.Generic.IList&lt;Xamarin.Forms.Setter&gt; * Xamarin.Forms.BindableProperty * obj -&gt; unit" Usage="Xamarin.Forms.SettersExtensions.Add (setters, property, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -3392,6 +3495,7 @@
         <MemberSignature Language="C#" Value="public static void AddBinding (this System.Collections.Generic.IList&lt;Xamarin.Forms.Setter&gt; setters, Xamarin.Forms.BindableProperty property, Xamarin.Forms.Binding binding);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AddBinding(class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Setter&gt; setters, class Xamarin.Forms.BindableProperty property, class Xamarin.Forms.Binding binding) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SettersExtensions.AddBinding(System.Collections.Generic.IList{Xamarin.Forms.Setter},Xamarin.Forms.BindableProperty,Xamarin.Forms.Binding)" />
+        <MemberSignature Language="F#" Value="static member AddBinding : System.Collections.Generic.IList&lt;Xamarin.Forms.Setter&gt; * Xamarin.Forms.BindableProperty * Xamarin.Forms.Binding -&gt; unit" Usage="Xamarin.Forms.SettersExtensions.AddBinding (setters, property, binding)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -3419,6 +3523,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AddDynamicResource(class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Setter&gt; setters, class Xamarin.Forms.BindableProperty property, string key) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SettersExtensions.AddDynamicResource(System.Collections.Generic.IList{Xamarin.Forms.Setter},Xamarin.Forms.BindableProperty,System.String)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub AddDynamicResource (setters As IList(Of Setter), property As BindableProperty, key As String)" />
+        <MemberSignature Language="F#" Value="static member AddDynamicResource : System.Collections.Generic.IList&lt;Xamarin.Forms.Setter&gt; * Xamarin.Forms.BindableProperty * string -&gt; unit" Usage="Xamarin.Forms.SettersExtensions.AddDynamicResource (setters, property, key)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -3446,6 +3551,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBinding(class Xamarin.Forms.DataTemplate self, class Xamarin.Forms.BindableProperty targetProperty, string path) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TemplateExtensions.SetBinding(Xamarin.Forms.DataTemplate,Xamarin.Forms.BindableProperty,System.String)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetBinding (self As DataTemplate, targetProperty As BindableProperty, path As String)" />
+        <MemberSignature Language="F#" Value="static member SetBinding : Xamarin.Forms.DataTemplate * Xamarin.Forms.BindableProperty * string -&gt; unit" Usage="Xamarin.Forms.TemplateExtensions.SetBinding (self, targetProperty, path)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Void</ReturnType>
@@ -3472,6 +3578,7 @@
         <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; FadeTo (this Xamarin.Forms.VisualElement view, double opacity, uint length = 250, Xamarin.Forms.Easing easing = null);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; FadeTo(class Xamarin.Forms.VisualElement view, float64 opacity, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.FadeTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+        <MemberSignature Language="F#" Value="static member FadeTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.FadeTo (view, opacity, length, easing)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -3500,6 +3607,7 @@
         <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; LayoutTo (this Xamarin.Forms.VisualElement view, Xamarin.Forms.Rectangle bounds, uint length = 250, Xamarin.Forms.Easing easing = null);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; LayoutTo(class Xamarin.Forms.VisualElement view, valuetype Xamarin.Forms.Rectangle bounds, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.LayoutTo(Xamarin.Forms.VisualElement,Xamarin.Forms.Rectangle,System.UInt32,Xamarin.Forms.Easing)" />
+        <MemberSignature Language="F#" Value="static member LayoutTo : Xamarin.Forms.VisualElement * Xamarin.Forms.Rectangle * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.LayoutTo (view, bounds, length, easing)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -3528,6 +3636,7 @@
         <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; RelRotateTo (this Xamarin.Forms.VisualElement view, double drotation, uint length = 250, Xamarin.Forms.Easing easing = null);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; RelRotateTo(class Xamarin.Forms.VisualElement view, float64 drotation, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.RelRotateTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+        <MemberSignature Language="F#" Value="static member RelRotateTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.RelRotateTo (view, drotation, length, easing)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -3556,6 +3665,7 @@
         <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; RelScaleTo (this Xamarin.Forms.VisualElement view, double dscale, uint length = 250, Xamarin.Forms.Easing easing = null);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; RelScaleTo(class Xamarin.Forms.VisualElement view, float64 dscale, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.RelScaleTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+        <MemberSignature Language="F#" Value="static member RelScaleTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.RelScaleTo (view, dscale, length, easing)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -3584,6 +3694,7 @@
         <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; RotateTo (this Xamarin.Forms.VisualElement view, double rotation, uint length = 250, Xamarin.Forms.Easing easing = null);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; RotateTo(class Xamarin.Forms.VisualElement view, float64 rotation, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.RotateTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+        <MemberSignature Language="F#" Value="static member RotateTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.RotateTo (view, rotation, length, easing)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -3612,6 +3723,7 @@
         <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; RotateXTo (this Xamarin.Forms.VisualElement view, double rotation, uint length = 250, Xamarin.Forms.Easing easing = null);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; RotateXTo(class Xamarin.Forms.VisualElement view, float64 rotation, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.RotateXTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+        <MemberSignature Language="F#" Value="static member RotateXTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.RotateXTo (view, rotation, length, easing)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -3640,6 +3752,7 @@
         <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; RotateYTo (this Xamarin.Forms.VisualElement view, double rotation, uint length = 250, Xamarin.Forms.Easing easing = null);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; RotateYTo(class Xamarin.Forms.VisualElement view, float64 rotation, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.RotateYTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+        <MemberSignature Language="F#" Value="static member RotateYTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.RotateYTo (view, rotation, length, easing)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -3668,6 +3781,7 @@
         <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; ScaleTo (this Xamarin.Forms.VisualElement view, double scale, uint length = 250, Xamarin.Forms.Easing easing = null);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; ScaleTo(class Xamarin.Forms.VisualElement view, float64 scale, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.ScaleTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+        <MemberSignature Language="F#" Value="static member ScaleTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.ScaleTo (view, scale, length, easing)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -3696,6 +3810,7 @@
         <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; TranslateTo (this Xamarin.Forms.VisualElement view, double x, double y, uint length = 250, Xamarin.Forms.Easing easing = null);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; TranslateTo(class Xamarin.Forms.VisualElement view, float64 x, float64 y, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.TranslateTo(Xamarin.Forms.VisualElement,System.Double,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+        <MemberSignature Language="F#" Value="static member TranslateTo : Xamarin.Forms.VisualElement * double * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.TranslateTo (view, x, y, length, easing)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -3727,6 +3842,7 @@
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TXaml LoadFromXaml&lt;TXaml&gt;(!!TXaml view, class System.Type callingType) cil managed" />
         <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.Extensions.LoadFromXaml``1(``0,System.Type)" />
         <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LoadFromXaml(Of TXaml) (view As TXaml, callingType As Type) As TXaml" />
+        <MemberSignature Language="F#" Value="static member LoadFromXaml : 'Xaml * Type -&gt; 'Xaml" Usage="Xamarin.Forms.Xaml.Extensions.LoadFromXaml (view, callingType)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>TXaml</ReturnType>
