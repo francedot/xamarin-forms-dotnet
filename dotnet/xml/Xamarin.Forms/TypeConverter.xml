@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TypeConverter extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.TypeConverter" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class TypeConverter" />
+  <TypeSignature Language="F#" Value="type TypeConverter = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -42,6 +43,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool CanConvertFrom(class System.Type sourceType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TypeConverter.CanConvertFrom(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function CanConvertFrom (sourceType As Type) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member CanConvertFrom : Type -&gt; bool&#xA;override this.CanConvertFrom : Type -&gt; bool" Usage="typeConverter.CanConvertFrom sourceType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -65,6 +67,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ConvertFrom(object o) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TypeConverter.ConvertFrom(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ConvertFrom (o As Object) As Object" />
+      <MemberSignature Language="F#" Value="abstract member ConvertFrom : obj -&gt; obj&#xA;override this.ConvertFrom : obj -&gt; obj" Usage="typeConverter.ConvertFrom o" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -93,6 +96,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ConvertFrom(class System.Globalization.CultureInfo culture, object o) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TypeConverter.ConvertFrom(System.Globalization.CultureInfo,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ConvertFrom (culture As CultureInfo, o As Object) As Object" />
+      <MemberSignature Language="F#" Value="abstract member ConvertFrom : System.Globalization.CultureInfo * obj -&gt; obj&#xA;override this.ConvertFrom : System.Globalization.CultureInfo * obj -&gt; obj" Usage="typeConverter.ConvertFrom (culture, o)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -123,6 +127,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ConvertFromInvariantString(string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TypeConverter.ConvertFromInvariantString(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ConvertFromInvariantString (value As String) As Object" />
+      <MemberSignature Language="F#" Value="abstract member ConvertFromInvariantString : string -&gt; obj&#xA;override this.ConvertFromInvariantString : string -&gt; obj" Usage="typeConverter.ConvertFromInvariantString value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

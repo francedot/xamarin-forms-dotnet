@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit On extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.On" />
   <TypeSignature Language="VB.NET" Value="Public Class On" />
+  <TypeSignature Language="F#" Value="type On = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -42,6 +43,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Platform" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.On.Platform" />
       <MemberSignature Language="VB.NET" Value="Public Property Platform As IList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Platform : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Xamarin.Forms.On.Platform" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -66,6 +68,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Value" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.On.Value" />
       <MemberSignature Language="VB.NET" Value="Public Property Value As Object" />
+      <MemberSignature Language="F#" Value="member this.Value : obj with get, set" Usage="Xamarin.Forms.On.Value" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Page extends Xamarin.Forms.VisualElement implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.Page&gt;, class Xamarin.Forms.ILayout, class Xamarin.Forms.IPageController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Page" />
   <TypeSignature Language="VB.NET" Value="Public Class Page&#xA;Inherits VisualElement&#xA;Implements IElementConfiguration(Of Page), ILayout, IPageController" />
+  <TypeSignature Language="F#" Value="type Page = class&#xA;    inherit VisualElement&#xA;    interface ILayout&#xA;    interface IPageController&#xA;    interface IElementConfiguration&lt;Page&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -55,6 +56,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string ActionSheetSignalName" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Page.ActionSheetSignalName" />
       <MemberSignature Language="VB.NET" Value="Public Const ActionSheetSignalName As String " />
+      <MemberSignature Language="F#" Value="val mutable ActionSheetSignalName : string" Usage="Xamarin.Forms.Page.ActionSheetSignalName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -73,6 +75,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string AlertSignalName" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Page.AlertSignalName" />
       <MemberSignature Language="VB.NET" Value="Public Const AlertSignalName As String " />
+      <MemberSignature Language="F#" Value="val mutable AlertSignalName : string" Usage="Xamarin.Forms.Page.AlertSignalName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -91,6 +94,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Appearing" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Page.Appearing" />
       <MemberSignature Language="VB.NET" Value="Public Event Appearing As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.Appearing : EventHandler " Usage="member this.Appearing : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -109,6 +113,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string BackgroundImage" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Page.BackgroundImage" />
       <MemberSignature Language="VB.NET" Value="Public Property BackgroundImage As String" />
+      <MemberSignature Language="F#" Value="member this.BackgroundImage : string with get, set" Usage="Xamarin.Forms.Page.BackgroundImage" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -128,6 +133,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty BackgroundImageProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Page.BackgroundImageProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BackgroundImageProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BackgroundImageProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Page.BackgroundImageProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -146,6 +152,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal string BusySetSignalName" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Page.BusySetSignalName" />
       <MemberSignature Language="VB.NET" Value="Public Const BusySetSignalName As String " />
+      <MemberSignature Language="F#" Value="val mutable BusySetSignalName : string" Usage="Xamarin.Forms.Page.BusySetSignalName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -164,7 +171,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Rectangle ContainerArea" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Page.ContainerArea" />
       <MemberSignature Language="VB.NET" Value="Public Property ContainerArea As Rectangle" />
+      <MemberSignature Language="F#" Value="member this.ContainerArea : Xamarin.Forms.Rectangle with get, set" Usage="Xamarin.Forms.Page.ContainerArea" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IPageController.ContainerArea</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -188,6 +199,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Disappearing" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Page.Disappearing" />
       <MemberSignature Language="VB.NET" Value="Public Event Disappearing As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.Disappearing : EventHandler " Usage="member this.Disappearing : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -206,6 +218,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;string&gt; DisplayActionSheet(string title, string cancel, string destruction, string[] buttons) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.DisplayActionSheet(System.String,System.String,System.String,System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Function DisplayActionSheet (title As String, cancel As String, destruction As String, ParamArray buttons As String()) As Task(Of String)" />
+      <MemberSignature Language="F#" Value="member this.DisplayActionSheet : string * string * string * string[] -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="page.DisplayActionSheet (title, cancel, destruction, buttons)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -243,6 +256,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task DisplayAlert(string title, string message, string cancel) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.DisplayAlert(System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function DisplayAlert (title As String, message As String, cancel As String) As Task" />
+      <MemberSignature Language="F#" Value="member this.DisplayAlert : string * string * string -&gt; System.Threading.Tasks.Task" Usage="page.DisplayAlert (title, message, cancel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -270,6 +284,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;bool&gt; DisplayAlert(string title, string message, string accept, string cancel) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.DisplayAlert(System.String,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function DisplayAlert (title As String, message As String, accept As String, cancel As String) As Task(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.DisplayAlert : string * string * string * string -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="page.DisplayAlert (title, message, accept, cancel)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -299,6 +314,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ForceLayout() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.ForceLayout" />
       <MemberSignature Language="VB.NET" Value="Public Sub ForceLayout ()" />
+      <MemberSignature Language="F#" Value="member this.ForceLayout : unit -&gt; unit" Usage="page.ForceLayout " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -318,6 +334,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.FileImageSource Icon" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Page.Icon" />
       <MemberSignature Language="VB.NET" Value="Public Property Icon As FileImageSource" />
+      <MemberSignature Language="F#" Value="member this.Icon : Xamarin.Forms.FileImageSource with get, set" Usage="Xamarin.Forms.Page.Icon" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -337,6 +354,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IconProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Page.IconProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IconProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IconProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Page.IconProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -355,7 +373,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IgnoresContainerArea" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Page.IgnoresContainerArea" />
       <MemberSignature Language="VB.NET" Value="Public Property IgnoresContainerArea As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IgnoresContainerArea : bool with get, set" Usage="Xamarin.Forms.Page.IgnoresContainerArea" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IPageController.IgnoresContainerArea</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -379,7 +401,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ObservableCollection`1&lt;class Xamarin.Forms.Element&gt; InternalChildren" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Page.InternalChildren" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternalChildren As ObservableCollection(Of Element)" />
+      <MemberSignature Language="F#" Value="member this.InternalChildren : System.Collections.ObjectModel.ObservableCollection&lt;Xamarin.Forms.Element&gt;" Usage="Xamarin.Forms.Page.InternalChildren" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IPageController.InternalChildren</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -403,6 +429,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsBusy" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Page.IsBusy" />
       <MemberSignature Language="VB.NET" Value="Public Property IsBusy As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsBusy : bool with get, set" Usage="Xamarin.Forms.Page.IsBusy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -422,6 +449,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsBusyProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Page.IsBusyProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsBusyProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsBusyProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Page.IsBusyProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -440,7 +468,11 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler LayoutChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Page.LayoutChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event LayoutChanged As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.LayoutChanged : EventHandler " Usage="member this.LayoutChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.ILayout.LayoutChanged</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -458,6 +490,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void LayoutChildren(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub LayoutChildren (x As Double, y As Double, width As Double, height As Double)" />
+      <MemberSignature Language="F#" Value="abstract member LayoutChildren : double * double * double * double -&gt; unit&#xA;override this.LayoutChildren : double * double * double * double -&gt; unit" Usage="page.LayoutChildren (x, y, width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -486,7 +519,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.Page&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Page)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Page (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Page (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="page.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -514,6 +551,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnAppearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.OnAppearing" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnAppearing ()" />
+      <MemberSignature Language="F#" Value="abstract member OnAppearing : unit -&gt; unit&#xA;override this.OnAppearing : unit -&gt; unit" Usage="page.OnAppearing " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -533,6 +571,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool OnBackButtonPressed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.OnBackButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnBackButtonPressed () As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member OnBackButtonPressed : unit -&gt; bool&#xA;override this.OnBackButtonPressed : unit -&gt; bool" Usage="page.OnBackButtonPressed " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -553,6 +592,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
+      <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="page.OnBindingContextChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -576,6 +616,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnChildMeasureInvalidated(object sender, class System.EventArgs e) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.OnChildMeasureInvalidated(System.Object,System.EventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnChildMeasureInvalidated (sender As Object, e As EventArgs)" />
+      <MemberSignature Language="F#" Value="abstract member OnChildMeasureInvalidated : obj * EventArgs -&gt; unit&#xA;override this.OnChildMeasureInvalidated : obj * EventArgs -&gt; unit" Usage="page.OnChildMeasureInvalidated (sender, e)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -600,6 +641,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnDisappearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.OnDisappearing" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnDisappearing ()" />
+      <MemberSignature Language="F#" Value="abstract member OnDisappearing : unit -&gt; unit&#xA;override this.OnDisappearing : unit -&gt; unit" Usage="page.OnDisappearing " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -619,6 +661,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnParentSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.OnParentSet" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnParentSet ()" />
+      <MemberSignature Language="F#" Value="override this.OnParentSet : unit -&gt; unit" Usage="page.OnParentSet " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -638,6 +681,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnSizeAllocated(float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.OnSizeAllocated(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnSizeAllocated (width As Double, height As Double)" />
+      <MemberSignature Language="F#" Value="override this.OnSizeAllocated : double * double -&gt; unit" Usage="page.OnSizeAllocated (width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -662,6 +706,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Thickness Padding" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Page.Padding" />
       <MemberSignature Language="VB.NET" Value="Public Property Padding As Thickness" />
+      <MemberSignature Language="F#" Value="member this.Padding : Xamarin.Forms.Thickness with get, set" Usage="Xamarin.Forms.Page.Padding" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -681,6 +726,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty PaddingProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Page.PaddingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PaddingProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PaddingProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Page.PaddingProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -699,7 +745,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendAppearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.SendAppearing" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendAppearing ()" />
+      <MemberSignature Language="F#" Value="abstract member SendAppearing : unit -&gt; unit&#xA;override this.SendAppearing : unit -&gt; unit" Usage="page.SendAppearing " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IPageController.SendAppearing</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -723,6 +773,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool SendBackButtonPressed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.SendBackButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Public Function SendBackButtonPressed () As Boolean" />
+      <MemberSignature Language="F#" Value="member this.SendBackButtonPressed : unit -&gt; bool" Usage="page.SendBackButtonPressed " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -743,7 +794,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendDisappearing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.SendDisappearing" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendDisappearing ()" />
+      <MemberSignature Language="F#" Value="abstract member SendDisappearing : unit -&gt; unit&#xA;override this.SendDisappearing : unit -&gt; unit" Usage="page.SendDisappearing " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IPageController.SendDisappearing</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -767,6 +822,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Page.Title" />
       <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
+      <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Xamarin.Forms.Page.Title" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -786,6 +842,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TitleProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Page.TitleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TitleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Page.TitleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -804,6 +861,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.ToolbarItem&gt; ToolbarItems" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Page.ToolbarItems" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ToolbarItems As IList(Of ToolbarItem)" />
+      <MemberSignature Language="F#" Value="member this.ToolbarItems : System.Collections.Generic.IList&lt;Xamarin.Forms.ToolbarItem&gt;" Usage="Xamarin.Forms.Page.ToolbarItems" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -823,6 +881,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void UpdateChildrenLayout() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Page.UpdateChildrenLayout" />
       <MemberSignature Language="VB.NET" Value="Protected Sub UpdateChildrenLayout ()" />
+      <MemberSignature Language="F#" Value="member this.UpdateChildrenLayout : unit -&gt; unit" Usage="page.UpdateChildrenLayout " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

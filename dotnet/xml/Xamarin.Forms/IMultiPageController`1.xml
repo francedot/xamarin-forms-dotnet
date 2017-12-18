@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMultiPageController`1&lt;T&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IMultiPageController`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMultiPageController(Of T)" />
+  <TypeSignature Language="F#" Value="type IMultiPageController&lt;'T&gt; = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -22,6 +23,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !T GetPageByIndex(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IMultiPageController`1.GetPageByIndex(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPageByIndex (index As Integer) As T" />
+      <MemberSignature Language="F#" Value="abstract member GetPageByIndex : int -&gt; 'T" Usage="iMultiPageController.GetPageByIndex index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

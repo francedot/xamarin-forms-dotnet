@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EntryCell extends Xamarin.Forms.Cell implements class Xamarin.Forms.IEntryCellController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.EntryCell" />
   <TypeSignature Language="VB.NET" Value="Public Class EntryCell&#xA;Inherits Cell&#xA;Implements IEntryCellController" />
+  <TypeSignature Language="F#" Value="type EntryCell = class&#xA;    inherit Cell&#xA;    interface IEntryCellController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -136,6 +137,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Completed" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.EntryCell.Completed" />
       <MemberSignature Language="VB.NET" Value="Public Event Completed As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.Completed : EventHandler " Usage="member this.Completed : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -154,6 +156,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.TextAlignment HorizontalTextAlignment" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.EntryCell.HorizontalTextAlignment" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalTextAlignment As TextAlignment" />
+      <MemberSignature Language="F#" Value="member this.HorizontalTextAlignment : Xamarin.Forms.TextAlignment with get, set" Usage="Xamarin.Forms.EntryCell.HorizontalTextAlignment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -173,6 +176,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HorizontalTextAlignmentProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.EntryCell.HorizontalTextAlignmentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HorizontalTextAlignmentProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HorizontalTextAlignmentProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.EntryCell.HorizontalTextAlignmentProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -191,6 +195,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Keyboard Keyboard" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.EntryCell.Keyboard" />
       <MemberSignature Language="VB.NET" Value="Public Property Keyboard As Keyboard" />
+      <MemberSignature Language="F#" Value="member this.Keyboard : Xamarin.Forms.Keyboard with get, set" Usage="Xamarin.Forms.EntryCell.Keyboard" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -210,6 +215,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty KeyboardProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.EntryCell.KeyboardProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly KeyboardProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable KeyboardProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.EntryCell.KeyboardProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -228,6 +234,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance string Label" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.EntryCell.Label" />
       <MemberSignature Language="VB.NET" Value="Public Property Label As String" />
+      <MemberSignature Language="F#" Value="member this.Label : string with get, set" Usage="Xamarin.Forms.EntryCell.Label" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -247,6 +254,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color LabelColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.EntryCell.LabelColor" />
       <MemberSignature Language="VB.NET" Value="Public Property LabelColor As Color" />
+      <MemberSignature Language="F#" Value="member this.LabelColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.EntryCell.LabelColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -266,6 +274,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty LabelColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.EntryCell.LabelColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LabelColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable LabelColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.EntryCell.LabelColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -284,6 +293,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty LabelProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.EntryCell.LabelProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LabelProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable LabelProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.EntryCell.LabelProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -302,6 +312,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance string Placeholder" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.EntryCell.Placeholder" />
       <MemberSignature Language="VB.NET" Value="Public Property Placeholder As String" />
+      <MemberSignature Language="F#" Value="member this.Placeholder : string with get, set" Usage="Xamarin.Forms.EntryCell.Placeholder" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -321,6 +332,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty PlaceholderProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.EntryCell.PlaceholderProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PlaceholderProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable PlaceholderProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.EntryCell.PlaceholderProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -339,7 +351,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendCompleted() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.EntryCell.SendCompleted" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendCompleted ()" />
+      <MemberSignature Language="F#" Value="abstract member SendCompleted : unit -&gt; unit&#xA;override this.SendCompleted : unit -&gt; unit" Usage="entryCell.SendCompleted " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IEntryCellController.SendCompleted</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -363,6 +379,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance string Text" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.EntryCell.Text" />
       <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="F#" Value="member this.Text : string with get, set" Usage="Xamarin.Forms.EntryCell.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -382,6 +399,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TextProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.EntryCell.TextProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TextProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TextProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.EntryCell.TextProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -400,6 +418,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.TextAlignment XAlign" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.EntryCell.XAlign" />
       <MemberSignature Language="VB.NET" Value="Public Property XAlign As TextAlignment" />
+      <MemberSignature Language="F#" Value="member this.XAlign : Xamarin.Forms.TextAlignment with get, set" Usage="Xamarin.Forms.EntryCell.XAlign" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -424,6 +443,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty XAlignProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.EntryCell.XAlignProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly XAlignProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable XAlignProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.EntryCell.XAlignProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

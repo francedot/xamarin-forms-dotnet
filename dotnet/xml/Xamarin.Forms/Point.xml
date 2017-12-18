@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Point extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Point" />
   <TypeSignature Language="VB.NET" Value="Public Structure Point" />
+  <TypeSignature Language="F#" Value="type Point = struct" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -29,6 +30,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Xamarin.Forms.Size sz) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Point.#ctor(Xamarin.Forms.Size)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (sz As Size)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Point : Xamarin.Forms.Size -&gt; Xamarin.Forms.Point" Usage="new Xamarin.Forms.Point sz" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -48,6 +50,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 x, float64 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Point.#ctor(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (x As Double, y As Double)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Point : double * double -&gt; Xamarin.Forms.Point" Usage="new Xamarin.Forms.Point (x, y)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -69,6 +72,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance float64 Distance(valuetype Xamarin.Forms.Point other) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Point.Distance(Xamarin.Forms.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Function Distance (other As Point) As Double" />
+      <MemberSignature Language="F#" Value="member this.Distance : Xamarin.Forms.Point -&gt; double" Usage="point.Distance other" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -92,6 +96,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object o) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Point.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (o As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="point.Equals o" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -118,6 +123,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Point.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="point.GetHashCode " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -138,6 +144,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEmpty" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Point.IsEmpty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsEmpty As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsEmpty : bool" Usage="Xamarin.Forms.Point.IsEmpty" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -158,6 +165,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Point Offset(float64 dx, float64 dy) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Point.Offset(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function Offset (dx As Double, dy As Double) As Point" />
+      <MemberSignature Language="F#" Value="member this.Offset : double * double -&gt; Xamarin.Forms.Point" Usage="point.Offset (dx, dy)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -183,6 +191,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Xamarin.Forms.Point op_Addition(valuetype Xamarin.Forms.Point pt, valuetype Xamarin.Forms.Size sz) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Point.op_Addition(Xamarin.Forms.Point,Xamarin.Forms.Size)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator + (pt As Point, sz As Size) As Point" />
+      <MemberSignature Language="F#" Value="static member ( + ) : Xamarin.Forms.Point * Xamarin.Forms.Size -&gt; Xamarin.Forms.Point" Usage="pt + sz" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -208,6 +217,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Xamarin.Forms.Point ptA, valuetype Xamarin.Forms.Point ptB) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Point.op_Equality(Xamarin.Forms.Point,Xamarin.Forms.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (ptA As Point, ptB As Point) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Xamarin.Forms.Point * Xamarin.Forms.Point -&gt; bool" Usage="ptA = ptB" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -234,6 +244,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Xamarin.Forms.Size op_Explicit(valuetype Xamarin.Forms.Point pt) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Point.op_Explicit(Xamarin.Forms.Point)~Xamarin.Forms.Size" />
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (pt As Point) As Size" />
+      <MemberSignature Language="F#" Value="static member op_Explicit : Xamarin.Forms.Point -&gt; Xamarin.Forms.Size" Usage="Xamarin.Forms.Point.op_Explicit pt" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -257,6 +268,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Xamarin.Forms.Point ptA, valuetype Xamarin.Forms.Point ptB) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Point.op_Inequality(Xamarin.Forms.Point,Xamarin.Forms.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (ptA As Point, ptB As Point) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Xamarin.Forms.Point * Xamarin.Forms.Point -&gt; bool" Usage="Xamarin.Forms.Point.op_Inequality (ptA, ptB)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -283,6 +295,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Xamarin.Forms.Point op_Subtraction(valuetype Xamarin.Forms.Point pt, valuetype Xamarin.Forms.Size sz) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Point.op_Subtraction(Xamarin.Forms.Point,Xamarin.Forms.Size)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator - (pt As Point, sz As Size) As Point" />
+      <MemberSignature Language="F#" Value="static member ( - ) : Xamarin.Forms.Point * Xamarin.Forms.Size -&gt; Xamarin.Forms.Point" Usage="pt - sz" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -308,6 +321,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Point Round() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Point.Round" />
       <MemberSignature Language="VB.NET" Value="Public Function Round () As Point" />
+      <MemberSignature Language="F#" Value="member this.Round : unit -&gt; Xamarin.Forms.Point" Usage="point.Round " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -328,6 +342,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Point.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="point.ToString " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -348,6 +363,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 X" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Point.X" />
       <MemberSignature Language="VB.NET" Value="Public Property X As Double" />
+      <MemberSignature Language="F#" Value="member this.X : double with get, set" Usage="Xamarin.Forms.Point.X" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -367,6 +383,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Y" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Point.Y" />
       <MemberSignature Language="VB.NET" Value="Public Property Y As Double" />
+      <MemberSignature Language="F#" Value="member this.Y : double with get, set" Usage="Xamarin.Forms.Point.Y" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -386,6 +403,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static valuetype Xamarin.Forms.Point Zero" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Point.Zero" />
       <MemberSignature Language="VB.NET" Value="Public Shared Zero As Point " />
+      <MemberSignature Language="F#" Value=" staticval mutable Zero : Xamarin.Forms.Point" Usage="Xamarin.Forms.Point.Zero" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

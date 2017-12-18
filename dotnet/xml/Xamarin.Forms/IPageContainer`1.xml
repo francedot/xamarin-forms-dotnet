@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPageContainer`1&lt;(class Xamarin.Forms.Page) + T&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IPageContainer`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPageContainer(Of Out T)" />
+  <TypeSignature Language="F#" Value="type IPageContainer&lt;'T (requires 'T :&gt; Page)&gt; = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -27,6 +28,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance !T CurrentPage" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IPageContainer`1.CurrentPage" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentPage As T" />
+      <MemberSignature Language="F#" Value="member this.CurrentPage : 'T" Usage="Xamarin.Forms.IPageContainer&lt;'T (requires 'T :&gt; Xamarin.Forms.Page)&gt;.CurrentPage" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

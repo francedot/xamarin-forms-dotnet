@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITemplatedItemsView`1&lt;(class Xamarin.Forms.BindableObject) TItem&gt; implements class Xamarin.Forms.IItemsView`1&lt;!TItem&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ITemplatedItemsView`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface ITemplatedItemsView(Of TItem)&#xA;Implements IItemsView(Of TItem)" />
+  <TypeSignature Language="F#" Value="type ITemplatedItemsView&lt;'Item (requires 'Item :&gt; BindableObject)&gt; = interface&#xA;    interface IItemsView&lt;'Item (requires 'Item :&gt; BindableObject)&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -30,6 +31,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.IListProxy ListProxy" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ITemplatedItemsView`1.ListProxy" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListProxy As IListProxy" />
+      <MemberSignature Language="F#" Value="member this.ListProxy : Xamarin.Forms.IListProxy" Usage="Xamarin.Forms.ITemplatedItemsView&lt;'Item (requires 'Item :&gt; Xamarin.Forms.BindableObject)&gt;.ListProxy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -49,6 +51,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.ComponentModel.PropertyChangedEventHandler PropertyChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ITemplatedItemsView`1.PropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Event PropertyChanged As PropertyChangedEventHandler " />
+      <MemberSignature Language="F#" Value="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " Usage="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -67,6 +70,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ITemplatedItemsList`1&lt;!TItem&gt; TemplatedItems" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ITemplatedItemsView`1.TemplatedItems" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TemplatedItems As ITemplatedItemsList(Of TItem)" />
+      <MemberSignature Language="F#" Value="member this.TemplatedItems : Xamarin.Forms.ITemplatedItemsList&lt;'Item (requires 'Item :&gt; Xamarin.Forms.BindableObject)&gt;" Usage="Xamarin.Forms.ITemplatedItemsView&lt;'Item (requires 'Item :&gt; Xamarin.Forms.BindableObject)&gt;.TemplatedItems" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

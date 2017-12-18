@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FileImageSource extends Xamarin.Forms.ImageSource" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.FileImageSource" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FileImageSource&#xA;Inherits ImageSource" />
+  <TypeSignature Language="F#" Value="type FileImageSource = class&#xA;    inherit ImageSource" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -42,6 +43,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; Cancel() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.FileImageSource.Cancel" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Cancel () As Task(Of Boolean)" />
+      <MemberSignature Language="F#" Value="override this.Cancel : unit -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="fileImageSource.Cancel " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -62,6 +64,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string File" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.FileImageSource.File" />
       <MemberSignature Language="VB.NET" Value="Public Property File As String" />
+      <MemberSignature Language="F#" Value="member this.File : string with get, set" Usage="Xamarin.Forms.FileImageSource.File" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -81,6 +84,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FileProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.FileImageSource.FileProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FileProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FileProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.FileImageSource.FileProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -99,6 +103,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPropertyChanged(string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.FileImageSource.OnPropertyChanged(System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPropertyChanged (Optional propertyName As String = null)" />
+      <MemberSignature Language="F#" Value="override this.OnPropertyChanged : string -&gt; unit" Usage="fileImageSource.OnPropertyChanged propertyName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -121,6 +126,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Xamarin.Forms.FileImageSource op_Implicit(string file) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.FileImageSource.op_Implicit(System.String)~Xamarin.Forms.FileImageSource" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (file As String) As FileImageSource" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Xamarin.Forms.FileImageSource" Usage="Xamarin.Forms.FileImageSource.op_Implicit file" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -144,6 +150,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Implicit(class Xamarin.Forms.FileImageSource file) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.FileImageSource.op_Implicit(Xamarin.Forms.FileImageSource)~System.String" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (file As FileImageSource) As String" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : Xamarin.Forms.FileImageSource -&gt; string" Usage="Xamarin.Forms.FileImageSource.op_Implicit file" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -167,6 +174,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.FileImageSource.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="fileImageSource.ToString " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

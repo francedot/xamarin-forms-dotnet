@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ItemTappedEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ItemTappedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class ItemTappedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type ItemTappedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object group, object item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ItemTappedEventArgs.#ctor(System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (group As Object, item As Object)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.ItemTappedEventArgs : obj * obj -&gt; Xamarin.Forms.ItemTappedEventArgs" Usage="new Xamarin.Forms.ItemTappedEventArgs (group, item)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -42,6 +44,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Group" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ItemTappedEventArgs.Group" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Group As Object" />
+      <MemberSignature Language="F#" Value="member this.Group : obj" Usage="Xamarin.Forms.ItemTappedEventArgs.Group" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -61,6 +64,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Item" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ItemTappedEventArgs.Item" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Item As Object" />
+      <MemberSignature Language="F#" Value="member this.Item : obj" Usage="Xamarin.Forms.ItemTappedEventArgs.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

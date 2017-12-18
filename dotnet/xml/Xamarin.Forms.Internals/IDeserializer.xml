@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDeserializer" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.IDeserializer" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDeserializer" />
+  <TypeSignature Language="F#" Value="type IDeserializer = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IDictionary`2&lt;string, object&gt;&gt; DeserializePropertiesAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.IDeserializer.DeserializePropertiesAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function DeserializePropertiesAsync () As Task(Of IDictionary(Of String, Object))" />
+      <MemberSignature Language="F#" Value="abstract member DeserializePropertiesAsync : unit -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.IDictionary&lt;string, obj&gt;&gt;" Usage="iDeserializer.DeserializePropertiesAsync " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task SerializePropertiesAsync(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; properties) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.IDeserializer.SerializePropertiesAsync(System.Collections.Generic.IDictionary{System.String,System.Object})" />
       <MemberSignature Language="VB.NET" Value="Public Function SerializePropertiesAsync (properties As IDictionary(Of String, Object)) As Task" />
+      <MemberSignature Language="F#" Value="abstract member SerializePropertiesAsync : System.Collections.Generic.IDictionary&lt;string, obj&gt; -&gt; System.Threading.Tasks.Task" Usage="iDeserializer.SerializePropertiesAsync properties" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

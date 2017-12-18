@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit SizeRequest extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.SizeRequest" />
   <TypeSignature Language="VB.NET" Value="Public Structure SizeRequest" />
+  <TypeSignature Language="F#" Value="type SizeRequest = struct" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Xamarin.Forms.Size request) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SizeRequest.#ctor(Xamarin.Forms.Size)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (request As Size)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.SizeRequest : Xamarin.Forms.Size -&gt; Xamarin.Forms.SizeRequest" Usage="new Xamarin.Forms.SizeRequest request" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -45,6 +47,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Xamarin.Forms.Size request, valuetype Xamarin.Forms.Size minimum) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SizeRequest.#ctor(Xamarin.Forms.Size,Xamarin.Forms.Size)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (request As Size, minimum As Size)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.SizeRequest : Xamarin.Forms.Size * Xamarin.Forms.Size -&gt; Xamarin.Forms.SizeRequest" Usage="new Xamarin.Forms.SizeRequest (request, minimum)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -66,6 +69,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Size Minimum" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SizeRequest.Minimum" />
       <MemberSignature Language="VB.NET" Value="Public Property Minimum As Size" />
+      <MemberSignature Language="F#" Value="member this.Minimum : Xamarin.Forms.Size with get, set" Usage="Xamarin.Forms.SizeRequest.Minimum" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -85,6 +89,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Size Request" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SizeRequest.Request" />
       <MemberSignature Language="VB.NET" Value="Public Property Request As Size" />
+      <MemberSignature Language="F#" Value="member this.Request : Xamarin.Forms.Size with get, set" Usage="Xamarin.Forms.SizeRequest.Request" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -104,6 +109,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SizeRequest.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="sizeRequest.ToString " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

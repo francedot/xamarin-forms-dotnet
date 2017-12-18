@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TemplatedPage extends Xamarin.Forms.Page" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.TemplatedPage" />
   <TypeSignature Language="VB.NET" Value="Public Class TemplatedPage&#xA;Inherits Page" />
+  <TypeSignature Language="F#" Value="type TemplatedPage = class&#xA;    inherit Page&#xA;    interface IControlTemplated" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -37,7 +38,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ControlTemplate ControlTemplate" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TemplatedPage.ControlTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property ControlTemplate As ControlTemplate" />
+      <MemberSignature Language="F#" Value="member this.ControlTemplate : Xamarin.Forms.ControlTemplate with get, set" Usage="Xamarin.Forms.TemplatedPage.ControlTemplate" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IControlTemplated.ControlTemplate</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -56,6 +61,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ControlTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.TemplatedPage.ControlTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ControlTemplateProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ControlTemplateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.TemplatedPage.ControlTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

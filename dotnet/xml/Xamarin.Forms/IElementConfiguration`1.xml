@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IElementConfiguration`1&lt;(class Xamarin.Forms.Element) + TElement&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IElementConfiguration`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IElementConfiguration(Of Out TElement)" />
+  <TypeSignature Language="F#" Value="type IElementConfiguration&lt;'Element (requires 'Element :&gt; Element)&gt; = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -27,6 +28,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, !TElement&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IElementConfiguration`1.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Out TElement)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, 'Element (requires 'T :&gt; Xamarin.Forms.IConfigPlatform and 'Element :&gt; Xamarin.Forms.Element)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="iElementConfiguration.On " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

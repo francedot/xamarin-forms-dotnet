@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TemplateExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.TemplateExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module TemplateExtensions" />
+  <TypeSignature Language="F#" Value="type TemplateExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBinding(class Xamarin.Forms.DataTemplate self, class Xamarin.Forms.BindableProperty targetProperty, string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TemplateExtensions.SetBinding(Xamarin.Forms.DataTemplate,Xamarin.Forms.BindableProperty,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetBinding (self As DataTemplate, targetProperty As BindableProperty, path As String)" />
+      <MemberSignature Language="F#" Value="static member SetBinding : Xamarin.Forms.DataTemplate * Xamarin.Forms.BindableProperty * string -&gt; unit" Usage="Xamarin.Forms.TemplateExtensions.SetBinding (self, targetProperty, path)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

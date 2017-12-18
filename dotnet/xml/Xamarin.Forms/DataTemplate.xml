@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataTemplate extends Xamarin.Forms.ElementTemplate" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.DataTemplate" />
   <TypeSignature Language="VB.NET" Value="Public Class DataTemplate&#xA;Inherits ElementTemplate" />
+  <TypeSignature Language="F#" Value="type DataTemplate = class&#xA;    inherit ElementTemplate" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -37,6 +38,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`1&lt;object&gt; loadTemplate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.DataTemplate.#ctor(System.Func{System.Object})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (loadTemplate As Func(Of Object))" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.DataTemplate : Func&lt;obj&gt; -&gt; Xamarin.Forms.DataTemplate" Usage="new Xamarin.Forms.DataTemplate loadTemplate" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -55,6 +57,7 @@
       <MemberSignature Language="C#" Value="public DataTemplate (Type type);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.DataTemplate.#ctor(System.Type)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.DataTemplate : Type -&gt; Xamarin.Forms.DataTemplate" Usage="new Xamarin.Forms.DataTemplate type" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -74,6 +77,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class Xamarin.Forms.BindableProperty, class Xamarin.Forms.BindingBase&gt; Bindings" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.DataTemplate.Bindings" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Bindings As IDictionary(Of BindableProperty, BindingBase)" />
+      <MemberSignature Language="F#" Value="member this.Bindings : System.Collections.Generic.IDictionary&lt;Xamarin.Forms.BindableProperty, Xamarin.Forms.BindingBase&gt;" Usage="Xamarin.Forms.DataTemplate.Bindings" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -93,6 +97,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetBinding(class Xamarin.Forms.BindableProperty property, class Xamarin.Forms.BindingBase binding) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.DataTemplate.SetBinding(Xamarin.Forms.BindableProperty,Xamarin.Forms.BindingBase)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetBinding (property As BindableProperty, binding As BindingBase)" />
+      <MemberSignature Language="F#" Value="member this.SetBinding : Xamarin.Forms.BindableProperty * Xamarin.Forms.BindingBase -&gt; unit" Usage="dataTemplate.SetBinding (property, binding)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -117,6 +122,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetValue(class Xamarin.Forms.BindableProperty property, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.DataTemplate.SetValue(Xamarin.Forms.BindableProperty,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetValue (property As BindableProperty, value As Object)" />
+      <MemberSignature Language="F#" Value="member this.SetValue : Xamarin.Forms.BindableProperty * obj -&gt; unit" Usage="dataTemplate.SetValue (property, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -141,6 +147,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class Xamarin.Forms.BindableProperty, object&gt; Values" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.DataTemplate.Values" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Values As IDictionary(Of BindableProperty, Object)" />
+      <MemberSignature Language="F#" Value="member this.Values : System.Collections.Generic.IDictionary&lt;Xamarin.Forms.BindableProperty, obj&gt;" Usage="Xamarin.Forms.DataTemplate.Values" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

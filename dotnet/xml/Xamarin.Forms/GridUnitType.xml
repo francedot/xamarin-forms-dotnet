@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GridUnitType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.GridUnitType" />
   <TypeSignature Language="VB.NET" Value="Public Enum GridUnitType" />
+  <TypeSignature Language="F#" Value="type GridUnitType = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -20,6 +21,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.GridUnitType Absolute = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.GridUnitType.Absolute" />
       <MemberSignature Language="VB.NET" Value="Absolute" />
+      <MemberSignature Language="F#" Value="Absolute = 0" Usage="Xamarin.Forms.GridUnitType.Absolute" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -39,6 +41,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.GridUnitType Auto = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.GridUnitType.Auto" />
       <MemberSignature Language="VB.NET" Value="Auto" />
+      <MemberSignature Language="F#" Value="Auto = 2" Usage="Xamarin.Forms.GridUnitType.Auto" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -58,6 +61,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.GridUnitType Star = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.GridUnitType.Star" />
       <MemberSignature Language="VB.NET" Value="Star" />
+      <MemberSignature Language="F#" Value="Star = 1" Usage="Xamarin.Forms.GridUnitType.Star" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

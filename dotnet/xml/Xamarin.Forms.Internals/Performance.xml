@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Performance extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.Performance" />
   <TypeSignature Language="VB.NET" Value="Public Class Performance" />
+  <TypeSignature Language="F#" Value="type Performance = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Clear() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Performance.Clear" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Clear ()" />
+      <MemberSignature Language="F#" Value="static member Clear : unit -&gt; unit" Usage="Xamarin.Forms.Internals.Performance.Clear " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -50,6 +52,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Count(string tag, string path, string member) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Performance.Count(System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Count (Optional tag As String = null, Optional path As String = null, Optional member As String = null)" />
+      <MemberSignature Language="F#" Value="static member Count : string * string * string -&gt; unit" Usage="Xamarin.Forms.Internals.Performance.Count (tag, path, member)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -88,6 +91,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DumpStats() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Performance.DumpStats" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub DumpStats ()" />
+      <MemberSignature Language="F#" Value="static member DumpStats : unit -&gt; unit" Usage="Xamarin.Forms.Internals.Performance.DumpStats " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -112,6 +116,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetStats() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Performance.GetStats" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetStats () As String" />
+      <MemberSignature Language="F#" Value="static member GetStats : unit -&gt; string" Usage="Xamarin.Forms.Internals.Performance.GetStats " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -132,6 +137,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Start(string tag, string path, string member) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Performance.Start(System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Start (Optional tag As String = null, Optional path As String = null, Optional member As String = null)" />
+      <MemberSignature Language="F#" Value="static member Start : string * string * string -&gt; unit" Usage="Xamarin.Forms.Internals.Performance.Start (tag, path, member)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -175,6 +181,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Stop(string tag, string path, string member) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Performance.Stop(System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Stop (Optional tag As String = null, Optional path As String = null, Optional member As String = null)" />
+      <MemberSignature Language="F#" Value="static member Stop : string * string * string -&gt; unit" Usage="Xamarin.Forms.Internals.Performance.Stop (tag, path, member)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

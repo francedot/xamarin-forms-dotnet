@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Keyboard extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Keyboard" />
   <TypeSignature Language="VB.NET" Value="Public Class Keyboard" />
+  <TypeSignature Language="F#" Value="type Keyboard = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".property class Xamarin.Forms.Keyboard Chat" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Keyboard.Chat" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Chat As Keyboard" />
+      <MemberSignature Language="F#" Value="member this.Chat : Xamarin.Forms.Keyboard" Usage="Xamarin.Forms.Keyboard.Chat" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -45,6 +47,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Keyboard Create(valuetype Xamarin.Forms.KeyboardFlags flags) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Keyboard.Create(Xamarin.Forms.KeyboardFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Create (flags As KeyboardFlags) As Keyboard" />
+      <MemberSignature Language="F#" Value="static member Create : Xamarin.Forms.KeyboardFlags -&gt; Xamarin.Forms.Keyboard" Usage="Xamarin.Forms.Keyboard.Create flags" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -68,6 +71,7 @@
       <MemberSignature Language="ILAsm" Value=".property class Xamarin.Forms.Keyboard Default" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Keyboard.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As Keyboard" />
+      <MemberSignature Language="F#" Value="member this.Default : Xamarin.Forms.Keyboard" Usage="Xamarin.Forms.Keyboard.Default" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -87,6 +91,7 @@
       <MemberSignature Language="ILAsm" Value=".property class Xamarin.Forms.Keyboard Email" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Keyboard.Email" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Email As Keyboard" />
+      <MemberSignature Language="F#" Value="member this.Email : Xamarin.Forms.Keyboard" Usage="Xamarin.Forms.Keyboard.Email" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -106,6 +111,7 @@
       <MemberSignature Language="ILAsm" Value=".property class Xamarin.Forms.Keyboard Numeric" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Keyboard.Numeric" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Numeric As Keyboard" />
+      <MemberSignature Language="F#" Value="member this.Numeric : Xamarin.Forms.Keyboard" Usage="Xamarin.Forms.Keyboard.Numeric" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -125,6 +131,7 @@
       <MemberSignature Language="ILAsm" Value=".property class Xamarin.Forms.Keyboard Plain" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Keyboard.Plain" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Plain As Keyboard" />
+      <MemberSignature Language="F#" Value="member this.Plain : Xamarin.Forms.Keyboard" Usage="Xamarin.Forms.Keyboard.Plain" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -144,6 +151,7 @@
       <MemberSignature Language="ILAsm" Value=".property class Xamarin.Forms.Keyboard Telephone" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Keyboard.Telephone" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Telephone As Keyboard" />
+      <MemberSignature Language="F#" Value="member this.Telephone : Xamarin.Forms.Keyboard" Usage="Xamarin.Forms.Keyboard.Telephone" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -163,6 +171,7 @@
       <MemberSignature Language="ILAsm" Value=".property class Xamarin.Forms.Keyboard Text" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Keyboard.Text" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Text As Keyboard" />
+      <MemberSignature Language="F#" Value="member this.Text : Xamarin.Forms.Keyboard" Usage="Xamarin.Forms.Keyboard.Text" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -182,6 +191,7 @@
       <MemberSignature Language="ILAsm" Value=".property class Xamarin.Forms.Keyboard Url" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Keyboard.Url" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Url As Keyboard" />
+      <MemberSignature Language="F#" Value="member this.Url : Xamarin.Forms.Keyboard" Usage="Xamarin.Forms.Keyboard.Url" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

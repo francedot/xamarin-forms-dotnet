@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Entry extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry" />
   <TypeSignature Language="VB.NET" Value="Public Module Entry" />
+  <TypeSignature Language="F#" Value="type Entry = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool AdjustsFontSizeToFitWidth(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.AdjustsFontSizeToFitWidth(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Entry})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AdjustsFontSizeToFitWidth (config As IPlatformElementConfiguration(Of iOS, Entry)) As Boolean" />
+      <MemberSignature Language="F#" Value="static member AdjustsFontSizeToFitWidth : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.AdjustsFontSizeToFitWidth config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty AdjustsFontSizeToFitWidthProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.AdjustsFontSizeToFitWidthProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly AdjustsFontSizeToFitWidthProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable AdjustsFontSizeToFitWidthProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.AdjustsFontSizeToFitWidthProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -64,6 +67,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; DisableAdjustsFontSizeToFitWidth(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.DisableAdjustsFontSizeToFitWidth(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Entry})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DisableAdjustsFontSizeToFitWidth (config As IPlatformElementConfiguration(Of iOS, Entry)) As IPlatformElementConfiguration(Of iOS, Entry)" />
+      <MemberSignature Language="F#" Value="static member DisableAdjustsFontSizeToFitWidth : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.DisableAdjustsFontSizeToFitWidth config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -87,6 +91,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; EnableAdjustsFontSizeToFitWidth(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.EnableAdjustsFontSizeToFitWidth(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Entry})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EnableAdjustsFontSizeToFitWidth (config As IPlatformElementConfiguration(Of iOS, Entry)) As IPlatformElementConfiguration(Of iOS, Entry)" />
+      <MemberSignature Language="F#" Value="static member EnableAdjustsFontSizeToFitWidth : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.EnableAdjustsFontSizeToFitWidth config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -110,6 +115,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetAdjustsFontSizeToFitWidth(class Xamarin.Forms.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.GetAdjustsFontSizeToFitWidth(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAdjustsFontSizeToFitWidth (element As BindableObject) As Boolean" />
+      <MemberSignature Language="F#" Value="static member GetAdjustsFontSizeToFitWidth : Xamarin.Forms.BindableObject -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.GetAdjustsFontSizeToFitWidth element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -133,6 +139,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetAdjustsFontSizeToFitWidth(class Xamarin.Forms.BindableObject element, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.SetAdjustsFontSizeToFitWidth(Xamarin.Forms.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetAdjustsFontSizeToFitWidth (element As BindableObject, value As Boolean)" />
+      <MemberSignature Language="F#" Value="static member SetAdjustsFontSizeToFitWidth : Xamarin.Forms.BindableObject * bool -&gt; unit" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.SetAdjustsFontSizeToFitWidth (element, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -157,6 +164,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; SetAdjustsFontSizeToFitWidth(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Entry&gt; config, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.SetAdjustsFontSizeToFitWidth(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Entry},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetAdjustsFontSizeToFitWidth (config As IPlatformElementConfiguration(Of iOS, Entry), value As Boolean) As IPlatformElementConfiguration(Of iOS, Entry)" />
+      <MemberSignature Language="F#" Value="static member SetAdjustsFontSizeToFitWidth : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Entry&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.SetAdjustsFontSizeToFitWidth (config, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Style extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Style" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Style" />
+  <TypeSignature Language="F#" Value="type Style = class&#xA;    interface IStyle" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -70,6 +71,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type targetType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Style.#ctor(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (targetType As Type)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Style : Type -&gt; Xamarin.Forms.Style" Usage="new Xamarin.Forms.Style targetType" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -95,6 +97,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool ApplyToDerivedTypes" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.ApplyToDerivedTypes" />
       <MemberSignature Language="VB.NET" Value="Public Property ApplyToDerivedTypes As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ApplyToDerivedTypes : bool with get, set" Usage="Xamarin.Forms.Style.ApplyToDerivedTypes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -114,6 +117,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Style BasedOn" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.BasedOn" />
       <MemberSignature Language="VB.NET" Value="Public Property BasedOn As Style" />
+      <MemberSignature Language="F#" Value="member this.BasedOn : Xamarin.Forms.Style with get, set" Usage="Xamarin.Forms.Style.BasedOn" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -133,6 +137,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string BaseResourceKey" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.BaseResourceKey" />
       <MemberSignature Language="VB.NET" Value="Public Property BaseResourceKey As String" />
+      <MemberSignature Language="F#" Value="member this.BaseResourceKey : string with get, set" Usage="Xamarin.Forms.Style.BaseResourceKey" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -152,6 +157,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Behavior&gt; Behaviors" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.Behaviors" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Behaviors As IList(Of Behavior)" />
+      <MemberSignature Language="F#" Value="member this.Behaviors : System.Collections.Generic.IList&lt;Xamarin.Forms.Behavior&gt;" Usage="Xamarin.Forms.Style.Behaviors" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -171,6 +177,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool CanCascade" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.CanCascade" />
       <MemberSignature Language="VB.NET" Value="Public Property CanCascade As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CanCascade : bool with get, set" Usage="Xamarin.Forms.Style.CanCascade" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -190,6 +197,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Class" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.Class" />
       <MemberSignature Language="VB.NET" Value="Public Property Class As String" />
+      <MemberSignature Language="F#" Value="member this.Class : string with get, set" Usage="Xamarin.Forms.Style.Class" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -209,6 +217,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Setter&gt; Setters" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.Setters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Setters As IList(Of Setter)" />
+      <MemberSignature Language="F#" Value="member this.Setters : System.Collections.Generic.IList&lt;Xamarin.Forms.Setter&gt;" Usage="Xamarin.Forms.Style.Setters" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -228,7 +237,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type TargetType" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.TargetType" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TargetType As Type" />
+      <MemberSignature Language="F#" Value="member this.TargetType : Type" Usage="Xamarin.Forms.Style.TargetType" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IStyle.TargetType</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -249,6 +262,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.TriggerBase&gt; Triggers" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Style.Triggers" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Triggers As IList(Of TriggerBase)" />
+      <MemberSignature Language="F#" Value="member this.Triggers : System.Collections.Generic.IList&lt;Xamarin.Forms.TriggerBase&gt;" Usage="Xamarin.Forms.Style.Triggers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

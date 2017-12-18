@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ReflectionExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.ReflectionExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module ReflectionExtensions" />
+  <TypeSignature Language="F#" Value="type ReflectionExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -25,6 +26,7 @@
       <MemberSignature Language="C#" Value="public static System.Reflection.FieldInfo GetField (this Type type, Func&lt;System.Reflection.FieldInfo,bool&gt; predicate);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.FieldInfo GetField(class System.Type type, class System.Func`2&lt;class System.Reflection.FieldInfo, bool&gt; predicate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.GetField(System.Type,System.Func{System.Reflection.FieldInfo,System.Boolean})" />
+      <MemberSignature Language="F#" Value="static member GetField : Type * Func&lt;System.Reflection.FieldInfo, bool&gt; -&gt; System.Reflection.FieldInfo" Usage="Xamarin.Forms.Internals.ReflectionExtensions.GetField (type, predicate)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -49,6 +51,7 @@
       <MemberSignature Language="C#" Value="public static System.Reflection.FieldInfo GetField (this Type type, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.FieldInfo GetField(class System.Type type, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.GetField(System.Type,System.String)" />
+      <MemberSignature Language="F#" Value="static member GetField : Type * string -&gt; System.Reflection.FieldInfo" Usage="Xamarin.Forms.Internals.ReflectionExtensions.GetField (type, name)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -73,6 +76,7 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;System.Reflection.FieldInfo&gt; GetFields (this Type type);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class System.Reflection.FieldInfo&gt; GetFields(class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.GetFields(System.Type)" />
+      <MemberSignature Language="F#" Value="static member GetFields : Type -&gt; seq&lt;System.Reflection.FieldInfo&gt;" Usage="Xamarin.Forms.Internals.ReflectionExtensions.GetFields type" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -95,6 +99,7 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;System.Reflection.PropertyInfo&gt; GetProperties (this Type type);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class System.Reflection.PropertyInfo&gt; GetProperties(class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.GetProperties(System.Type)" />
+      <MemberSignature Language="F#" Value="static member GetProperties : Type -&gt; seq&lt;System.Reflection.PropertyInfo&gt;" Usage="Xamarin.Forms.Internals.ReflectionExtensions.GetProperties type" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -117,6 +122,7 @@
       <MemberSignature Language="C#" Value="public static System.Reflection.PropertyInfo GetProperty (this Type type, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.PropertyInfo GetProperty(class System.Type type, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.GetProperty(System.Type,System.String)" />
+      <MemberSignature Language="F#" Value="static member GetProperty : Type * string -&gt; System.Reflection.PropertyInfo" Usage="Xamarin.Forms.Internals.ReflectionExtensions.GetProperty (type, name)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -142,6 +148,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsAssignableFrom(class System.Type self, class System.Type c) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.IsAssignableFrom(System.Type,System.Type)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsAssignableFrom (self As Type, c As Type) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsAssignableFrom : Type * Type -&gt; bool" Usage="Xamarin.Forms.Internals.ReflectionExtensions.IsAssignableFrom (self, c)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -167,6 +174,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsInstanceOfType(class System.Type self, object o) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ReflectionExtensions.IsInstanceOfType(System.Type,System.Object)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function IsInstanceOfType (self As Type, o As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsInstanceOfType : Type * obj -&gt; bool" Usage="Xamarin.Forms.Internals.ReflectionExtensions.IsInstanceOfType (self, o)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

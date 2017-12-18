@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BackButtonPressedEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.BackButtonPressedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class BackButtonPressedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type BackButtonPressedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -37,6 +38,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Handled" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.BackButtonPressedEventArgs.Handled" />
       <MemberSignature Language="VB.NET" Value="Public Property Handled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Handled : bool with get, set" Usage="Xamarin.Forms.BackButtonPressedEventArgs.Handled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

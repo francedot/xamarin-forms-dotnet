@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Constraint extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Constraint" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Constraint" />
+  <TypeSignature Language="F#" Value="type Constraint = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Constraint Constant(float64 size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Constraint.Constant(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Constant (size As Double) As Constraint" />
+      <MemberSignature Language="F#" Value="static member Constant : double -&gt; Xamarin.Forms.Constraint" Usage="Xamarin.Forms.Constraint.Constant size" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -49,6 +51,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Constraint FromExpression(class System.Linq.Expressions.Expression`1&lt;class System.Func`1&lt;float64&gt;&gt; expression) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Constraint.FromExpression(System.Linq.Expressions.Expression{System.Func{System.Double}})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromExpression (expression As Expression(Of Func(Of Double))) As Constraint" />
+      <MemberSignature Language="F#" Value="static member FromExpression : System.Linq.Expressions.Expression&lt;Func&lt;double&gt;&gt; -&gt; Xamarin.Forms.Constraint" Usage="Xamarin.Forms.Constraint.FromExpression expression" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -72,6 +75,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Constraint RelativeToParent(class System.Func`2&lt;class Xamarin.Forms.RelativeLayout, float64&gt; measure) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Constraint.RelativeToParent(System.Func{Xamarin.Forms.RelativeLayout,System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function RelativeToParent (measure As Func(Of RelativeLayout, Double)) As Constraint" />
+      <MemberSignature Language="F#" Value="static member RelativeToParent : Func&lt;Xamarin.Forms.RelativeLayout, double&gt; -&gt; Xamarin.Forms.Constraint" Usage="Xamarin.Forms.Constraint.RelativeToParent measure" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -94,6 +98,7 @@
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.Constraint RelativeToView (Xamarin.Forms.View view, Func&lt;Xamarin.Forms.RelativeLayout,Xamarin.Forms.View,double&gt; measure);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Constraint RelativeToView(class Xamarin.Forms.View view, class System.Func`3&lt;class Xamarin.Forms.RelativeLayout, class Xamarin.Forms.View, float64&gt; measure) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Constraint.RelativeToView(Xamarin.Forms.View,System.Func{Xamarin.Forms.RelativeLayout,Xamarin.Forms.View,System.Double})" />
+      <MemberSignature Language="F#" Value="static member RelativeToView : Xamarin.Forms.View * Func&lt;Xamarin.Forms.RelativeLayout, Xamarin.Forms.View, double&gt; -&gt; Xamarin.Forms.Constraint" Usage="Xamarin.Forms.Constraint.RelativeToView (view, measure)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VisualElement extends Xamarin.Forms.Element implements class Xamarin.Forms.IAnimatable, class Xamarin.Forms.IElementController, class Xamarin.Forms.IVisualElementController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.VisualElement" />
   <TypeSignature Language="VB.NET" Value="Public Class VisualElement&#xA;Inherits Element&#xA;Implements IAnimatable, IVisualElementController" />
+  <TypeSignature Language="F#" Value="type VisualElement = class&#xA;    inherit Element&#xA;    interface IAnimatable&#xA;    interface IVisualElementController&#xA;    interface IElementController&#xA;    interface IResourcesProvider" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -30,6 +31,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 AnchorX" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.AnchorX" />
       <MemberSignature Language="VB.NET" Value="Public Property AnchorX As Double" />
+      <MemberSignature Language="F#" Value="member this.AnchorX : double with get, set" Usage="Xamarin.Forms.VisualElement.AnchorX" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -50,6 +52,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty AnchorXProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.AnchorXProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AnchorXProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable AnchorXProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.AnchorXProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -68,6 +71,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 AnchorY" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.AnchorY" />
       <MemberSignature Language="VB.NET" Value="Public Property AnchorY As Double" />
+      <MemberSignature Language="F#" Value="member this.AnchorY : double with get, set" Usage="Xamarin.Forms.VisualElement.AnchorY" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -88,6 +92,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty AnchorYProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.AnchorYProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AnchorYProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable AnchorYProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.AnchorYProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -106,6 +111,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color BackgroundColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.BackgroundColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BackgroundColor As Color" />
+      <MemberSignature Language="F#" Value="member this.BackgroundColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.VisualElement.BackgroundColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -125,6 +131,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty BackgroundColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.BackgroundColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BackgroundColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BackgroundColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.BackgroundColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -143,7 +150,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BatchBegin() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.BatchBegin" />
       <MemberSignature Language="VB.NET" Value="Public Sub BatchBegin ()" />
+      <MemberSignature Language="F#" Value="abstract member BatchBegin : unit -&gt; unit&#xA;override this.BatchBegin : unit -&gt; unit" Usage="visualElement.BatchBegin " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IAnimatable.BatchBegin</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -162,7 +173,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BatchCommit() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.BatchCommit" />
       <MemberSignature Language="VB.NET" Value="Public Sub BatchCommit ()" />
+      <MemberSignature Language="F#" Value="abstract member BatchCommit : unit -&gt; unit&#xA;override this.BatchCommit : unit -&gt; unit" Usage="visualElement.BatchCommit " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IAnimatable.BatchCommit</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -181,7 +196,11 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.EventArg`1&lt;class Xamarin.Forms.VisualElement&gt;&gt; BatchCommitted" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.VisualElement.BatchCommitted" />
       <MemberSignature Language="VB.NET" Value="Public Event BatchCommitted As EventHandler(Of EventArg(Of VisualElement)) " />
+      <MemberSignature Language="F#" Value="member this.BatchCommitted : EventHandler&lt;Xamarin.Forms.Internals.EventArg&lt;Xamarin.Forms.VisualElement&gt;&gt; " Usage="member this.BatchCommitted : System.EventHandler&lt;Xamarin.Forms.Internals.EventArg&lt;Xamarin.Forms.VisualElement&gt;&gt; " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.IVisualElementController.BatchCommitted</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -204,7 +223,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Batched" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Batched" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Batched As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Batched : bool" Usage="Xamarin.Forms.VisualElement.Batched" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IVisualElementController.Batched</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -228,6 +251,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Behavior&gt; Behaviors" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Behaviors" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Behaviors As IList(Of Behavior)" />
+      <MemberSignature Language="F#" Value="member this.Behaviors : System.Collections.Generic.IList&lt;Xamarin.Forms.Behavior&gt;" Usage="Xamarin.Forms.VisualElement.Behaviors" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -247,6 +271,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty BehaviorsProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.BehaviorsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BehaviorsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BehaviorsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.BehaviorsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -265,6 +290,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Rectangle Bounds" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Bounds" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Bounds As Rectangle" />
+      <MemberSignature Language="F#" Value="member this.Bounds : Xamarin.Forms.Rectangle" Usage="Xamarin.Forms.VisualElement.Bounds" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -286,6 +312,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler ChildrenReordered" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.VisualElement.ChildrenReordered" />
       <MemberSignature Language="VB.NET" Value="Public Event ChildrenReordered As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.ChildrenReordered : EventHandler " Usage="member this.ChildrenReordered : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -304,7 +331,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool DisableLayout" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.DisableLayout" />
       <MemberSignature Language="VB.NET" Value="Public Property DisableLayout As Boolean" />
+      <MemberSignature Language="F#" Value="member this.DisableLayout : bool with get, set" Usage="Xamarin.Forms.VisualElement.DisableLayout" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IVisualElementController.DisableLayout</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -328,6 +359,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Focus() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.Focus" />
       <MemberSignature Language="VB.NET" Value="Public Function Focus () As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Focus : unit -&gt; bool" Usage="visualElement.Focus " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -349,7 +381,11 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.VisualElement/FocusRequestArgs&gt; FocusChangeRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.VisualElement.FocusChangeRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event FocusChangeRequested As EventHandler(Of VisualElement.FocusRequestArgs) " />
+      <MemberSignature Language="F#" Value="member this.FocusChangeRequested : EventHandler&lt;Xamarin.Forms.VisualElement.FocusRequestArgs&gt; " Usage="member this.FocusChangeRequested : System.EventHandler&lt;Xamarin.Forms.VisualElement.FocusRequestArgs&gt; " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.IVisualElementController.FocusChangeRequested</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -372,6 +408,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.FocusEventArgs&gt; Focused" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.VisualElement.Focused" />
       <MemberSignature Language="VB.NET" Value="Public Event Focused As EventHandler(Of FocusEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.Focused : EventHandler&lt;Xamarin.Forms.FocusEventArgs&gt; " Usage="member this.Focused : System.EventHandler&lt;Xamarin.Forms.FocusEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -392,6 +429,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Xamarin.Forms.SizeRequest GetSizeRequest(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.GetSizeRequest(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSizeRequest (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
+      <MemberSignature Language="F#" Value="abstract member GetSizeRequest : double * double -&gt; Xamarin.Forms.SizeRequest&#xA;override this.GetSizeRequest : double * double -&gt; Xamarin.Forms.SizeRequest" Usage="visualElement.GetSizeRequest (widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -423,6 +461,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Height" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Height" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Double" />
+      <MemberSignature Language="F#" Value="member this.Height : double" Usage="Xamarin.Forms.VisualElement.Height" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -442,6 +481,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HeightProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.HeightProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeightProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeightProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.HeightProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -460,6 +500,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 HeightRequest" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.HeightRequest" />
       <MemberSignature Language="VB.NET" Value="Public Property HeightRequest As Double" />
+      <MemberSignature Language="F#" Value="member this.HeightRequest : double with get, set" Usage="Xamarin.Forms.VisualElement.HeightRequest" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -479,6 +520,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HeightRequestProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.HeightRequestProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeightRequestProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeightRequestProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.HeightRequestProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -497,6 +539,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool InputTransparent" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.InputTransparent" />
       <MemberSignature Language="VB.NET" Value="Public Property InputTransparent As Boolean" />
+      <MemberSignature Language="F#" Value="member this.InputTransparent : bool with get, set" Usage="Xamarin.Forms.VisualElement.InputTransparent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -518,6 +561,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty InputTransparentProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.InputTransparentProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InputTransparentProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable InputTransparentProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.InputTransparentProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -536,6 +580,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void InvalidateMeasure() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.InvalidateMeasure" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub InvalidateMeasure ()" />
+      <MemberSignature Language="F#" Value="abstract member InvalidateMeasure : unit -&gt; unit&#xA;override this.InvalidateMeasure : unit -&gt; unit" Usage="visualElement.InvalidateMeasure " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -555,6 +600,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void InvalidateMeasureNonVirtual(valuetype Xamarin.Forms.Internals.InvalidationTrigger trigger) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.InvalidateMeasureNonVirtual(Xamarin.Forms.Internals.InvalidationTrigger)" />
       <MemberSignature Language="VB.NET" Value="Public Sub InvalidateMeasureNonVirtual (trigger As InvalidationTrigger)" />
+      <MemberSignature Language="F#" Value="member this.InvalidateMeasureNonVirtual : Xamarin.Forms.Internals.InvalidationTrigger -&gt; unit" Usage="visualElement.InvalidateMeasureNonVirtual trigger" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -582,6 +628,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEnabled" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.IsEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsEnabled : bool with get, set" Usage="Xamarin.Forms.VisualElement.IsEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -621,6 +668,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.IsEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsEnabledProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsEnabledProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.IsEnabledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -639,6 +687,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsFocused" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.IsFocused" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFocused As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsFocused : bool" Usage="Xamarin.Forms.VisualElement.IsFocused" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -677,6 +726,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsFocusedProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.IsFocusedProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsFocusedProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsFocusedProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.IsFocusedProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -695,6 +745,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindablePropertyKey IsFocusedPropertyKey" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.IsFocusedPropertyKey" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsFocusedPropertyKey As BindablePropertyKey " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsFocusedPropertyKey : Xamarin.Forms.BindablePropertyKey" Usage="Xamarin.Forms.VisualElement.IsFocusedPropertyKey" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -718,7 +769,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsInNativeLayout" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.IsInNativeLayout" />
       <MemberSignature Language="VB.NET" Value="Public Property IsInNativeLayout As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsInNativeLayout : bool with get, set" Usage="Xamarin.Forms.VisualElement.IsInNativeLayout" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IVisualElementController.IsInNativeLayout</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -742,7 +797,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsNativeStateConsistent" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.IsNativeStateConsistent" />
       <MemberSignature Language="VB.NET" Value="Public Property IsNativeStateConsistent As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsNativeStateConsistent : bool with get, set" Usage="Xamarin.Forms.VisualElement.IsNativeStateConsistent" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IVisualElementController.IsNativeStateConsistent</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -766,7 +825,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPlatformEnabled" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.IsPlatformEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPlatformEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsPlatformEnabled : bool with get, set" Usage="Xamarin.Forms.VisualElement.IsPlatformEnabled" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IVisualElementController.IsPlatformEnabled</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -790,6 +853,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsVisible" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.IsVisible" />
       <MemberSignature Language="VB.NET" Value="Public Property IsVisible As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : bool with get, set" Usage="Xamarin.Forms.VisualElement.IsVisible" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -844,6 +908,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsVisibleProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.IsVisibleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsVisibleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsVisibleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.IsVisibleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -862,6 +927,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Layout(valuetype Xamarin.Forms.Rectangle bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.Layout(Xamarin.Forms.Rectangle)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Layout (bounds As Rectangle)" />
+      <MemberSignature Language="F#" Value="member this.Layout : Xamarin.Forms.Rectangle -&gt; unit" Usage="visualElement.Layout bounds" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -884,6 +950,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.SizeRequest Measure(float64 widthConstraint, float64 heightConstraint, valuetype Xamarin.Forms.MeasureFlags flags) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.Measure(System.Double,System.Double,Xamarin.Forms.MeasureFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Function Measure (widthConstraint As Double, heightConstraint As Double, Optional flags As MeasureFlags = Xamarin.Forms.MeasureFlags.None) As SizeRequest" />
+      <MemberSignature Language="F#" Value="member this.Measure : double * double * Xamarin.Forms.MeasureFlags -&gt; Xamarin.Forms.SizeRequest" Usage="visualElement.Measure (widthConstraint, heightConstraint, flags)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -913,6 +980,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler MeasureInvalidated" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.VisualElement.MeasureInvalidated" />
       <MemberSignature Language="VB.NET" Value="Public Event MeasureInvalidated As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.MeasureInvalidated : EventHandler " Usage="member this.MeasureInvalidated : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -931,6 +999,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 MinimumHeightRequest" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.MinimumHeightRequest" />
       <MemberSignature Language="VB.NET" Value="Public Property MinimumHeightRequest As Double" />
+      <MemberSignature Language="F#" Value="member this.MinimumHeightRequest : double with get, set" Usage="Xamarin.Forms.VisualElement.MinimumHeightRequest" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -974,6 +1043,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty MinimumHeightRequestProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.MinimumHeightRequestProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinimumHeightRequestProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MinimumHeightRequestProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.MinimumHeightRequestProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -992,6 +1062,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 MinimumWidthRequest" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.MinimumWidthRequest" />
       <MemberSignature Language="VB.NET" Value="Public Property MinimumWidthRequest As Double" />
+      <MemberSignature Language="F#" Value="member this.MinimumWidthRequest : double with get, set" Usage="Xamarin.Forms.VisualElement.MinimumWidthRequest" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1036,6 +1107,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty MinimumWidthRequestProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.MinimumWidthRequestProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinimumWidthRequestProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MinimumWidthRequestProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.MinimumWidthRequestProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1054,7 +1126,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NativeSizeChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.NativeSizeChanged" />
       <MemberSignature Language="VB.NET" Value="Public Sub NativeSizeChanged ()" />
+      <MemberSignature Language="F#" Value="abstract member NativeSizeChanged : unit -&gt; unit&#xA;override this.NativeSizeChanged : unit -&gt; unit" Usage="visualElement.NativeSizeChanged " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IVisualElementController.NativeSizeChanged</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1078,6 +1154,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.INavigation Navigation" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Navigation" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Navigation As INavigation" />
+      <MemberSignature Language="F#" Value="member this.Navigation : Xamarin.Forms.INavigation" Usage="Xamarin.Forms.VisualElement.Navigation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1124,6 +1201,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty NavigationProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.NavigationProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NavigationProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable NavigationProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.NavigationProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1142,7 +1220,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Internals.NavigationProxy NavigationProxy" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.NavigationProxy" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NavigationProxy As NavigationProxy" />
+      <MemberSignature Language="F#" Value="member this.NavigationProxy : Xamarin.Forms.Internals.NavigationProxy" Usage="Xamarin.Forms.VisualElement.NavigationProxy" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IVisualElementController.NavigationProxy</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1166,6 +1248,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildAdded(class Xamarin.Forms.Element child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.OnChildAdded(Xamarin.Forms.Element)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnChildAdded (child As Element)" />
+      <MemberSignature Language="F#" Value="override this.OnChildAdded : Xamarin.Forms.Element -&gt; unit" Usage="visualElement.OnChildAdded child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1188,6 +1271,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildRemoved(class Xamarin.Forms.Element child) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.OnChildRemoved(Xamarin.Forms.Element)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnChildRemoved (child As Element)" />
+      <MemberSignature Language="F#" Value="override this.OnChildRemoved : Xamarin.Forms.Element -&gt; unit" Usage="visualElement.OnChildRemoved child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1210,6 +1294,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void OnChildrenReordered() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.OnChildrenReordered" />
       <MemberSignature Language="VB.NET" Value="Protected Sub OnChildrenReordered ()" />
+      <MemberSignature Language="F#" Value="member this.OnChildrenReordered : unit -&gt; unit" Usage="visualElement.OnChildrenReordered " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1229,6 +1314,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance valuetype Xamarin.Forms.SizeRequest OnMeasure(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.OnMeasure(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnMeasure (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
+      <MemberSignature Language="F#" Value="abstract member OnMeasure : double * double -&gt; Xamarin.Forms.SizeRequest&#xA;override this.OnMeasure : double * double -&gt; Xamarin.Forms.SizeRequest" Usage="visualElement.OnMeasure (widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1254,6 +1340,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnParentSet() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.OnParentSet" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnParentSet ()" />
+      <MemberSignature Language="F#" Value="override this.OnParentSet : unit -&gt; unit" Usage="visualElement.OnParentSet " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1273,6 +1360,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnSizeAllocated(float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.OnSizeAllocated(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnSizeAllocated (width As Double, height As Double)" />
+      <MemberSignature Language="F#" Value="abstract member OnSizeAllocated : double * double -&gt; unit&#xA;override this.OnSizeAllocated : double * double -&gt; unit" Usage="visualElement.OnSizeAllocated (width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1297,6 +1385,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance valuetype Xamarin.Forms.SizeRequest OnSizeRequest(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.OnSizeRequest(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnSizeRequest (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
+      <MemberSignature Language="F#" Value="abstract member OnSizeRequest : double * double -&gt; Xamarin.Forms.SizeRequest&#xA;override this.OnSizeRequest : double * double -&gt; Xamarin.Forms.SizeRequest" Usage="visualElement.OnSizeRequest (widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1327,6 +1416,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Opacity" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Opacity" />
       <MemberSignature Language="VB.NET" Value="Public Property Opacity As Double" />
+      <MemberSignature Language="F#" Value="member this.Opacity : double with get, set" Usage="Xamarin.Forms.VisualElement.Opacity" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1369,6 +1459,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty OpacityProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.OpacityProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OpacityProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable OpacityProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.OpacityProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1387,7 +1478,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ResourceDictionary Resources" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Resources" />
       <MemberSignature Language="VB.NET" Value="Public Property Resources As ResourceDictionary" />
+      <MemberSignature Language="F#" Value="member this.Resources : Xamarin.Forms.ResourceDictionary with get, set" Usage="Xamarin.Forms.VisualElement.Resources" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IResourcesProvider.Resources</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1433,6 +1528,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Rotation" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Rotation" />
       <MemberSignature Language="VB.NET" Value="Public Property Rotation As Double" />
+      <MemberSignature Language="F#" Value="member this.Rotation : double with get, set" Usage="Xamarin.Forms.VisualElement.Rotation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1452,6 +1548,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty RotationProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.RotationProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RotationProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable RotationProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.RotationProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1470,6 +1567,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 RotationX" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.RotationX" />
       <MemberSignature Language="VB.NET" Value="Public Property RotationX As Double" />
+      <MemberSignature Language="F#" Value="member this.RotationX : double with get, set" Usage="Xamarin.Forms.VisualElement.RotationX" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1489,6 +1587,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty RotationXProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.RotationXProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RotationXProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable RotationXProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.RotationXProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1507,6 +1606,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 RotationY" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.RotationY" />
       <MemberSignature Language="VB.NET" Value="Public Property RotationY As Double" />
+      <MemberSignature Language="F#" Value="member this.RotationY : double with get, set" Usage="Xamarin.Forms.VisualElement.RotationY" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1526,6 +1626,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty RotationYProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.RotationYProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RotationYProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable RotationYProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.RotationYProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1544,6 +1645,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Scale" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Scale" />
       <MemberSignature Language="VB.NET" Value="Public Property Scale As Double" />
+      <MemberSignature Language="F#" Value="member this.Scale : double with get, set" Usage="Xamarin.Forms.VisualElement.Scale" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1563,6 +1665,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ScaleProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.ScaleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ScaleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ScaleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.ScaleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1581,6 +1684,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void SizeAllocated(float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.SizeAllocated(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub SizeAllocated (width As Double, height As Double)" />
+      <MemberSignature Language="F#" Value="member this.SizeAllocated : double * double -&gt; unit" Usage="visualElement.SizeAllocated (width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1605,6 +1709,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler SizeChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.VisualElement.SizeChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event SizeChanged As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.SizeChanged : EventHandler " Usage="member this.SizeChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1623,6 +1728,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Style Style" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Style" />
       <MemberSignature Language="VB.NET" Value="Public Property Style As Style" />
+      <MemberSignature Language="F#" Value="member this.Style : Xamarin.Forms.Style with get, set" Usage="Xamarin.Forms.VisualElement.Style" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1642,6 +1748,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; StyleClass" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.StyleClass" />
       <MemberSignature Language="VB.NET" Value="Public Property StyleClass As IList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.StyleClass : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Xamarin.Forms.VisualElement.StyleClass" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1666,6 +1773,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty StyleProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.StyleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StyleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable StyleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.StyleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1684,6 +1792,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 TranslationX" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.TranslationX" />
       <MemberSignature Language="VB.NET" Value="Public Property TranslationX As Double" />
+      <MemberSignature Language="F#" Value="member this.TranslationX : double with get, set" Usage="Xamarin.Forms.VisualElement.TranslationX" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1703,6 +1812,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TranslationXProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.TranslationXProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TranslationXProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TranslationXProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.TranslationXProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1721,6 +1831,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 TranslationY" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.TranslationY" />
       <MemberSignature Language="VB.NET" Value="Public Property TranslationY As Double" />
+      <MemberSignature Language="F#" Value="member this.TranslationY : double with get, set" Usage="Xamarin.Forms.VisualElement.TranslationY" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1740,6 +1851,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TranslationYProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.TranslationYProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TranslationYProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TranslationYProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.TranslationYProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1758,6 +1870,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.TriggerBase&gt; Triggers" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Triggers" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Triggers As IList(Of TriggerBase)" />
+      <MemberSignature Language="F#" Value="member this.Triggers : System.Collections.Generic.IList&lt;Xamarin.Forms.TriggerBase&gt;" Usage="Xamarin.Forms.VisualElement.Triggers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1777,6 +1890,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TriggersProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.TriggersProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TriggersProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TriggersProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.TriggersProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1795,6 +1909,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Unfocus() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.Unfocus" />
       <MemberSignature Language="VB.NET" Value="Public Sub Unfocus ()" />
+      <MemberSignature Language="F#" Value="member this.Unfocus : unit -&gt; unit" Usage="visualElement.Unfocus " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1814,6 +1929,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.FocusEventArgs&gt; Unfocused" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.VisualElement.Unfocused" />
       <MemberSignature Language="VB.NET" Value="Public Event Unfocused As EventHandler(Of FocusEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.Unfocused : EventHandler&lt;Xamarin.Forms.FocusEventArgs&gt; " Usage="member this.Unfocused : System.EventHandler&lt;Xamarin.Forms.FocusEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1832,6 +1948,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Width" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Width" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Double" />
+      <MemberSignature Language="F#" Value="member this.Width : double" Usage="Xamarin.Forms.VisualElement.Width" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1851,6 +1968,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty WidthProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.WidthProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly WidthProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable WidthProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.WidthProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1869,6 +1987,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 WidthRequest" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.WidthRequest" />
       <MemberSignature Language="VB.NET" Value="Public Property WidthRequest As Double" />
+      <MemberSignature Language="F#" Value="member this.WidthRequest : double with get, set" Usage="Xamarin.Forms.VisualElement.WidthRequest" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1888,6 +2007,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty WidthRequestProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.WidthRequestProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly WidthRequestProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable WidthRequestProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.WidthRequestProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1906,6 +2026,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 X" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.X" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property X As Double" />
+      <MemberSignature Language="F#" Value="member this.X : double" Usage="Xamarin.Forms.VisualElement.X" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1926,6 +2047,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.Xamarin#Forms#IVisualElementController#InvalidateMeasure(Xamarin.Forms.Internals.InvalidationTrigger)" />
       <MemberSignature Language="VB.NET" Value="Sub InvalidateMeasure (trigger As InvalidationTrigger) Implements IVisualElementController.InvalidateMeasure" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IVisualElementController.InvalidateMeasure(Xamarin.Forms.Internals.InvalidationTrigger)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1947,6 +2071,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty XProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.XProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly XProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable XProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.XProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1965,6 +2090,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Y" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Y" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Y As Double" />
+      <MemberSignature Language="F#" Value="member this.Y : double" Usage="Xamarin.Forms.VisualElement.Y" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1984,6 +2110,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty YProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.YProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly YProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable YProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.YProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

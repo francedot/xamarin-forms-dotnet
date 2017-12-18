@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract INavigationPageController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.INavigationPageController" />
   <TypeSignature Language="VB.NET" Value="Public Interface INavigationPageController" />
+  <TypeSignature Language="F#" Value="type INavigationPageController = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,6 +19,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; InsertPageBeforeRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.INavigationPageController.InsertPageBeforeRequested" />
       <MemberSignature Language="VB.NET" Value="Event InsertPageBeforeRequested As EventHandler(Of NavigationRequestedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.InsertPageBeforeRequested : EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " Usage="member this.InsertPageBeforeRequested : System.EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -36,6 +38,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Xamarin.Forms.Page&gt; Pages" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.INavigationPageController.Pages" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Pages As IEnumerable(Of Page)" />
+      <MemberSignature Language="F#" Value="member this.Pages : seq&lt;Xamarin.Forms.Page&gt;" Usage="Xamarin.Forms.INavigationPageController.Pages" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -55,6 +58,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.Page Peek(int32 depth) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.INavigationPageController.Peek(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function Peek (Optional depth As Integer = 0) As Page" />
+      <MemberSignature Language="F#" Value="abstract member Peek : int -&gt; Xamarin.Forms.Page" Usage="iNavigationPageController.Peek depth" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -78,6 +82,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Xamarin.Forms.Page&gt; PopAsyncInner(bool animated, bool fast) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.INavigationPageController.PopAsyncInner(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function PopAsyncInner (animated As Boolean, Optional fast As Boolean = false) As Task(Of Page)" />
+      <MemberSignature Language="F#" Value="abstract member PopAsyncInner : bool * bool -&gt; System.Threading.Tasks.Task&lt;Xamarin.Forms.Page&gt;" Usage="iNavigationPageController.PopAsyncInner (animated, fast)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -103,6 +108,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; PopRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.INavigationPageController.PopRequested" />
       <MemberSignature Language="VB.NET" Value="Event PopRequested As EventHandler(Of NavigationRequestedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.PopRequested : EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " Usage="member this.PopRequested : System.EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -121,6 +127,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; PopToRootRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.INavigationPageController.PopToRootRequested" />
       <MemberSignature Language="VB.NET" Value="Event PopToRootRequested As EventHandler(Of NavigationRequestedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.PopToRootRequested : EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " Usage="member this.PopToRootRequested : System.EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -139,6 +146,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; PushRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.INavigationPageController.PushRequested" />
       <MemberSignature Language="VB.NET" Value="Event PushRequested As EventHandler(Of NavigationRequestedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.PushRequested : EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " Usage="member this.PushRequested : System.EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -157,6 +165,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; RemovePageRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.INavigationPageController.RemovePageRequested" />
       <MemberSignature Language="VB.NET" Value="Event RemovePageRequested As EventHandler(Of NavigationRequestedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.RemovePageRequested : EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " Usage="member this.RemovePageRequested : System.EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -175,6 +184,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 StackDepth" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.INavigationPageController.StackDepth" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StackDepth As Integer" />
+      <MemberSignature Language="F#" Value="member this.StackDepth : int" Usage="Xamarin.Forms.INavigationPageController.StackDepth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

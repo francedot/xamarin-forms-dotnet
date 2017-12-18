@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ButtonsMask extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ButtonsMask" />
   <TypeSignature Language="VB.NET" Value="Public Enum ButtonsMask" />
+  <TypeSignature Language="F#" Value="type ButtonsMask = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -25,6 +26,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.ButtonsMask Primary = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ButtonsMask.Primary" />
       <MemberSignature Language="VB.NET" Value="Primary" />
+      <MemberSignature Language="F#" Value="Primary = 1" Usage="Xamarin.Forms.ButtonsMask.Primary" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.ButtonsMask Secondary = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ButtonsMask.Secondary" />
       <MemberSignature Language="VB.NET" Value="Secondary" />
+      <MemberSignature Language="F#" Value="Secondary = 2" Usage="Xamarin.Forms.ButtonsMask.Secondary" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

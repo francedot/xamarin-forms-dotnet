@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WebView extends Xamarin.Forms.View implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.WebView&gt;, class Xamarin.Forms.IElementController, class Xamarin.Forms.IViewController, class Xamarin.Forms.IVisualElementController, class Xamarin.Forms.IWebViewController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.WebView" />
   <TypeSignature Language="VB.NET" Value="Public Class WebView&#xA;Inherits View&#xA;Implements IElementConfiguration(Of WebView), IWebViewController" />
+  <TypeSignature Language="F#" Value="type WebView = class&#xA;    inherit View&#xA;    interface IWebViewController&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController&#xA;    interface IElementConfiguration&lt;WebView&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -96,6 +97,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool CanGoBack" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.WebView.CanGoBack" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanGoBack As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CanGoBack : bool" Usage="Xamarin.Forms.WebView.CanGoBack" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -115,6 +117,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CanGoBackProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.WebView.CanGoBackProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CanGoBackProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CanGoBackProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.WebView.CanGoBackProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -133,6 +136,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance bool CanGoForward" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.WebView.CanGoForward" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanGoForward As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CanGoForward : bool" Usage="Xamarin.Forms.WebView.CanGoForward" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -152,6 +156,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CanGoForwardProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.WebView.CanGoForwardProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CanGoForwardProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CanGoForwardProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.WebView.CanGoForwardProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -170,6 +175,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Eval(string script) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.WebView.Eval(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Eval (script As String)" />
+      <MemberSignature Language="F#" Value="member this.Eval : string -&gt; unit" Usage="webView.Eval script" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -192,7 +198,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.EvalRequested&gt; EvalRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.WebView.EvalRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event EvalRequested As EventHandler(Of EvalRequested) " />
+      <MemberSignature Language="F#" Value="member this.EvalRequested : EventHandler&lt;Xamarin.Forms.Internals.EvalRequested&gt; " Usage="member this.EvalRequested : System.EventHandler&lt;Xamarin.Forms.Internals.EvalRequested&gt; " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.IWebViewController.EvalRequested</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -215,6 +225,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GoBack() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.WebView.GoBack" />
       <MemberSignature Language="VB.NET" Value="Public Sub GoBack ()" />
+      <MemberSignature Language="F#" Value="member this.GoBack : unit -&gt; unit" Usage="webView.GoBack " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -234,7 +245,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler GoBackRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.WebView.GoBackRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event GoBackRequested As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.GoBackRequested : EventHandler " Usage="member this.GoBackRequested : System.EventHandler " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.IWebViewController.GoBackRequested</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -257,6 +272,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void GoForward() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.WebView.GoForward" />
       <MemberSignature Language="VB.NET" Value="Public Sub GoForward ()" />
+      <MemberSignature Language="F#" Value="member this.GoForward : unit -&gt; unit" Usage="webView.GoForward " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -276,7 +292,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler GoForwardRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.WebView.GoForwardRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event GoForwardRequested As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.GoForwardRequested : EventHandler " Usage="member this.GoForwardRequested : System.EventHandler " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.IWebViewController.GoForwardRequested</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -299,6 +319,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.WebNavigatedEventArgs&gt; Navigated" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.WebView.Navigated" />
       <MemberSignature Language="VB.NET" Value="Public Event Navigated As EventHandler(Of WebNavigatedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.Navigated : EventHandler&lt;Xamarin.Forms.WebNavigatedEventArgs&gt; " Usage="member this.Navigated : System.EventHandler&lt;Xamarin.Forms.WebNavigatedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -317,6 +338,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.WebNavigatingEventArgs&gt; Navigating" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.WebView.Navigating" />
       <MemberSignature Language="VB.NET" Value="Public Event Navigating As EventHandler(Of WebNavigatingEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.Navigating : EventHandler&lt;Xamarin.Forms.WebNavigatingEventArgs&gt; " Usage="member this.Navigating : System.EventHandler&lt;Xamarin.Forms.WebNavigatingEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -335,7 +357,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.WebView&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.WebView.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, WebView)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.WebView (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.WebView (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="webView.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -363,6 +389,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.WebView.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
+      <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="webView.OnBindingContextChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -382,6 +409,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPropertyChanged(string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.WebView.OnPropertyChanged(System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPropertyChanged (propertyName As String)" />
+      <MemberSignature Language="F#" Value="override this.OnPropertyChanged : string -&gt; unit" Usage="webView.OnPropertyChanged propertyName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -404,6 +432,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void OnSourceChanged(object sender, class System.EventArgs e) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.WebView.OnSourceChanged(System.Object,System.EventArgs)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub OnSourceChanged (sender As Object, e As EventArgs)" />
+      <MemberSignature Language="F#" Value="member this.OnSourceChanged : obj * EventArgs -&gt; unit" Usage="webView.OnSourceChanged (sender, e)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -428,7 +457,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendNavigated(class Xamarin.Forms.WebNavigatedEventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.WebView.SendNavigated(Xamarin.Forms.WebNavigatedEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendNavigated (args As WebNavigatedEventArgs)" />
+      <MemberSignature Language="F#" Value="abstract member SendNavigated : Xamarin.Forms.WebNavigatedEventArgs -&gt; unit&#xA;override this.SendNavigated : Xamarin.Forms.WebNavigatedEventArgs -&gt; unit" Usage="webView.SendNavigated args" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IWebViewController.SendNavigated(Xamarin.Forms.WebNavigatedEventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -455,7 +488,11 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendNavigating(class Xamarin.Forms.WebNavigatingEventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.WebView.SendNavigating(Xamarin.Forms.WebNavigatingEventArgs)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendNavigating (args As WebNavigatingEventArgs)" />
+      <MemberSignature Language="F#" Value="abstract member SendNavigating : Xamarin.Forms.WebNavigatingEventArgs -&gt; unit&#xA;override this.SendNavigating : Xamarin.Forms.WebNavigatingEventArgs -&gt; unit" Usage="webView.SendNavigating args" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IWebViewController.SendNavigating(Xamarin.Forms.WebNavigatingEventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -482,6 +519,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.WebViewSource Source" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.WebView.Source" />
       <MemberSignature Language="VB.NET" Value="Public Property Source As WebViewSource" />
+      <MemberSignature Language="F#" Value="member this.Source : Xamarin.Forms.WebViewSource with get, set" Usage="Xamarin.Forms.WebView.Source" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -506,6 +544,7 @@ namespace FormsGallery
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SourceProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.WebView.SourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SourceProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable SourceProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.WebView.SourceProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -525,6 +564,9 @@ namespace FormsGallery
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.WebView.Xamarin#Forms#IWebViewController#CanGoBack" />
       <MemberSignature Language="VB.NET" Value=" Property CanGoBack As Boolean Implements IWebViewController.CanGoBack" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IWebViewController.CanGoBack</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -549,6 +591,9 @@ namespace FormsGallery
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.WebView.Xamarin#Forms#IWebViewController#CanGoForward" />
       <MemberSignature Language="VB.NET" Value=" Property CanGoForward As Boolean Implements IWebViewController.CanGoForward" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IWebViewController.CanGoForward</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -573,6 +618,9 @@ namespace FormsGallery
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.WebView.Xamarin#Forms#IWebViewController#EvalRequested" />
       <MemberSignature Language="VB.NET" Value="Custom Event EvalRequested As EventHandler(Of EvalRequested) Implements Xamarin.Forms.IWebViewController" />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.IWebViewController.EvalRequested</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

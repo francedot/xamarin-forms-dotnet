@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Application extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application" />
   <TypeSignature Language="VB.NET" Value="Public Module Application" />
+  <TypeSignature Language="F#" Value="type Application = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust GetWindowSoftInputModeAdjust(class Xamarin.Forms.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.GetWindowSoftInputModeAdjust(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetWindowSoftInputModeAdjust (element As BindableObject) As WindowSoftInputModeAdjust" />
+      <MemberSignature Language="F#" Value="static member GetWindowSoftInputModeAdjust : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.GetWindowSoftInputModeAdjust element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -44,6 +46,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust GetWindowSoftInputModeAdjust(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.GetWindowSoftInputModeAdjust(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetWindowSoftInputModeAdjust (config As IPlatformElementConfiguration(Of Android, Application)) As WindowSoftInputModeAdjust" />
+      <MemberSignature Language="F#" Value="static member GetWindowSoftInputModeAdjust : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt; -&gt; Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.GetWindowSoftInputModeAdjust config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -67,6 +70,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetWindowSoftInputModeAdjust(class Xamarin.Forms.BindableObject element, valuetype Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.SetWindowSoftInputModeAdjust(Xamarin.Forms.BindableObject,Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetWindowSoftInputModeAdjust (element As BindableObject, value As WindowSoftInputModeAdjust)" />
+      <MemberSignature Language="F#" Value="static member SetWindowSoftInputModeAdjust : Xamarin.Forms.BindableObject * Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust -&gt; unit" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.SetWindowSoftInputModeAdjust (element, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -91,6 +95,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; UseWindowSoftInputModeAdjust(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.Application&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.UseWindowSoftInputModeAdjust(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.Application},Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseWindowSoftInputModeAdjust (config As IPlatformElementConfiguration(Of Android, Application), value As WindowSoftInputModeAdjust) As IPlatformElementConfiguration(Of Android, Application)" />
+      <MemberSignature Language="F#" Value="static member UseWindowSoftInputModeAdjust : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt; * Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.Application&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.UseWindowSoftInputModeAdjust (config, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -116,6 +121,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty WindowSoftInputModeAdjustProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.WindowSoftInputModeAdjustProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly WindowSoftInputModeAdjustProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable WindowSoftInputModeAdjustProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.WindowSoftInputModeAdjustProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

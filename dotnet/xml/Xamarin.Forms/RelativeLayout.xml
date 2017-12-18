@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RelativeLayout extends Xamarin.Forms.Layout`1&lt;class Xamarin.Forms.View&gt; implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.RelativeLayout&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.RelativeLayout" />
   <TypeSignature Language="VB.NET" Value="Public Class RelativeLayout&#xA;Inherits Layout(Of View)&#xA;Implements IElementConfiguration(Of RelativeLayout)" />
+  <TypeSignature Language="F#" Value="type RelativeLayout = class&#xA;    inherit Layout&lt;View&gt;&#xA;    interface IElementConfiguration&lt;RelativeLayout&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -113,6 +114,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty BoundsConstraintProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.RelativeLayout.BoundsConstraintProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BoundsConstraintProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BoundsConstraintProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.RelativeLayout.BoundsConstraintProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -131,6 +133,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.RelativeLayout/IRelativeList`1&lt;class Xamarin.Forms.View&gt; Children" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.RelativeLayout.Children" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Children As RelativeLayout.IRelativeList(Of View)" />
+      <MemberSignature Language="F#" Value="member this.Children : Xamarin.Forms.RelativeLayout.IRelativeList&lt;Xamarin.Forms.View&gt;" Usage="Xamarin.Forms.RelativeLayout.Children" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -150,6 +153,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.BoundsConstraint GetBoundsConstraint(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.GetBoundsConstraint(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetBoundsConstraint (bindable As BindableObject) As BoundsConstraint" />
+      <MemberSignature Language="F#" Value="static member GetBoundsConstraint : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.BoundsConstraint" Usage="Xamarin.Forms.RelativeLayout.GetBoundsConstraint bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -173,6 +177,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Constraint GetHeightConstraint(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.GetHeightConstraint(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetHeightConstraint (bindable As BindableObject) As Constraint" />
+      <MemberSignature Language="F#" Value="static member GetHeightConstraint : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Constraint" Usage="Xamarin.Forms.RelativeLayout.GetHeightConstraint bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -196,6 +201,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Constraint GetWidthConstraint(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.GetWidthConstraint(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetWidthConstraint (bindable As BindableObject) As Constraint" />
+      <MemberSignature Language="F#" Value="static member GetWidthConstraint : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Constraint" Usage="Xamarin.Forms.RelativeLayout.GetWidthConstraint bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -219,6 +225,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Constraint GetXConstraint(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.GetXConstraint(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetXConstraint (bindable As BindableObject) As Constraint" />
+      <MemberSignature Language="F#" Value="static member GetXConstraint : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Constraint" Usage="Xamarin.Forms.RelativeLayout.GetXConstraint bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -242,6 +249,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Constraint GetYConstraint(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.GetYConstraint(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetYConstraint (bindable As BindableObject) As Constraint" />
+      <MemberSignature Language="F#" Value="static member GetYConstraint : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Constraint" Usage="Xamarin.Forms.RelativeLayout.GetYConstraint bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -265,6 +273,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HeightConstraintProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.RelativeLayout.HeightConstraintProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeightConstraintProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeightConstraintProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.RelativeLayout.HeightConstraintProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -283,6 +292,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void LayoutChildren(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub LayoutChildren (x As Double, y As Double, width As Double, height As Double)" />
+      <MemberSignature Language="F#" Value="override this.LayoutChildren : double * double * double * double -&gt; unit" Usage="relativeLayout.LayoutChildren (x, y, width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -311,7 +321,11 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.RelativeLayout&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, RelativeLayout)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.RelativeLayout (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.RelativeLayout (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="relativeLayout.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -338,6 +352,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="C#" Value="protected override void OnAdded (Xamarin.Forms.View view);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAdded(class Xamarin.Forms.View view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.OnAdded(Xamarin.Forms.View)" />
+      <MemberSignature Language="F#" Value="override this.OnAdded : Xamarin.Forms.View -&gt; unit" Usage="relativeLayout.OnAdded view" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -359,6 +374,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="C#" Value="protected override void OnRemoved (Xamarin.Forms.View view);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnRemoved(class Xamarin.Forms.View view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.OnRemoved(Xamarin.Forms.View)" />
+      <MemberSignature Language="F#" Value="override this.OnRemoved : Xamarin.Forms.View -&gt; unit" Usage="relativeLayout.OnRemoved view" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -381,6 +397,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Xamarin.Forms.SizeRequest OnSizeRequest(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.OnSizeRequest(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnSizeRequest (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
+      <MemberSignature Language="F#" Value="override this.OnSizeRequest : double * double -&gt; Xamarin.Forms.SizeRequest" Usage="relativeLayout.OnSizeRequest (widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -411,6 +428,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBoundsConstraint(class Xamarin.Forms.BindableObject bindable, class Xamarin.Forms.BoundsConstraint value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.SetBoundsConstraint(Xamarin.Forms.BindableObject,Xamarin.Forms.BoundsConstraint)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetBoundsConstraint (bindable As BindableObject, value As BoundsConstraint)" />
+      <MemberSignature Language="F#" Value="static member SetBoundsConstraint : Xamarin.Forms.BindableObject * Xamarin.Forms.BoundsConstraint -&gt; unit" Usage="Xamarin.Forms.RelativeLayout.SetBoundsConstraint (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -435,6 +453,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetHeightConstraint(class Xamarin.Forms.BindableObject bindable, class Xamarin.Forms.Constraint value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.SetHeightConstraint(Xamarin.Forms.BindableObject,Xamarin.Forms.Constraint)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetHeightConstraint (bindable As BindableObject, value As Constraint)" />
+      <MemberSignature Language="F#" Value="static member SetHeightConstraint : Xamarin.Forms.BindableObject * Xamarin.Forms.Constraint -&gt; unit" Usage="Xamarin.Forms.RelativeLayout.SetHeightConstraint (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -459,6 +478,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetWidthConstraint(class Xamarin.Forms.BindableObject bindable, class Xamarin.Forms.Constraint value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.SetWidthConstraint(Xamarin.Forms.BindableObject,Xamarin.Forms.Constraint)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetWidthConstraint (bindable As BindableObject, value As Constraint)" />
+      <MemberSignature Language="F#" Value="static member SetWidthConstraint : Xamarin.Forms.BindableObject * Xamarin.Forms.Constraint -&gt; unit" Usage="Xamarin.Forms.RelativeLayout.SetWidthConstraint (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -483,6 +503,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetXConstraint(class Xamarin.Forms.BindableObject bindable, class Xamarin.Forms.Constraint value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.SetXConstraint(Xamarin.Forms.BindableObject,Xamarin.Forms.Constraint)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetXConstraint (bindable As BindableObject, value As Constraint)" />
+      <MemberSignature Language="F#" Value="static member SetXConstraint : Xamarin.Forms.BindableObject * Xamarin.Forms.Constraint -&gt; unit" Usage="Xamarin.Forms.RelativeLayout.SetXConstraint (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -507,6 +528,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetYConstraint(class Xamarin.Forms.BindableObject bindable, class Xamarin.Forms.Constraint value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.SetYConstraint(Xamarin.Forms.BindableObject,Xamarin.Forms.Constraint)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetYConstraint (bindable As BindableObject, value As Constraint)" />
+      <MemberSignature Language="F#" Value="static member SetYConstraint : Xamarin.Forms.BindableObject * Xamarin.Forms.Constraint -&gt; unit" Usage="Xamarin.Forms.RelativeLayout.SetYConstraint (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -531,6 +553,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty WidthConstraintProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.RelativeLayout.WidthConstraintProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly WidthConstraintProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable WidthConstraintProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.RelativeLayout.WidthConstraintProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -549,6 +572,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty XConstraintProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.RelativeLayout.XConstraintProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly XConstraintProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable XConstraintProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.RelativeLayout.XConstraintProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -567,6 +591,7 @@ public class RelativeLayoutExample : ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty YConstraintProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.RelativeLayout.YConstraintProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly YConstraintProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable YConstraintProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.RelativeLayout.YConstraintProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

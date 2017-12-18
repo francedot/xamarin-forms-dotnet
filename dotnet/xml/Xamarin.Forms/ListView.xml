@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ListView extends Xamarin.Forms.ItemsView`1&lt;class Xamarin.Forms.Cell&gt; implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.ListView&gt;, class Xamarin.Forms.IElementController, class Xamarin.Forms.IListViewController, class Xamarin.Forms.IViewController, class Xamarin.Forms.IVisualElementController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ListView" />
   <TypeSignature Language="VB.NET" Value="Public Class ListView&#xA;Inherits ItemsView(Of Cell)&#xA;Implements IElementConfiguration(Of ListView), IListViewController" />
+  <TypeSignature Language="F#" Value="type ListView = class&#xA;    inherit ItemsView&lt;Cell&gt;&#xA;    interface IListViewController&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController&#xA;    interface IElementConfiguration&lt;ListView&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -215,6 +216,7 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Xamarin.Forms.ListViewCachingStrategy cachingStrategy) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.#ctor(Xamarin.Forms.ListViewCachingStrategy)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (cachingStrategy As ListViewCachingStrategy)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.ListView : Xamarin.Forms.ListViewCachingStrategy -&gt; Xamarin.Forms.ListView" Usage="new Xamarin.Forms.ListView cachingStrategy" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -234,6 +236,7 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void BeginRefresh() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.BeginRefresh" />
       <MemberSignature Language="VB.NET" Value="Public Sub BeginRefresh ()" />
+      <MemberSignature Language="F#" Value="member this.BeginRefresh : unit -&gt; unit" Usage="listView.BeginRefresh " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -253,6 +256,7 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.ListViewCachingStrategy CachingStrategy" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.CachingStrategy" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CachingStrategy As ListViewCachingStrategy" />
+      <MemberSignature Language="F#" Value="member this.CachingStrategy : Xamarin.Forms.ListViewCachingStrategy" Usage="Xamarin.Forms.ListView.CachingStrategy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -277,6 +281,7 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Xamarin.Forms.Cell CreateDefault(object item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.CreateDefault(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateDefault (item As Object) As Cell" />
+      <MemberSignature Language="F#" Value="override this.CreateDefault : obj -&gt; Xamarin.Forms.Cell" Usage="listView.CreateDefault item" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -310,7 +315,11 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.Cell CreateDefaultCell(object item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.CreateDefaultCell(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateDefaultCell (item As Object) As Cell" />
+      <MemberSignature Language="F#" Value="abstract member CreateDefaultCell : obj -&gt; Xamarin.Forms.Cell&#xA;override this.CreateDefaultCell : obj -&gt; Xamarin.Forms.Cell" Usage="listView.CreateDefaultCell item" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IListViewController.CreateDefaultCell(System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -338,6 +347,7 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndRefresh() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.EndRefresh" />
       <MemberSignature Language="VB.NET" Value="Public Sub EndRefresh ()" />
+      <MemberSignature Language="F#" Value="member this.EndRefresh : unit -&gt; unit" Usage="listView.EndRefresh " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -357,6 +367,7 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance object Footer" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.Footer" />
       <MemberSignature Language="VB.NET" Value="Public Property Footer As Object" />
+      <MemberSignature Language="F#" Value="member this.Footer : obj with get, set" Usage="Xamarin.Forms.ListView.Footer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -376,7 +387,11 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Element FooterElement" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.FooterElement" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FooterElement As Element" />
+      <MemberSignature Language="F#" Value="member this.FooterElement : Xamarin.Forms.Element" Usage="Xamarin.Forms.ListView.FooterElement" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IListViewController.FooterElement</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -400,6 +415,7 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FooterProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.FooterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FooterProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FooterProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.FooterProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -418,6 +434,7 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.DataTemplate FooterTemplate" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.FooterTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property FooterTemplate As DataTemplate" />
+      <MemberSignature Language="F#" Value="member this.FooterTemplate : Xamarin.Forms.DataTemplate with get, set" Usage="Xamarin.Forms.ListView.FooterTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -437,6 +454,7 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FooterTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.FooterTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FooterTemplateProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable FooterTemplateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.FooterTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -455,7 +473,11 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetDisplayTextFromGroup(object cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.GetDisplayTextFromGroup(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetDisplayTextFromGroup (cell As Object) As String" />
+      <MemberSignature Language="F#" Value="abstract member GetDisplayTextFromGroup : obj -&gt; string&#xA;override this.GetDisplayTextFromGroup : obj -&gt; string" Usage="listView.GetDisplayTextFromGroup cell" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IListViewController.GetDisplayTextFromGroup(System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -483,6 +505,7 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.BindingBase GroupDisplayBinding" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.GroupDisplayBinding" />
       <MemberSignature Language="VB.NET" Value="Public Property GroupDisplayBinding As BindingBase" />
+      <MemberSignature Language="F#" Value="member this.GroupDisplayBinding : Xamarin.Forms.BindingBase with get, set" Usage="Xamarin.Forms.ListView.GroupDisplayBinding" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -571,6 +594,7 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.DataTemplate GroupHeaderTemplate" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.GroupHeaderTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property GroupHeaderTemplate As DataTemplate" />
+      <MemberSignature Language="F#" Value="member this.GroupHeaderTemplate : Xamarin.Forms.DataTemplate with get, set" Usage="Xamarin.Forms.ListView.GroupHeaderTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -604,6 +628,7 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty GroupHeaderTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.GroupHeaderTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GroupHeaderTemplateProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable GroupHeaderTemplateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.GroupHeaderTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -622,6 +647,7 @@ class ListViewDemoPage : ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.BindingBase GroupShortNameBinding" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.GroupShortNameBinding" />
       <MemberSignature Language="VB.NET" Value="Public Property GroupShortNameBinding As BindingBase" />
+      <MemberSignature Language="F#" Value="member this.GroupShortNameBinding : Xamarin.Forms.BindingBase with get, set" Usage="Xamarin.Forms.ListView.GroupShortNameBinding" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -711,6 +737,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance bool HasUnevenRows" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.HasUnevenRows" />
       <MemberSignature Language="VB.NET" Value="Public Property HasUnevenRows As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasUnevenRows : bool with get, set" Usage="Xamarin.Forms.ListView.HasUnevenRows" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -738,6 +765,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HasUnevenRowsProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.HasUnevenRowsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HasUnevenRowsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HasUnevenRowsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.HasUnevenRowsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -756,6 +784,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance object Header" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.Header" />
       <MemberSignature Language="VB.NET" Value="Public Property Header As Object" />
+      <MemberSignature Language="F#" Value="member this.Header : obj with get, set" Usage="Xamarin.Forms.ListView.Header" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -775,7 +804,11 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Element HeaderElement" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.HeaderElement" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HeaderElement As Element" />
+      <MemberSignature Language="F#" Value="member this.HeaderElement : Xamarin.Forms.Element" Usage="Xamarin.Forms.ListView.HeaderElement" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IListViewController.HeaderElement</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -799,6 +832,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HeaderProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.HeaderProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeaderProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.HeaderProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -817,6 +851,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.DataTemplate HeaderTemplate" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.HeaderTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property HeaderTemplate As DataTemplate" />
+      <MemberSignature Language="F#" Value="member this.HeaderTemplate : Xamarin.Forms.DataTemplate with get, set" Usage="Xamarin.Forms.ListView.HeaderTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -836,6 +871,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HeaderTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.HeaderTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeaderTemplateProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeaderTemplateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.HeaderTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -854,6 +890,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance bool IsGroupingEnabled" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.IsGroupingEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsGroupingEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsGroupingEnabled : bool with get, set" Usage="Xamarin.Forms.ListView.IsGroupingEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -877,6 +914,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsGroupingEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.IsGroupingEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsGroupingEnabledProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsGroupingEnabledProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.IsGroupingEnabledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -895,6 +933,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPullToRefreshEnabled" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.IsPullToRefreshEnabled" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPullToRefreshEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsPullToRefreshEnabled : bool with get, set" Usage="Xamarin.Forms.ListView.IsPullToRefreshEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -914,6 +953,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsPullToRefreshEnabledProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.IsPullToRefreshEnabledProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsPullToRefreshEnabledProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsPullToRefreshEnabledProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.IsPullToRefreshEnabledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -932,6 +972,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance bool IsRefreshing" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.IsRefreshing" />
       <MemberSignature Language="VB.NET" Value="Public Property IsRefreshing As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsRefreshing : bool with get, set" Usage="Xamarin.Forms.ListView.IsRefreshing" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -951,6 +992,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsRefreshingProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.IsRefreshingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsRefreshingProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsRefreshingProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.IsRefreshingProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -969,6 +1011,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ItemVisibilityEventArgs&gt; ItemAppearing" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ListView.ItemAppearing" />
       <MemberSignature Language="VB.NET" Value="Public Event ItemAppearing As EventHandler(Of ItemVisibilityEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.ItemAppearing : EventHandler&lt;Xamarin.Forms.ItemVisibilityEventArgs&gt; " Usage="member this.ItemAppearing : System.EventHandler&lt;Xamarin.Forms.ItemVisibilityEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -987,6 +1030,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ItemVisibilityEventArgs&gt; ItemDisappearing" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ListView.ItemDisappearing" />
       <MemberSignature Language="VB.NET" Value="Public Event ItemDisappearing As EventHandler(Of ItemVisibilityEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.ItemDisappearing : EventHandler&lt;Xamarin.Forms.ItemVisibilityEventArgs&gt; " Usage="member this.ItemDisappearing : System.EventHandler&lt;Xamarin.Forms.ItemVisibilityEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1005,6 +1049,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.SelectedItemChangedEventArgs&gt; ItemSelected" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ListView.ItemSelected" />
       <MemberSignature Language="VB.NET" Value="Public Event ItemSelected As EventHandler(Of SelectedItemChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.ItemSelected : EventHandler&lt;Xamarin.Forms.SelectedItemChangedEventArgs&gt; " Usage="member this.ItemSelected : System.EventHandler&lt;Xamarin.Forms.SelectedItemChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1023,6 +1068,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ItemTappedEventArgs&gt; ItemTapped" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ListView.ItemTapped" />
       <MemberSignature Language="VB.NET" Value="Public Event ItemTapped As EventHandler(Of ItemTappedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.ItemTapped : EventHandler&lt;Xamarin.Forms.ItemTappedEventArgs&gt; " Usage="member this.ItemTapped : System.EventHandler&lt;Xamarin.Forms.ItemTappedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1040,7 +1086,11 @@ ListView CreateListView()
       <MemberSignature Language="C#" Value="public void NotifyRowTapped (int index, Xamarin.Forms.Cell cell = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NotifyRowTapped(int32 index, class Xamarin.Forms.Cell cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.NotifyRowTapped(System.Int32,Xamarin.Forms.Cell)" />
+      <MemberSignature Language="F#" Value="abstract member NotifyRowTapped : int * Xamarin.Forms.Cell -&gt; unit&#xA;override this.NotifyRowTapped : int * Xamarin.Forms.Cell -&gt; unit" Usage="listView.NotifyRowTapped (index, cell)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IListViewController.NotifyRowTapped(System.Int32,Xamarin.Forms.Cell)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1068,7 +1118,11 @@ ListView CreateListView()
       <MemberSignature Language="C#" Value="public void NotifyRowTapped (int groupIndex, int inGroupIndex, Xamarin.Forms.Cell cell = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NotifyRowTapped(int32 groupIndex, int32 inGroupIndex, class Xamarin.Forms.Cell cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.NotifyRowTapped(System.Int32,System.Int32,Xamarin.Forms.Cell)" />
+      <MemberSignature Language="F#" Value="abstract member NotifyRowTapped : int * int * Xamarin.Forms.Cell -&gt; unit&#xA;override this.NotifyRowTapped : int * int * Xamarin.Forms.Cell -&gt; unit" Usage="listView.NotifyRowTapped (groupIndex, inGroupIndex, cell)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IListViewController.NotifyRowTapped(System.Int32,System.Int32,Xamarin.Forms.Cell)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1099,7 +1153,11 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.ListView&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, ListView)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.ListView (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.ListView (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="listView.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1127,6 +1185,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
+      <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="listView.OnBindingContextChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1146,6 +1205,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Xamarin.Forms.SizeRequest OnSizeRequest(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.OnSizeRequest(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnSizeRequest (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
+      <MemberSignature Language="F#" Value="override this.OnSizeRequest : double * double -&gt; Xamarin.Forms.SizeRequest" Usage="listView.OnSizeRequest (widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1176,6 +1236,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance bool RefreshAllowed" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.RefreshAllowed" />
       <MemberSignature Language="VB.NET" Value="Public Property RefreshAllowed As Boolean" />
+      <MemberSignature Language="F#" Value="member this.RefreshAllowed : bool with get, set" Usage="Xamarin.Forms.ListView.RefreshAllowed" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1200,6 +1261,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand RefreshCommand" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.RefreshCommand" />
       <MemberSignature Language="VB.NET" Value="Public Property RefreshCommand As ICommand" />
+      <MemberSignature Language="F#" Value="member this.RefreshCommand : System.Windows.Input.ICommand with get, set" Usage="Xamarin.Forms.ListView.RefreshCommand" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1219,6 +1281,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty RefreshCommandProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.RefreshCommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RefreshCommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable RefreshCommandProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.RefreshCommandProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1237,6 +1300,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Refreshing" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ListView.Refreshing" />
       <MemberSignature Language="VB.NET" Value="Public Event Refreshing As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.Refreshing : EventHandler " Usage="member this.Refreshing : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1255,6 +1319,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance int32 RowHeight" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.RowHeight" />
       <MemberSignature Language="VB.NET" Value="Public Property RowHeight As Integer" />
+      <MemberSignature Language="F#" Value="member this.RowHeight : int with get, set" Usage="Xamarin.Forms.ListView.RowHeight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1274,6 +1339,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty RowHeightProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.RowHeightProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RowHeightProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable RowHeightProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.RowHeightProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1292,6 +1358,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ScrollTo(object item, valuetype Xamarin.Forms.ScrollToPosition position, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.ScrollTo(System.Object,Xamarin.Forms.ScrollToPosition,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ScrollTo (item As Object, position As ScrollToPosition, animated As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.ScrollTo : obj * Xamarin.Forms.ScrollToPosition * bool -&gt; unit" Usage="listView.ScrollTo (item, position, animated)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1322,6 +1389,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ScrollTo(object item, object group, valuetype Xamarin.Forms.ScrollToPosition position, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.ScrollTo(System.Object,System.Object,Xamarin.Forms.ScrollToPosition,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub ScrollTo (item As Object, group As Object, position As ScrollToPosition, animated As Boolean)" />
+      <MemberSignature Language="F#" Value="member this.ScrollTo : obj * obj * Xamarin.Forms.ScrollToPosition * bool -&gt; unit" Usage="listView.ScrollTo (item, group, position, animated)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1357,7 +1425,11 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ScrollToRequestedEventArgs&gt; ScrollToRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ListView.ScrollToRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event ScrollToRequested As EventHandler(Of ScrollToRequestedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.ScrollToRequested : EventHandler&lt;Xamarin.Forms.ScrollToRequestedEventArgs&gt; " Usage="member this.ScrollToRequested : System.EventHandler&lt;Xamarin.Forms.ScrollToRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.IListViewController.ScrollToRequested</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1380,6 +1452,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance object SelectedItem" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.SelectedItem" />
       <MemberSignature Language="VB.NET" Value="Public Property SelectedItem As Object" />
+      <MemberSignature Language="F#" Value="member this.SelectedItem : obj with get, set" Usage="Xamarin.Forms.ListView.SelectedItem" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1399,6 +1472,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SelectedItemProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.SelectedItemProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SelectedItemProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable SelectedItemProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.SelectedItemProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1416,7 +1490,11 @@ ListView CreateListView()
       <MemberSignature Language="C#" Value="public void SendCellAppearing (Xamarin.Forms.Cell cell);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendCellAppearing(class Xamarin.Forms.Cell cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.SendCellAppearing(Xamarin.Forms.Cell)" />
+      <MemberSignature Language="F#" Value="abstract member SendCellAppearing : Xamarin.Forms.Cell -&gt; unit&#xA;override this.SendCellAppearing : Xamarin.Forms.Cell -&gt; unit" Usage="listView.SendCellAppearing cell" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IListViewController.SendCellAppearing(Xamarin.Forms.Cell)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1442,7 +1520,11 @@ ListView CreateListView()
       <MemberSignature Language="C#" Value="public void SendCellDisappearing (Xamarin.Forms.Cell cell);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendCellDisappearing(class Xamarin.Forms.Cell cell) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.SendCellDisappearing(Xamarin.Forms.Cell)" />
+      <MemberSignature Language="F#" Value="abstract member SendCellDisappearing : Xamarin.Forms.Cell -&gt; unit&#xA;override this.SendCellDisappearing : Xamarin.Forms.Cell -&gt; unit" Usage="listView.SendCellDisappearing cell" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IListViewController.SendCellDisappearing(Xamarin.Forms.Cell)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1469,7 +1551,11 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendRefreshing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.SendRefreshing" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendRefreshing ()" />
+      <MemberSignature Language="F#" Value="abstract member SendRefreshing : unit -&gt; unit&#xA;override this.SendRefreshing : unit -&gt; unit" Usage="listView.SendRefreshing " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IListViewController.SendRefreshing</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1493,6 +1579,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color SeparatorColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.SeparatorColor" />
       <MemberSignature Language="VB.NET" Value="Public Property SeparatorColor As Color" />
+      <MemberSignature Language="F#" Value="member this.SeparatorColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.ListView.SeparatorColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1512,6 +1599,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SeparatorColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.SeparatorColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SeparatorColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable SeparatorColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.SeparatorColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1530,6 +1618,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.SeparatorVisibility SeparatorVisibility" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.SeparatorVisibility" />
       <MemberSignature Language="VB.NET" Value="Public Property SeparatorVisibility As SeparatorVisibility" />
+      <MemberSignature Language="F#" Value="member this.SeparatorVisibility : Xamarin.Forms.SeparatorVisibility with get, set" Usage="Xamarin.Forms.ListView.SeparatorVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1549,6 +1638,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SeparatorVisibilityProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.SeparatorVisibilityProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SeparatorVisibilityProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable SeparatorVisibilityProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.SeparatorVisibilityProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1567,6 +1657,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void SetupContent(class Xamarin.Forms.Cell content, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.SetupContent(Xamarin.Forms.Cell,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub SetupContent (content As Cell, index As Integer)" />
+      <MemberSignature Language="F#" Value="override this.SetupContent : Xamarin.Forms.Cell * int -&gt; unit" Usage="listView.SetupContent (content, index)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1594,6 +1685,7 @@ ListView CreateListView()
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void UnhookContent(class Xamarin.Forms.Cell content) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ListView.UnhookContent(Xamarin.Forms.Cell)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub UnhookContent (content As Cell)" />
+      <MemberSignature Language="F#" Value="override this.UnhookContent : Xamarin.Forms.Cell -&gt; unit" Usage="listView.UnhookContent content" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

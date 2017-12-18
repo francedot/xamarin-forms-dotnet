@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed BindingMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.BindingMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum BindingMode" />
+  <TypeSignature Language="F#" Value="type BindingMode = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -66,6 +67,7 @@ Debug.WriteLine (viewmodel.Name); //prints "Foo"
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.BindingMode Default = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.BindingMode.Default" />
       <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 0" Usage="Xamarin.Forms.BindingMode.Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -84,6 +86,7 @@ Debug.WriteLine (viewmodel.Name); //prints "Foo"
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.BindingMode OneWay = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.BindingMode.OneWay" />
       <MemberSignature Language="VB.NET" Value="OneWay" />
+      <MemberSignature Language="F#" Value="OneWay = 2" Usage="Xamarin.Forms.BindingMode.OneWay" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -102,6 +105,7 @@ Debug.WriteLine (viewmodel.Name); //prints "Foo"
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.BindingMode OneWayToSource = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.BindingMode.OneWayToSource" />
       <MemberSignature Language="VB.NET" Value="OneWayToSource" />
+      <MemberSignature Language="F#" Value="OneWayToSource = 3" Usage="Xamarin.Forms.BindingMode.OneWayToSource" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -120,6 +124,7 @@ Debug.WriteLine (viewmodel.Name); //prints "Foo"
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.BindingMode TwoWay = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.BindingMode.TwoWay" />
       <MemberSignature Language="VB.NET" Value="TwoWay" />
+      <MemberSignature Language="F#" Value="TwoWay = 1" Usage="Xamarin.Forms.BindingMode.TwoWay" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

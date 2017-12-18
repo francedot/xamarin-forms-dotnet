@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LineBreakMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.LineBreakMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum LineBreakMode" />
+  <TypeSignature Language="F#" Value="type LineBreakMode = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -20,6 +21,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.LineBreakMode CharacterWrap = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LineBreakMode.CharacterWrap" />
       <MemberSignature Language="VB.NET" Value="CharacterWrap" />
+      <MemberSignature Language="F#" Value="CharacterWrap = 2" Usage="Xamarin.Forms.LineBreakMode.CharacterWrap" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -38,6 +40,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.LineBreakMode HeadTruncation = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LineBreakMode.HeadTruncation" />
       <MemberSignature Language="VB.NET" Value="HeadTruncation" />
+      <MemberSignature Language="F#" Value="HeadTruncation = 3" Usage="Xamarin.Forms.LineBreakMode.HeadTruncation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -56,6 +59,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.LineBreakMode MiddleTruncation = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LineBreakMode.MiddleTruncation" />
       <MemberSignature Language="VB.NET" Value="MiddleTruncation" />
+      <MemberSignature Language="F#" Value="MiddleTruncation = 5" Usage="Xamarin.Forms.LineBreakMode.MiddleTruncation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -74,6 +78,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.LineBreakMode NoWrap = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LineBreakMode.NoWrap" />
       <MemberSignature Language="VB.NET" Value="NoWrap" />
+      <MemberSignature Language="F#" Value="NoWrap = 0" Usage="Xamarin.Forms.LineBreakMode.NoWrap" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -92,6 +97,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.LineBreakMode TailTruncation = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LineBreakMode.TailTruncation" />
       <MemberSignature Language="VB.NET" Value="TailTruncation" />
+      <MemberSignature Language="F#" Value="TailTruncation = 4" Usage="Xamarin.Forms.LineBreakMode.TailTruncation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -110,6 +116,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.LineBreakMode WordWrap = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LineBreakMode.WordWrap" />
       <MemberSignature Language="VB.NET" Value="WordWrap" />
+      <MemberSignature Language="F#" Value="WordWrap = 1" Usage="Xamarin.Forms.LineBreakMode.WordWrap" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

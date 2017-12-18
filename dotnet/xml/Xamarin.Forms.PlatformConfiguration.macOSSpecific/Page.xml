@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Page extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page" />
   <TypeSignature Language="VB.NET" Value="Public Module Page" />
+  <TypeSignature Language="F#" Value="type Page = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.VisualElement[] GetTabOrder(class Xamarin.Forms.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.GetTabOrder(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetTabOrder (element As BindableObject) As VisualElement()" />
+      <MemberSignature Language="F#" Value="static member GetTabOrder : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.VisualElement[]" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.GetTabOrder element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -44,6 +46,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.VisualElement[] GetTabOrder(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.Page&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.GetTabOrder(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.Page})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetTabOrder (config As IPlatformElementConfiguration(Of macOS, Page)) As VisualElement()" />
+      <MemberSignature Language="F#" Value="static member GetTabOrder : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.Page&gt; -&gt; Xamarin.Forms.VisualElement[]" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.GetTabOrder config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -67,6 +70,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetTabOrder(class Xamarin.Forms.BindableObject element, class Xamarin.Forms.VisualElement[] value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.SetTabOrder(Xamarin.Forms.BindableObject,Xamarin.Forms.VisualElement[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetTabOrder (element As BindableObject, ParamArray value As VisualElement())" />
+      <MemberSignature Language="F#" Value="static member SetTabOrder : Xamarin.Forms.BindableObject * Xamarin.Forms.VisualElement[] -&gt; unit" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.SetTabOrder (element, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -97,6 +101,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.Page&gt; SetTabOrder(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.Page&gt; config, class Xamarin.Forms.VisualElement[] value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.SetTabOrder(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.Page},Xamarin.Forms.VisualElement[])" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetTabOrder (config As IPlatformElementConfiguration(Of macOS, Page), ParamArray value As VisualElement()) As IPlatformElementConfiguration(Of macOS, Page)" />
+      <MemberSignature Language="F#" Value="static member SetTabOrder : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.Page&gt; * Xamarin.Forms.VisualElement[] -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.Page&gt;" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.SetTabOrder (config, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -128,6 +133,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TabOrderProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.TabOrderProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly TabOrderProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TabOrderProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.TabOrderProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

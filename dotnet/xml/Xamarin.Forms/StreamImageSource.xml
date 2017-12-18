@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StreamImageSource extends Xamarin.Forms.ImageSource implements class Xamarin.Forms.IStreamImageSource" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.StreamImageSource" />
   <TypeSignature Language="VB.NET" Value="Public Class StreamImageSource&#xA;Inherits ImageSource&#xA;Implements IStreamImageSource" />
+  <TypeSignature Language="F#" Value="type StreamImageSource = class&#xA;    inherit ImageSource&#xA;    interface IStreamImageSource" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -42,6 +43,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPropertyChanged(string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.StreamImageSource.OnPropertyChanged(System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPropertyChanged (propertyName As String)" />
+      <MemberSignature Language="F#" Value="override this.OnPropertyChanged : string -&gt; unit" Usage="streamImageSource.OnPropertyChanged propertyName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -64,6 +66,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt;&gt; Stream" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.StreamImageSource.Stream" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Stream As Func(Of CancellationToken, Task(Of Stream))" />
+      <MemberSignature Language="F#" Value="member this.Stream : Func&lt;System.Threading.CancellationToken, System.Threading.Tasks.Task&lt;System.IO.Stream&gt;&gt; with get, set" Usage="Xamarin.Forms.StreamImageSource.Stream" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -83,6 +86,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty StreamProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.StreamImageSource.StreamProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StreamProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable StreamProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.StreamImageSource.StreamProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -102,6 +106,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.StreamImageSource.Xamarin#Forms#IStreamImageSource#GetStreamAsync(System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Function GetStreamAsync (userToken As CancellationToken) As Task(Of Stream) Implements IStreamImageSource.GetStreamAsync" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IStreamImageSource.GetStreamAsync(System.Threading.CancellationToken)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WebNavigationResult extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.WebNavigationResult" />
   <TypeSignature Language="VB.NET" Value="Public Enum WebNavigationResult" />
+  <TypeSignature Language="F#" Value="type WebNavigationResult = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -20,6 +21,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.WebNavigationResult Cancel = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.WebNavigationResult.Cancel" />
       <MemberSignature Language="VB.NET" Value="Cancel" />
+      <MemberSignature Language="F#" Value="Cancel = 2" Usage="Xamarin.Forms.WebNavigationResult.Cancel" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -38,6 +40,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.WebNavigationResult Failure = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.WebNavigationResult.Failure" />
       <MemberSignature Language="VB.NET" Value="Failure" />
+      <MemberSignature Language="F#" Value="Failure = 4" Usage="Xamarin.Forms.WebNavigationResult.Failure" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -56,6 +59,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.WebNavigationResult Success = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.WebNavigationResult.Success" />
       <MemberSignature Language="VB.NET" Value="Success" />
+      <MemberSignature Language="F#" Value="Success = 1" Usage="Xamarin.Forms.WebNavigationResult.Success" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -74,6 +78,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.WebNavigationResult Timeout = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.WebNavigationResult.Timeout" />
       <MemberSignature Language="VB.NET" Value="Timeout" />
+      <MemberSignature Language="F#" Value="Timeout = 3" Usage="Xamarin.Forms.WebNavigationResult.Timeout" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

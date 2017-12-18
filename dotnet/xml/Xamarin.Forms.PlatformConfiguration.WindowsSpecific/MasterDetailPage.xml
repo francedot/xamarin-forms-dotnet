@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MasterDetailPage extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage" />
   <TypeSignature Language="VB.NET" Value="Public Module MasterDetailPage" />
+  <TypeSignature Language="F#" Value="type MasterDetailPage = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 CollapsedPaneWidth(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.CollapsedPaneWidth(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.MasterDetailPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CollapsedPaneWidth (config As IPlatformElementConfiguration(Of Windows, MasterDetailPage)) As Double" />
+      <MemberSignature Language="F#" Value="static member CollapsedPaneWidth : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt; -&gt; double" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.CollapsedPaneWidth config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -44,6 +46,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; CollapsedPaneWidth(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; config, float64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.CollapsedPaneWidth(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.MasterDetailPage},System.Double)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CollapsedPaneWidth (config As IPlatformElementConfiguration(Of Windows, MasterDetailPage), value As Double) As IPlatformElementConfiguration(Of Windows, MasterDetailPage)" />
+      <MemberSignature Language="F#" Value="static member CollapsedPaneWidth : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt; * double -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.CollapsedPaneWidth (config, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -69,6 +72,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CollapsedPaneWidthProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.CollapsedPaneWidthProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly CollapsedPaneWidthProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CollapsedPaneWidthProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.CollapsedPaneWidthProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -87,6 +91,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CollapseStyleProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.CollapseStyleProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly CollapseStyleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CollapseStyleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.CollapseStyleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -105,6 +110,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 GetCollapsedPaneWidth(class Xamarin.Forms.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.GetCollapsedPaneWidth(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetCollapsedPaneWidth (element As BindableObject) As Double" />
+      <MemberSignature Language="F#" Value="static member GetCollapsedPaneWidth : Xamarin.Forms.BindableObject -&gt; double" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.GetCollapsedPaneWidth element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -128,6 +134,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle GetCollapseStyle(class Xamarin.Forms.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.GetCollapseStyle(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetCollapseStyle (element As BindableObject) As CollapseStyle" />
+      <MemberSignature Language="F#" Value="static member GetCollapseStyle : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.GetCollapseStyle element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -151,6 +158,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle GetCollapseStyle(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.GetCollapseStyle(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.MasterDetailPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCollapseStyle (config As IPlatformElementConfiguration(Of Windows, MasterDetailPage)) As CollapseStyle" />
+      <MemberSignature Language="F#" Value="static member GetCollapseStyle : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt; -&gt; Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.GetCollapseStyle config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -174,6 +182,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetCollapsedPaneWidth(class Xamarin.Forms.BindableObject element, float64 collapsedPaneWidth) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.SetCollapsedPaneWidth(Xamarin.Forms.BindableObject,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetCollapsedPaneWidth (element As BindableObject, collapsedPaneWidth As Double)" />
+      <MemberSignature Language="F#" Value="static member SetCollapsedPaneWidth : Xamarin.Forms.BindableObject * double -&gt; unit" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.SetCollapsedPaneWidth (element, collapsedPaneWidth)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -197,6 +206,7 @@
       <MemberSignature Language="C#" Value="public static void SetCollapseStyle (Xamarin.Forms.BindableObject element, Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle collapseStyle);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetCollapseStyle(class Xamarin.Forms.BindableObject element, valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle collapseStyle) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.SetCollapseStyle(Xamarin.Forms.BindableObject,Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle)" />
+      <MemberSignature Language="F#" Value="static member SetCollapseStyle : Xamarin.Forms.BindableObject * Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle -&gt; unit" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.SetCollapseStyle (element, collapseStyle)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -221,6 +231,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; SetCollapseStyle(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; config, valuetype Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.SetCollapseStyle(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.MasterDetailPage},Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetCollapseStyle (config As IPlatformElementConfiguration(Of Windows, MasterDetailPage), value As CollapseStyle) As IPlatformElementConfiguration(Of Windows, MasterDetailPage)" />
+      <MemberSignature Language="F#" Value="static member SetCollapseStyle : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt; * Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.SetCollapseStyle (config, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -246,6 +257,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; UsePartialCollapse(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.MasterDetailPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.UsePartialCollapse(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.MasterDetailPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UsePartialCollapse (config As IPlatformElementConfiguration(Of Windows, MasterDetailPage)) As IPlatformElementConfiguration(Of Windows, MasterDetailPage)" />
+      <MemberSignature Language="F#" Value="static member UsePartialCollapse : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.MasterDetailPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage.UsePartialCollapse config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

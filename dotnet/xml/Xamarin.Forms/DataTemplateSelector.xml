@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DataTemplateSelector extends Xamarin.Forms.DataTemplate" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.DataTemplateSelector" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class DataTemplateSelector&#xA;Inherits DataTemplate" />
+  <TypeSignature Language="F#" Value="type DataTemplateSelector = class&#xA;    inherit DataTemplate" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -61,6 +62,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Xamarin.Forms.DataTemplate OnSelectTemplate(object item, class Xamarin.Forms.BindableObject container) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.DataTemplateSelector.OnSelectTemplate(System.Object,Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function OnSelectTemplate (item As Object, container As BindableObject) As DataTemplate" />
+      <MemberSignature Language="F#" Value="abstract member OnSelectTemplate : obj * Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.DataTemplate" Usage="dataTemplateSelector.OnSelectTemplate (item, container)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -88,6 +90,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Xamarin.Forms.DataTemplate SelectTemplate(object item, class Xamarin.Forms.BindableObject container) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.DataTemplateSelector.SelectTemplate(System.Object,Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function SelectTemplate (item As Object, container As BindableObject) As DataTemplate" />
+      <MemberSignature Language="F#" Value="member this.SelectTemplate : obj * Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.DataTemplate" Usage="dataTemplateSelector.SelectTemplate (item, container)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

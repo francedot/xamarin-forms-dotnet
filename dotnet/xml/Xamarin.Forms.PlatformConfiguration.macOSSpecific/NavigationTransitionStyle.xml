@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed NavigationTransitionStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum NavigationTransitionStyle" />
+  <TypeSignature Language="F#" Value="type NavigationTransitionStyle = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -20,6 +21,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle Crossfade = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.Crossfade" />
       <MemberSignature Language="VB.NET" Value="Crossfade" />
+      <MemberSignature Language="F#" Value="Crossfade = 1" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.Crossfade" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -38,6 +40,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle None = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.None" />
       <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -56,6 +59,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle SlideBackward = int32(7)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideBackward" />
       <MemberSignature Language="VB.NET" Value="SlideBackward" />
+      <MemberSignature Language="F#" Value="SlideBackward = 7" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideBackward" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -74,6 +78,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle SlideDown = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideDown" />
       <MemberSignature Language="VB.NET" Value="SlideDown" />
+      <MemberSignature Language="F#" Value="SlideDown = 3" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideDown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -92,6 +97,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle SlideForward = int32(6)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideForward" />
       <MemberSignature Language="VB.NET" Value="SlideForward" />
+      <MemberSignature Language="F#" Value="SlideForward = 6" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideForward" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -110,6 +116,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle SlideLeft = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideLeft" />
       <MemberSignature Language="VB.NET" Value="SlideLeft" />
+      <MemberSignature Language="F#" Value="SlideLeft = 4" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideLeft" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -128,6 +135,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle SlideRight = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideRight" />
       <MemberSignature Language="VB.NET" Value="SlideRight" />
+      <MemberSignature Language="F#" Value="SlideRight = 5" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideRight" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -146,6 +154,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle SlideUp = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideUp" />
       <MemberSignature Language="VB.NET" Value="SlideUp" />
+      <MemberSignature Language="F#" Value="SlideUp = 2" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideUp" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

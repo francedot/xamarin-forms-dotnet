@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ScrollView extends Xamarin.Forms.Layout implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.ScrollView&gt;, class Xamarin.Forms.ILayoutController, class Xamarin.Forms.IScrollViewController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ScrollView" />
   <TypeSignature Language="VB.NET" Value="Public Class ScrollView&#xA;Inherits Layout&#xA;Implements IElementConfiguration(Of ScrollView), IScrollViewController" />
+  <TypeSignature Language="F#" Value="type ScrollView = class&#xA;    inherit Layout&#xA;    interface IScrollViewController&#xA;    interface ILayoutController&#xA;    interface IElementConfiguration&lt;ScrollView&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -92,6 +93,7 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.View Content" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ScrollView.Content" />
       <MemberSignature Language="VB.NET" Value="Public Property Content As View" />
+      <MemberSignature Language="F#" Value="member this.Content : Xamarin.Forms.View with get, set" Usage="Xamarin.Forms.ScrollView.Content" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -111,6 +113,7 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Size ContentSize" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ScrollView.ContentSize" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentSize As Size" />
+      <MemberSignature Language="F#" Value="member this.ContentSize : Xamarin.Forms.Size" Usage="Xamarin.Forms.ScrollView.ContentSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -130,6 +133,7 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ContentSizeProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ScrollView.ContentSizeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContentSizeProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ContentSizeProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ScrollView.ContentSizeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -148,7 +152,11 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Xamarin.Forms.Point GetScrollPositionForElement(class Xamarin.Forms.VisualElement item, valuetype Xamarin.Forms.ScrollToPosition pos) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ScrollView.GetScrollPositionForElement(Xamarin.Forms.VisualElement,Xamarin.Forms.ScrollToPosition)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetScrollPositionForElement (item As VisualElement, pos As ScrollToPosition) As Point" />
+      <MemberSignature Language="F#" Value="abstract member GetScrollPositionForElement : Xamarin.Forms.VisualElement * Xamarin.Forms.ScrollToPosition -&gt; Xamarin.Forms.Point&#xA;override this.GetScrollPositionForElement : Xamarin.Forms.VisualElement * Xamarin.Forms.ScrollToPosition -&gt; Xamarin.Forms.Point" Usage="scrollView.GetScrollPositionForElement (item, pos)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IScrollViewController.GetScrollPositionForElement(Xamarin.Forms.VisualElement,Xamarin.Forms.ScrollToPosition)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -178,6 +186,7 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void LayoutChildren(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ScrollView.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub LayoutChildren (x As Double, y As Double, width As Double, height As Double)" />
+      <MemberSignature Language="F#" Value="override this.LayoutChildren : double * double * double * double -&gt; unit" Usage="scrollView.LayoutChildren (x, y, width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -206,7 +215,11 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.ScrollView&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ScrollView.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, ScrollView)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.ScrollView (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.ScrollView (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="scrollView.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -234,6 +247,7 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Xamarin.Forms.SizeRequest OnSizeRequest(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ScrollView.OnSizeRequest(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnSizeRequest (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
+      <MemberSignature Language="F#" Value="override this.OnSizeRequest : double * double -&gt; Xamarin.Forms.SizeRequest" Usage="scrollView.OnSizeRequest (widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -266,6 +280,7 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.ScrollOrientation Orientation" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ScrollView.Orientation" />
       <MemberSignature Language="VB.NET" Value="Public Property Orientation As ScrollOrientation" />
+      <MemberSignature Language="F#" Value="member this.Orientation : Xamarin.Forms.ScrollOrientation with get, set" Usage="Xamarin.Forms.ScrollView.Orientation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -285,6 +300,7 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty OrientationProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ScrollView.OrientationProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OrientationProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable OrientationProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ScrollView.OrientationProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -303,6 +319,7 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ScrolledEventArgs&gt; Scrolled" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ScrollView.Scrolled" />
       <MemberSignature Language="VB.NET" Value="Public Event Scrolled As EventHandler(Of ScrolledEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.Scrolled : EventHandler&lt;Xamarin.Forms.ScrolledEventArgs&gt; " Usage="member this.Scrolled : System.EventHandler&lt;Xamarin.Forms.ScrolledEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -321,6 +338,7 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ScrollToAsync(float64 x, float64 y, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ScrollView.ScrollToAsync(System.Double,System.Double,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function ScrollToAsync (x As Double, y As Double, animated As Boolean) As Task" />
+      <MemberSignature Language="F#" Value="member this.ScrollToAsync : double * double * bool -&gt; System.Threading.Tasks.Task" Usage="scrollView.ScrollToAsync (x, y, animated)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -347,6 +365,7 @@ MainPage = new ContentPage
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task ScrollToAsync (Xamarin.Forms.Element element, Xamarin.Forms.ScrollToPosition position, bool animated);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ScrollToAsync(class Xamarin.Forms.Element element, valuetype Xamarin.Forms.ScrollToPosition position, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ScrollView.ScrollToAsync(Xamarin.Forms.Element,Xamarin.Forms.ScrollToPosition,System.Boolean)" />
+      <MemberSignature Language="F#" Value="member this.ScrollToAsync : Xamarin.Forms.Element * Xamarin.Forms.ScrollToPosition * bool -&gt; System.Threading.Tasks.Task" Usage="scrollView.ScrollToAsync (element, position, animated)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -374,7 +393,11 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ScrollToRequestedEventArgs&gt; ScrollToRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ScrollView.ScrollToRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event ScrollToRequested As EventHandler(Of ScrollToRequestedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.ScrollToRequested : EventHandler&lt;Xamarin.Forms.ScrollToRequestedEventArgs&gt; " Usage="member this.ScrollToRequested : System.EventHandler&lt;Xamarin.Forms.ScrollToRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.IScrollViewController.ScrollToRequested</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -397,6 +420,7 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance float64 ScrollX" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ScrollView.ScrollX" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollX As Double" />
+      <MemberSignature Language="F#" Value="member this.ScrollX : double" Usage="Xamarin.Forms.ScrollView.ScrollX" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -416,6 +440,7 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ScrollXProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ScrollView.ScrollXProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ScrollXProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ScrollXProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ScrollView.ScrollXProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -434,6 +459,7 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".property instance float64 ScrollY" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ScrollView.ScrollY" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScrollY As Double" />
+      <MemberSignature Language="F#" Value="member this.ScrollY : double" Usage="Xamarin.Forms.ScrollView.ScrollY" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -453,6 +479,7 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ScrollYProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ScrollView.ScrollYProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ScrollYProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ScrollYProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ScrollView.ScrollYProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -471,7 +498,11 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendScrollFinished() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ScrollView.SendScrollFinished" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendScrollFinished ()" />
+      <MemberSignature Language="F#" Value="abstract member SendScrollFinished : unit -&gt; unit&#xA;override this.SendScrollFinished : unit -&gt; unit" Usage="scrollView.SendScrollFinished " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IScrollViewController.SendScrollFinished</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -495,7 +526,11 @@ MainPage = new ContentPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetScrolledPosition(float64 x, float64 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ScrollView.SetScrolledPosition(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetScrolledPosition (x As Double, y As Double)" />
+      <MemberSignature Language="F#" Value="abstract member SetScrolledPosition : double * double -&gt; unit&#xA;override this.SetScrolledPosition : double * double -&gt; unit" Usage="scrollView.SetScrolledPosition (x, y)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IScrollViewController.SetScrolledPosition(System.Double,System.Double)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

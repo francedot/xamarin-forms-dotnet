@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit EffectUtilities extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.EffectUtilities" />
   <TypeSignature Language="VB.NET" Value="Public Class EffectUtilities" />
+  <TypeSignature Language="F#" Value="type EffectUtilities = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterEffectControlProvider(class Xamarin.Forms.IEffectControlProvider self, class Xamarin.Forms.IElementController oldElement, class Xamarin.Forms.IElementController newElement) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.EffectUtilities.RegisterEffectControlProvider(Xamarin.Forms.IEffectControlProvider,Xamarin.Forms.IElementController,Xamarin.Forms.IElementController)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub RegisterEffectControlProvider (self As IEffectControlProvider, oldElement As IElementController, newElement As IElementController)" />
+      <MemberSignature Language="F#" Value="static member RegisterEffectControlProvider : Xamarin.Forms.IEffectControlProvider * Xamarin.Forms.IElementController * Xamarin.Forms.IElementController -&gt; unit" Usage="Xamarin.Forms.Internals.EffectUtilities.RegisterEffectControlProvider (self, oldElement, newElement)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

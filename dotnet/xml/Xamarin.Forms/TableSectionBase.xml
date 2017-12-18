@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TableSectionBase extends Xamarin.Forms.BindableObject" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.TableSectionBase" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class TableSectionBase&#xA;Inherits BindableObject" />
+  <TypeSignature Language="F#" Value="type TableSectionBase = class&#xA;    inherit BindableObject" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -54,6 +55,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(string title) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TableSectionBase.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (title As String)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.TableSectionBase : string -&gt; Xamarin.Forms.TableSectionBase" Usage="new Xamarin.Forms.TableSectionBase title" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -73,6 +75,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TableSectionBase.Title" />
       <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
+      <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Xamarin.Forms.TableSectionBase.Title" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TitleProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.TableSectionBase.TitleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TitleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.TableSectionBase.TitleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

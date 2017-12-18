@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Image extends Xamarin.Forms.View implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.Image&gt;, class Xamarin.Forms.IImageController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Image" />
   <TypeSignature Language="VB.NET" Value="Public Class Image&#xA;Inherits View&#xA;Implements IElementConfiguration(Of Image), IImageController" />
+  <TypeSignature Language="F#" Value="type Image = class&#xA;    inherit View&#xA;    interface IImageController&#xA;    interface IElementConfiguration&lt;Image&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -59,6 +60,7 @@ var image = new Image { Source = "picture.png" };]]></code>
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Aspect Aspect" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Image.Aspect" />
       <MemberSignature Language="VB.NET" Value="Public Property Aspect As Aspect" />
+      <MemberSignature Language="F#" Value="member this.Aspect : Xamarin.Forms.Aspect with get, set" Usage="Xamarin.Forms.Image.Aspect" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -78,6 +80,7 @@ var image = new Image { Source = "picture.png" };]]></code>
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty AspectProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Image.AspectProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AspectProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable AspectProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Image.AspectProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -96,6 +99,7 @@ var image = new Image { Source = "picture.png" };]]></code>
       <MemberSignature Language="ILAsm" Value=".property instance bool IsLoading" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Image.IsLoading" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLoading As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsLoading : bool" Usage="Xamarin.Forms.Image.IsLoading" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -133,6 +137,7 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsLoadingProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Image.IsLoadingProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsLoadingProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsLoadingProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Image.IsLoadingProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -151,6 +156,7 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".property instance bool IsOpaque" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Image.IsOpaque" />
       <MemberSignature Language="VB.NET" Value="Public Property IsOpaque As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsOpaque : bool with get, set" Usage="Xamarin.Forms.Image.IsOpaque" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -173,6 +179,7 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsOpaqueProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Image.IsOpaqueProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsOpaqueProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsOpaqueProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Image.IsOpaqueProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -191,7 +198,11 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.Image&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Image.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Image)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Image (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Image (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="image.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -219,6 +230,7 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Image.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
+      <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="image.OnBindingContextChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -238,6 +250,7 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Xamarin.Forms.SizeRequest OnSizeRequest(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Image.OnSizeRequest(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnSizeRequest (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
+      <MemberSignature Language="F#" Value="override this.OnSizeRequest : double * double -&gt; Xamarin.Forms.SizeRequest" Usage="image.OnSizeRequest (widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -268,7 +281,11 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetIsLoading(bool isLoading) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Image.SetIsLoading(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetIsLoading (isLoading As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member SetIsLoading : bool -&gt; unit&#xA;override this.SetIsLoading : bool -&gt; unit" Usage="image.SetIsLoading isLoading" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IImageController.SetIsLoading(System.Boolean)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -295,6 +312,7 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ImageSource Source" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Image.Source" />
       <MemberSignature Language="VB.NET" Value="Public Property Source As ImageSource" />
+      <MemberSignature Language="F#" Value="member this.Source : Xamarin.Forms.ImageSource with get, set" Usage="Xamarin.Forms.Image.Source" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -319,6 +337,7 @@ indicator.BindingContext = image;]]></code>
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SourceProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Image.SourceProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SourceProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable SourceProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Image.SourceProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

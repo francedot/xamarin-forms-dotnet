@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed Registrar extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.Registrar" />
   <TypeSignature Language="VB.NET" Value="Public Class Registrar" />
+  <TypeSignature Language="F#" Value="type Registrar = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Collections.Generic.IEnumerable`1&lt;class System.Reflection.Assembly&gt; ExtraAssemblies" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.Registrar.ExtraAssemblies" />
       <MemberSignature Language="VB.NET" Value="Public Shared Property ExtraAssemblies As IEnumerable(Of Assembly)" />
+      <MemberSignature Language="F#" Value="member this.ExtraAssemblies : seq&lt;System.Reflection.Assembly&gt; with get, set" Usage="Xamarin.Forms.Internals.Registrar.ExtraAssemblies" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -45,6 +47,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterAll(class System.Type[] attrTypes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Registrar.RegisterAll(System.Type[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub RegisterAll (attrTypes As Type())" />
+      <MemberSignature Language="F#" Value="static member RegisterAll : Type[] -&gt; unit" Usage="Xamarin.Forms.Internals.Registrar.RegisterAll attrTypes" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -67,6 +70,7 @@
       <MemberSignature Language="ILAsm" Value=".property class Xamarin.Forms.Internals.Registrar`1&lt;class Xamarin.Forms.IRegisterable&gt; Registered" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.Registrar.Registered" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Registered As Registrar(Of IRegisterable)" />
+      <MemberSignature Language="F#" Value="member this.Registered : Xamarin.Forms.Internals.Registrar&lt;Xamarin.Forms.IRegisterable&gt;" Usage="Xamarin.Forms.Internals.Registrar.Registered" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

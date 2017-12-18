@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed BindableProperty/ValidateValueDelegate`1&lt;- TPropertyType&gt; extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.BindableProperty.ValidateValueDelegate`1" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Function BindableProperty.ValidateValueDelegate(Of In TPropertyType)(bindable As BindableObject, value As TPropertyType) As Boolean " />
+  <TypeSignature Language="F#" Value="type BindableProperty.ValidateValueDelegate&lt;'PropertyType&gt; = delegate of BindableObject * 'PropertyType -&gt; bool" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>

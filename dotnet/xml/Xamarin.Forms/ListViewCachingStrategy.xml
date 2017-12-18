@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ListViewCachingStrategy extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ListViewCachingStrategy" />
   <TypeSignature Language="VB.NET" Value="Public Enum ListViewCachingStrategy" />
+  <TypeSignature Language="F#" Value="type ListViewCachingStrategy = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -44,6 +45,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.ListViewCachingStrategy RecycleElement = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListViewCachingStrategy.RecycleElement" />
       <MemberSignature Language="VB.NET" Value="RecycleElement" />
+      <MemberSignature Language="F#" Value="RecycleElement = 1" Usage="Xamarin.Forms.ListViewCachingStrategy.RecycleElement" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -62,6 +64,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.ListViewCachingStrategy RecycleElementAndDataTemplate = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListViewCachingStrategy.RecycleElementAndDataTemplate" />
       <MemberSignature Language="VB.NET" Value="RecycleElementAndDataTemplate" />
+      <MemberSignature Language="F#" Value="RecycleElementAndDataTemplate = 3" Usage="Xamarin.Forms.ListViewCachingStrategy.RecycleElementAndDataTemplate" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -80,6 +83,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.ListViewCachingStrategy RetainElement = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListViewCachingStrategy.RetainElement" />
       <MemberSignature Language="VB.NET" Value="RetainElement" />
+      <MemberSignature Language="F#" Value="RetainElement = 0" Usage="Xamarin.Forms.ListViewCachingStrategy.RetainElement" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

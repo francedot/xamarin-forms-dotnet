@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Extensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.Extensions" />
   <TypeSignature Language="VB.NET" Value="Public Module Extensions" />
+  <TypeSignature Language="F#" Value="type Extensions = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TXaml LoadFromXaml&lt;TXaml&gt;(!!TXaml view, class System.Type callingType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.Extensions.LoadFromXaml``1(``0,System.Type)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LoadFromXaml(Of TXaml) (view As TXaml, callingType As Type) As TXaml" />
+      <MemberSignature Language="F#" Value="static member LoadFromXaml : 'Xaml * Type -&gt; 'Xaml" Usage="Xamarin.Forms.Xaml.Extensions.LoadFromXaml (view, callingType)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>

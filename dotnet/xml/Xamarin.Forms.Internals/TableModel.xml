@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TableModel extends System.Object implements class Xamarin.Forms.ITableModel" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.TableModel" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class TableModel&#xA;Implements ITableModel" />
+  <TypeSignature Language="F#" Value="type TableModel = class&#xA;    interface ITableModel" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -46,7 +47,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.Cell GetCell(int32 section, int32 row) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.TableModel.GetCell(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCell (section As Integer, row As Integer) As Cell" />
+      <MemberSignature Language="F#" Value="abstract member GetCell : int * int -&gt; Xamarin.Forms.Cell&#xA;override this.GetCell : int * int -&gt; Xamarin.Forms.Cell" Usage="tableModel.GetCell (section, row)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.ITableModel.GetCell(System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -71,7 +76,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.Cell GetHeaderCell(int32 section) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.TableModel.GetHeaderCell(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetHeaderCell (section As Integer) As Cell" />
+      <MemberSignature Language="F#" Value="abstract member GetHeaderCell : int -&gt; Xamarin.Forms.Cell&#xA;override this.GetHeaderCell : int -&gt; Xamarin.Forms.Cell" Usage="tableModel.GetHeaderCell section" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.ITableModel.GetHeaderCell(System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -94,7 +103,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetItem(int32 section, int32 row) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.TableModel.GetItem(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetItem (section As Integer, row As Integer) As Object" />
+      <MemberSignature Language="F#" Value="abstract member GetItem : int * int -&gt; obj" Usage="tableModel.GetItem (section, row)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.ITableModel.GetItem(System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -119,7 +132,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetRowCount(int32 section) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.TableModel.GetRowCount(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetRowCount (section As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member GetRowCount : int -&gt; int" Usage="tableModel.GetRowCount section" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.ITableModel.GetRowCount(System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -142,7 +159,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetSectionCount() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.TableModel.GetSectionCount" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetSectionCount () As Integer" />
+      <MemberSignature Language="F#" Value="abstract member GetSectionCount : unit -&gt; int" Usage="tableModel.GetSectionCount " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.ITableModel.GetSectionCount</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -162,7 +183,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string[] GetSectionIndexTitles() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.TableModel.GetSectionIndexTitles" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSectionIndexTitles () As String()" />
+      <MemberSignature Language="F#" Value="abstract member GetSectionIndexTitles : unit -&gt; string[]&#xA;override this.GetSectionIndexTitles : unit -&gt; string[]" Usage="tableModel.GetSectionIndexTitles " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.ITableModel.GetSectionIndexTitles</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -182,7 +207,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetSectionTitle(int32 section) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.TableModel.GetSectionTitle(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSectionTitle (section As Integer) As String" />
+      <MemberSignature Language="F#" Value="abstract member GetSectionTitle : int -&gt; string&#xA;override this.GetSectionTitle : int -&gt; string" Usage="tableModel.GetSectionTitle section" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.ITableModel.GetSectionTitle(System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -205,6 +234,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.EventArg`1&lt;object&gt;&gt; ItemLongPressed" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Internals.TableModel.ItemLongPressed" />
       <MemberSignature Language="VB.NET" Value="Public Event ItemLongPressed As EventHandler(Of EventArg(Of Object)) " />
+      <MemberSignature Language="F#" Value="member this.ItemLongPressed : EventHandler&lt;Xamarin.Forms.Internals.EventArg&lt;obj&gt;&gt; " Usage="member this.ItemLongPressed : System.EventHandler&lt;Xamarin.Forms.Internals.EventArg&lt;System.obj&gt;&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -223,6 +253,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.EventArg`1&lt;object&gt;&gt; ItemSelected" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Internals.TableModel.ItemSelected" />
       <MemberSignature Language="VB.NET" Value="Public Event ItemSelected As EventHandler(Of EventArg(Of Object)) " />
+      <MemberSignature Language="F#" Value="member this.ItemSelected : EventHandler&lt;Xamarin.Forms.Internals.EventArg&lt;obj&gt;&gt; " Usage="member this.ItemSelected : System.EventHandler&lt;Xamarin.Forms.Internals.EventArg&lt;System.obj&gt;&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -241,6 +272,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnRowLongPressed(object item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.TableModel.OnRowLongPressed(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnRowLongPressed (item As Object)" />
+      <MemberSignature Language="F#" Value="abstract member OnRowLongPressed : obj -&gt; unit&#xA;override this.OnRowLongPressed : obj -&gt; unit" Usage="tableModel.OnRowLongPressed item" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -263,6 +295,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnRowSelected(object item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.TableModel.OnRowSelected(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnRowSelected (item As Object)" />
+      <MemberSignature Language="F#" Value="abstract member OnRowSelected : obj -&gt; unit&#xA;override this.OnRowSelected : obj -&gt; unit" Usage="tableModel.OnRowSelected item" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -285,6 +318,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RowLongPressed(object item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.TableModel.RowLongPressed(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RowLongPressed (item As Object)" />
+      <MemberSignature Language="F#" Value="member this.RowLongPressed : obj -&gt; unit" Usage="tableModel.RowLongPressed item" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -307,7 +341,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RowLongPressed(int32 section, int32 row) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.TableModel.RowLongPressed(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RowLongPressed (section As Integer, row As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member RowLongPressed : int * int -&gt; unit&#xA;override this.RowLongPressed : int * int -&gt; unit" Usage="tableModel.RowLongPressed (section, row)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.ITableModel.RowLongPressed(System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -331,7 +369,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RowSelected(object item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.TableModel.RowSelected(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RowSelected (item As Object)" />
+      <MemberSignature Language="F#" Value="abstract member RowSelected : obj -&gt; unit&#xA;override this.RowSelected : obj -&gt; unit" Usage="tableModel.RowSelected item" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.ITableModel.RowSelected(System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -353,7 +395,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RowSelected(int32 section, int32 row) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.TableModel.RowSelected(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub RowSelected (section As Integer, row As Integer)" />
+      <MemberSignature Language="F#" Value="abstract member RowSelected : int * int -&gt; unit&#xA;override this.RowSelected : int * int -&gt; unit" Usage="tableModel.RowSelected (section, row)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.ITableModel.RowSelected(System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IXmlLineInfoProvider" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.IXmlLineInfoProvider" />
   <TypeSignature Language="VB.NET" Value="Public Interface IXmlLineInfoProvider" />
+  <TypeSignature Language="F#" Value="type IXmlLineInfoProvider = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,6 +19,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.IXmlLineInfo XmlLineInfo" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.IXmlLineInfoProvider.XmlLineInfo" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property XmlLineInfo As IXmlLineInfo" />
+      <MemberSignature Language="F#" Value="member this.XmlLineInfo : System.Xml.IXmlLineInfo" Usage="Xamarin.Forms.Xaml.IXmlLineInfoProvider.XmlLineInfo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

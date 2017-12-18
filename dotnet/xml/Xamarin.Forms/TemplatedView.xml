@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TemplatedView extends Xamarin.Forms.Layout" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.TemplatedView" />
   <TypeSignature Language="VB.NET" Value="Public Class TemplatedView&#xA;Inherits Layout" />
+  <TypeSignature Language="F#" Value="type TemplatedView = class&#xA;    inherit Layout&#xA;    interface IControlTemplated" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -37,7 +38,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ControlTemplate ControlTemplate" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TemplatedView.ControlTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property ControlTemplate As ControlTemplate" />
+      <MemberSignature Language="F#" Value="member this.ControlTemplate : Xamarin.Forms.ControlTemplate with get, set" Usage="Xamarin.Forms.TemplatedView.ControlTemplate" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IControlTemplated.ControlTemplate</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -56,6 +61,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ControlTemplateProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.TemplatedView.ControlTemplateProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ControlTemplateProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ControlTemplateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.TemplatedView.ControlTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -74,6 +80,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void LayoutChildren(float64 x, float64 y, float64 width, float64 height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TemplatedView.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub LayoutChildren (x As Double, y As Double, width As Double, height As Double)" />
+      <MemberSignature Language="F#" Value="override this.LayoutChildren : double * double * double * double -&gt; unit" Usage="templatedView.LayoutChildren (x, y, width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -102,6 +109,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype Xamarin.Forms.SizeRequest OnSizeRequest(float64 widthConstraint, float64 heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TemplatedView.OnSizeRequest(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnSizeRequest (widthConstraint As Double, heightConstraint As Double) As SizeRequest" />
+      <MemberSignature Language="F#" Value="override this.OnSizeRequest : double * double -&gt; Xamarin.Forms.SizeRequest" Usage="templatedView.OnSizeRequest (widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

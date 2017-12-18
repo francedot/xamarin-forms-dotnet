@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ActivityIndicator extends Xamarin.Forms.View implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.ActivityIndicator&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ActivityIndicator" />
   <TypeSignature Language="VB.NET" Value="Public Class ActivityIndicator&#xA;Inherits View&#xA;Implements IElementConfiguration(Of ActivityIndicator)" />
+  <TypeSignature Language="F#" Value="type ActivityIndicator = class&#xA;    inherit View&#xA;    interface IElementConfiguration&lt;ActivityIndicator&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -75,6 +76,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color Color" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ActivityIndicator.Color" />
       <MemberSignature Language="VB.NET" Value="Public Property Color As Color" />
+      <MemberSignature Language="F#" Value="member this.Color : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.ActivityIndicator.Color" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -94,6 +96,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ActivityIndicator.ColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ActivityIndicator.ColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -112,6 +115,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsRunning" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ActivityIndicator.IsRunning" />
       <MemberSignature Language="VB.NET" Value="Public Property IsRunning As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsRunning : bool with get, set" Usage="Xamarin.Forms.ActivityIndicator.IsRunning" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -131,6 +135,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsRunningProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ActivityIndicator.IsRunningProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsRunningProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable IsRunningProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ActivityIndicator.IsRunningProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -149,7 +154,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.ActivityIndicator&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ActivityIndicator.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, ActivityIndicator)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.ActivityIndicator (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.ActivityIndicator (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="activityIndicator.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

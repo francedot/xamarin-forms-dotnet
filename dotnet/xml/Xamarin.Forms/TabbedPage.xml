@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TabbedPage extends Xamarin.Forms.MultiPage`1&lt;class Xamarin.Forms.Page&gt; implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.TabbedPage&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.TabbedPage" />
   <TypeSignature Language="VB.NET" Value="Public Class TabbedPage&#xA;Inherits MultiPage(Of Page)&#xA;Implements IElementConfiguration(Of TabbedPage)" />
+  <TypeSignature Language="F#" Value="type TabbedPage = class&#xA;    inherit MultiPage&lt;Page&gt;&#xA;    interface IElementConfiguration&lt;TabbedPage&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -161,6 +162,7 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color BarBackgroundColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TabbedPage.BarBackgroundColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BarBackgroundColor As Color" />
+      <MemberSignature Language="F#" Value="member this.BarBackgroundColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.TabbedPage.BarBackgroundColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -180,6 +182,7 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty BarBackgroundColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.TabbedPage.BarBackgroundColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BarBackgroundColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BarBackgroundColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.TabbedPage.BarBackgroundColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -198,6 +201,7 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color BarTextColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TabbedPage.BarTextColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BarTextColor As Color" />
+      <MemberSignature Language="F#" Value="member this.BarTextColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.TabbedPage.BarTextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -217,6 +221,7 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty BarTextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.TabbedPage.BarTextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BarTextColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BarTextColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.TabbedPage.BarTextColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -235,6 +240,7 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Xamarin.Forms.Page CreateDefault(object item) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TabbedPage.CreateDefault(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateDefault (item As Object) As Page" />
+      <MemberSignature Language="F#" Value="override this.CreateDefault : obj -&gt; Xamarin.Forms.Page" Usage="tabbedPage.CreateDefault item" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -258,7 +264,11 @@ class TabbedPageDemoPage2 : TabbedPage
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.TabbedPage&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TabbedPage.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, TabbedPage)" />
+      <MemberSignature Language="F#" Value="override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.TabbedPage (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="tabbedPage.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

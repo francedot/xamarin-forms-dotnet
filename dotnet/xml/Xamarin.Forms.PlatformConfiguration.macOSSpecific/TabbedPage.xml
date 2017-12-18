@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TabbedPage extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage" />
   <TypeSignature Language="VB.NET" Value="Public Module TabbedPage" />
+  <TypeSignature Language="F#" Value="type TabbedPage = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.TabsStyle GetTabsStyle(class Xamarin.Forms.BindableObject element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.GetTabsStyle(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetTabsStyle (element As BindableObject) As TabsStyle" />
+      <MemberSignature Language="F#" Value="static member GetTabsStyle : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.TabsStyle" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.GetTabsStyle element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -44,6 +46,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.TabsStyle GetTabsStyle(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.GetTabsStyle(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetTabsStyle (config As IPlatformElementConfiguration(Of macOS, TabbedPage)) As TabsStyle" />
+      <MemberSignature Language="F#" Value="static member GetTabsStyle : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt; -&gt; Xamarin.Forms.TabsStyle" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.GetTabsStyle config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -67,6 +70,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; HideTabs(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.HideTabs(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function HideTabs (config As IPlatformElementConfiguration(Of macOS, TabbedPage)) As IPlatformElementConfiguration(Of macOS, TabbedPage)" />
+      <MemberSignature Language="F#" Value="static member HideTabs : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.HideTabs config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -90,6 +94,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; SetShowTabs(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; config, valuetype Xamarin.Forms.TabsStyle value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.SetShowTabs(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage},Xamarin.Forms.TabsStyle)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetShowTabs (config As IPlatformElementConfiguration(Of macOS, TabbedPage), value As TabsStyle) As IPlatformElementConfiguration(Of macOS, TabbedPage)" />
+      <MemberSignature Language="F#" Value="static member SetShowTabs : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt; * Xamarin.Forms.TabsStyle -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.SetShowTabs (config, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -115,6 +120,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetTabsStyle(class Xamarin.Forms.BindableObject element, valuetype Xamarin.Forms.TabsStyle value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.SetTabsStyle(Xamarin.Forms.BindableObject,Xamarin.Forms.TabsStyle)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetTabsStyle (element As BindableObject, value As TabsStyle)" />
+      <MemberSignature Language="F#" Value="static member SetTabsStyle : Xamarin.Forms.BindableObject * Xamarin.Forms.TabsStyle -&gt; unit" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.SetTabsStyle (element, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -139,6 +145,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; ShowTabs(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.ShowTabs(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShowTabs (config As IPlatformElementConfiguration(Of macOS, TabbedPage)) As IPlatformElementConfiguration(Of macOS, TabbedPage)" />
+      <MemberSignature Language="F#" Value="static member ShowTabs : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.ShowTabs config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -162,6 +169,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; ShowTabsOnNavigation(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.macOS, class Xamarin.Forms.TabbedPage&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.ShowTabsOnNavigation(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.TabbedPage})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ShowTabsOnNavigation (config As IPlatformElementConfiguration(Of macOS, TabbedPage)) As IPlatformElementConfiguration(Of macOS, TabbedPage)" />
+      <MemberSignature Language="F#" Value="static member ShowTabsOnNavigation : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.macOS, Xamarin.Forms.TabbedPage&gt;" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.ShowTabsOnNavigation config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -185,6 +193,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TabsStyleProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.TabsStyleProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly TabsStyleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TabsStyleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage.TabsStyleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

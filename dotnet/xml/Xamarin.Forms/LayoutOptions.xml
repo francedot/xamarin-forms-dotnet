@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit LayoutOptions extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.LayoutOptions" />
   <TypeSignature Language="VB.NET" Value="Public Structure LayoutOptions" />
+  <TypeSignature Language="F#" Value="type LayoutOptions = struct" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Xamarin.Forms.LayoutAlignment alignment, bool expands) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.LayoutOptions.#ctor(Xamarin.Forms.LayoutAlignment,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (alignment As LayoutAlignment, expands As Boolean)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.LayoutOptions : Xamarin.Forms.LayoutAlignment * bool -&gt; Xamarin.Forms.LayoutOptions" Usage="new Xamarin.Forms.LayoutOptions (alignment, expands)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -47,6 +49,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.LayoutAlignment Alignment" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.LayoutOptions.Alignment" />
       <MemberSignature Language="VB.NET" Value="Public Property Alignment As LayoutAlignment" />
+      <MemberSignature Language="F#" Value="member this.Alignment : Xamarin.Forms.LayoutAlignment with get, set" Usage="Xamarin.Forms.LayoutOptions.Alignment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -66,6 +69,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.LayoutOptions Center" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LayoutOptions.Center" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Center As LayoutOptions " />
+      <MemberSignature Language="F#" Value=" staticval mutable Center : Xamarin.Forms.LayoutOptions" Usage="Xamarin.Forms.LayoutOptions.Center" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -84,6 +88,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.LayoutOptions CenterAndExpand" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LayoutOptions.CenterAndExpand" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CenterAndExpand As LayoutOptions " />
+      <MemberSignature Language="F#" Value=" staticval mutable CenterAndExpand : Xamarin.Forms.LayoutOptions" Usage="Xamarin.Forms.LayoutOptions.CenterAndExpand" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -102,6 +107,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.LayoutOptions End" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LayoutOptions.End" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly End As LayoutOptions " />
+      <MemberSignature Language="F#" Value=" staticval mutable End : Xamarin.Forms.LayoutOptions" Usage="Xamarin.Forms.LayoutOptions.End" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -120,6 +126,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.LayoutOptions EndAndExpand" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LayoutOptions.EndAndExpand" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EndAndExpand As LayoutOptions " />
+      <MemberSignature Language="F#" Value=" staticval mutable EndAndExpand : Xamarin.Forms.LayoutOptions" Usage="Xamarin.Forms.LayoutOptions.EndAndExpand" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -138,6 +145,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Expands" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.LayoutOptions.Expands" />
       <MemberSignature Language="VB.NET" Value="Public Property Expands As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Expands : bool with get, set" Usage="Xamarin.Forms.LayoutOptions.Expands" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -157,6 +165,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.LayoutOptions Fill" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LayoutOptions.Fill" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Fill As LayoutOptions " />
+      <MemberSignature Language="F#" Value=" staticval mutable Fill : Xamarin.Forms.LayoutOptions" Usage="Xamarin.Forms.LayoutOptions.Fill" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -175,6 +184,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.LayoutOptions FillAndExpand" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LayoutOptions.FillAndExpand" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FillAndExpand As LayoutOptions " />
+      <MemberSignature Language="F#" Value=" staticval mutable FillAndExpand : Xamarin.Forms.LayoutOptions" Usage="Xamarin.Forms.LayoutOptions.FillAndExpand" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -193,6 +203,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.LayoutOptions Start" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LayoutOptions.Start" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Start As LayoutOptions " />
+      <MemberSignature Language="F#" Value=" staticval mutable Start : Xamarin.Forms.LayoutOptions" Usage="Xamarin.Forms.LayoutOptions.Start" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -211,6 +222,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Xamarin.Forms.LayoutOptions StartAndExpand" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LayoutOptions.StartAndExpand" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StartAndExpand As LayoutOptions " />
+      <MemberSignature Language="F#" Value=" staticval mutable StartAndExpand : Xamarin.Forms.LayoutOptions" Usage="Xamarin.Forms.LayoutOptions.StartAndExpand" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NameScope extends System.Object implements class Xamarin.Forms.Internals.INameScope" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.NameScope" />
   <TypeSignature Language="VB.NET" Value="Public Class NameScope&#xA;Implements INameScope" />
+  <TypeSignature Language="F#" Value="type NameScope = class&#xA;    interface INameScope" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -46,6 +47,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.Internals.INameScope GetNameScope(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NameScope.GetNameScope(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetNameScope (bindable As BindableObject) As INameScope" />
+      <MemberSignature Language="F#" Value="static member GetNameScope : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Internals.INameScope" Usage="Xamarin.Forms.Internals.NameScope.GetNameScope bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -69,6 +71,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty NameScopeProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.NameScope.NameScopeProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NameScopeProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable NameScopeProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Internals.NameScope.NameScopeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -87,6 +90,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetNameScope(class Xamarin.Forms.BindableObject bindable, class Xamarin.Forms.Internals.INameScope value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NameScope.SetNameScope(Xamarin.Forms.BindableObject,Xamarin.Forms.Internals.INameScope)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetNameScope (bindable As BindableObject, value As INameScope)" />
+      <MemberSignature Language="F#" Value="static member SetNameScope : Xamarin.Forms.BindableObject * Xamarin.Forms.Internals.INameScope -&gt; unit" Usage="Xamarin.Forms.Internals.NameScope.SetNameScope (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -112,6 +116,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NameScope.Xamarin#Forms#Internals#INameScope#FindByName(System.String)" />
       <MemberSignature Language="VB.NET" Value="Function FindByName (name As String) As Object Implements INameScope.FindByName" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.INameScope.FindByName(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -135,6 +142,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NameScope.Xamarin#Forms#Internals#INameScope#RegisterName(System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Sub RegisterName (name As String, scopedElement As Object) Implements INameScope.RegisterName" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.INameScope.RegisterName(System.String,System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -159,6 +169,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NameScope.Xamarin#Forms#Internals#INameScope#RegisterName(System.String,System.Object,System.Xml.IXmlLineInfo)" />
       <MemberSignature Language="VB.NET" Value="Sub RegisterName (name As String, scopedElement As Object, xmlLineInfo As IXmlLineInfo) Implements INameScope.RegisterName" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.INameScope.RegisterName(System.String,System.Object,System.Xml.IXmlLineInfo)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -190,6 +203,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NameScope.Xamarin#Forms#Internals#INameScope#UnregisterName(System.String)" />
       <MemberSignature Language="VB.NET" Value="Sub UnregisterName (name As String) Implements INameScope.UnregisterName" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Internals.INameScope.UnregisterName(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

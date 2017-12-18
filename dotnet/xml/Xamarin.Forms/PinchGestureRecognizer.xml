@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PinchGestureRecognizer extends Xamarin.Forms.GestureRecognizer implements class Xamarin.Forms.IPinchGestureController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.PinchGestureRecognizer" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PinchGestureRecognizer&#xA;Inherits GestureRecognizer&#xA;Implements IPinchGestureController" />
+  <TypeSignature Language="F#" Value="type PinchGestureRecognizer = class&#xA;    inherit GestureRecognizer&#xA;    interface IPinchGestureController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -41,7 +42,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPinching" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.PinchGestureRecognizer.IsPinching" />
       <MemberSignature Language="VB.NET" Value="Public Property IsPinching As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsPinching : bool with get, set" Usage="Xamarin.Forms.PinchGestureRecognizer.IsPinching" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.IPinchGestureController.IsPinching</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -65,6 +70,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.PinchGestureUpdatedEventArgs&gt; PinchUpdated" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.PinchGestureRecognizer.PinchUpdated" />
       <MemberSignature Language="VB.NET" Value="Public Event PinchUpdated As EventHandler(Of PinchGestureUpdatedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.PinchUpdated : EventHandler&lt;Xamarin.Forms.PinchGestureUpdatedEventArgs&gt; " Usage="member this.PinchUpdated : System.EventHandler&lt;Xamarin.Forms.PinchGestureUpdatedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -83,7 +89,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPinch(class Xamarin.Forms.Element sender, float64 delta, valuetype Xamarin.Forms.Point currentScalePoint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PinchGestureRecognizer.SendPinch(Xamarin.Forms.Element,System.Double,Xamarin.Forms.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPinch (sender As Element, delta As Double, currentScalePoint As Point)" />
+      <MemberSignature Language="F#" Value="abstract member SendPinch : Xamarin.Forms.Element * double * Xamarin.Forms.Point -&gt; unit&#xA;override this.SendPinch : Xamarin.Forms.Element * double * Xamarin.Forms.Point -&gt; unit" Usage="pinchGestureRecognizer.SendPinch (sender, delta, currentScalePoint)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IPinchGestureController.SendPinch(Xamarin.Forms.Element,System.Double,Xamarin.Forms.Point)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -114,7 +124,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPinchCanceled(class Xamarin.Forms.Element sender) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PinchGestureRecognizer.SendPinchCanceled(Xamarin.Forms.Element)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPinchCanceled (sender As Element)" />
+      <MemberSignature Language="F#" Value="abstract member SendPinchCanceled : Xamarin.Forms.Element -&gt; unit&#xA;override this.SendPinchCanceled : Xamarin.Forms.Element -&gt; unit" Usage="pinchGestureRecognizer.SendPinchCanceled sender" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IPinchGestureController.SendPinchCanceled(Xamarin.Forms.Element)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -141,7 +155,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPinchEnded(class Xamarin.Forms.Element sender) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PinchGestureRecognizer.SendPinchEnded(Xamarin.Forms.Element)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPinchEnded (sender As Element)" />
+      <MemberSignature Language="F#" Value="abstract member SendPinchEnded : Xamarin.Forms.Element -&gt; unit&#xA;override this.SendPinchEnded : Xamarin.Forms.Element -&gt; unit" Usage="pinchGestureRecognizer.SendPinchEnded sender" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IPinchGestureController.SendPinchEnded(Xamarin.Forms.Element)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -168,7 +186,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendPinchStarted(class Xamarin.Forms.Element sender, valuetype Xamarin.Forms.Point initialScalePoint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PinchGestureRecognizer.SendPinchStarted(Xamarin.Forms.Element,Xamarin.Forms.Point)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendPinchStarted (sender As Element, initialScalePoint As Point)" />
+      <MemberSignature Language="F#" Value="abstract member SendPinchStarted : Xamarin.Forms.Element * Xamarin.Forms.Point -&gt; unit&#xA;override this.SendPinchStarted : Xamarin.Forms.Element * Xamarin.Forms.Point -&gt; unit" Usage="pinchGestureRecognizer.SendPinchStarted (sender, initialScalePoint)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IPinchGestureController.SendPinchStarted(Xamarin.Forms.Element,Xamarin.Forms.Point)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

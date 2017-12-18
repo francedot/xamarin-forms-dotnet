@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XamlTypeResolver extends System.Object implements class Xamarin.Forms.Xaml.IXamlTypeResolver" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.Internals.XamlTypeResolver" />
   <TypeSignature Language="VB.NET" Value="Public Class XamlTypeResolver&#xA;Implements IXamlTypeResolver" />
+  <TypeSignature Language="F#" Value="type XamlTypeResolver = class&#xA;    interface IXamlTypeResolver" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -25,6 +26,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Xml.IXmlNamespaceResolver namespaceResolver, class System.Reflection.Assembly currentAssembly) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.Internals.XamlTypeResolver.#ctor(System.Xml.IXmlNamespaceResolver,System.Reflection.Assembly)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (namespaceResolver As IXmlNamespaceResolver, currentAssembly As Assembly)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Xaml.Internals.XamlTypeResolver : System.Xml.IXmlNamespaceResolver * System.Reflection.Assembly -&gt; Xamarin.Forms.Xaml.Internals.XamlTypeResolver" Usage="new Xamarin.Forms.Xaml.Internals.XamlTypeResolver (namespaceResolver, currentAssembly)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
@@ -47,6 +49,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.Internals.XamlTypeResolver.Xamarin#Forms#Xaml#IXamlTypeResolver#Resolve(System.String,System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Function Resolve (qualifiedTypeName As String, serviceProvider As IServiceProvider) As Type Implements IXamlTypeResolver.Resolve" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Xaml.IXamlTypeResolver.Resolve(System.String,System.IServiceProvider)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -72,6 +77,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.Internals.XamlTypeResolver.Xamarin#Forms#Xaml#IXamlTypeResolver#TryResolve(System.String,System.Type@)" />
       <MemberSignature Language="VB.NET" Value="Function TryResolve (qualifiedTypeName As String, ByRef type As Type) As Boolean Implements IXamlTypeResolver.TryResolve" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Xaml.IXamlTypeResolver.TryResolve(System.String,System.Type@)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

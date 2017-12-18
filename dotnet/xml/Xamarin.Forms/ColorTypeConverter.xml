@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ColorTypeConverter extends Xamarin.Forms.TypeConverter" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ColorTypeConverter" />
   <TypeSignature Language="VB.NET" Value="Public Class ColorTypeConverter&#xA;Inherits TypeConverter" />
+  <TypeSignature Language="F#" Value="type ColorTypeConverter = class&#xA;    inherit TypeConverter" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -53,6 +54,7 @@ Assert.AreEqual (Color.Accent, converter.ConvertFrom ("Accent"));
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ConvertFromInvariantString(string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ColorTypeConverter.ConvertFromInvariantString(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFromInvariantString (value As String) As Object" />
+      <MemberSignature Language="F#" Value="override this.ConvertFromInvariantString : string -&gt; obj" Usage="colorTypeConverter.ConvertFromInvariantString value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ViewCell extends Xamarin.Forms.Cell" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ViewCell" />
   <TypeSignature Language="VB.NET" Value="Public Class ViewCell&#xA;Inherits Cell" />
+  <TypeSignature Language="F#" Value="type ViewCell = class&#xA;    inherit Cell" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -42,6 +43,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.View View" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ViewCell.View" />
       <MemberSignature Language="VB.NET" Value="Public Property View As View" />
+      <MemberSignature Language="F#" Value="member this.View : Xamarin.Forms.View with get, set" Usage="Xamarin.Forms.ViewCell.View" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

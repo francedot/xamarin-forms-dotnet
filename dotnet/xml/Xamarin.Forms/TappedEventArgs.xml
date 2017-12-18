@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TappedEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.TappedEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class TappedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type TappedEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object parameter) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TappedEventArgs.#ctor(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (parameter As Object)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.TappedEventArgs : obj -&gt; Xamarin.Forms.TappedEventArgs" Usage="new Xamarin.Forms.TappedEventArgs parameter" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -40,6 +42,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Parameter" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TappedEventArgs.Parameter" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parameter As Object" />
+      <MemberSignature Language="F#" Value="member this.Parameter : obj" Usage="Xamarin.Forms.TappedEventArgs.Parameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

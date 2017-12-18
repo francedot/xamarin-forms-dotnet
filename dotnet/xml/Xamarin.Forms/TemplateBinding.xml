@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TemplateBinding extends Xamarin.Forms.BindingBase" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.TemplateBinding" />
   <TypeSignature Language="VB.NET" Value="Public Class TemplateBinding&#xA;Inherits BindingBase" />
+  <TypeSignature Language="F#" Value="type TemplateBinding = class&#xA;    inherit BindingBase" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -51,6 +52,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path, valuetype Xamarin.Forms.BindingMode mode, class Xamarin.Forms.IValueConverter converter, object converterParameter, string stringFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TemplateBinding.#ctor(System.String,Xamarin.Forms.BindingMode,Xamarin.Forms.IValueConverter,System.Object,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (path As String, Optional mode As BindingMode = Xamarin.Forms.BindingMode.Default, Optional converter As IValueConverter = null, Optional converterParameter As Object = null, Optional stringFormat As String = null)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.TemplateBinding : string * Xamarin.Forms.BindingMode * Xamarin.Forms.IValueConverter * obj * string -&gt; Xamarin.Forms.TemplateBinding" Usage="new Xamarin.Forms.TemplateBinding (path, mode, converter, converterParameter, stringFormat)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -78,6 +80,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.IValueConverter Converter" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TemplateBinding.Converter" />
       <MemberSignature Language="VB.NET" Value="Public Property Converter As IValueConverter" />
+      <MemberSignature Language="F#" Value="member this.Converter : Xamarin.Forms.IValueConverter with get, set" Usage="Xamarin.Forms.TemplateBinding.Converter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -97,6 +100,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object ConverterParameter" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TemplateBinding.ConverterParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property ConverterParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.ConverterParameter : obj with get, set" Usage="Xamarin.Forms.TemplateBinding.ConverterParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -116,6 +120,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Path" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.TemplateBinding.Path" />
       <MemberSignature Language="VB.NET" Value="Public Property Path As String" />
+      <MemberSignature Language="F#" Value="member this.Path : string with get, set" Usage="Xamarin.Forms.TemplateBinding.Path" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

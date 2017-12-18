@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Elevation extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation" />
   <TypeSignature Language="VB.NET" Value="Public Module Elevation" />
+  <TypeSignature Language="F#" Value="type Elevation = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ElevationProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.ElevationProperty" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly ElevationProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ElevationProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.ElevationProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -39,6 +41,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Nullable`1&lt;float32&gt; GetElevation(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.VisualElement&gt; config) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.GetElevation(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.VisualElement})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElevation (config As IPlatformElementConfiguration(Of Android, VisualElement)) As Nullable(Of Single)" />
+      <MemberSignature Language="F#" Value="static member GetElevation : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.VisualElement&gt; -&gt; Nullable&lt;single&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.GetElevation config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -62,6 +65,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Nullable`1&lt;float32&gt; GetElevation(class Xamarin.Forms.VisualElement element) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.GetElevation(Xamarin.Forms.VisualElement)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetElevation (element As VisualElement) As Nullable(Of Single)" />
+      <MemberSignature Language="F#" Value="static member GetElevation : Xamarin.Forms.VisualElement -&gt; Nullable&lt;single&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.GetElevation element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -85,6 +89,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.VisualElement&gt; SetElevation(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.VisualElement&gt; config, valuetype System.Nullable`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.SetElevation(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.VisualElement},System.Nullable{System.Single})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetElevation (config As IPlatformElementConfiguration(Of Android, VisualElement), value As Nullable(Of Single)) As IPlatformElementConfiguration(Of Android, VisualElement)" />
+      <MemberSignature Language="F#" Value="static member SetElevation : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.VisualElement&gt; * Nullable&lt;single&gt; -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.VisualElement&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.SetElevation (config, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -110,6 +115,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetElevation(class Xamarin.Forms.VisualElement element, valuetype System.Nullable`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.SetElevation(Xamarin.Forms.VisualElement,System.Nullable{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetElevation (element As VisualElement, value As Nullable(Of Single))" />
+      <MemberSignature Language="F#" Value="static member SetElevation : Xamarin.Forms.VisualElement * Nullable&lt;single&gt; -&gt; unit" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.SetElevation (element, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

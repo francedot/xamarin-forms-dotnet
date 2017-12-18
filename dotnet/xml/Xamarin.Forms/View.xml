@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit View extends Xamarin.Forms.VisualElement implements class Xamarin.Forms.IElementController, class Xamarin.Forms.IViewController, class Xamarin.Forms.IVisualElementController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.View" />
   <TypeSignature Language="VB.NET" Value="Public Class View&#xA;Inherits VisualElement&#xA;Implements IViewController" />
+  <TypeSignature Language="F#" Value="type View = class&#xA;    inherit VisualElement&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -43,6 +44,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.IGestureRecognizer&gt; GestureRecognizers" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.View.GestureRecognizers" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GestureRecognizers As IList(Of IGestureRecognizer)" />
+      <MemberSignature Language="F#" Value="member this.GestureRecognizers : System.Collections.Generic.IList&lt;Xamarin.Forms.IGestureRecognizer&gt;" Usage="Xamarin.Forms.View.GestureRecognizers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -79,6 +81,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.LayoutOptions HorizontalOptions" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.View.HorizontalOptions" />
       <MemberSignature Language="VB.NET" Value="Public Property HorizontalOptions As LayoutOptions" />
+      <MemberSignature Language="F#" Value="member this.HorizontalOptions : Xamarin.Forms.LayoutOptions with get, set" Usage="Xamarin.Forms.View.HorizontalOptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -127,6 +130,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HorizontalOptionsProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.View.HorizontalOptionsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HorizontalOptionsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HorizontalOptionsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.View.HorizontalOptionsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -145,6 +149,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Thickness Margin" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.View.Margin" />
       <MemberSignature Language="VB.NET" Value="Public Property Margin As Thickness" />
+      <MemberSignature Language="F#" Value="member this.Margin : Xamarin.Forms.Thickness with get, set" Usage="Xamarin.Forms.View.Margin" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -164,6 +169,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty MarginProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.View.MarginProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MarginProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MarginProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.View.MarginProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -182,6 +188,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnBindingContextChanged() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.View.OnBindingContextChanged" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnBindingContextChanged ()" />
+      <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="view.OnBindingContextChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -203,6 +210,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.LayoutOptions VerticalOptions" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.View.VerticalOptions" />
       <MemberSignature Language="VB.NET" Value="Public Property VerticalOptions As LayoutOptions" />
+      <MemberSignature Language="F#" Value="member this.VerticalOptions : Xamarin.Forms.LayoutOptions with get, set" Usage="Xamarin.Forms.View.VerticalOptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -252,6 +260,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty VerticalOptionsProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.View.VerticalOptionsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly VerticalOptionsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable VerticalOptionsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.View.VerticalOptionsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

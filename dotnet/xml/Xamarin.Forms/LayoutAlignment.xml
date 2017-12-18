@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LayoutAlignment extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.LayoutAlignment" />
   <TypeSignature Language="VB.NET" Value="Public Enum LayoutAlignment" />
+  <TypeSignature Language="F#" Value="type LayoutAlignment = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -25,6 +26,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.LayoutAlignment Center = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LayoutAlignment.Center" />
       <MemberSignature Language="VB.NET" Value="Center" />
+      <MemberSignature Language="F#" Value="Center = 1" Usage="Xamarin.Forms.LayoutAlignment.Center" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.LayoutAlignment End = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LayoutAlignment.End" />
       <MemberSignature Language="VB.NET" Value="End" />
+      <MemberSignature Language="F#" Value="End = 2" Usage="Xamarin.Forms.LayoutAlignment.End" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -61,6 +64,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.LayoutAlignment Fill = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LayoutAlignment.Fill" />
       <MemberSignature Language="VB.NET" Value="Fill" />
+      <MemberSignature Language="F#" Value="Fill = 3" Usage="Xamarin.Forms.LayoutAlignment.Fill" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.LayoutAlignment Start = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.LayoutAlignment.Start" />
       <MemberSignature Language="VB.NET" Value="Start" />
+      <MemberSignature Language="F#" Value="Start = 0" Usage="Xamarin.Forms.LayoutAlignment.Start" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

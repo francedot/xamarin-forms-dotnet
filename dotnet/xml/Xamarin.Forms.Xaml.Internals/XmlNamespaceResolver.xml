@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XmlNamespaceResolver extends System.Object implements class System.Xml.IXmlNamespaceResolver" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.Internals.XmlNamespaceResolver" />
   <TypeSignature Language="VB.NET" Value="Public Class XmlNamespaceResolver&#xA;Implements IXmlNamespaceResolver" />
+  <TypeSignature Language="F#" Value="type XmlNamespaceResolver = class&#xA;    interface IXmlNamespaceResolver" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -41,6 +42,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(string prefix, string ns) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.Internals.XmlNamespaceResolver.Add(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (prefix As String, ns As String)" />
+      <MemberSignature Language="F#" Value="member this.Add : string * string -&gt; unit" Usage="xmlNamespaceResolver.Add (prefix, ns)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
@@ -65,7 +67,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; GetNamespacesInScope(valuetype System.Xml.XmlNamespaceScope scope) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.Internals.XmlNamespaceResolver.GetNamespacesInScope(System.Xml.XmlNamespaceScope)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetNamespacesInScope (scope As XmlNamespaceScope) As IDictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="abstract member GetNamespacesInScope : System.Xml.XmlNamespaceScope -&gt; System.Collections.Generic.IDictionary&lt;string, string&gt;&#xA;override this.GetNamespacesInScope : System.Xml.XmlNamespaceScope -&gt; System.Collections.Generic.IDictionary&lt;string, string&gt;" Usage="xmlNamespaceResolver.GetNamespacesInScope scope" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(System.Xml.XmlNamespaceScope)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -88,7 +94,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string LookupNamespace(string prefix) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.Internals.XmlNamespaceResolver.LookupNamespace(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function LookupNamespace (prefix As String) As String" />
+      <MemberSignature Language="F#" Value="abstract member LookupNamespace : string -&gt; string&#xA;override this.LookupNamespace : string -&gt; string" Usage="xmlNamespaceResolver.LookupNamespace prefix" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Xml.IXmlNamespaceResolver.LookupNamespace(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -111,7 +121,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string LookupPrefix(string namespaceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.Internals.XmlNamespaceResolver.LookupPrefix(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function LookupPrefix (namespaceName As String) As String" />
+      <MemberSignature Language="F#" Value="abstract member LookupPrefix : string -&gt; string&#xA;override this.LookupPrefix : string -&gt; string" Usage="xmlNamespaceResolver.LookupPrefix namespaceName" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Xml.IXmlNamespaceResolver.LookupPrefix(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

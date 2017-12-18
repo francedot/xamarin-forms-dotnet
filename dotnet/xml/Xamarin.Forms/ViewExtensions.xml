@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ViewExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ViewExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module ViewExtensions" />
+  <TypeSignature Language="F#" Value="type ViewExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CancelAnimations(class Xamarin.Forms.VisualElement view) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.CancelAnimations(Xamarin.Forms.VisualElement)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CancelAnimations (view As VisualElement)" />
+      <MemberSignature Language="F#" Value="static member CancelAnimations : Xamarin.Forms.VisualElement -&gt; unit" Usage="Xamarin.Forms.ViewExtensions.CancelAnimations view" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -42,6 +44,7 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; FadeTo (this Xamarin.Forms.VisualElement view, double opacity, uint length = 250, Xamarin.Forms.Easing easing = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; FadeTo(class Xamarin.Forms.VisualElement view, float64 opacity, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.FadeTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+      <MemberSignature Language="F#" Value="static member FadeTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.FadeTo (view, opacity, length, easing)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -70,6 +73,7 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; LayoutTo (this Xamarin.Forms.VisualElement view, Xamarin.Forms.Rectangle bounds, uint length = 250, Xamarin.Forms.Easing easing = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; LayoutTo(class Xamarin.Forms.VisualElement view, valuetype Xamarin.Forms.Rectangle bounds, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.LayoutTo(Xamarin.Forms.VisualElement,Xamarin.Forms.Rectangle,System.UInt32,Xamarin.Forms.Easing)" />
+      <MemberSignature Language="F#" Value="static member LayoutTo : Xamarin.Forms.VisualElement * Xamarin.Forms.Rectangle * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.LayoutTo (view, bounds, length, easing)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -98,6 +102,7 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; RelRotateTo (this Xamarin.Forms.VisualElement view, double drotation, uint length = 250, Xamarin.Forms.Easing easing = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; RelRotateTo(class Xamarin.Forms.VisualElement view, float64 drotation, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.RelRotateTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+      <MemberSignature Language="F#" Value="static member RelRotateTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.RelRotateTo (view, drotation, length, easing)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -126,6 +131,7 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; RelScaleTo (this Xamarin.Forms.VisualElement view, double dscale, uint length = 250, Xamarin.Forms.Easing easing = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; RelScaleTo(class Xamarin.Forms.VisualElement view, float64 dscale, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.RelScaleTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+      <MemberSignature Language="F#" Value="static member RelScaleTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.RelScaleTo (view, dscale, length, easing)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -154,6 +160,7 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; RotateTo (this Xamarin.Forms.VisualElement view, double rotation, uint length = 250, Xamarin.Forms.Easing easing = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; RotateTo(class Xamarin.Forms.VisualElement view, float64 rotation, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.RotateTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+      <MemberSignature Language="F#" Value="static member RotateTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.RotateTo (view, rotation, length, easing)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -182,6 +189,7 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; RotateXTo (this Xamarin.Forms.VisualElement view, double rotation, uint length = 250, Xamarin.Forms.Easing easing = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; RotateXTo(class Xamarin.Forms.VisualElement view, float64 rotation, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.RotateXTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+      <MemberSignature Language="F#" Value="static member RotateXTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.RotateXTo (view, rotation, length, easing)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -210,6 +218,7 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; RotateYTo (this Xamarin.Forms.VisualElement view, double rotation, uint length = 250, Xamarin.Forms.Easing easing = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; RotateYTo(class Xamarin.Forms.VisualElement view, float64 rotation, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.RotateYTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+      <MemberSignature Language="F#" Value="static member RotateYTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.RotateYTo (view, rotation, length, easing)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -238,6 +247,7 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; ScaleTo (this Xamarin.Forms.VisualElement view, double scale, uint length = 250, Xamarin.Forms.Easing easing = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; ScaleTo(class Xamarin.Forms.VisualElement view, float64 scale, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.ScaleTo(Xamarin.Forms.VisualElement,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+      <MemberSignature Language="F#" Value="static member ScaleTo : Xamarin.Forms.VisualElement * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.ScaleTo (view, scale, length, easing)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -266,6 +276,7 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;bool&gt; TranslateTo (this Xamarin.Forms.VisualElement view, double x, double y, uint length = 250, Xamarin.Forms.Easing easing = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;bool&gt; TranslateTo(class Xamarin.Forms.VisualElement view, float64 x, float64 y, unsigned int32 length, class Xamarin.Forms.Easing easing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ViewExtensions.TranslateTo(Xamarin.Forms.VisualElement,System.Double,System.Double,System.UInt32,Xamarin.Forms.Easing)" />
+      <MemberSignature Language="F#" Value="static member TranslateTo : Xamarin.Forms.VisualElement * double * double * uint32 * Xamarin.Forms.Easing -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="Xamarin.Forms.ViewExtensions.TranslateTo (view, x, y, length, easing)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

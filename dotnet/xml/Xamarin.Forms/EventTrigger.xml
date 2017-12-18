@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EventTrigger extends Xamarin.Forms.TriggerBase" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.EventTrigger" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EventTrigger&#xA;Inherits TriggerBase" />
+  <TypeSignature Language="F#" Value="type EventTrigger = class&#xA;    inherit TriggerBase" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -87,6 +88,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.TriggerAction&gt; Actions" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.EventTrigger.Actions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Actions As IList(Of TriggerAction)" />
+      <MemberSignature Language="F#" Value="member this.Actions : System.Collections.Generic.IList&lt;Xamarin.Forms.TriggerAction&gt;" Usage="Xamarin.Forms.EventTrigger.Actions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -106,6 +108,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Event" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.EventTrigger.Event" />
       <MemberSignature Language="VB.NET" Value="Public Property Event As String" />
+      <MemberSignature Language="F#" Value="member this.Event : string with get, set" Usage="Xamarin.Forms.EventTrigger.Event" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

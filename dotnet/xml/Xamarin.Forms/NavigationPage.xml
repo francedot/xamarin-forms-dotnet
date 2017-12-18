@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NavigationPage extends Xamarin.Forms.Page implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.NavigationPage&gt;, class Xamarin.Forms.INavigationPageController, class Xamarin.Forms.IPageContainer`1&lt;class Xamarin.Forms.Page&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.NavigationPage" />
   <TypeSignature Language="VB.NET" Value="Public Class NavigationPage&#xA;Inherits Page&#xA;Implements IElementConfiguration(Of NavigationPage), INavigationPageController, IPageContainer(Of Page)" />
+  <TypeSignature Language="F#" Value="type NavigationPage = class&#xA;    inherit Page&#xA;    interface IPageContainer&lt;Page&gt;&#xA;    interface INavigationPageController&#xA;    interface IElementConfiguration&lt;NavigationPage&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -55,6 +56,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Xamarin.Forms.Page root) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.#ctor(Xamarin.Forms.Page)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (root As Page)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.NavigationPage : Xamarin.Forms.Page -&gt; Xamarin.Forms.NavigationPage" Usage="new Xamarin.Forms.NavigationPage root" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -74,6 +76,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty BackButtonTitleProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.NavigationPage.BackButtonTitleProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BackButtonTitleProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BackButtonTitleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.NavigationPage.BackButtonTitleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -92,6 +95,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color BarBackgroundColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.NavigationPage.BarBackgroundColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BarBackgroundColor As Color" />
+      <MemberSignature Language="F#" Value="member this.BarBackgroundColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.NavigationPage.BarBackgroundColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -111,6 +115,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty BarBackgroundColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.NavigationPage.BarBackgroundColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BarBackgroundColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BarBackgroundColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.NavigationPage.BarBackgroundColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -129,6 +134,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color BarTextColor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.NavigationPage.BarTextColor" />
       <MemberSignature Language="VB.NET" Value="Public Property BarTextColor As Color" />
+      <MemberSignature Language="F#" Value="member this.BarTextColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.NavigationPage.BarTextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -148,6 +154,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty BarTextColorProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.NavigationPage.BarTextColorProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BarTextColorProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable BarTextColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.NavigationPage.BarTextColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -166,6 +173,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Page CurrentPage" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.NavigationPage.CurrentPage" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentPage As Page" />
+      <MemberSignature Language="F#" Value="member this.CurrentPage : Xamarin.Forms.Page" Usage="Xamarin.Forms.NavigationPage.CurrentPage" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -185,6 +193,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CurrentPageProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.NavigationPage.CurrentPageProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CurrentPageProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CurrentPageProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.NavigationPage.CurrentPageProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -203,6 +212,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetBackButtonTitle(class Xamarin.Forms.BindableObject page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.GetBackButtonTitle(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetBackButtonTitle (page As BindableObject) As String" />
+      <MemberSignature Language="F#" Value="static member GetBackButtonTitle : Xamarin.Forms.BindableObject -&gt; string" Usage="Xamarin.Forms.NavigationPage.GetBackButtonTitle page" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -225,6 +235,7 @@
       <MemberSignature Language="C#" Value="public static bool GetHasBackButton (Xamarin.Forms.Page page);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetHasBackButton(class Xamarin.Forms.Page page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.GetHasBackButton(Xamarin.Forms.Page)" />
+      <MemberSignature Language="F#" Value="static member GetHasBackButton : Xamarin.Forms.Page -&gt; bool" Usage="Xamarin.Forms.NavigationPage.GetHasBackButton page" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -248,6 +259,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetHasNavigationBar(class Xamarin.Forms.BindableObject page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.GetHasNavigationBar(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetHasNavigationBar (page As BindableObject) As Boolean" />
+      <MemberSignature Language="F#" Value="static member GetHasNavigationBar : Xamarin.Forms.BindableObject -&gt; bool" Usage="Xamarin.Forms.NavigationPage.GetHasNavigationBar page" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -272,6 +284,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.FileImageSource GetTitleIcon(class Xamarin.Forms.BindableObject bindable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.GetTitleIcon(Xamarin.Forms.BindableObject)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetTitleIcon (bindable As BindableObject) As FileImageSource" />
+      <MemberSignature Language="F#" Value="static member GetTitleIcon : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.FileImageSource" Usage="Xamarin.Forms.NavigationPage.GetTitleIcon bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -295,6 +308,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HasBackButtonProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.NavigationPage.HasBackButtonProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HasBackButtonProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HasBackButtonProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.NavigationPage.HasBackButtonProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -313,6 +327,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HasNavigationBarProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.NavigationPage.HasNavigationBarProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HasNavigationBarProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HasNavigationBarProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.NavigationPage.HasNavigationBarProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -331,7 +346,11 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; InsertPageBeforeRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.NavigationPage.InsertPageBeforeRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event InsertPageBeforeRequested As EventHandler(Of NavigationRequestedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.InsertPageBeforeRequested : EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " Usage="member this.InsertPageBeforeRequested : System.EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.INavigationPageController.InsertPageBeforeRequested</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -354,7 +373,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.NavigationPage&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, NavigationPage)" />
+      <MemberSignature Language="F#" Value="override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.NavigationPage (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="navigationPage.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -382,6 +405,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool OnBackButtonPressed() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.OnBackButtonPressed" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnBackButtonPressed () As Boolean" />
+      <MemberSignature Language="F#" Value="override this.OnBackButtonPressed : unit -&gt; bool" Usage="navigationPage.OnBackButtonPressed " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -402,7 +426,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Xamarin.Forms.Page&gt; Pages" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.NavigationPage.Pages" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Pages As IEnumerable(Of Page)" />
+      <MemberSignature Language="F#" Value="member this.Pages : seq&lt;Xamarin.Forms.Page&gt;" Usage="Xamarin.Forms.NavigationPage.Pages" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.INavigationPageController.Pages</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -426,7 +454,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.Page Peek(int32 depth) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.Peek(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function Peek (depth As Integer) As Page" />
+      <MemberSignature Language="F#" Value="abstract member Peek : int -&gt; Xamarin.Forms.Page&#xA;override this.Peek : int -&gt; Xamarin.Forms.Page" Usage="navigationPage.Peek depth" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.INavigationPageController.Peek(System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -454,6 +486,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Xamarin.Forms.Page&gt; PopAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.PopAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function PopAsync () As Task(Of Page)" />
+      <MemberSignature Language="F#" Value="member this.PopAsync : unit -&gt; System.Threading.Tasks.Task&lt;Xamarin.Forms.Page&gt;" Usage="navigationPage.PopAsync " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -474,6 +507,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Xamarin.Forms.Page&gt; PopAsync(bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.PopAsync(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function PopAsync (animated As Boolean) As Task(Of Page)" />
+      <MemberSignature Language="F#" Value="member this.PopAsync : bool -&gt; System.Threading.Tasks.Task&lt;Xamarin.Forms.Page&gt;" Usage="navigationPage.PopAsync animated" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -502,7 +536,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Xamarin.Forms.Page&gt; PopAsyncInner(bool animated, bool fast) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.PopAsyncInner(System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function PopAsyncInner (animated As Boolean, fast As Boolean) As Task(Of Page)" />
+      <MemberSignature Language="F#" Value="abstract member PopAsyncInner : bool * bool -&gt; System.Threading.Tasks.Task&lt;Xamarin.Forms.Page&gt;&#xA;override this.PopAsyncInner : bool * bool -&gt; System.Threading.Tasks.Task&lt;Xamarin.Forms.Page&gt;" Usage="navigationPage.PopAsyncInner (animated, fast)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.INavigationPageController.PopAsyncInner(System.Boolean,System.Boolean)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -535,6 +573,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.NavigationEventArgs&gt; Popped" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.NavigationPage.Popped" />
       <MemberSignature Language="VB.NET" Value="Public Event Popped As EventHandler(Of NavigationEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.Popped : EventHandler&lt;Xamarin.Forms.NavigationEventArgs&gt; " Usage="member this.Popped : System.EventHandler&lt;Xamarin.Forms.NavigationEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -553,6 +592,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.NavigationEventArgs&gt; PoppedToRoot" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.NavigationPage.PoppedToRoot" />
       <MemberSignature Language="VB.NET" Value="Public Event PoppedToRoot As EventHandler(Of NavigationEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.PoppedToRoot : EventHandler&lt;Xamarin.Forms.NavigationEventArgs&gt; " Usage="member this.PoppedToRoot : System.EventHandler&lt;Xamarin.Forms.NavigationEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -573,7 +613,11 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; PopRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.NavigationPage.PopRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event PopRequested As EventHandler(Of NavigationRequestedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.PopRequested : EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " Usage="member this.PopRequested : System.EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.INavigationPageController.PopRequested</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -596,6 +640,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task PopToRootAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.PopToRootAsync" />
       <MemberSignature Language="VB.NET" Value="Public Function PopToRootAsync () As Task" />
+      <MemberSignature Language="F#" Value="member this.PopToRootAsync : unit -&gt; System.Threading.Tasks.Task" Usage="navigationPage.PopToRootAsync " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -616,6 +661,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task PopToRootAsync(bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.PopToRootAsync(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function PopToRootAsync (animated As Boolean) As Task" />
+      <MemberSignature Language="F#" Value="member this.PopToRootAsync : bool -&gt; System.Threading.Tasks.Task" Usage="navigationPage.PopToRootAsync animated" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -644,7 +690,11 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; PopToRootRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.NavigationPage.PopToRootRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event PopToRootRequested As EventHandler(Of NavigationRequestedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.PopToRootRequested : EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " Usage="member this.PopToRootRequested : System.EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.INavigationPageController.PopToRootRequested</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -666,6 +716,7 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task PushAsync (Xamarin.Forms.Page page);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task PushAsync(class Xamarin.Forms.Page page) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.PushAsync(Xamarin.Forms.Page)" />
+      <MemberSignature Language="F#" Value="member this.PushAsync : Xamarin.Forms.Page -&gt; System.Threading.Tasks.Task" Usage="navigationPage.PushAsync page" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -688,6 +739,7 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task PushAsync (Xamarin.Forms.Page page, bool animated);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task PushAsync(class Xamarin.Forms.Page page, bool animated) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.PushAsync(Xamarin.Forms.Page,System.Boolean)" />
+      <MemberSignature Language="F#" Value="member this.PushAsync : Xamarin.Forms.Page * bool -&gt; System.Threading.Tasks.Task" Usage="navigationPage.PushAsync (page, animated)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -718,6 +770,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.NavigationEventArgs&gt; Pushed" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.NavigationPage.Pushed" />
       <MemberSignature Language="VB.NET" Value="Public Event Pushed As EventHandler(Of NavigationEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.Pushed : EventHandler&lt;Xamarin.Forms.NavigationEventArgs&gt; " Usage="member this.Pushed : System.EventHandler&lt;Xamarin.Forms.NavigationEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -736,7 +789,11 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; PushRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.NavigationPage.PushRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event PushRequested As EventHandler(Of NavigationRequestedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.PushRequested : EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " Usage="member this.PushRequested : System.EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.INavigationPageController.PushRequested</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -759,7 +816,11 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; RemovePageRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.NavigationPage.RemovePageRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event RemovePageRequested As EventHandler(Of NavigationRequestedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.RemovePageRequested : EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " Usage="member this.RemovePageRequested : System.EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.INavigationPageController.RemovePageRequested</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -782,6 +843,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.Page RootPage" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.NavigationPage.RootPage" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RootPage As Page" />
+      <MemberSignature Language="F#" Value="member this.RootPage : Xamarin.Forms.Page" Usage="Xamarin.Forms.NavigationPage.RootPage" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -803,6 +865,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty RootPageProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.NavigationPage.RootPageProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RootPageProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable RootPageProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.NavigationPage.RootPageProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -823,6 +886,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBackButtonTitle(class Xamarin.Forms.BindableObject page, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.SetBackButtonTitle(Xamarin.Forms.BindableObject,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetBackButtonTitle (page As BindableObject, value As String)" />
+      <MemberSignature Language="F#" Value="static member SetBackButtonTitle : Xamarin.Forms.BindableObject * string -&gt; unit" Usage="Xamarin.Forms.NavigationPage.SetBackButtonTitle (page, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -846,6 +910,7 @@
       <MemberSignature Language="C#" Value="public static void SetHasBackButton (Xamarin.Forms.Page page, bool value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetHasBackButton(class Xamarin.Forms.Page page, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.SetHasBackButton(Xamarin.Forms.Page,System.Boolean)" />
+      <MemberSignature Language="F#" Value="static member SetHasBackButton : Xamarin.Forms.Page * bool -&gt; unit" Usage="Xamarin.Forms.NavigationPage.SetHasBackButton (page, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -870,6 +935,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetHasNavigationBar(class Xamarin.Forms.BindableObject page, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.SetHasNavigationBar(Xamarin.Forms.BindableObject,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetHasNavigationBar (page As BindableObject, value As Boolean)" />
+      <MemberSignature Language="F#" Value="static member SetHasNavigationBar : Xamarin.Forms.BindableObject * bool -&gt; unit" Usage="Xamarin.Forms.NavigationPage.SetHasNavigationBar (page, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -894,6 +960,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetTitleIcon(class Xamarin.Forms.BindableObject bindable, class Xamarin.Forms.FileImageSource value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.NavigationPage.SetTitleIcon(Xamarin.Forms.BindableObject,Xamarin.Forms.FileImageSource)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetTitleIcon (bindable As BindableObject, value As FileImageSource)" />
+      <MemberSignature Language="F#" Value="static member SetTitleIcon : Xamarin.Forms.BindableObject * Xamarin.Forms.FileImageSource -&gt; unit" Usage="Xamarin.Forms.NavigationPage.SetTitleIcon (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -937,7 +1004,11 @@ public class MyPage : NavigationPage
       <MemberSignature Language="ILAsm" Value=".property instance int32 StackDepth" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.NavigationPage.StackDepth" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StackDepth As Integer" />
+      <MemberSignature Language="F#" Value="member this.StackDepth : int" Usage="Xamarin.Forms.NavigationPage.StackDepth" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Xamarin.Forms.INavigationPageController.StackDepth</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -961,6 +1032,7 @@ public class MyPage : NavigationPage
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color Tint" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.NavigationPage.Tint" />
       <MemberSignature Language="VB.NET" Value="Public Property Tint As Color" />
+      <MemberSignature Language="F#" Value="member this.Tint : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.NavigationPage.Tint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -987,6 +1059,7 @@ public class MyPage : NavigationPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TintProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.NavigationPage.TintProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TintProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TintProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.NavigationPage.TintProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -1010,6 +1083,7 @@ public class MyPage : NavigationPage
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TitleIconProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.NavigationPage.TitleIconProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleIconProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable TitleIconProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.NavigationPage.TitleIconProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

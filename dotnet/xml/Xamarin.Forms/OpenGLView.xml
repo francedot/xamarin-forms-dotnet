@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OpenGLView extends Xamarin.Forms.View implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.OpenGLView&gt;, class Xamarin.Forms.IElementController, class Xamarin.Forms.IOpenGlViewController, class Xamarin.Forms.IViewController, class Xamarin.Forms.IVisualElementController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.OpenGLView" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OpenGLView&#xA;Inherits View&#xA;Implements IElementConfiguration(Of OpenGLView), IOpenGlViewController" />
+  <TypeSignature Language="F#" Value="type OpenGLView = class&#xA;    inherit View&#xA;    interface IOpenGlViewController&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController&#xA;    interface IElementConfiguration&lt;OpenGLView&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -109,6 +110,7 @@ namespace opengl
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Display() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.OpenGLView.Display" />
       <MemberSignature Language="VB.NET" Value="Public Sub Display ()" />
+      <MemberSignature Language="F#" Value="member this.Display : unit -&gt; unit" Usage="openGLView.Display " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -128,7 +130,11 @@ namespace opengl
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler DisplayRequested" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.OpenGLView.DisplayRequested" />
       <MemberSignature Language="VB.NET" Value="Public Event DisplayRequested As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.DisplayRequested : EventHandler " Usage="member this.DisplayRequested : System.EventHandler " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.IOpenGlViewController.DisplayRequested</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -151,6 +157,7 @@ namespace opengl
       <MemberSignature Language="ILAsm" Value=".property instance bool HasRenderLoop" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.OpenGLView.HasRenderLoop" />
       <MemberSignature Language="VB.NET" Value="Public Property HasRenderLoop As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasRenderLoop : bool with get, set" Usage="Xamarin.Forms.OpenGLView.HasRenderLoop" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -170,6 +177,7 @@ namespace opengl
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HasRenderLoopProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.OpenGLView.HasRenderLoopProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HasRenderLoopProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HasRenderLoopProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.OpenGLView.HasRenderLoopProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -188,7 +196,11 @@ namespace opengl
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.OpenGLView&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.OpenGLView.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, OpenGLView)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.OpenGLView (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.OpenGLView (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="openGLView.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -216,6 +228,7 @@ namespace opengl
       <MemberSignature Language="ILAsm" Value=".property instance class System.Action`1&lt;valuetype Xamarin.Forms.Rectangle&gt; OnDisplay" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.OpenGLView.OnDisplay" />
       <MemberSignature Language="VB.NET" Value="Public Property OnDisplay As Action(Of Rectangle)" />
+      <MemberSignature Language="F#" Value="member this.OnDisplay : Action&lt;Xamarin.Forms.Rectangle&gt; with get, set" Usage="Xamarin.Forms.OpenGLView.OnDisplay" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

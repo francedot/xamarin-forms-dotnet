@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract sealed beforefieldinit Device/Styles extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Device.Styles" />
   <TypeSignature Language="VB.NET" Value="Public Class Device.Styles" />
+  <TypeSignature Language="F#" Value="type Device.Styles = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.Style BodyStyle" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.BodyStyle" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BodyStyle As Style " />
+      <MemberSignature Language="F#" Value=" staticval mutable BodyStyle : Xamarin.Forms.Style" Usage="Xamarin.Forms.Device.Styles.BodyStyle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -39,6 +41,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly string BodyStyleKey" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.BodyStyleKey" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BodyStyleKey As String " />
+      <MemberSignature Language="F#" Value=" staticval mutable BodyStyleKey : string" Usage="Xamarin.Forms.Device.Styles.BodyStyleKey" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -57,6 +60,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.Style CaptionStyle" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.CaptionStyle" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CaptionStyle As Style " />
+      <MemberSignature Language="F#" Value=" staticval mutable CaptionStyle : Xamarin.Forms.Style" Usage="Xamarin.Forms.Device.Styles.CaptionStyle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -75,6 +79,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly string CaptionStyleKey" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.CaptionStyleKey" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CaptionStyleKey As String " />
+      <MemberSignature Language="F#" Value=" staticval mutable CaptionStyleKey : string" Usage="Xamarin.Forms.Device.Styles.CaptionStyleKey" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -93,6 +98,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.Style ListItemDetailTextStyle" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.ListItemDetailTextStyle" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ListItemDetailTextStyle As Style " />
+      <MemberSignature Language="F#" Value=" staticval mutable ListItemDetailTextStyle : Xamarin.Forms.Style" Usage="Xamarin.Forms.Device.Styles.ListItemDetailTextStyle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -111,6 +117,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly string ListItemDetailTextStyleKey" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.ListItemDetailTextStyleKey" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ListItemDetailTextStyleKey As String " />
+      <MemberSignature Language="F#" Value=" staticval mutable ListItemDetailTextStyleKey : string" Usage="Xamarin.Forms.Device.Styles.ListItemDetailTextStyleKey" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -129,6 +136,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.Style ListItemTextStyle" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.ListItemTextStyle" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ListItemTextStyle As Style " />
+      <MemberSignature Language="F#" Value=" staticval mutable ListItemTextStyle : Xamarin.Forms.Style" Usage="Xamarin.Forms.Device.Styles.ListItemTextStyle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -147,6 +155,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly string ListItemTextStyleKey" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.ListItemTextStyleKey" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ListItemTextStyleKey As String " />
+      <MemberSignature Language="F#" Value=" staticval mutable ListItemTextStyleKey : string" Usage="Xamarin.Forms.Device.Styles.ListItemTextStyleKey" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -165,6 +174,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.Style SubtitleStyle" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.SubtitleStyle" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SubtitleStyle As Style " />
+      <MemberSignature Language="F#" Value=" staticval mutable SubtitleStyle : Xamarin.Forms.Style" Usage="Xamarin.Forms.Device.Styles.SubtitleStyle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -183,6 +193,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly string SubtitleStyleKey" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.SubtitleStyleKey" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SubtitleStyleKey As String " />
+      <MemberSignature Language="F#" Value=" staticval mutable SubtitleStyleKey : string" Usage="Xamarin.Forms.Device.Styles.SubtitleStyleKey" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -201,6 +212,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.Style TitleStyle" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.TitleStyle" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleStyle As Style " />
+      <MemberSignature Language="F#" Value=" staticval mutable TitleStyle : Xamarin.Forms.Style" Usage="Xamarin.Forms.Device.Styles.TitleStyle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -219,6 +231,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly string TitleStyleKey" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Device.Styles.TitleStyleKey" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TitleStyleKey As String " />
+      <MemberSignature Language="F#" Value=" staticval mutable TitleStyleKey : string" Usage="Xamarin.Forms.Device.Styles.TitleStyleKey" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

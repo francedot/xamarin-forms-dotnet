@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SettersExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.SettersExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module SettersExtensions" />
+  <TypeSignature Language="F#" Value="type SettersExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Add(class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Setter&gt; setters, class Xamarin.Forms.BindableProperty property, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SettersExtensions.Add(System.Collections.Generic.IList{Xamarin.Forms.Setter},Xamarin.Forms.BindableProperty,System.Object)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Add (setters As IList(Of Setter), property As BindableProperty, value As Object)" />
+      <MemberSignature Language="F#" Value="static member Add : System.Collections.Generic.IList&lt;Xamarin.Forms.Setter&gt; * Xamarin.Forms.BindableProperty * obj -&gt; unit" Usage="Xamarin.Forms.SettersExtensions.Add (setters, property, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -48,6 +50,7 @@
       <MemberSignature Language="C#" Value="public static void AddBinding (this System.Collections.Generic.IList&lt;Xamarin.Forms.Setter&gt; setters, Xamarin.Forms.BindableProperty property, Xamarin.Forms.Binding binding);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AddBinding(class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Setter&gt; setters, class Xamarin.Forms.BindableProperty property, class Xamarin.Forms.Binding binding) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SettersExtensions.AddBinding(System.Collections.Generic.IList{Xamarin.Forms.Setter},Xamarin.Forms.BindableProperty,Xamarin.Forms.Binding)" />
+      <MemberSignature Language="F#" Value="static member AddBinding : System.Collections.Generic.IList&lt;Xamarin.Forms.Setter&gt; * Xamarin.Forms.BindableProperty * Xamarin.Forms.Binding -&gt; unit" Usage="Xamarin.Forms.SettersExtensions.AddBinding (setters, property, binding)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -74,6 +77,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AddDynamicResource(class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Setter&gt; setters, class Xamarin.Forms.BindableProperty property, string key) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SettersExtensions.AddDynamicResource(System.Collections.Generic.IList{Xamarin.Forms.Setter},Xamarin.Forms.BindableProperty,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub AddDynamicResource (setters As IList(Of Setter), property As BindableProperty, key As String)" />
+      <MemberSignature Language="F#" Value="static member AddDynamicResource : System.Collections.Generic.IList&lt;Xamarin.Forms.Setter&gt; * Xamarin.Forms.BindableProperty * string -&gt; unit" Usage="Xamarin.Forms.SettersExtensions.AddDynamicResource (setters, property, key)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

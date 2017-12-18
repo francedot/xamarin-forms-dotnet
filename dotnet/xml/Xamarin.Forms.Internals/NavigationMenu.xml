@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NavigationMenu extends Xamarin.Forms.View implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.Internals.NavigationMenu&gt;, class Xamarin.Forms.IElementController, class Xamarin.Forms.INavigationMenuController, class Xamarin.Forms.IViewController, class Xamarin.Forms.IVisualElementController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.NavigationMenu" />
   <TypeSignature Language="VB.NET" Value="Public Class NavigationMenu&#xA;Inherits View&#xA;Implements IElementConfiguration(Of NavigationMenu), INavigationMenuController" />
+  <TypeSignature Language="F#" Value="type NavigationMenu = class&#xA;    inherit View&#xA;    interface INavigationMenuController&#xA;    interface IViewController&#xA;    interface IVisualElementController&#xA;    interface IElementController&#xA;    interface IElementConfiguration&lt;NavigationMenu&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -52,6 +53,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class Xamarin.Forms.Page target) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NavigationMenu.Add(Xamarin.Forms.Page)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (target As Page)" />
+      <MemberSignature Language="F#" Value="member this.Add : Xamarin.Forms.Page -&gt; unit" Usage="navigationMenu.Add target" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -74,7 +76,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.Internals.NavigationMenu&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NavigationMenu.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, NavigationMenu)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Internals.NavigationMenu (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Internals.NavigationMenu (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="navigationMenu.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -102,6 +108,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Remove(class Xamarin.Forms.Page target) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NavigationMenu.Remove(Xamarin.Forms.Page)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Remove (target As Page)" />
+      <MemberSignature Language="F#" Value="member this.Remove : Xamarin.Forms.Page -&gt; unit" Usage="navigationMenu.Remove target" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -124,7 +131,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendTargetSelected(class Xamarin.Forms.Page target) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NavigationMenu.SendTargetSelected(Xamarin.Forms.Page)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendTargetSelected (target As Page)" />
+      <MemberSignature Language="F#" Value="abstract member SendTargetSelected : Xamarin.Forms.Page -&gt; unit&#xA;override this.SendTargetSelected : Xamarin.Forms.Page -&gt; unit" Usage="navigationMenu.SendTargetSelected target" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.INavigationMenuController.SendTargetSelected(Xamarin.Forms.Page)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -151,6 +162,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Xamarin.Forms.Page&gt; Targets" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.NavigationMenu.Targets" />
       <MemberSignature Language="VB.NET" Value="Public Property Targets As IEnumerable(Of Page)" />
+      <MemberSignature Language="F#" Value="member this.Targets : seq&lt;Xamarin.Forms.Page&gt; with get, set" Usage="Xamarin.Forms.Internals.NavigationMenu.Targets" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

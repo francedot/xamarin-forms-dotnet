@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PointTypeConverter extends Xamarin.Forms.TypeConverter" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.PointTypeConverter" />
   <TypeSignature Language="VB.NET" Value="Public Class PointTypeConverter&#xA;Inherits TypeConverter" />
+  <TypeSignature Language="F#" Value="type PointTypeConverter = class&#xA;    inherit TypeConverter" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -37,6 +38,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ConvertFromInvariantString(string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PointTypeConverter.ConvertFromInvariantString(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ConvertFromInvariantString (value As String) As Object" />
+      <MemberSignature Language="F#" Value="override this.ConvertFromInvariantString : string -&gt; obj" Usage="pointTypeConverter.ConvertFromInvariantString value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

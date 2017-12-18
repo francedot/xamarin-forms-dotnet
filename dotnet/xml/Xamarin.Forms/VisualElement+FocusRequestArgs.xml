@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit VisualElement/FocusRequestArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.VisualElement.FocusRequestArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class VisualElement.FocusRequestArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type VisualElement.FocusRequestArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -37,6 +38,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Focus" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.FocusRequestArgs.Focus" />
       <MemberSignature Language="VB.NET" Value="Public Property Focus As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Focus : bool with get, set" Usage="Xamarin.Forms.VisualElement.FocusRequestArgs.Focus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -56,6 +58,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Result" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.FocusRequestArgs.Result" />
       <MemberSignature Language="VB.NET" Value="Public Property Result As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Result : bool with get, set" Usage="Xamarin.Forms.VisualElement.FocusRequestArgs.Result" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

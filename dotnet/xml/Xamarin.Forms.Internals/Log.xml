@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed Log extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.Log" />
   <TypeSignature Language="VB.NET" Value="Public Class Log" />
+  <TypeSignature Language="F#" Value="type Log = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.Internals.LogListener&gt; Listeners" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.Log.Listeners" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Listeners As IList(Of LogListener)" />
+      <MemberSignature Language="F#" Value="member this.Listeners : System.Collections.Generic.IList&lt;Xamarin.Forms.Internals.LogListener&gt;" Usage="Xamarin.Forms.Internals.Log.Listeners" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -45,6 +47,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Warning(string category, string message) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Log.Warning(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Warning (category As String, message As String)" />
+      <MemberSignature Language="F#" Value="static member Warning : string * string -&gt; unit" Usage="Xamarin.Forms.Internals.Log.Warning (category, message)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -69,6 +72,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Warning(string category, string format, object[] args) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Log.Warning(System.String,System.String,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Warning (category As String, format As String, ParamArray args As Object())" />
+      <MemberSignature Language="F#" Value="static member Warning : string * string * obj[] -&gt; unit" Usage="Xamarin.Forms.Internals.Log.Warning (category, format, args)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

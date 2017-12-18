@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Font extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Font" />
   <TypeSignature Language="VB.NET" Value="Public Structure Font" />
+  <TypeSignature Language="F#" Value="type Font = struct" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Font BoldSystemFontOfSize(float64 size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.BoldSystemFontOfSize(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BoldSystemFontOfSize (size As Double) As Font" />
+      <MemberSignature Language="F#" Value="static member BoldSystemFontOfSize : double -&gt; Xamarin.Forms.Font" Usage="Xamarin.Forms.Font.BoldSystemFontOfSize size" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -54,6 +56,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Font BoldSystemFontOfSize(valuetype Xamarin.Forms.NamedSize size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.BoldSystemFontOfSize(Xamarin.Forms.NamedSize)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BoldSystemFontOfSize (size As NamedSize) As Font" />
+      <MemberSignature Language="F#" Value="static member BoldSystemFontOfSize : Xamarin.Forms.NamedSize -&gt; Xamarin.Forms.Font" Usage="Xamarin.Forms.Font.BoldSystemFontOfSize size" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -82,6 +85,7 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype Xamarin.Forms.Font Default" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Font.Default" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As Font" />
+      <MemberSignature Language="F#" Value="member this.Default : Xamarin.Forms.Font" Usage="Xamarin.Forms.Font.Default" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -101,6 +105,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="font.Equals obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -125,6 +130,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.FontAttributes FontAttributes" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Font.FontAttributes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontAttributes As FontAttributes" />
+      <MemberSignature Language="F#" Value="member this.FontAttributes : Xamarin.Forms.FontAttributes" Usage="Xamarin.Forms.Font.FontAttributes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -144,6 +150,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string FontFamily" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Font.FontFamily" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontFamily As String" />
+      <MemberSignature Language="F#" Value="member this.FontFamily : string" Usage="Xamarin.Forms.Font.FontFamily" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -163,6 +170,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 FontSize" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Font.FontSize" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontSize As Double" />
+      <MemberSignature Language="F#" Value="member this.FontSize : double" Usage="Xamarin.Forms.Font.FontSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -182,6 +190,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="font.GetHashCode " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -202,6 +211,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsDefault" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Font.IsDefault" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDefault As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsDefault : bool" Usage="Xamarin.Forms.Font.IsDefault" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -221,6 +231,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.NamedSize NamedSize" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Font.NamedSize" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NamedSize As NamedSize" />
+      <MemberSignature Language="F#" Value="member this.NamedSize : Xamarin.Forms.NamedSize" Usage="Xamarin.Forms.Font.NamedSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -240,6 +251,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Font OfSize(string name, float64 size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.OfSize(System.String,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OfSize (name As String, size As Double) As Font" />
+      <MemberSignature Language="F#" Value="static member OfSize : string * double -&gt; Xamarin.Forms.Font" Usage="Xamarin.Forms.Font.OfSize (name, size)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -265,6 +277,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Font OfSize(string name, valuetype Xamarin.Forms.NamedSize size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.OfSize(System.String,Xamarin.Forms.NamedSize)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OfSize (name As String, size As NamedSize) As Font" />
+      <MemberSignature Language="F#" Value="static member OfSize : string * Xamarin.Forms.NamedSize -&gt; Xamarin.Forms.Font" Usage="Xamarin.Forms.Font.OfSize (name, size)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -290,6 +303,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Xamarin.Forms.Font left, valuetype Xamarin.Forms.Font right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.op_Equality(Xamarin.Forms.Font,Xamarin.Forms.Font)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As Font, right As Font) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Xamarin.Forms.Font * Xamarin.Forms.Font -&gt; bool" Usage="left = right" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -315,6 +329,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Xamarin.Forms.Font left, valuetype Xamarin.Forms.Font right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.op_Inequality(Xamarin.Forms.Font,Xamarin.Forms.Font)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As Font, right As Font) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Xamarin.Forms.Font * Xamarin.Forms.Font -&gt; bool" Usage="Xamarin.Forms.Font.op_Inequality (left, right)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -340,6 +355,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Font SystemFontOfSize(float64 size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.SystemFontOfSize(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function SystemFontOfSize (size As Double) As Font" />
+      <MemberSignature Language="F#" Value="static member SystemFontOfSize : double -&gt; Xamarin.Forms.Font" Usage="Xamarin.Forms.Font.SystemFontOfSize size" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -363,6 +379,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Font SystemFontOfSize(valuetype Xamarin.Forms.NamedSize size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.SystemFontOfSize(Xamarin.Forms.NamedSize)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function SystemFontOfSize (size As NamedSize) As Font" />
+      <MemberSignature Language="F#" Value="static member SystemFontOfSize : Xamarin.Forms.NamedSize -&gt; Xamarin.Forms.Font" Usage="Xamarin.Forms.Font.SystemFontOfSize size" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -386,6 +403,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Font SystemFontOfSize(float64 size, valuetype Xamarin.Forms.FontAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.SystemFontOfSize(System.Double,Xamarin.Forms.FontAttributes)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function SystemFontOfSize (size As Double, attributes As FontAttributes) As Font" />
+      <MemberSignature Language="F#" Value="static member SystemFontOfSize : double * Xamarin.Forms.FontAttributes -&gt; Xamarin.Forms.Font" Usage="Xamarin.Forms.Font.SystemFontOfSize (size, attributes)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -411,6 +429,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Font SystemFontOfSize(valuetype Xamarin.Forms.NamedSize size, valuetype Xamarin.Forms.FontAttributes attributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.SystemFontOfSize(Xamarin.Forms.NamedSize,Xamarin.Forms.FontAttributes)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function SystemFontOfSize (size As NamedSize, attributes As FontAttributes) As Font" />
+      <MemberSignature Language="F#" Value="static member SystemFontOfSize : Xamarin.Forms.NamedSize * Xamarin.Forms.FontAttributes -&gt; Xamarin.Forms.Font" Usage="Xamarin.Forms.Font.SystemFontOfSize (size, attributes)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -436,6 +455,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="font.ToString " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -456,6 +476,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool UseNamedSize" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Font.UseNamedSize" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UseNamedSize As Boolean" />
+      <MemberSignature Language="F#" Value="member this.UseNamedSize : bool" Usage="Xamarin.Forms.Font.UseNamedSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -474,6 +495,7 @@
       <MemberSignature Language="C#" Value="public Xamarin.Forms.Font WithAttributes (Xamarin.Forms.FontAttributes fontAttributes);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Font WithAttributes(valuetype Xamarin.Forms.FontAttributes fontAttributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.WithAttributes(Xamarin.Forms.FontAttributes)" />
+      <MemberSignature Language="F#" Value="member this.WithAttributes : Xamarin.Forms.FontAttributes -&gt; Xamarin.Forms.Font" Usage="font.WithAttributes fontAttributes" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -497,6 +519,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Font WithSize(float64 size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.WithSize(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithSize (size As Double) As Font" />
+      <MemberSignature Language="F#" Value="member this.WithSize : double -&gt; Xamarin.Forms.Font" Usage="font.WithSize size" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -520,6 +543,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Xamarin.Forms.Font WithSize(valuetype Xamarin.Forms.NamedSize size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Font.WithSize(Xamarin.Forms.NamedSize)" />
       <MemberSignature Language="VB.NET" Value="Public Function WithSize (size As NamedSize) As Font" />
+      <MemberSignature Language="F#" Value="member this.WithSize : Xamarin.Forms.NamedSize -&gt; Xamarin.Forms.Font" Usage="font.WithSize size" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NotifyCollectionChangedEventArgsEx extends System.Collections.Specialized.NotifyCollectionChangedEventArgs" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx" />
   <TypeSignature Language="VB.NET" Value="Public Class NotifyCollectionChangedEventArgsEx&#xA;Inherits NotifyCollectionChangedEventArgs" />
+  <TypeSignature Language="F#" Value="type NotifyCollectionChangedEventArgsEx = class&#xA;    inherit NotifyCollectionChangedEventArgs" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 count, valuetype System.Collections.Specialized.NotifyCollectionChangedAction action) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx.#ctor(System.Int32,System.Collections.Specialized.NotifyCollectionChangedAction)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (count As Integer, action As NotifyCollectionChangedAction)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx : int * System.Collections.Specialized.NotifyCollectionChangedAction -&gt; Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx" Usage="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx (count, action)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -47,6 +49,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 count, valuetype System.Collections.Specialized.NotifyCollectionChangedAction action, class System.Collections.IList changedItems) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx.#ctor(System.Int32,System.Collections.Specialized.NotifyCollectionChangedAction,System.Collections.IList)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (count As Integer, action As NotifyCollectionChangedAction, changedItems As IList)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx : int * System.Collections.Specialized.NotifyCollectionChangedAction * System.Collections.IList -&gt; Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx" Usage="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx (count, action, changedItems)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -70,6 +73,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 count, valuetype System.Collections.Specialized.NotifyCollectionChangedAction action, object changedItem) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx.#ctor(System.Int32,System.Collections.Specialized.NotifyCollectionChangedAction,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (count As Integer, action As NotifyCollectionChangedAction, changedItem As Object)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx : int * System.Collections.Specialized.NotifyCollectionChangedAction * obj -&gt; Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx" Usage="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx (count, action, changedItem)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -93,6 +97,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 count, valuetype System.Collections.Specialized.NotifyCollectionChangedAction action, class System.Collections.IList newItems, class System.Collections.IList oldItems) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx.#ctor(System.Int32,System.Collections.Specialized.NotifyCollectionChangedAction,System.Collections.IList,System.Collections.IList)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (count As Integer, action As NotifyCollectionChangedAction, newItems As IList, oldItems As IList)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx : int * System.Collections.Specialized.NotifyCollectionChangedAction * System.Collections.IList * System.Collections.IList -&gt; Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx" Usage="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx (count, action, newItems, oldItems)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -118,6 +123,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 count, valuetype System.Collections.Specialized.NotifyCollectionChangedAction action, class System.Collections.IList changedItems, int32 startingIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx.#ctor(System.Int32,System.Collections.Specialized.NotifyCollectionChangedAction,System.Collections.IList,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (count As Integer, action As NotifyCollectionChangedAction, changedItems As IList, startingIndex As Integer)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx : int * System.Collections.Specialized.NotifyCollectionChangedAction * System.Collections.IList * int -&gt; Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx" Usage="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx (count, action, changedItems, startingIndex)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -143,6 +149,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 count, valuetype System.Collections.Specialized.NotifyCollectionChangedAction action, object changedItem, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx.#ctor(System.Int32,System.Collections.Specialized.NotifyCollectionChangedAction,System.Object,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (count As Integer, action As NotifyCollectionChangedAction, changedItem As Object, index As Integer)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx : int * System.Collections.Specialized.NotifyCollectionChangedAction * obj * int -&gt; Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx" Usage="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx (count, action, changedItem, index)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -168,6 +175,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 count, valuetype System.Collections.Specialized.NotifyCollectionChangedAction action, object newItem, object oldItem) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx.#ctor(System.Int32,System.Collections.Specialized.NotifyCollectionChangedAction,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (count As Integer, action As NotifyCollectionChangedAction, newItem As Object, oldItem As Object)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx : int * System.Collections.Specialized.NotifyCollectionChangedAction * obj * obj -&gt; Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx" Usage="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx (count, action, newItem, oldItem)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -193,6 +201,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 count, valuetype System.Collections.Specialized.NotifyCollectionChangedAction action, class System.Collections.IList newItems, class System.Collections.IList oldItems, int32 startingIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx.#ctor(System.Int32,System.Collections.Specialized.NotifyCollectionChangedAction,System.Collections.IList,System.Collections.IList,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (count As Integer, action As NotifyCollectionChangedAction, newItems As IList, oldItems As IList, startingIndex As Integer)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx : int * System.Collections.Specialized.NotifyCollectionChangedAction * System.Collections.IList * System.Collections.IList * int -&gt; Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx" Usage="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx (count, action, newItems, oldItems, startingIndex)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -220,6 +229,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 count, valuetype System.Collections.Specialized.NotifyCollectionChangedAction action, class System.Collections.IList changedItems, int32 index, int32 oldIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx.#ctor(System.Int32,System.Collections.Specialized.NotifyCollectionChangedAction,System.Collections.IList,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (count As Integer, action As NotifyCollectionChangedAction, changedItems As IList, index As Integer, oldIndex As Integer)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx : int * System.Collections.Specialized.NotifyCollectionChangedAction * System.Collections.IList * int * int -&gt; Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx" Usage="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx (count, action, changedItems, index, oldIndex)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -247,6 +257,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 count, valuetype System.Collections.Specialized.NotifyCollectionChangedAction action, object changedItem, int32 index, int32 oldIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx.#ctor(System.Int32,System.Collections.Specialized.NotifyCollectionChangedAction,System.Object,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (count As Integer, action As NotifyCollectionChangedAction, changedItem As Object, index As Integer, oldIndex As Integer)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx : int * System.Collections.Specialized.NotifyCollectionChangedAction * obj * int * int -&gt; Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx" Usage="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx (count, action, changedItem, index, oldIndex)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -274,6 +285,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 count, valuetype System.Collections.Specialized.NotifyCollectionChangedAction action, object newItem, object oldItem, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx.#ctor(System.Int32,System.Collections.Specialized.NotifyCollectionChangedAction,System.Object,System.Object,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (count As Integer, action As NotifyCollectionChangedAction, newItem As Object, oldItem As Object, index As Integer)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx : int * System.Collections.Specialized.NotifyCollectionChangedAction * obj * obj * int -&gt; Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx" Usage="new Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx (count, action, newItem, oldItem, index)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -301,6 +313,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx.Count" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="F#" Value="member this.Count : int" Usage="Xamarin.Forms.Internals.NotifyCollectionChangedEventArgsEx.Count" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

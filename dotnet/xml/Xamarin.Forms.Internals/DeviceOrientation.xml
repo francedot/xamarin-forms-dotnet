@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DeviceOrientation extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.DeviceOrientation" />
   <TypeSignature Language="VB.NET" Value="Public Enum DeviceOrientation" />
+  <TypeSignature Language="F#" Value="type DeviceOrientation = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -25,6 +26,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.DeviceOrientation Landscape = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.DeviceOrientation.Landscape" />
       <MemberSignature Language="VB.NET" Value="Landscape" />
+      <MemberSignature Language="F#" Value="Landscape = 1" Usage="Xamarin.Forms.Internals.DeviceOrientation.Landscape" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.DeviceOrientation LandscapeLeft = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.DeviceOrientation.LandscapeLeft" />
       <MemberSignature Language="VB.NET" Value="LandscapeLeft" />
+      <MemberSignature Language="F#" Value="LandscapeLeft = 4" Usage="Xamarin.Forms.Internals.DeviceOrientation.LandscapeLeft" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -61,6 +64,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.DeviceOrientation LandscapeRight = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.DeviceOrientation.LandscapeRight" />
       <MemberSignature Language="VB.NET" Value="LandscapeRight" />
+      <MemberSignature Language="F#" Value="LandscapeRight = 5" Usage="Xamarin.Forms.Internals.DeviceOrientation.LandscapeRight" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -79,6 +83,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.DeviceOrientation Other = int32(6)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.DeviceOrientation.Other" />
       <MemberSignature Language="VB.NET" Value="Other" />
+      <MemberSignature Language="F#" Value="Other = 6" Usage="Xamarin.Forms.Internals.DeviceOrientation.Other" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -97,6 +102,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.DeviceOrientation Portrait = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.DeviceOrientation.Portrait" />
       <MemberSignature Language="VB.NET" Value="Portrait" />
+      <MemberSignature Language="F#" Value="Portrait = 0" Usage="Xamarin.Forms.Internals.DeviceOrientation.Portrait" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -115,6 +121,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.DeviceOrientation PortraitDown = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.DeviceOrientation.PortraitDown" />
       <MemberSignature Language="VB.NET" Value="PortraitDown" />
+      <MemberSignature Language="F#" Value="PortraitDown = 3" Usage="Xamarin.Forms.Internals.DeviceOrientation.PortraitDown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -133,6 +140,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.DeviceOrientation PortraitUp = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.DeviceOrientation.PortraitUp" />
       <MemberSignature Language="VB.NET" Value="PortraitUp" />
+      <MemberSignature Language="F#" Value="PortraitUp = 2" Usage="Xamarin.Forms.Internals.DeviceOrientation.PortraitUp" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

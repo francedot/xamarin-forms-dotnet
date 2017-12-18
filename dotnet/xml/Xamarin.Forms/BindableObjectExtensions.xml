@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit BindableObjectExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.BindableObjectExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module BindableObjectExtensions" />
+  <TypeSignature Language="F#" Value="type BindableObjectExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,6 +22,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBinding(class Xamarin.Forms.BindableObject self, class Xamarin.Forms.BindableProperty targetProperty, string path, valuetype Xamarin.Forms.BindingMode mode, class Xamarin.Forms.IValueConverter converter, string stringFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.BindableObjectExtensions.SetBinding(Xamarin.Forms.BindableObject,Xamarin.Forms.BindableProperty,System.String,Xamarin.Forms.BindingMode,Xamarin.Forms.IValueConverter,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetBinding (self As BindableObject, targetProperty As BindableProperty, path As String, Optional mode As BindingMode = Xamarin.Forms.BindingMode.Default, Optional converter As IValueConverter = null, Optional stringFormat As String = null)" />
+      <MemberSignature Language="F#" Value="static member SetBinding : Xamarin.Forms.BindableObject * Xamarin.Forms.BindableProperty * string * Xamarin.Forms.BindingMode * Xamarin.Forms.IValueConverter * string -&gt; unit" Usage="Xamarin.Forms.BindableObjectExtensions.SetBinding (self, targetProperty, path, mode, converter, stringFormat)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -63,6 +65,7 @@ Debug.WriteLine (label.Text); //prints "John Doe"
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBinding&lt;TSource&gt;(class Xamarin.Forms.BindableObject self, class Xamarin.Forms.BindableProperty targetProperty, class System.Linq.Expressions.Expression`1&lt;class System.Func`2&lt;!!TSource, object&gt;&gt; sourceProperty, valuetype Xamarin.Forms.BindingMode mode, class Xamarin.Forms.IValueConverter converter, string stringFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.BindableObjectExtensions.SetBinding``1(Xamarin.Forms.BindableObject,Xamarin.Forms.BindableProperty,System.Linq.Expressions.Expression{System.Func{``0,System.Object}},Xamarin.Forms.BindingMode,Xamarin.Forms.IValueConverter,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetBinding(Of TSource) (self As BindableObject, targetProperty As BindableProperty, sourceProperty As Expression(Of Func(Of TSource, Object)), Optional mode As BindingMode = Xamarin.Forms.BindingMode.Default, Optional converter As IValueConverter = null, Optional stringFormat As String = null)" />
+      <MemberSignature Language="F#" Value="static member SetBinding : Xamarin.Forms.BindableObject * Xamarin.Forms.BindableProperty * System.Linq.Expressions.Expression&lt;Func&lt;'Source, obj&gt;&gt; * Xamarin.Forms.BindingMode * Xamarin.Forms.IValueConverter * string -&gt; unit" Usage="Xamarin.Forms.BindableObjectExtensions.SetBinding (self, targetProperty, sourceProperty, mode, converter, stringFormat)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

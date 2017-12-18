@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ActionSheetArguments extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.ActionSheetArguments" />
   <TypeSignature Language="VB.NET" Value="Public Class ActionSheetArguments" />
+  <TypeSignature Language="F#" Value="type ActionSheetArguments = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string title, string cancel, string destruction, class System.Collections.Generic.IEnumerable`1&lt;string&gt; buttons) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ActionSheetArguments.#ctor(System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.String})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (title As String, cancel As String, destruction As String, buttons As IEnumerable(Of String))" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.ActionSheetArguments : string * string * string * seq&lt;string&gt; -&gt; Xamarin.Forms.Internals.ActionSheetArguments" Usage="new Xamarin.Forms.Internals.ActionSheetArguments (title, cancel, destruction, buttons)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -51,6 +53,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; Buttons" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.ActionSheetArguments.Buttons" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Buttons As IEnumerable(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Buttons : seq&lt;string&gt;" Usage="Xamarin.Forms.Internals.ActionSheetArguments.Buttons" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -70,6 +73,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Cancel" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.ActionSheetArguments.Cancel" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Cancel As String" />
+      <MemberSignature Language="F#" Value="member this.Cancel : string" Usage="Xamarin.Forms.Internals.ActionSheetArguments.Cancel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -89,6 +93,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Destruction" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.ActionSheetArguments.Destruction" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Destruction As String" />
+      <MemberSignature Language="F#" Value="member this.Destruction : string" Usage="Xamarin.Forms.Internals.ActionSheetArguments.Destruction" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -108,6 +113,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Threading.Tasks.TaskCompletionSource`1&lt;string&gt; Result" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.ActionSheetArguments.Result" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As TaskCompletionSource(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Result : System.Threading.Tasks.TaskCompletionSource&lt;string&gt;" Usage="Xamarin.Forms.Internals.ActionSheetArguments.Result" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -127,6 +133,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResult(string result) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ActionSheetArguments.SetResult(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetResult (result As String)" />
+      <MemberSignature Language="F#" Value="member this.SetResult : string -&gt; unit" Usage="actionSheetArguments.SetResult result" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -149,6 +156,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.ActionSheetArguments.Title" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Title As String" />
+      <MemberSignature Language="F#" Value="member this.Title : string" Usage="Xamarin.Forms.Internals.ActionSheetArguments.Title" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

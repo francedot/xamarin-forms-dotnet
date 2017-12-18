@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Thickness extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Thickness" />
   <TypeSignature Language="VB.NET" Value="Public Structure Thickness" />
+  <TypeSignature Language="F#" Value="type Thickness = struct" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -29,6 +30,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 uniformSize) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.#ctor(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (uniformSize As Double)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Thickness : double -&gt; Xamarin.Forms.Thickness" Usage="new Xamarin.Forms.Thickness uniformSize" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -48,6 +50,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 horizontalSize, float64 verticalSize) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.#ctor(System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (horizontalSize As Double, verticalSize As Double)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Thickness : double * double -&gt; Xamarin.Forms.Thickness" Usage="new Xamarin.Forms.Thickness (horizontalSize, verticalSize)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -69,6 +72,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 left, float64 top, float64 right, float64 bottom) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.#ctor(System.Double,System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (left As Double, top As Double, right As Double, bottom As Double)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Thickness : double * double * double * double -&gt; Xamarin.Forms.Thickness" Usage="new Xamarin.Forms.Thickness (left, top, right, bottom)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -94,6 +98,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Bottom" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Thickness.Bottom" />
       <MemberSignature Language="VB.NET" Value="Public Property Bottom As Double" />
+      <MemberSignature Language="F#" Value="member this.Bottom : double with get, set" Usage="Xamarin.Forms.Thickness.Bottom" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -113,6 +118,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="thickness.Equals obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -137,6 +143,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="thickness.GetHashCode " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -157,6 +164,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 HorizontalThickness" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Thickness.HorizontalThickness" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HorizontalThickness As Double" />
+      <MemberSignature Language="F#" Value="member this.HorizontalThickness : double" Usage="Xamarin.Forms.Thickness.HorizontalThickness" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -176,6 +184,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Left" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Thickness.Left" />
       <MemberSignature Language="VB.NET" Value="Public Property Left As Double" />
+      <MemberSignature Language="F#" Value="member this.Left : double with get, set" Usage="Xamarin.Forms.Thickness.Left" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -195,6 +204,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Xamarin.Forms.Thickness left, valuetype Xamarin.Forms.Thickness right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.op_Equality(Xamarin.Forms.Thickness,Xamarin.Forms.Thickness)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As Thickness, right As Thickness) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Xamarin.Forms.Thickness * Xamarin.Forms.Thickness -&gt; bool" Usage="left = right" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -221,6 +231,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Xamarin.Forms.Thickness op_Implicit(float64 uniformSize) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.op_Implicit(System.Double)~Xamarin.Forms.Thickness" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uniformSize As Double) As Thickness" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : double -&gt; Xamarin.Forms.Thickness" Usage="Xamarin.Forms.Thickness.op_Implicit uniformSize" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -245,6 +256,7 @@
       <MemberSignature Language="C#" Value="public static implicit operator Xamarin.Forms.Thickness (Xamarin.Forms.Size size);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Xamarin.Forms.Thickness op_Implicit(valuetype Xamarin.Forms.Size size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.op_Implicit(Xamarin.Forms.Size)~Xamarin.Forms.Thickness" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : Xamarin.Forms.Size -&gt; Xamarin.Forms.Thickness" Usage="Xamarin.Forms.Thickness.op_Implicit size" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -270,6 +282,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Xamarin.Forms.Thickness left, valuetype Xamarin.Forms.Thickness right) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Thickness.op_Inequality(Xamarin.Forms.Thickness,Xamarin.Forms.Thickness)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As Thickness, right As Thickness) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Xamarin.Forms.Thickness * Xamarin.Forms.Thickness -&gt; bool" Usage="Xamarin.Forms.Thickness.op_Inequality (left, right)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -296,6 +309,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Right" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Thickness.Right" />
       <MemberSignature Language="VB.NET" Value="Public Property Right As Double" />
+      <MemberSignature Language="F#" Value="member this.Right : double with get, set" Usage="Xamarin.Forms.Thickness.Right" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -315,6 +329,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Top" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Thickness.Top" />
       <MemberSignature Language="VB.NET" Value="Public Property Top As Double" />
+      <MemberSignature Language="F#" Value="member this.Top : double with get, set" Usage="Xamarin.Forms.Thickness.Top" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -334,6 +349,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 VerticalThickness" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Thickness.VerticalThickness" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VerticalThickness As Double" />
+      <MemberSignature Language="F#" Value="member this.VerticalThickness : double" Usage="Xamarin.Forms.Thickness.VerticalThickness" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

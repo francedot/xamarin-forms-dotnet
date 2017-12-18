@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MeasureFlags extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.MeasureFlags" />
   <TypeSignature Language="VB.NET" Value="Public Enum MeasureFlags" />
+  <TypeSignature Language="F#" Value="type MeasureFlags = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -25,6 +26,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.MeasureFlags IncludeMargins = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MeasureFlags.IncludeMargins" />
       <MemberSignature Language="VB.NET" Value="IncludeMargins" />
+      <MemberSignature Language="F#" Value="IncludeMargins = 1" Usage="Xamarin.Forms.MeasureFlags.IncludeMargins" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -43,6 +45,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.MeasureFlags None = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.MeasureFlags.None" />
       <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Xamarin.Forms.MeasureFlags.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

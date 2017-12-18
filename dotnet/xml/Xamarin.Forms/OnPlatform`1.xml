@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OnPlatform`1&lt;T&gt; extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.OnPlatform`1" />
   <TypeSignature Language="VB.NET" Value="Public Class OnPlatform(Of T)" />
+  <TypeSignature Language="F#" Value="type OnPlatform&lt;'T&gt; = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -46,6 +47,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance !T Android" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.OnPlatform`1.Android" />
       <MemberSignature Language="VB.NET" Value="Public Property Android As T" />
+      <MemberSignature Language="F#" Value="member this.Android : 'T with get, set" Usage="Xamarin.Forms.OnPlatform&lt;'T&gt;.Android" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -70,6 +72,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance !T Default" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.OnPlatform`1.Default" />
       <MemberSignature Language="VB.NET" Value="Public Property Default As T" />
+      <MemberSignature Language="F#" Value="member this.Default : 'T with get, set" Usage="Xamarin.Forms.OnPlatform&lt;'T&gt;.Default" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -89,6 +92,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance !T iOS" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.OnPlatform`1.iOS" />
       <MemberSignature Language="VB.NET" Value="Public Property iOS As T" />
+      <MemberSignature Language="F#" Value="member this.iOS : 'T with get, set" Usage="Xamarin.Forms.OnPlatform&lt;'T&gt;.iOS" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -113,6 +117,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname !T op_Implicit(class Xamarin.Forms.OnPlatform`1&lt;!T&gt; onPlatform) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.OnPlatform`1.op_Implicit(Xamarin.Forms.OnPlatform{`0})~`0" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (onPlatform As OnPlatform(Of T)) As T" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : Xamarin.Forms.OnPlatform&lt;'T&gt; -&gt; 'T" Usage="Xamarin.Forms.OnPlatform&lt;'T&gt;.op_Implicit onPlatform" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -136,6 +141,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Xamarin.Forms.On&gt; Platforms" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.OnPlatform`1.Platforms" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Platforms As IList(Of On)" />
+      <MemberSignature Language="F#" Value="member this.Platforms : System.Collections.Generic.IList&lt;Xamarin.Forms.On&gt;" Usage="Xamarin.Forms.OnPlatform&lt;'T&gt;.Platforms" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -155,6 +161,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance !T WinPhone" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.OnPlatform`1.WinPhone" />
       <MemberSignature Language="VB.NET" Value="Public Property WinPhone As T" />
+      <MemberSignature Language="F#" Value="member this.WinPhone : 'T with get, set" Usage="Xamarin.Forms.OnPlatform&lt;'T&gt;.WinPhone" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDataTemplate" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.IDataTemplate" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDataTemplate" />
+  <TypeSignature Language="F#" Value="type IDataTemplate = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,6 +27,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`1&lt;object&gt; LoadTemplate" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.IDataTemplate.LoadTemplate" />
       <MemberSignature Language="VB.NET" Value="Public Property LoadTemplate As Func(Of Object)" />
+      <MemberSignature Language="F#" Value="member this.LoadTemplate : Func&lt;obj&gt; with get, set" Usage="Xamarin.Forms.Internals.IDataTemplate.LoadTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

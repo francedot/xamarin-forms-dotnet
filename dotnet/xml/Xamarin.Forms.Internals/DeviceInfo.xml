@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DeviceInfo extends System.Object implements class System.ComponentModel.INotifyPropertyChanged, class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.DeviceInfo" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class DeviceInfo&#xA;Implements IDisposable, INotifyPropertyChanged" />
+  <TypeSignature Language="F#" Value="type DeviceInfo = class&#xA;    interface INotifyPropertyChanged&#xA;    interface IDisposable" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -49,6 +50,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Internals.DeviceOrientation CurrentOrientation" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.DeviceInfo.CurrentOrientation" />
       <MemberSignature Language="VB.NET" Value="Public Property CurrentOrientation As DeviceOrientation" />
+      <MemberSignature Language="F#" Value="member this.CurrentOrientation : Xamarin.Forms.Internals.DeviceOrientation with get, set" Usage="Xamarin.Forms.Internals.DeviceInfo.CurrentOrientation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -68,7 +70,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.DeviceInfo.Dispose" />
       <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="deviceInfo.Dispose " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -87,6 +93,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.DeviceInfo.Dispose(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="deviceInfo.Dispose disposing" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -109,6 +116,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnPropertyChanged(string propertyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.DeviceInfo.OnPropertyChanged(System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnPropertyChanged (Optional propertyName As String = null)" />
+      <MemberSignature Language="F#" Value="abstract member OnPropertyChanged : string -&gt; unit&#xA;override this.OnPropertyChanged : string -&gt; unit" Usage="deviceInfo.OnPropertyChanged propertyName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -137,6 +145,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Size PixelScreenSize" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.DeviceInfo.PixelScreenSize" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property PixelScreenSize As Size" />
+      <MemberSignature Language="F#" Value="member this.PixelScreenSize : Xamarin.Forms.Size" Usage="Xamarin.Forms.Internals.DeviceInfo.PixelScreenSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -156,7 +165,11 @@
       <MemberSignature Language="ILAsm" Value=".event class System.ComponentModel.PropertyChangedEventHandler PropertyChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Internals.DeviceInfo.PropertyChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event PropertyChanged As PropertyChangedEventHandler " />
+      <MemberSignature Language="F#" Value="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " Usage="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -174,6 +187,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Size ScaledScreenSize" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.DeviceInfo.ScaledScreenSize" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property ScaledScreenSize As Size" />
+      <MemberSignature Language="F#" Value="member this.ScaledScreenSize : Xamarin.Forms.Size" Usage="Xamarin.Forms.Internals.DeviceInfo.ScaledScreenSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -193,6 +207,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 ScalingFactor" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.DeviceInfo.ScalingFactor" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property ScalingFactor As Double" />
+      <MemberSignature Language="F#" Value="member this.ScalingFactor : double" Usage="Xamarin.Forms.Internals.DeviceInfo.ScalingFactor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PropertyCondition extends Xamarin.Forms.Condition implements class Xamarin.Forms.Xaml.IValueProvider" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.PropertyCondition" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PropertyCondition&#xA;Inherits Condition&#xA;Implements IValueProvider" />
+  <TypeSignature Language="F#" Value="type PropertyCondition = class&#xA;    inherit Condition&#xA;    interface IValueProvider" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -68,6 +69,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.BindableProperty Property" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.PropertyCondition.Property" />
       <MemberSignature Language="VB.NET" Value="Public Property Property As BindableProperty" />
+      <MemberSignature Language="F#" Value="member this.Property : Xamarin.Forms.BindableProperty with get, set" Usage="Xamarin.Forms.PropertyCondition.Property" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -87,6 +89,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object Value" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.PropertyCondition.Value" />
       <MemberSignature Language="VB.NET" Value="Public Property Value As Object" />
+      <MemberSignature Language="F#" Value="member this.Value : obj with get, set" Usage="Xamarin.Forms.PropertyCondition.Value" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -107,6 +110,9 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PropertyCondition.Xamarin#Forms#Xaml#IValueProvider#ProvideValue(System.IServiceProvider)" />
       <MemberSignature Language="VB.NET" Value="Function ProvideValue (serviceProvider As IServiceProvider) As Object Implements IValueProvider.ProvideValue" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.Xaml.IValueProvider.ProvideValue(System.IServiceProvider)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

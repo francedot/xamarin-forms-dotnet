@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SetValueFlags extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.SetValueFlags" />
   <TypeSignature Language="VB.NET" Value="Public Enum SetValueFlags" />
+  <TypeSignature Language="F#" Value="type SetValueFlags = " />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -28,6 +29,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.SetValueFlags ClearDynamicResource = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.SetValueFlags.ClearDynamicResource" />
       <MemberSignature Language="VB.NET" Value="ClearDynamicResource" />
+      <MemberSignature Language="F#" Value="ClearDynamicResource = 4" Usage="Xamarin.Forms.Internals.SetValueFlags.ClearDynamicResource" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -46,6 +48,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.SetValueFlags ClearOneWayBindings = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.SetValueFlags.ClearOneWayBindings" />
       <MemberSignature Language="VB.NET" Value="ClearOneWayBindings" />
+      <MemberSignature Language="F#" Value="ClearOneWayBindings = 1" Usage="Xamarin.Forms.Internals.SetValueFlags.ClearOneWayBindings" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -64,6 +67,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.SetValueFlags ClearTwoWayBindings = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.SetValueFlags.ClearTwoWayBindings" />
       <MemberSignature Language="VB.NET" Value="ClearTwoWayBindings" />
+      <MemberSignature Language="F#" Value="ClearTwoWayBindings = 2" Usage="Xamarin.Forms.Internals.SetValueFlags.ClearTwoWayBindings" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -82,6 +86,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.SetValueFlags None = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.SetValueFlags.None" />
       <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Xamarin.Forms.Internals.SetValueFlags.None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -100,6 +105,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Xamarin.Forms.Internals.SetValueFlags RaiseOnEqual = int32(8)" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Internals.SetValueFlags.RaiseOnEqual" />
       <MemberSignature Language="VB.NET" Value="RaiseOnEqual" />
+      <MemberSignature Language="F#" Value="RaiseOnEqual = 8" Usage="Xamarin.Forms.Internals.SetValueFlags.RaiseOnEqual" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

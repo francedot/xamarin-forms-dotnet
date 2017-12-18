@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RowDefinition extends Xamarin.Forms.BindableObject implements class Xamarin.Forms.IDefinition" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.RowDefinition" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RowDefinition&#xA;Inherits BindableObject&#xA;Implements IDefinition" />
+  <TypeSignature Language="F#" Value="type RowDefinition = class&#xA;    inherit BindableObject&#xA;    interface IDefinition" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -65,6 +66,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.GridLength Height" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.RowDefinition.Height" />
       <MemberSignature Language="VB.NET" Value="Public Property Height As GridLength" />
+      <MemberSignature Language="F#" Value="member this.Height : Xamarin.Forms.GridLength with get, set" Usage="Xamarin.Forms.RowDefinition.Height" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -84,6 +86,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HeightProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.RowDefinition.HeightProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HeightProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable HeightProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.RowDefinition.HeightProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -102,7 +105,11 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler SizeChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.RowDefinition.SizeChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event SizeChanged As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.SizeChanged : EventHandler " Usage="member this.SizeChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Xamarin.Forms.IDefinition.SizeChanged</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

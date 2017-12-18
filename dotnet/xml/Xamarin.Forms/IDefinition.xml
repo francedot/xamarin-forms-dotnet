@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDefinition" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IDefinition" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDefinition" />
+  <TypeSignature Language="F#" Value="type IDefinition = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler SizeChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.IDefinition.SizeChanged" />
       <MemberSignature Language="VB.NET" Value="Event SizeChanged As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.SizeChanged : EventHandler " Usage="member this.SizeChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

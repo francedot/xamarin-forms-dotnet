@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ClickGestureRecognizer extends Xamarin.Forms.GestureRecognizer" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ClickGestureRecognizer" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ClickGestureRecognizer&#xA;Inherits GestureRecognizer" />
+  <TypeSignature Language="F#" Value="type ClickGestureRecognizer = class&#xA;    inherit GestureRecognizer" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -37,6 +38,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.ButtonsMask Buttons" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ClickGestureRecognizer.Buttons" />
       <MemberSignature Language="VB.NET" Value="Public Property Buttons As ButtonsMask" />
+      <MemberSignature Language="F#" Value="member this.Buttons : Xamarin.Forms.ButtonsMask with get, set" Usage="Xamarin.Forms.ClickGestureRecognizer.Buttons" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -56,6 +58,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ButtonsProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ClickGestureRecognizer.ButtonsProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ButtonsProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ButtonsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ClickGestureRecognizer.ButtonsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -74,6 +77,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Clicked" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ClickGestureRecognizer.Clicked" />
       <MemberSignature Language="VB.NET" Value="Public Event Clicked As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.Clicked : EventHandler " Usage="member this.Clicked : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -92,6 +96,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand Command" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ClickGestureRecognizer.Command" />
       <MemberSignature Language="VB.NET" Value="Public Property Command As ICommand" />
+      <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="Xamarin.Forms.ClickGestureRecognizer.Command" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -111,6 +116,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance object CommandParameter" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ClickGestureRecognizer.CommandParameter" />
       <MemberSignature Language="VB.NET" Value="Public Property CommandParameter As Object" />
+      <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="Xamarin.Forms.ClickGestureRecognizer.CommandParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -130,6 +136,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CommandParameterProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ClickGestureRecognizer.CommandParameterProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandParameterProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ClickGestureRecognizer.CommandParameterProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -148,6 +155,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CommandProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ClickGestureRecognizer.CommandProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CommandProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ClickGestureRecognizer.CommandProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -166,6 +174,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfClicksRequired" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ClickGestureRecognizer.NumberOfClicksRequired" />
       <MemberSignature Language="VB.NET" Value="Public Property NumberOfClicksRequired As Integer" />
+      <MemberSignature Language="F#" Value="member this.NumberOfClicksRequired : int with get, set" Usage="Xamarin.Forms.ClickGestureRecognizer.NumberOfClicksRequired" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -185,6 +194,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty NumberOfClicksRequiredProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ClickGestureRecognizer.NumberOfClicksRequiredProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NumberOfClicksRequiredProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable NumberOfClicksRequiredProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ClickGestureRecognizer.NumberOfClicksRequiredProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -203,6 +213,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendClicked(class Xamarin.Forms.View sender, valuetype Xamarin.Forms.ButtonsMask buttons) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ClickGestureRecognizer.SendClicked(Xamarin.Forms.View,Xamarin.Forms.ButtonsMask)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SendClicked (sender As View, buttons As ButtonsMask)" />
+      <MemberSignature Language="F#" Value="member this.SendClicked : Xamarin.Forms.View * Xamarin.Forms.ButtonsMask -&gt; unit" Usage="clickGestureRecognizer.SendClicked (sender, buttons)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

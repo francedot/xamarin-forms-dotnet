@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Slider extends Xamarin.Forms.View implements class Xamarin.Forms.IElementConfiguration`1&lt;class Xamarin.Forms.Slider&gt;" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Slider" />
   <TypeSignature Language="VB.NET" Value="Public Class Slider&#xA;Inherits View&#xA;Implements IElementConfiguration(Of Slider)" />
+  <TypeSignature Language="F#" Value="type Slider = class&#xA;    inherit View&#xA;    interface IElementConfiguration&lt;Slider&gt;" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -75,6 +76,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(float64 min, float64 max, float64 val) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Slider.#ctor(System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (min As Double, max As Double, val As Double)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Slider : double * double * double -&gt; Xamarin.Forms.Slider" Usage="new Xamarin.Forms.Slider (min, max, val)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -98,6 +100,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Maximum" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Slider.Maximum" />
       <MemberSignature Language="VB.NET" Value="Public Property Maximum As Double" />
+      <MemberSignature Language="F#" Value="member this.Maximum : double with get, set" Usage="Xamarin.Forms.Slider.Maximum" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -117,6 +120,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty MaximumProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Slider.MaximumProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaximumProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MaximumProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Slider.MaximumProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -135,6 +139,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Minimum" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Slider.Minimum" />
       <MemberSignature Language="VB.NET" Value="Public Property Minimum As Double" />
+      <MemberSignature Language="F#" Value="member this.Minimum : double with get, set" Usage="Xamarin.Forms.Slider.Minimum" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -154,6 +159,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty MinimumProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Slider.MinimumProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinimumProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable MinimumProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Slider.MinimumProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -172,7 +178,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.IPlatformElementConfiguration`2&lt;!!T, class Xamarin.Forms.Slider&gt; On&lt;(class Xamarin.Forms.IConfigPlatform) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Slider.On``1" />
       <MemberSignature Language="VB.NET" Value="Public Function On(Of T As IConfigPlatform) () As IPlatformElementConfiguration(Of T, Slider)" />
+      <MemberSignature Language="F#" Value="abstract member On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Slider (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&#xA;override this.On : unit -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;'T, Xamarin.Forms.Slider (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)&gt; (requires 'T :&gt; Xamarin.Forms.IConfigPlatform)" Usage="slider.On " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -200,6 +210,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance float64 Value" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Slider.Value" />
       <MemberSignature Language="VB.NET" Value="Public Property Value As Double" />
+      <MemberSignature Language="F#" Value="member this.Value : double with get, set" Usage="Xamarin.Forms.Slider.Value" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -219,6 +230,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ValueChangedEventArgs&gt; ValueChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Slider.ValueChanged" />
       <MemberSignature Language="VB.NET" Value="Public Event ValueChanged As EventHandler(Of ValueChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.ValueChanged : EventHandler&lt;Xamarin.Forms.ValueChangedEventArgs&gt; " Usage="member this.ValueChanged : System.EventHandler&lt;Xamarin.Forms.ValueChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -237,6 +249,7 @@
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ValueProperty" />
       <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Slider.ValueProperty" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ValueProperty As BindableProperty " />
+      <MemberSignature Language="F#" Value=" staticval mutable ValueProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Slider.ValueProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

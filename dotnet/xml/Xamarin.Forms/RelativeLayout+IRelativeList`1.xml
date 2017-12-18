@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class nested public interface auto ansi abstract RelativeLayout/IRelativeList`1&lt;(class Xamarin.Forms.View) T&gt; implements class System.Collections.Generic.ICollection`1&lt;!T&gt;, class System.Collections.Generic.IEnumerable`1&lt;!T&gt;, class System.Collections.Generic.IList`1&lt;!T&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.RelativeLayout.IRelativeList`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface RelativeLayout.IRelativeList(Of T)&#xA;Implements ICollection(Of T), IEnumerable(Of T), IList(Of T)" />
+  <TypeSignature Language="F#" Value="type RelativeLayout.IRelativeList&lt;'T (requires 'T :&gt; View)&gt; = interface&#xA;    interface IList&lt;'T (requires 'T :&gt; View)&gt;&#xA;    interface ICollection&lt;'T (requires 'T :&gt; View)&gt;&#xA;    interface seq&lt;'T (requires 'T :&gt; View)&gt;&#xA;    interface IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -36,6 +37,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(!T view, class System.Linq.Expressions.Expression`1&lt;class System.Func`1&lt;valuetype Xamarin.Forms.Rectangle&gt;&gt; bounds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.IRelativeList`1.Add(`0,System.Linq.Expressions.Expression{System.Func{Xamarin.Forms.Rectangle}})" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (view As T, bounds As Expression(Of Func(Of Rectangle)))" />
+      <MemberSignature Language="F#" Value="abstract member Add : 'T * System.Linq.Expressions.Expression&lt;Func&lt;Xamarin.Forms.Rectangle&gt;&gt; -&gt; unit" Usage="iRelativeList.Add (view, bounds)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -60,6 +62,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(!T view, class System.Linq.Expressions.Expression`1&lt;class System.Func`1&lt;float64&gt;&gt; x, class System.Linq.Expressions.Expression`1&lt;class System.Func`1&lt;float64&gt;&gt; y, class System.Linq.Expressions.Expression`1&lt;class System.Func`1&lt;float64&gt;&gt; width, class System.Linq.Expressions.Expression`1&lt;class System.Func`1&lt;float64&gt;&gt; height) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.IRelativeList`1.Add(`0,System.Linq.Expressions.Expression{System.Func{System.Double}},System.Linq.Expressions.Expression{System.Func{System.Double}},System.Linq.Expressions.Expression{System.Func{System.Double}},System.Linq.Expressions.Expression{System.Func{System.Double}})" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (view As T, Optional x As Expression(Of Func(Of Double)) = null, Optional y As Expression(Of Func(Of Double)) = null, Optional width As Expression(Of Func(Of Double)) = null, Optional height As Expression(Of Func(Of Double)) = null)" />
+      <MemberSignature Language="F#" Value="abstract member Add : 'T * System.Linq.Expressions.Expression&lt;Func&lt;double&gt;&gt; * System.Linq.Expressions.Expression&lt;Func&lt;double&gt;&gt; * System.Linq.Expressions.Expression&lt;Func&lt;double&gt;&gt; * System.Linq.Expressions.Expression&lt;Func&lt;double&gt;&gt; -&gt; unit" Usage="iRelativeList.Add (view, x, y, width, height)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -90,6 +93,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(!T view, class Xamarin.Forms.Constraint xConstraint, class Xamarin.Forms.Constraint yConstraint, class Xamarin.Forms.Constraint widthConstraint, class Xamarin.Forms.Constraint heightConstraint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RelativeLayout.IRelativeList`1.Add(`0,Xamarin.Forms.Constraint,Xamarin.Forms.Constraint,Xamarin.Forms.Constraint,Xamarin.Forms.Constraint)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (view As T, Optional xConstraint As Constraint = null, Optional yConstraint As Constraint = null, Optional widthConstraint As Constraint = null, Optional heightConstraint As Constraint = null)" />
+      <MemberSignature Language="F#" Value="abstract member Add : 'T * Xamarin.Forms.Constraint * Xamarin.Forms.Constraint * Xamarin.Forms.Constraint * Xamarin.Forms.Constraint -&gt; unit" Usage="iRelativeList.Add (view, xConstraint, yConstraint, widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

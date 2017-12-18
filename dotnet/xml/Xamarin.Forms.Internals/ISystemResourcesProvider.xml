@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISystemResourcesProvider" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.ISystemResourcesProvider" />
   <TypeSignature Language="VB.NET" Value="Public Interface ISystemResourcesProvider" />
+  <TypeSignature Language="F#" Value="type ISystemResourcesProvider = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -23,6 +24,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.Internals.IResourceDictionary GetSystemResources() cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ISystemResourcesProvider.GetSystemResources" />
       <MemberSignature Language="VB.NET" Value="Public Function GetSystemResources () As IResourceDictionary" />
+      <MemberSignature Language="F#" Value="abstract member GetSystemResources : unit -&gt; Xamarin.Forms.Internals.IResourceDictionary" Usage="iSystemResourcesProvider.GetSystemResources " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

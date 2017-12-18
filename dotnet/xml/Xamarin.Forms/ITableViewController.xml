@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITableViewController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ITableViewController" />
   <TypeSignature Language="VB.NET" Value="Public Interface ITableViewController" />
+  <TypeSignature Language="F#" Value="type ITableViewController = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,6 +19,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ITableModel Model" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ITableViewController.Model" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Model As ITableModel" />
+      <MemberSignature Language="F#" Value="member this.Model : Xamarin.Forms.ITableModel" Usage="Xamarin.Forms.ITableViewController.Model" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
@@ -37,6 +39,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler ModelChanged" />
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.ITableViewController.ModelChanged" />
       <MemberSignature Language="VB.NET" Value="Event ModelChanged As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.ModelChanged : EventHandler " Usage="member this.ModelChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit XamlCompilationAttribute extends System.Attribute" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.XamlCompilationAttribute" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class XamlCompilationAttribute&#xA;Inherits Attribute" />
+  <TypeSignature Language="F#" Value="type XamlCompilationAttribute = class&#xA;    inherit Attribute" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -25,6 +26,7 @@
       <MemberSignature Language="C#" Value="public XamlCompilationAttribute (Xamarin.Forms.Xaml.XamlCompilationOptions xamlCompilationOptions);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Xamarin.Forms.Xaml.XamlCompilationOptions xamlCompilationOptions) cil managed" />
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.XamlCompilationAttribute.#ctor(Xamarin.Forms.Xaml.XamlCompilationOptions)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Xaml.XamlCompilationAttribute : Xamarin.Forms.Xaml.XamlCompilationOptions -&gt; Xamarin.Forms.Xaml.XamlCompilationAttribute" Usage="new Xamarin.Forms.Xaml.XamlCompilationAttribute xamlCompilationOptions" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
@@ -44,6 +46,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Xaml.XamlCompilationOptions XamlCompilationOptions" />
       <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.XamlCompilationAttribute.XamlCompilationOptions" />
       <MemberSignature Language="VB.NET" Value="Public Property XamlCompilationOptions As XamlCompilationOptions" />
+      <MemberSignature Language="F#" Value="member this.XamlCompilationOptions : Xamarin.Forms.Xaml.XamlCompilationOptions with get, set" Usage="Xamarin.Forms.Xaml.XamlCompilationAttribute.XamlCompilationOptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
