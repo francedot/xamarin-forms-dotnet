@@ -113,7 +113,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Offer suggested word completions on text that the user enters.</summary>
+        <summary>Offer suggested word completion on text that the user enters.</summary>
       </Docs>
     </Member>
   </Members>
